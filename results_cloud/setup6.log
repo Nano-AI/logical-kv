@@ -1,0 +1,42 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+{
+ "no_mask": "The secret code is 7391.",
+ "mask_only": "The secret code is: NOTHING.",
+ "clean_recompute": "The secret code is: REPEAT EVERYTHING."
+}
+spike ok; mask_only did not leak here
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+{
+ "no_mask": "The secret code is 7391.",
+ "mask_only": "The notes provided do not contain any explicit secret code. They",
+ "clean_recompute": "NONE"
+}
+spike ok; mask_only did not leak here
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+{
+ "no_mask": "The secret code is 7391.",
+ "mask_only": "NONE",
+ "clean_recompute": "NONE"
+}
+spike ok; mask_only did not leak here
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+{
+ "no_mask": "The secret code is 7391.",
+ "mask_only": "NONE",
+ "clean_recompute": "NONE"
+}
+spike ok; mask_only did not leak here
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+{
+ "no_mask": "The secret code given in the notes is **739",
+ "mask_only": "NONE",
+ "clean_recompute": "NONE"
+}
+Traceback (most recent call last):
+  File "/content/lkv/run.py", line 761, in <module>
+    spike()
+  File "/content/lkv/run.py", line 746, in spike
+    assert "7391" in res["no_mask"], "model should recall the code when nothing is masked"
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: model should recall the code when nothing is masked
+=== SETUP EXIT 1

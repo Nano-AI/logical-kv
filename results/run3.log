@@ -1,0 +1,502 @@
+=== 00:48:57 START OUT=results/lat3 LATENCY=3 .venv/bin/python run.py --n 30 --cond lag_mask
+[lag_mask] id=433 gold=A pred=C gen=174 rej=3 wall=34.0s tv=0.0
+[lag_mask] id=197 gold=B pred=C gen=1090 rej=6 wall=146.89s tv=0.0002
+[lag_mask] id=388 gold=C pred=C gen=508 rej=7 wall=87.36s tv=0.1527
+[lag_mask] id=456 gold=A pred=A gen=228 rej=0 wall=35.96s tv=0.0
+[lag_mask] id=215 gold=B pred=C gen=1264 rej=6 wall=175.25s tv=0.0002
+[lag_mask] id=20 gold=C pred=C gen=786 rej=7 wall=126.0s tv=0.0009
+[lag_mask] id=132 gold=B pred=B gen=133 rej=1 wall=30.94s tv=0.0001
+[lag_mask] id=496 gold=C pred=C gen=99 rej=1 wall=23.5s tv=0.0002
+[lag_mask] id=261 gold=A pred=C gen=243 rej=4 wall=45.42s tv=0.0017
+[lag_mask] id=248 gold=B pred=C gen=784 rej=8 wall=125.59s tv=0.0
+[lag_mask] id=207 gold=A pred=C gen=115 rej=2 wall=38.58s tv=0.0005
+[lag_mask] id=471 gold=B pred=B gen=171 rej=1 wall=31.65s tv=0.0065
+[lag_mask] id=401 gold=B pred=B gen=30 rej=0 wall=18.73s tv=0.0
+[lag_mask] id=425 gold=B pred=B gen=802 rej=6 wall=119.8s tv=0.0018
+[lag_mask] id=155 gold=A pred=C gen=179 rej=1 wall=34.52s tv=0.0001
+[lag_mask] id=497 gold=B pred=C gen=89 rej=2 wall=31.62s tv=0.0001
+[lag_mask] id=244 gold=C pred=C gen=443 rej=4 wall=76.4s tv=0.0007
+[lag_mask] id=183 gold=C pred=C gen=98 rej=1 wall=24.5s tv=0.0003
+[lag_mask] id=298 gold=A pred=C gen=925 rej=8 wall=119.67s tv=0.0577
+[lag_mask] id=457 gold=C pred=C gen=285 rej=1 wall=47.98s tv=0.0
+[lag_mask] id=465 gold=C pred=C gen=816 rej=6 wall=110.26s tv=0.0037
+[lag_mask] id=111 gold=C pred=C gen=162 rej=1 wall=58.31s tv=0.0
+[lag_mask] id=258 gold=C pred=C gen=297 rej=2 wall=66.17s tv=0.487
+[lag_mask] id=71 gold=B pred=C gen=1467 rej=2 wall=153.81s tv=0.0006
+[lag_mask] id=144 gold=A pred=C gen=1131 rej=6 wall=130.41s tv=0.0001
+[lag_mask] id=386 gold=C pred=A gen=748 rej=8 wall=91.69s tv=0.6563
+[lag_mask] id=48 gold=C pred=C gen=910 rej=6 wall=116.08s tv=0.0001
+[lag_mask] id=316 gold=A pred=C gen=138 rej=1 wall=25.82s tv=0.0001
+[lag_mask] id=409 gold=C pred=C gen=1032 rej=7 wall=122.09s tv=0.0
+[lag_mask] id=128 gold=A pred=C gen=557 rej=6 wall=80.34s tv=0.1552
+=== 01:36:56 START OUT=results/refuted_lat3 LATENCY=3 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+[lag_mask] id=433 gold=A pred=C gen=267 rej=1 wall=36.88s tv=0.0002
+[lag_mask] id=197 gold=B pred=B gen=103 rej=0 wall=21.55s tv=0.0
+[lag_mask] id=388 gold=C pred=A gen=283 rej=2 wall=42.16s tv=0.0003
+[lag_mask] id=456 gold=A pred=A gen=228 rej=0 wall=32.05s tv=0.0
+[lag_mask] id=215 gold=B pred=B gen=243 rej=0 wall=32.74s tv=0.0
+[lag_mask] id=20 gold=C pred=A gen=479 rej=0 wall=59.81s tv=0.0
+[lag_mask] id=132 gold=B pred=B gen=133 rej=0 wall=21.48s tv=0.0
+[lag_mask] id=496 gold=C pred=C gen=231 rej=1 wall=34.8s tv=0.0
+[lag_mask] id=261 gold=A pred=C gen=441 rej=1 wall=57.27s tv=0.0175
+[lag_mask] id=248 gold=B pred=C gen=671 rej=5 wall=91.84s tv=0.0
+[lag_mask] id=207 gold=A pred=C gen=112 rej=1 wall=26.51s tv=0.0001
+[lag_mask] id=471 gold=B pred=B gen=171 rej=1 wall=30.33s tv=0.0065
+[lag_mask] id=401 gold=B pred=B gen=30 rej=0 wall=19.2s tv=0.0
+[lag_mask] id=425 gold=B pred=B gen=170 rej=0 wall=27.83s tv=0.0
+[lag_mask] id=155 gold=A pred=C gen=272 rej=1 wall=43.07s tv=0.0001
+[lag_mask] id=497 gold=B pred=C gen=89 rej=2 wall=21.15s tv=0.0001
+[lag_mask] id=244 gold=C pred=B gen=469 rej=0 wall=60.7s tv=0.0
+[lag_mask] id=183 gold=C pred=A gen=430 rej=1 wall=54.64s tv=0.2148
+[lag_mask] id=298 gold=A pred=A gen=340 rej=1 wall=46.84s tv=0.0
+[lag_mask] id=457 gold=C pred=C gen=285 rej=1 wall=43.17s tv=0.0
+[lag_mask] id=465 gold=C pred=C gen=2655 rej=2 wall=309.83s tv=0.0613
+[lag_mask] id=111 gold=C pred=C gen=162 rej=1 wall=30.17s tv=0.0
+[lag_mask] id=258 gold=C pred=A gen=294 rej=0 wall=41.86s tv=0.0021
+[lag_mask] id=71 gold=B pred=C gen=451 rej=2 wall=64.49s tv=0.0
+[lag_mask] id=144 gold=A pred=C gen=132 rej=1 wall=28.78s tv=0.0
+[lag_mask] id=386 gold=C pred=A gen=641 rej=0 wall=78.82s tv=0.0
+[lag_mask] id=48 gold=C pred=C gen=362 rej=2 wall=46.64s tv=0.0
+[lag_mask] id=316 gold=A pred=A gen=414 rej=1 wall=52.59s tv=0.0
+[lag_mask] id=409 gold=C pred=C gen=263 rej=1 wall=29.54s tv=0.0
+[lag_mask] id=128 gold=A pred=C gen=431 rej=2 wall=46.71s tv=0.0004
+=== 02:10:38 DONE OUT=results/refuted_lat3 LATENCY=3 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+=== 02:10:38 START OUT=results/grammar GRAMMAR=1 .venv/bin/python run.py --n 30 --cond fmt
+[fmt] id=433 gold=A pred=A gen=258 rej=0 wall=30.39s
+[fmt] id=197 gold=B pred=B gen=90 rej=0 wall=16.64s
+[fmt] id=388 gold=C pred=A gen=188 rej=0 wall=24.43s
+[fmt] id=456 gold=A pred=A gen=336 rej=0 wall=37.91s
+[fmt] id=215 gold=B pred=B gen=296 rej=0 wall=34.68s
+[fmt] id=20 gold=C pred=C gen=594 rej=0 wall=61.13s
+[fmt] id=132 gold=B pred=B gen=122 rej=0 wall=17.7s
+[fmt] id=496 gold=C pred=B gen=211 rej=0 wall=27.39s
+[fmt] id=261 gold=A pred=C gen=270 rej=0 wall=33.61s
+[fmt] id=248 gold=B pred=C gen=856 rej=0 wall=91.17s
+[fmt] id=207 gold=A pred=A gen=323 rej=0 wall=40.9s
+=== 02:19:34 START OUT=results/grammar GRAMMAR=1 .venv/bin/python run.py --n 30 --cond fmt
+[fmt] id=433 gold=A pred=C gen=103 rej=0 wall=12.81s
+[fmt] id=197 gold=B pred=B gen=91 rej=0 wall=13.38s
+[fmt] id=388 gold=C pred=A gen=184 rej=0 wall=19.13s
+[fmt] id=456 gold=A pred=A gen=207 rej=0 wall=21.67s
+[fmt] id=215 gold=B pred=B gen=185 rej=0 wall=22.02s
+[fmt] id=20 gold=C pred=B gen=293 rej=0 wall=33.88s
+[fmt] id=132 gold=B pred=B gen=121 rej=0 wall=18.48s
+[fmt] id=496 gold=C pred=B gen=210 rej=0 wall=27.23s
+[fmt] id=261 gold=A pred=A gen=317 rej=0 wall=37.83s
+[fmt] id=248 gold=B pred=B gen=198 rej=0 wall=27.8s
+[fmt] id=207 gold=A pred=C gen=102 rej=0 wall=18.84s
+[fmt] id=471 gold=B pred=B gen=97 rej=0 wall=17.91s
+[fmt] id=401 gold=B pred=B gen=51 rej=0 wall=16.17s
+[fmt] id=425 gold=B pred=B gen=314 rej=0 wall=35.93s
+[fmt] id=155 gold=A pred=C gen=171 rej=0 wall=25.16s
+[fmt] id=497 gold=B pred=C gen=944 rej=0 wall=90.31s
+[fmt] id=244 gold=C pred=B gen=453 rej=0 wall=48.92s
+[fmt] id=183 gold=C pred=A gen=468 rej=0 wall=50.6s
+[fmt] id=298 gold=A pred=A gen=211 rej=0 wall=26.31s
+[fmt] id=457 gold=C pred=C gen=386 rej=0 wall=42.75s
+[fmt] id=465 gold=C pred=C gen=264 rej=0 wall=36.83s
+[fmt] id=111 gold=C pred=C gen=58 rej=0 wall=15.81s
+[fmt] id=258 gold=C pred=C gen=385 rej=0 wall=43.35s
+[fmt] id=71 gold=B pred=C gen=525 rej=0 wall=57.28s
+[fmt] id=144 gold=A pred=C gen=214 rej=0 wall=28.11s
+[fmt] id=386 gold=C pred=A gen=263 rej=0 wall=33.3s
+[fmt] id=48 gold=C pred=B gen=255 rej=0 wall=29.46s
+[fmt] id=316 gold=A pred=A gen=257 rej=0 wall=30.25s
+[fmt] id=409 gold=C pred=C gen=681 rej=0 wall=64.81s
+[fmt] id=128 gold=A pred=A gen=464 rej=0 wall=51.64s
+=== 02:36:13 DONE OUT=results/grammar GRAMMAR=1 .venv/bin/python run.py --n 30 --cond fmt
+=== 02:36:13 START OUT=results/grammar GRAMMAR=1 .venv/bin/python run.py --n 30 --cond sync
+[sync] id=433 gold=A pred=C gen=67 rej=1 wall=15.27s
+[sync] id=197 gold=B pred=B gen=294 rej=3 wall=35.24s
+[sync] id=388 gold=C pred=C gen=382 rej=4 wall=40.64s
+[sync] id=456 gold=A pred=A gen=207 rej=0 wall=25.68s
+[sync] id=215 gold=B pred=B gen=418 rej=4 wall=45.49s
+[sync] id=20 gold=C pred=C gen=582 rej=8 wall=65.06s
+[sync] id=132 gold=B pred=C gen=1077 rej=8 wall=101.58s
+[sync] id=496 gold=C pred=C gen=466 rej=8 wall=51.79s
+[sync] id=261 gold=A pred=C gen=510 rej=8 wall=57.36s
+[sync] id=248 gold=B pred=C gen=678 rej=8 wall=71.83s
+[sync] id=207 gold=A pred=C gen=562 rej=8 wall=63.56s
+[sync] id=471 gold=B pred=B gen=145 rej=1 wall=21.3s
+[sync] id=401 gold=B pred=B gen=51 rej=0 wall=15.36s
+[sync] id=425 gold=B pred=C gen=90 rej=1 wall=16.9s
+[sync] id=155 gold=A pred=C gen=86 rej=1 wall=17.9s
+[sync] id=497 gold=B pred=C gen=627 rej=8 wall=64.8s
+[sync] id=244 gold=C pred=C gen=685 rej=2 wall=70.9s
+[sync] id=183 gold=C pred=C gen=446 rej=8 wall=51.48s
+[sync] id=298 gold=A pred=C gen=419 rej=8 wall=48.26s
+[sync] id=457 gold=C pred=C gen=116 rej=1 wall=20.53s
+[sync] id=465 gold=C pred=B gen=376 rej=8 wall=48.59s
+[sync] id=111 gold=C pred=C gen=58 rej=0 wall=15.02s
+[sync] id=258 gold=C pred=A gen=583 rej=7 wall=63.72s
+[sync] id=71 gold=B pred=C gen=873 rej=6 wall=90.46s
+[sync] id=144 gold=A pred=C gen=78 rej=1 wall=17.4s
+[sync] id=386 gold=C pred=C gen=416 rej=5 wall=50.03s
+[sync] id=48 gold=C pred=C gen=443 rej=8 wall=48.14s
+[sync] id=316 gold=A pred=C gen=72 rej=1 wall=15.12s
+[sync] id=409 gold=C pred=C gen=186 rej=1 wall=23.27s
+[sync] id=128 gold=A pred=A gen=306 rej=4 wall=39.25s
+=== 02:58:06 DONE OUT=results/grammar GRAMMAR=1 .venv/bin/python run.py --n 30 --cond sync
+=== 02:58:06 START OUT=results/refuted_lat3 LATENCY=3 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+[lag_trunc] id=433 gold=A pred=A gen=558 rej=1 wall=53.63s tv=0.0033
+[lag_trunc] id=197 gold=B pred=B gen=103 rej=0 wall=15.3s tv=0.0
+[lag_trunc] id=388 gold=C pred=C gen=2556 rej=2 wall=213.79s tv=0.0
+[lag_trunc] id=456 gold=A pred=A gen=228 rej=0 wall=24.35s tv=0.0
+[lag_trunc] id=215 gold=B pred=B gen=243 rej=0 wall=25.11s tv=0.0
+[lag_trunc] id=20 gold=C pred=A gen=479 rej=0 wall=44.41s tv=0.0
+[lag_trunc] id=132 gold=B pred=B gen=133 rej=0 wall=16.81s tv=0.0
+[lag_trunc] id=496 gold=C pred=C gen=231 rej=1 wall=26.43s tv=0.0
+[lag_trunc] id=261 gold=A pred=C gen=568 rej=2 wall=56.52s tv=0.0
+[lag_trunc] id=248 gold=B pred=C gen=453 rej=2 wall=47.55s tv=0.0
+[lag_trunc] id=207 gold=A pred=C gen=2634 rej=2 wall=229.04s tv=0.0
+[lag_trunc] id=471 gold=B pred=B gen=171 rej=1 wall=22.63s tv=0.0065
+[lag_trunc] id=401 gold=B pred=B gen=30 rej=0 wall=12.52s tv=0.0
+[lag_trunc] id=425 gold=B pred=B gen=170 rej=0 wall=21.29s tv=0.0
+[lag_trunc] id=155 gold=A pred=C gen=272 rej=1 wall=30.92s tv=0.0
+[lag_trunc] id=497 gold=B pred=C gen=2564 rej=3 wall=219.13s tv=0.0
+[lag_trunc] id=244 gold=C pred=B gen=469 rej=0 wall=45.77s tv=0.0
+[lag_trunc] id=183 gold=C pred=A gen=430 rej=1 wall=43.12s tv=0.0009
+[lag_trunc] id=298 gold=A pred=A gen=455 rej=2 wall=43.32s tv=0.0
+[lag_trunc] id=457 gold=C pred=C gen=285 rej=1 wall=32.91s tv=0.0
+[lag_trunc] id=465 gold=C pred=C gen=2538 rej=2 wall=227.81s tv=0.0058
+[lag_trunc] id=111 gold=C pred=C gen=162 rej=1 wall=22.71s tv=0.0
+[lag_trunc] id=258 gold=C pred=A gen=294 rej=0 wall=33.24s tv=0.0021
+[lag_trunc] id=71 gold=B pred=C gen=451 rej=2 wall=48.23s tv=0.0
+[lag_trunc] id=144 gold=A pred=C gen=132 rej=1 wall=20.32s tv=0.0
+[lag_trunc] id=386 gold=C pred=A gen=641 rej=0 wall=60.51s tv=0.0
+[lag_trunc] id=48 gold=C pred=C gen=362 rej=2 wall=36.45s tv=0.0
+[lag_trunc] id=316 gold=A pred=A gen=414 rej=1 wall=40.32s tv=0.0
+[lag_trunc] id=409 gold=C pred=C gen=263 rej=1 wall=28.69s tv=0.0
+[lag_trunc] id=128 gold=A pred=A gen=536 rej=3 wall=64.91s tv=0.0
+=== 03:35:44 DONE OUT=results/refuted_lat3 LATENCY=3 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+=== 03:35:44 START OUT=results/refuted_lat8 LATENCY=8 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+[lag_mask] id=433 gold=A pred=C gen=267 rej=1 wall=29.68s tv=0.0002
+[lag_mask] id=197 gold=B pred=B gen=103 rej=0 wall=15.99s tv=0.0
+[lag_mask] id=388 gold=C pred=A gen=158 rej=1 wall=21.31s tv=0.0007
+[lag_mask] id=456 gold=A pred=A gen=228 rej=0 wall=26.05s tv=0.0
+[lag_mask] id=215 gold=B pred=B gen=243 rej=0 wall=26.03s tv=0.0
+[lag_mask] id=20 gold=C pred=A gen=479 rej=0 wall=45.62s tv=0.0
+[lag_mask] id=132 gold=B pred=B gen=133 rej=0 wall=19.12s tv=0.0
+[lag_mask] id=496 gold=C pred=C gen=234 rej=1 wall=27.25s tv=0.0025
+[lag_mask] id=261 gold=A pred=C gen=473 rej=1 wall=46.83s tv=0.0158
+[lag_mask] id=248 gold=B pred=C gen=256 rej=2 wall=32.38s tv=0.0
+[lag_mask] id=207 gold=A pred=C gen=782 rej=2 wall=73.28s tv=0.0013
+[lag_mask] id=471 gold=B pred=A gen=283 rej=3 wall=33.48s tv=0.0125
+[lag_mask] id=401 gold=B pred=B gen=30 rej=0 wall=13.35s tv=0.0
+[lag_mask] id=425 gold=B pred=B gen=170 rej=0 wall=21.86s tv=0.0
+[lag_mask] id=155 gold=A pred=C gen=272 rej=1 wall=39.81s tv=0.0001
+[lag_mask] id=497 gold=B pred=C gen=2600 rej=3 wall=222.24s tv=0.0004
+[lag_mask] id=244 gold=C pred=B gen=469 rej=0 wall=45.45s tv=0.0
+[lag_mask] id=183 gold=C pred=A gen=430 rej=1 wall=43.63s tv=0.2148
+[lag_mask] id=298 gold=A pred=C gen=309 rej=1 wall=32.18s tv=0.205
+[lag_mask] id=457 gold=C pred=C gen=364 rej=1 wall=39.44s tv=0.0
+[lag_mask] id=465 gold=C pred=C gen=2565 rej=5 wall=229.43s tv=0.0051
+[lag_mask] id=111 gold=C pred=C gen=207 rej=1 wall=26.74s tv=0.0006
+[lag_mask] id=258 gold=C pred=A gen=294 rej=0 wall=33.18s tv=0.0021
+[lag_mask] id=71 gold=B pred=C gen=639 rej=2 wall=63.81s tv=0.0
+[lag_mask] id=144 gold=A pred=C gen=209 rej=1 wall=27.26s tv=0.0
+[lag_mask] id=386 gold=C pred=A gen=641 rej=0 wall=61.24s tv=0.0
+[lag_mask] id=48 gold=C pred=C gen=901 rej=5 wall=82.64s tv=0.0
+[lag_mask] id=316 gold=A pred=C gen=261 rej=1 wall=30.73s tv=0.0006
+[lag_mask] id=409 gold=C pred=C gen=335 rej=1 wall=34.23s tv=0.0
+[lag_mask] id=128 gold=A pred=C gen=464 rej=3 wall=51.56s tv=0.4135
+=== 04:07:41 START OUT=results/note_refuted_lat3 LATENCY=3 MASK_ON=refuted NOTE=specific .venv/bin/python run.py --n 30 --cond lag_mask
+[lag_mask] id=433 gold=A pred=C gen=267 rej=1 wall=29.73s tv=0.0013
+[lag_mask] id=197 gold=B pred=B gen=103 rej=0 wall=16.32s tv=0.0
+[lag_mask] id=388 gold=C pred=A gen=349 rej=1 wall=35.52s tv=0.0003
+[lag_mask] id=456 gold=A pred=A gen=228 rej=0 wall=26.38s tv=0.0
+[lag_mask] id=215 gold=B pred=B gen=243 rej=0 wall=25.9s tv=0.0
+[lag_mask] id=20 gold=C pred=A gen=479 rej=0 wall=45.27s tv=0.0
+[lag_mask] id=132 gold=B pred=B gen=133 rej=0 wall=17.78s tv=0.0
+[lag_mask] id=496 gold=C pred=C gen=2523 rej=2 wall=213.8s tv=0.0001
+[lag_mask] id=261 gold=A pred=C gen=825 rej=4 wall=76.88s tv=0.0
+[lag_mask] id=248 gold=B pred=C gen=1987 rej=4 wall=173.87s tv=0.0003
+=== 04:26:01 START OUT=results/v2 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond sync
+=== 04:26:11 START OUT=results/v2 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond sync
+[sync] id=433 gold=A pred=A gen=525 rej=1 wall=33.05s
+[sync] id=197 gold=B pred=B gen=103 rej=0 wall=12.5s
+[sync] id=388 gold=C pred=A gen=378 rej=3 wall=29.54s
+[sync] id=456 gold=A pred=A gen=228 rej=0 wall=21.88s
+[sync] id=215 gold=B pred=B gen=243 rej=0 wall=23.7s
+[sync] id=20 gold=C pred=A gen=479 rej=0 wall=40.49s
+[sync] id=132 gold=B pred=B gen=133 rej=0 wall=15.8s
+[sync] id=496 gold=C pred=C gen=184 rej=1 wall=21.29s
+[sync] id=261 gold=A pred=C gen=756 rej=4 wall=68.04s
+[sync] id=248 gold=B pred=C gen=881 rej=2 wall=96.59s
+[sync] id=207 gold=A pred=A gen=257 rej=3 wall=36.81s
+[sync] id=471 gold=B pred=B gen=160 rej=1 wall=23.46s
+[sync] id=401 gold=B pred=B gen=30 rej=0 wall=13.66s
+[sync] id=425 gold=B pred=B gen=170 rej=0 wall=23.2s
+[sync] id=155 gold=A pred=C gen=237 rej=1 wall=29.66s
+[sync] id=497 gold=B pred=C gen=335 rej=8 wall=40.93s
+[sync] id=244 gold=C pred=B gen=469 rej=0 wall=47.81s
+[sync] id=183 gold=C pred=A gen=399 rej=1 wall=42.41s
+[sync] id=298 gold=A pred=A gen=343 rej=2 wall=36.1s
+[sync] id=457 gold=C pred=C gen=224 rej=1 wall=28.9s
+[sync] id=465 gold=C pred=B gen=95 rej=3 wall=22.58s
+[sync] id=111 gold=C pred=C gen=94 rej=1 wall=19.42s
+[sync] id=258 gold=C pred=A gen=294 rej=0 wall=33.82s
+[sync] id=71 gold=B pred=C gen=604 rej=8 wall=68.05s
+[sync] id=144 gold=A pred=C gen=74 rej=1 wall=17.53s
+[sync] id=386 gold=C pred=A gen=641 rej=0 wall=63.3s
+[sync] id=48 gold=C pred=C gen=330 rej=8 wall=38.68s
+[sync] id=316 gold=A pred=C gen=277 rej=3 wall=32.09s
+[sync] id=409 gold=C pred=C gen=202 rej=1 wall=24.08s
+[sync] id=128 gold=A pred=A gen=350 rej=2 wall=40.22s
+=== 04:43:38 DONE OUT=results/v2 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond sync
+=== 04:43:38 START OUT=results/v2/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+[lag_mask] id=433 gold=A pred=C gen=267 rej=1 wall=31.24s tv=0.0002
+[lag_mask] id=197 gold=B pred=B gen=103 rej=0 wall=15.64s tv=0.0
+[lag_mask] id=388 gold=C pred=A gen=283 rej=2 wall=31.4s tv=0.0003
+[lag_mask] id=456 gold=A pred=A gen=228 rej=0 wall=26.73s tv=0.0
+[lag_mask] id=215 gold=B pred=B gen=243 rej=0 wall=32.93s tv=0.0
+[lag_mask] id=20 gold=C pred=A gen=479 rej=0 wall=46.36s tv=0.0
+[lag_mask] id=132 gold=B pred=B gen=133 rej=0 wall=17.03s tv=0.0
+[lag_mask] id=496 gold=C pred=C gen=231 rej=1 wall=26.95s tv=0.0
+[lag_mask] id=261 gold=A pred=C gen=441 rej=1 wall=44.23s tv=0.0175
+[lag_mask] id=248 gold=B pred=C gen=385 rej=2 wall=41.68s tv=0.0084
+[lag_mask] id=207 gold=A pred=C gen=112 rej=1 wall=19.81s tv=0.0001
+[lag_mask] id=471 gold=B pred=B gen=171 rej=1 wall=22.19s tv=0.0065
+[lag_mask] id=401 gold=B pred=B gen=30 rej=0 wall=12.68s tv=0.0
+[lag_mask] id=425 gold=B pred=B gen=170 rej=0 wall=21.56s tv=0.0
+[lag_mask] id=155 gold=A pred=C gen=272 rej=1 wall=31.83s tv=0.0001
+[lag_mask] id=497 gold=B pred=C gen=89 rej=2 wall=17.94s tv=0.0001
+[lag_mask] id=244 gold=C pred=B gen=469 rej=0 wall=46.64s tv=0.0
+[lag_mask] id=183 gold=C pred=A gen=430 rej=1 wall=44.05s tv=0.2148
+[lag_mask] id=298 gold=A pred=A gen=340 rej=1 wall=34.63s tv=0.0
+[lag_mask] id=457 gold=C pred=C gen=285 rej=1 wall=33.04s tv=0.0
+[lag_mask] id=465 gold=C pred=C gen=976 rej=2 wall=93.89s tv=0.0746
+[lag_mask] id=111 gold=C pred=C gen=162 rej=1 wall=23.97s tv=0.0
+[lag_mask] id=258 gold=C pred=A gen=294 rej=0 wall=32.56s tv=0.0021
+[lag_mask] id=71 gold=B pred=C gen=639 rej=6 wall=65.46s tv=0.0
+[lag_mask] id=144 gold=A pred=C gen=132 rej=1 wall=20.35s tv=0.0
+[lag_mask] id=386 gold=C pred=A gen=641 rej=0 wall=61.42s tv=0.0
+[lag_mask] id=48 gold=C pred=C gen=603 rej=6 wall=59.32s tv=0.0
+[lag_mask] id=316 gold=A pred=A gen=414 rej=1 wall=43.83s tv=0.0
+[lag_mask] id=409 gold=C pred=C gen=263 rej=1 wall=27.18s tv=0.0
+[lag_mask] id=128 gold=A pred=A gen=813 rej=3 wall=77.27s tv=0.0
+=== 05:08:26 DONE OUT=results/v2/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+=== 05:08:26 START OUT=results/v2/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+[lag_trunc] id=433 gold=A pred=A gen=558 rej=1 wall=54.65s tv=0.0033
+[lag_trunc] id=197 gold=B pred=B gen=103 rej=0 wall=17.38s tv=0.0
+[lag_trunc] id=388 gold=C pred=C gen=536 rej=6 wall=55.52s tv=0.0
+[lag_trunc] id=456 gold=A pred=A gen=228 rej=0 wall=24.86s tv=0.0
+[lag_trunc] id=215 gold=B pred=B gen=243 rej=0 wall=26.5s tv=0.0
+[lag_trunc] id=20 gold=C pred=A gen=479 rej=0 wall=45.32s tv=0.0
+[lag_trunc] id=132 gold=B pred=B gen=133 rej=0 wall=16.92s tv=0.0
+[lag_trunc] id=496 gold=C pred=C gen=231 rej=1 wall=27.59s tv=0.0
+[lag_trunc] id=261 gold=A pred=C gen=651 rej=3 wall=67.82s tv=0.0
+[lag_trunc] id=248 gold=B pred=C gen=930 rej=8 wall=89.7s tv=0.0
+[lag_trunc] id=207 gold=A pred=A gen=601 rej=4 wall=62.02s tv=0.0
+[lag_trunc] id=471 gold=B pred=B gen=171 rej=1 wall=23.84s tv=0.0065
+[lag_trunc] id=401 gold=B pred=B gen=30 rej=0 wall=13.18s tv=0.0
+[lag_trunc] id=425 gold=B pred=B gen=170 rej=0 wall=21.93s tv=0.0
+[lag_trunc] id=155 gold=A pred=C gen=272 rej=1 wall=31.48s tv=0.0
+[lag_trunc] id=497 gold=B pred=C gen=679 rej=7 wall=67.19s tv=0.0
+[lag_trunc] id=244 gold=C pred=B gen=469 rej=0 wall=46.53s tv=0.0
+[lag_trunc] id=183 gold=C pred=A gen=430 rej=1 wall=43.57s tv=0.0009
+[lag_trunc] id=298 gold=A pred=A gen=455 rej=2 wall=44.34s tv=0.0
+[lag_trunc] id=457 gold=C pred=C gen=285 rej=1 wall=33.68s tv=0.0
+[lag_trunc] id=465 gold=C pred=C gen=540 rej=6 wall=60.98s tv=0.0001
+[lag_trunc] id=111 gold=C pred=C gen=162 rej=1 wall=23.22s tv=0.0
+[lag_trunc] id=258 gold=C pred=A gen=294 rej=0 wall=32.6s tv=0.0021
+[lag_trunc] id=71 gold=B pred=C gen=639 rej=6 wall=65.22s tv=0.0
+[lag_trunc] id=144 gold=A pred=C gen=132 rej=1 wall=20.65s tv=0.0
+[lag_trunc] id=386 gold=C pred=A gen=641 rej=0 wall=63.05s tv=0.0
+[lag_trunc] id=48 gold=C pred=C gen=603 rej=6 wall=59.87s tv=0.0
+[lag_trunc] id=316 gold=A pred=A gen=414 rej=1 wall=40.28s tv=0.0
+[lag_trunc] id=409 gold=C pred=C gen=263 rej=1 wall=27.08s tv=0.0
+[lag_trunc] id=128 gold=A pred=A gen=536 rej=3 wall=55.25s tv=0.0
+=== 05:35:42 DONE OUT=results/v2/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+=== 05:35:42 START OUT=results/v2/note_lat3 LATENCY=3 NOTE=specific GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+[lag_mask] id=433 gold=A pred=C gen=267 rej=1 wall=30.14s tv=0.0013
+[lag_mask] id=197 gold=B pred=B gen=103 rej=0 wall=16.95s tv=0.0
+[lag_mask] id=388 gold=C pred=A gen=349 rej=1 wall=35.77s tv=0.0003
+[lag_mask] id=456 gold=A pred=A gen=228 rej=0 wall=25.67s tv=0.0
+[lag_mask] id=215 gold=B pred=B gen=243 rej=0 wall=25.76s tv=0.0
+[lag_mask] id=20 gold=C pred=A gen=479 rej=0 wall=44.76s tv=0.0
+[lag_mask] id=132 gold=B pred=B gen=133 rej=0 wall=17.41s tv=0.0
+[lag_mask] id=496 gold=C pred=C gen=609 rej=6 wall=62.5s tv=0.0
+[lag_mask] id=261 gold=A pred=C gen=1182 rej=7 wall=112.25s tv=0.0071
+[lag_mask] id=248 gold=B pred=C gen=642 rej=5 wall=65.47s tv=0.2216
+[lag_mask] id=207 gold=A pred=C gen=572 rej=6 wall=61.85s tv=0.0003
+[lag_mask] id=471 gold=B pred=B gen=426 rej=1 wall=43.35s tv=0.0035
+[lag_mask] id=401 gold=B pred=B gen=30 rej=0 wall=12.96s tv=0.0
+[lag_mask] id=425 gold=B pred=B gen=170 rej=0 wall=22.14s tv=0.0
+[lag_mask] id=155 gold=A pred=C gen=272 rej=1 wall=31.4s tv=0.0009
+[lag_mask] id=497 gold=B pred=C gen=579 rej=8 wall=59.22s tv=0.0014
+[lag_mask] id=244 gold=C pred=B gen=469 rej=0 wall=46.39s tv=0.0
+[lag_mask] id=183 gold=C pred=A gen=430 rej=1 wall=43.72s tv=0.0126
+[lag_mask] id=298 gold=A pred=A gen=436 rej=2 wall=43.02s tv=0.0
+[lag_mask] id=457 gold=C pred=C gen=285 rej=1 wall=32.9s tv=0.0
+[lag_mask] id=465 gold=C pred=B gen=568 rej=8 wall=63.92s tv=0.0207
+[lag_mask] id=111 gold=C pred=C gen=597 rej=6 wall=60.89s tv=0.0
+[lag_mask] id=258 gold=C pred=A gen=294 rej=0 wall=33.3s tv=0.0021
+[lag_mask] id=71 gold=B pred=C gen=1370 rej=6 wall=125.14s tv=0.0053
+[lag_mask] id=144 gold=A pred=C gen=789 rej=8 wall=78.07s tv=0.0021
+[lag_mask] id=386 gold=C pred=A gen=641 rej=0 wall=61.76s tv=0.0
+[lag_mask] id=48 gold=C pred=C gen=573 rej=6 wall=56.18s tv=0.0
+[lag_mask] id=316 gold=A pred=C gen=258 rej=1 wall=28.96s tv=0.0
+[lag_mask] id=409 gold=C pred=C gen=263 rej=1 wall=27.16s tv=0.0
+[lag_mask] id=128 gold=A pred=A gen=446 rej=3 wall=48.14s tv=0.0
+=== 06:05:47 DONE OUT=results/v2/note_lat3 LATENCY=3 NOTE=specific GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+=== 06:05:47 START OUT=results/v2/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+[lag_mask] id=433 gold=A pred=C gen=267 rej=1 wall=30.39s tv=0.0002
+[lag_mask] id=197 gold=B pred=B gen=103 rej=0 wall=15.28s tv=0.0
+[lag_mask] id=388 gold=C pred=A gen=158 rej=1 wall=19.92s tv=0.0007
+[lag_mask] id=456 gold=A pred=A gen=228 rej=0 wall=25.44s tv=0.0
+[lag_mask] id=215 gold=B pred=B gen=243 rej=0 wall=27.1s tv=0.0
+[lag_mask] id=20 gold=C pred=A gen=479 rej=0 wall=46.83s tv=0.0
+[lag_mask] id=132 gold=B pred=B gen=133 rej=0 wall=17.46s tv=0.0
+[lag_mask] id=496 gold=C pred=C gen=234 rej=1 wall=26.93s tv=0.0025
+[lag_mask] id=261 gold=A pred=C gen=473 rej=1 wall=47.38s tv=0.0158
+[lag_mask] id=248 gold=B pred=C gen=256 rej=2 wall=32.15s tv=0.0
+[lag_mask] id=207 gold=A pred=C gen=782 rej=2 wall=74.08s tv=0.0013
+[lag_mask] id=471 gold=B pred=A gen=283 rej=3 wall=31.86s tv=0.0125
+[lag_mask] id=401 gold=B pred=B gen=30 rej=0 wall=13.34s tv=0.0
+[lag_mask] id=425 gold=B pred=B gen=170 rej=0 wall=21.1s tv=0.0
+[lag_mask] id=155 gold=A pred=C gen=272 rej=1 wall=31.09s tv=0.0001
+[lag_mask] id=497 gold=B pred=C gen=245 rej=5 wall=31.9s tv=0.0007
+[lag_mask] id=244 gold=C pred=B gen=469 rej=0 wall=46.5s tv=0.0
+[lag_mask] id=183 gold=C pred=A gen=430 rej=1 wall=43.55s tv=0.2148
+[lag_mask] id=298 gold=A pred=C gen=309 rej=1 wall=31.69s tv=0.205
+[lag_mask] id=457 gold=C pred=C gen=364 rej=1 wall=39.82s tv=0.0
+[lag_mask] id=465 gold=C pred=A gen=1480 rej=5 wall=136.16s tv=0.0406
+[lag_mask] id=111 gold=C pred=C gen=207 rej=1 wall=31.44s tv=0.0006
+[lag_mask] id=258 gold=C pred=A gen=294 rej=0 wall=34.74s tv=0.0021
+[lag_mask] id=71 gold=B pred=C gen=1253 rej=6 wall=116.92s tv=0.0
+[lag_mask] id=144 gold=A pred=C gen=209 rej=1 wall=26.67s tv=0.0
+[lag_mask] id=386 gold=C pred=A gen=641 rej=0 wall=60.01s tv=0.0
+[lag_mask] id=48 gold=C pred=C gen=1047 rej=5 wall=92.65s tv=0.0006
+[lag_mask] id=316 gold=A pred=C gen=261 rej=1 wall=29.78s tv=0.0006
+[lag_mask] id=409 gold=C pred=C gen=335 rej=1 wall=34.03s tv=0.0
+[lag_mask] id=128 gold=A pred=C gen=464 rej=3 wall=49.61s tv=0.4135
+=== 06:33:16 DONE OUT=results/v2/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+=== 06:33:16 START OUT=results/v2/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+[lag_trunc] id=433 gold=A pred=A gen=558 rej=1 wall=52.45s tv=0.0033
+[lag_trunc] id=197 gold=B pred=B gen=103 rej=0 wall=15.86s tv=0.0
+[lag_trunc] id=388 gold=C pred=C gen=908 rej=6 wall=82.93s tv=0.0
+[lag_trunc] id=456 gold=A pred=A gen=228 rej=0 wall=24.88s tv=0.0
+[lag_trunc] id=215 gold=B pred=B gen=243 rej=0 wall=26.01s tv=0.0
+[lag_trunc] id=20 gold=C pred=A gen=479 rej=0 wall=45.93s tv=0.0
+[lag_trunc] id=132 gold=B pred=B gen=133 rej=0 wall=17.33s tv=0.0
+[lag_trunc] id=496 gold=C pred=C gen=234 rej=1 wall=26.53s tv=0.0
+[lag_trunc] id=261 gold=A pred=C gen=716 rej=3 wall=67.63s tv=0.0
+[lag_trunc] id=248 gold=B pred=C gen=1475 rej=8 wall=134.32s tv=0.0
+[lag_trunc] id=207 gold=A pred=A gen=834 rej=4 wall=79.42s tv=0.0
+[lag_trunc] id=471 gold=B pred=B gen=197 rej=1 wall=24.85s tv=0.0065
+[lag_trunc] id=401 gold=B pred=B gen=30 rej=0 wall=14.57s tv=0.0
+[lag_trunc] id=425 gold=B pred=B gen=170 rej=0 wall=22.3s tv=0.0
+[lag_trunc] id=155 gold=A pred=C gen=272 rej=1 wall=31.44s tv=0.0
+[lag_trunc] id=497 gold=B pred=C gen=905 rej=7 wall=84.78s tv=0.0
+[lag_trunc] id=244 gold=C pred=B gen=469 rej=0 wall=47.02s tv=0.0
+[lag_trunc] id=183 gold=C pred=A gen=430 rej=1 wall=42.92s tv=0.0009
+[lag_trunc] id=298 gold=A pred=A gen=625 rej=2 wall=56.86s tv=0.0
+[lag_trunc] id=457 gold=C pred=C gen=364 rej=1 wall=38.83s tv=0.0
+[lag_trunc] id=465 gold=C pred=C gen=858 rej=6 wall=83.56s tv=0.0001
+[lag_trunc] id=111 gold=C pred=C gen=207 rej=1 wall=27.66s tv=0.0
+[lag_trunc] id=258 gold=C pred=A gen=294 rej=0 wall=32.22s tv=0.0021
+[lag_trunc] id=71 gold=B pred=C gen=1253 rej=6 wall=114.67s tv=0.0
+[lag_trunc] id=144 gold=A pred=C gen=209 rej=1 wall=26.65s tv=0.0
+[lag_trunc] id=386 gold=C pred=A gen=641 rej=0 wall=60.58s tv=0.0
+[lag_trunc] id=48 gold=C pred=C gen=915 rej=6 wall=82.62s tv=0.0
+[lag_trunc] id=316 gold=A pred=A gen=417 rej=1 wall=41.61s tv=0.0
+[lag_trunc] id=409 gold=C pred=C gen=335 rej=1 wall=33.53s tv=0.0
+[lag_trunc] id=128 gold=A pred=A gen=720 rej=3 wall=69.56s tv=0.0
+=== 07:04:40 START OUT=results/v2/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_refresh
+[lag_refresh] id=433 gold=A pred=A gen=558 rej=1 wall=52.3s tv=0.0033
+[lag_refresh] id=197 gold=B pred=B gen=103 rej=0 wall=16.36s tv=0.0
+[lag_refresh] id=388 gold=C pred=A gen=158 rej=1 wall=21.26s tv=0.0
+[lag_refresh] id=456 gold=A pred=A gen=228 rej=0 wall=24.75s tv=0.0
+[lag_refresh] id=215 gold=B pred=B gen=243 rej=0 wall=25.59s tv=0.0
+[lag_refresh] id=20 gold=C pred=A gen=479 rej=0 wall=44.25s tv=0.0
+[lag_refresh] id=132 gold=B pred=B gen=133 rej=0 wall=17.76s tv=0.0
+[lag_refresh] id=496 gold=C pred=C gen=234 rej=1 wall=27.11s tv=0.0
+[lag_refresh] id=261 gold=A pred=C gen=474 rej=1 wall=49.68s tv=0.0021
+[lag_refresh] id=248 gold=B pred=C gen=1004 rej=8 wall=110.39s tv=0.0009
+[lag_refresh] id=207 gold=A pred=C gen=144 rej=1 wall=21.5s tv=0.0
+[lag_refresh] id=471 gold=B pred=B gen=197 rej=1 wall=24.2s tv=0.0065
+[lag_refresh] id=401 gold=B pred=B gen=30 rej=0 wall=12.49s tv=0.0
+[lag_refresh] id=425 gold=B pred=B gen=170 rej=0 wall=21.34s tv=0.0
+[lag_refresh] id=155 gold=A pred=C gen=272 rej=1 wall=30.8s tv=0.0
+[lag_refresh] id=497 gold=B pred=C gen=712 rej=6 wall=73.51s tv=0.0
+[lag_refresh] id=244 gold=C pred=B gen=469 rej=0 wall=46.36s tv=0.0
+[lag_refresh] id=183 gold=C pred=A gen=430 rej=1 wall=43.19s tv=0.0009
+[lag_refresh] id=298 gold=A pred=C gen=309 rej=1 wall=33.48s tv=0.0031
+[lag_refresh] id=457 gold=C pred=C gen=364 rej=1 wall=38.59s tv=0.0
+[lag_refresh] id=465 gold=C pred=C gen=670 rej=6 wall=79.65s tv=0.0001
+[lag_refresh] id=111 gold=C pred=C gen=207 rej=1 wall=28.12s tv=0.0
+[lag_refresh] id=258 gold=C pred=A gen=294 rej=0 wall=36.91s tv=0.0021
+[lag_refresh] id=71 gold=B pred=C gen=1253 rej=6 wall=122.23s tv=0.0
+[lag_refresh] id=144 gold=A pred=C gen=209 rej=1 wall=27.68s tv=0.0
+[lag_refresh] id=386 gold=C pred=A gen=641 rej=0 wall=64.83s tv=0.0
+[lag_refresh] id=48 gold=C pred=C gen=1139 rej=5 wall=109.03s tv=0.0
+[lag_refresh] id=316 gold=A pred=A gen=417 rej=1 wall=44.44s tv=0.0
+[lag_refresh] id=409 gold=C pred=C gen=335 rej=1 wall=35.38s tv=0.0
+[lag_refresh] id=128 gold=A pred=A gen=737 rej=3 wall=81.55s tv=0.0007
+=== 07:33:55 DONE OUT=results/v2/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_refresh
+=== 07:33:55 START OUT=results/v2/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+[lag_mask] id=433 gold=A pred=A gen=555 rej=1 wall=55.63s tv=0.0033
+[lag_mask] id=197 gold=B pred=B gen=103 rej=0 wall=15.4s tv=0.0
+[lag_mask] id=388 gold=C pred=A gen=389 rej=2 wall=38.32s tv=0.0004
+[lag_mask] id=456 gold=A pred=A gen=228 rej=0 wall=24.54s tv=0.0
+[lag_mask] id=215 gold=B pred=B gen=243 rej=0 wall=25.63s tv=0.0
+[lag_mask] id=20 gold=C pred=A gen=479 rej=0 wall=44.76s tv=0.0
+[lag_mask] id=132 gold=B pred=B gen=133 rej=0 wall=16.91s tv=0.0
+[lag_mask] id=496 gold=C pred=C gen=231 rej=1 wall=27.08s tv=0.0
+[lag_mask] id=261 gold=A pred=C gen=1034 rej=3 wall=96.15s tv=0.0063
+[lag_mask] id=248 gold=B pred=C gen=722 rej=7 wall=72.87s tv=0.0145
+[lag_mask] id=207 gold=A pred=A gen=457 rej=4 wall=47.62s tv=0.0
+[lag_mask] id=471 gold=B pred=B gen=187 rej=1 wall=23.25s tv=0.0
+[lag_mask] id=401 gold=B pred=B gen=30 rej=0 wall=12.59s tv=0.0
+[lag_mask] id=425 gold=B pred=B gen=170 rej=0 wall=21.38s tv=0.0
+[lag_mask] id=155 gold=A pred=C gen=269 rej=1 wall=31.7s tv=0.0
+[lag_mask] id=497 gold=B pred=C gen=527 rej=8 wall=54.68s tv=0.0001
+[lag_mask] id=244 gold=C pred=B gen=469 rej=0 wall=45.94s tv=0.0
+[lag_mask] id=183 gold=C pred=A gen=427 rej=1 wall=43.33s tv=0.0009
+[lag_mask] id=298 gold=A pred=A gen=340 rej=1 wall=34.44s tv=0.0
+[lag_mask] id=457 gold=C pred=C gen=253 rej=1 wall=30.46s tv=0.0
+[lag_mask] id=465 gold=C pred=C gen=67 rej=2 wall=18.34s tv=0.1299
+[lag_mask] id=111 gold=C pred=C gen=129 rej=1 wall=20.92s tv=0.0
+[lag_mask] id=258 gold=C pred=A gen=294 rej=0 wall=32.77s tv=0.0021
+[lag_mask] id=71 gold=B pred=C gen=639 rej=6 wall=65.81s tv=0.0
+[lag_mask] id=144 gold=A pred=C gen=132 rej=1 wall=20.39s tv=0.0
+[lag_mask] id=386 gold=C pred=A gen=641 rej=0 wall=60.76s tv=0.0
+[lag_mask] id=48 gold=C pred=C gen=443 rej=6 wall=45.85s tv=0.0
+[lag_mask] id=316 gold=A pred=A gen=386 rej=1 wall=38.48s tv=0.0
+[lag_mask] id=409 gold=C pred=C gen=230 rej=1 wall=25.52s tv=0.0
+[lag_mask] id=128 gold=A pred=A gen=272 rej=1 wall=32.49s tv=0.0
+=== 07:58:58 DONE OUT=results/v2/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+=== 07:58:58 START OUT=results/v2/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+[lag_trunc] id=433 gold=A pred=A gen=555 rej=1 wall=50.72s tv=0.0033
+[lag_trunc] id=197 gold=B pred=B gen=103 rej=0 wall=15.52s tv=0.0
+[lag_trunc] id=388 gold=C pred=C gen=360 rej=6 wall=40.02s tv=0.0
+[lag_trunc] id=456 gold=A pred=A gen=228 rej=0 wall=24.72s tv=0.0
+[lag_trunc] id=215 gold=B pred=B gen=243 rej=0 wall=25.57s tv=0.0
+[lag_trunc] id=20 gold=C pred=A gen=479 rej=0 wall=44.7s tv=0.0
+[lag_trunc] id=132 gold=B pred=B gen=133 rej=0 wall=16.75s tv=0.0
+[lag_trunc] id=496 gold=C pred=C gen=231 rej=1 wall=26.06s tv=0.0
+[lag_trunc] id=261 gold=A pred=C gen=574 rej=3 wall=55.48s tv=0.0
+[lag_trunc] id=248 gold=B pred=C gen=890 rej=8 wall=88.96s tv=0.0
+[lag_trunc] id=207 gold=A pred=A gen=457 rej=4 wall=48.65s tv=0.0
+[lag_trunc] id=471 gold=B pred=B gen=187 rej=1 wall=22.58s tv=0.0
+[lag_trunc] id=401 gold=B pred=B gen=30 rej=0 wall=12.53s tv=0.0
+[lag_trunc] id=425 gold=B pred=B gen=170 rej=0 wall=21.13s tv=0.0
+[lag_trunc] id=155 gold=A pred=C gen=269 rej=1 wall=30.64s tv=0.0
+[lag_trunc] id=497 gold=B pred=C gen=409 rej=7 wall=46.47s tv=0.0
+[lag_trunc] id=244 gold=C pred=B gen=469 rej=0 wall=46.88s tv=0.0
+[lag_trunc] id=183 gold=C pred=A gen=427 rej=1 wall=43.84s tv=0.0009
+[lag_trunc] id=298 gold=A pred=A gen=420 rej=2 wall=41.66s tv=0.0
+[lag_trunc] id=457 gold=C pred=C gen=253 rej=1 wall=30.51s tv=0.0
+[lag_trunc] id=465 gold=C pred=C gen=368 rej=6 wall=44.72s tv=0.0001
+[lag_trunc] id=111 gold=C pred=C gen=129 rej=1 wall=20.47s tv=0.0
+[lag_trunc] id=258 gold=C pred=A gen=294 rej=0 wall=32.62s tv=0.0021
+[lag_trunc] id=71 gold=B pred=C gen=639 rej=6 wall=66.02s tv=0.0
+[lag_trunc] id=144 gold=A pred=C gen=132 rej=1 wall=21.44s tv=0.0
+[lag_trunc] id=386 gold=C pred=A gen=641 rej=0 wall=60.74s tv=0.0
+[lag_trunc] id=48 gold=C pred=C gen=443 rej=6 wall=45.13s tv=0.0
+[lag_trunc] id=316 gold=A pred=A gen=386 rej=1 wall=38.07s tv=0.0
+[lag_trunc] id=409 gold=C pred=C gen=230 rej=1 wall=24.3s tv=0.0
+[lag_trunc] id=128 gold=A pred=A gen=441 rej=3 wall=46.91s tv=0.0
+=== 08:23:58 DONE OUT=results/v2/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+=== ALL DONE 08:23:58

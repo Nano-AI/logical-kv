@@ -1,0 +1,195 @@
+Thu Oct 15 19:56:28 PDT 2026
+[base] id=433 gold=A pred=C gen=231 rej=0 wall=35.34s
+[base] id=197 gold=B pred=B gen=195 rej=0 wall=31.95s
+[base] id=388 gold=C pred=A gen=179 rej=0 wall=30.6s
+[base] id=456 gold=A pred=A gen=230 rej=0 wall=30.6s
+[base] id=215 gold=B pred=B gen=194 rej=0 wall=30.97s
+[base] id=20 gold=C pred=C gen=228 rej=0 wall=32.35s
+[base] id=132 gold=B pred=B gen=144 rej=0 wall=25.21s
+[base] id=496 gold=C pred=C gen=380 rej=0 wall=45.88s
+[base] id=261 gold=A pred=C gen=126 rej=0 wall=24.19s
+[base] id=248 gold=B pred=C gen=320 rej=0 wall=40.42s
+[base] id=207 gold=A pred=C gen=144 rej=0 wall=24.81s
+[base] id=471 gold=B pred=B gen=297 rej=0 wall=37.35s
+[base] id=401 gold=B pred=B gen=64 rej=0 wall=19.24s
+[base] id=425 gold=B pred=B gen=63 rej=0 wall=18.03s
+[base] id=155 gold=A pred=C gen=219 rej=0 wall=30.88s
+[base] id=497 gold=B pred=A gen=310 rej=0 wall=37.33s
+[base] id=244 gold=C pred=B gen=242 rej=0 wall=33.95s
+[base] id=183 gold=C pred=A gen=204 rej=0 wall=30.97s
+[base] id=298 gold=A pred=A gen=196 rej=0 wall=29.38s
+[base] id=457 gold=C pred=None gen=1500 rej=0 wall=145.17s
+[base] id=465 gold=C pred=A gen=266 rej=0 wall=39.72s
+[base] id=111 gold=C pred=C gen=247 rej=0 wall=35.33s
+[base] id=258 gold=C pred=A gen=238 rej=0 wall=33.23s
+[base] id=71 gold=B pred=A gen=312 rej=0 wall=41.28s
+[base] id=144 gold=A pred=A gen=260 rej=0 wall=35.19s
+[base] id=386 gold=C pred=A gen=261 rej=0 wall=36.64s
+[base] id=48 gold=C pred=A gen=270 rej=0 wall=37.01s
+[base] id=316 gold=A pred=C gen=288 rej=0 wall=37.61s
+[base] id=409 gold=C pred=C gen=202 rej=0 wall=33.88s
+[base] id=128 gold=A pred=A gen=136 rej=0 wall=29.18s
+== base done Thu Oct 15 20:14:42 PDT 2026
+[fmt] id=433 gold=A pred=A gen=264 rej=0 wall=29.43s
+[fmt] id=197 gold=B pred=B gen=103 rej=0 wall=18.5s
+[fmt] id=388 gold=C pred=A gen=202 rej=0 wall=27.36s
+[fmt] id=456 gold=A pred=A gen=228 rej=0 wall=28.77s
+[fmt] id=215 gold=B pred=B gen=243 rej=0 wall=31.78s
+[fmt] id=20 gold=C pred=A gen=479 rej=0 wall=52.75s
+[fmt] id=132 gold=B pred=B gen=133 rej=0 wall=19.69s
+[fmt] id=496 gold=C pred=B gen=231 rej=0 wall=28.98s
+[fmt] id=261 gold=A pred=A gen=662 rej=0 wall=73.71s
+[fmt] id=248 gold=B pred=C gen=335 rej=0 wall=48.34s
+[fmt] id=207 gold=A pred=A gen=234 rej=0 wall=33.64s
+[fmt] id=471 gold=B pred=B gen=109 rej=0 wall=19.91s
+[fmt] id=401 gold=B pred=B gen=30 rej=0 wall=15.14s
+[fmt] id=425 gold=B pred=B gen=170 rej=0 wall=24.5s
+[fmt] id=155 gold=A pred=B gen=269 rej=0 wall=40.08s
+[fmt] id=497 gold=B pred=C gen=1004 rej=0 wall=121.4s
+[fmt] id=244 gold=C pred=B gen=469 rej=0 wall=53.87s
+[fmt] id=183 gold=C pred=A gen=427 rej=0 wall=56.66s
+[fmt] id=298 gold=A pred=A gen=371 rej=0 wall=43.24s
+[fmt] id=457 gold=C pred=C gen=364 rej=0 wall=46.99s
+[fmt] id=465 gold=C pred=C gen=319 rej=0 wall=44.81s
+[fmt] id=111 gold=C pred=C gen=204 rej=0 wall=36.11s
+[fmt] id=258 gold=C pred=A gen=294 rej=0 wall=38.59s
+[fmt] id=71 gold=B pred=C gen=887 rej=0 wall=99.16s
+[fmt] id=144 gold=A pred=C gen=261 rej=0 wall=37.41s
+[fmt] id=386 gold=C pred=A gen=641 rej=0 wall=79.74s
+[fmt] id=48 gold=C pred=B gen=214 rej=0 wall=36.17s
+[fmt] id=316 gold=A pred=A gen=258 rej=0 wall=35.49s
+[fmt] id=409 gold=C pred=C gen=754 rej=0 wall=72.51s
+[fmt] id=128 gold=A pred=A gen=374 rej=0 wall=45.85s
+== fmt done Thu Oct 15 20:37:04 PDT 2026
+[sync] id=433 gold=A pred=C gen=87 rej=1 wall=17.19s
+[sync] id=197 gold=B pred=B gen=306 rej=3 wall=41.16s
+[sync] id=388 gold=C pred=C gen=400 rej=4 wall=48.91s
+[sync] id=456 gold=A pred=A gen=228 rej=0 wall=29.11s
+[sync] id=215 gold=B pred=B gen=544 rej=4 wall=61.26s
+[sync] id=20 gold=C pred=C gen=540 rej=8 wall=64.86s
+[sync] id=132 gold=B pred=B gen=336 rej=3 wall=43.23s
+[sync] id=496 gold=C pred=B gen=367 rej=6 wall=46.98s
+[sync] id=261 gold=A pred=C gen=622 rej=8 wall=70.89s
+[sync] id=248 gold=B pred=C gen=103 rej=1 wall=21.78s
+[sync] id=207 gold=A pred=A gen=720 rej=6 wall=86.59s
+[sync] id=471 gold=B pred=B gen=202 rej=3 wall=31.87s
+[sync] id=401 gold=B pred=B gen=30 rej=0 wall=15.49s
+[sync] id=425 gold=B pred=B gen=551 rej=6 wall=63.1s
+[sync] id=155 gold=A pred=C gen=116 rej=1 wall=23.48s
+[sync] id=497 gold=B pred=C gen=657 rej=8 wall=75.19s
+[sync] id=244 gold=C pred=C gen=403 rej=5 wall=48.23s
+[sync] id=183 gold=C pred=C gen=732 rej=8 wall=76.41s
+[sync] id=298 gold=A pred=C gen=247 rej=2 wall=31.56s
+[sync] id=457 gold=C pred=C gen=224 rej=1 wall=30.32s
+[sync] id=465 gold=C pred=B gen=219 rej=3 wall=33.44s
+[sync] id=111 gold=C pred=C gen=94 rej=1 wall=20.51s
+[sync] id=258 gold=C pred=C gen=226 rej=1 wall=36.58s
+[sync] id=71 gold=B pred=C gen=588 rej=8 wall=66.01s
+[sync] id=144 gold=A pred=C gen=596 rej=8 wall=65.43s
+[sync] id=386 gold=C pred=A gen=717 rej=8 wall=73.85s
+[sync] id=48 gold=C pred=C gen=453 rej=8 wall=45.12s
+[sync] id=316 gold=A pred=C gen=262 rej=3 wall=28.49s
+[sync] id=409 gold=C pred=C gen=702 rej=8 wall=62.98s
+[sync] id=128 gold=A pred=C gen=662 rej=8 wall=65.33s
+== sync done Thu Oct 15 21:00:51 PDT 2026
+[lag_mask] id=433 gold=A pred=C gen=174 rej=3 wall=20.91s tv=0.0
+[lag_mask] id=197 gold=B pred=C gen=1370 rej=6 wall=110.65s tv=0.0002
+[lag_mask] id=388 gold=C pred=C gen=615 rej=7 wall=54.82s tv=0.0678
+[lag_mask] id=456 gold=A pred=A gen=228 rej=0 wall=23.08s tv=0.0
+[lag_mask] id=215 gold=B pred=C gen=1584 rej=6 wall=124.67s tv=0.0002
+[lag_mask] id=20 gold=C pred=C gen=926 rej=7 wall=77.12s tv=0.0009
+[lag_mask] id=132 gold=B pred=B gen=133 rej=1 wall=16.39s tv=0.0001
+[lag_mask] id=496 gold=C pred=C gen=99 rej=1 wall=14.99s tv=0.0002
+[lag_mask] id=261 gold=A pred=C gen=270 rej=4 wall=31.03s tv=0.0017
+[lag_mask] id=248 gold=B pred=C gen=1008 rej=8 wall=84.91s tv=0.0
+[lag_mask] id=207 gold=A pred=C gen=115 rej=2 wall=17.8s tv=0.0005
+[lag_mask] id=471 gold=B pred=B gen=171 rej=1 wall=20.13s tv=0.0065
+[lag_mask] id=401 gold=B pred=B gen=30 rej=0 wall=12.03s tv=0.0
+[lag_mask] id=425 gold=B pred=B gen=173 rej=2 wall=21.05s tv=0.2854
+[lag_mask] id=155 gold=A pred=C gen=179 rej=1 wall=22.34s tv=0.0001
+[lag_mask] id=497 gold=B pred=C gen=89 rej=2 wall=15.72s tv=0.0001
+[lag_mask] id=244 gold=C pred=C gen=2208 rej=6 wall=174.1s tv=0.0498
+[lag_mask] id=183 gold=C pred=C gen=98 rej=1 wall=16.05s tv=0.0003
+[lag_mask] id=298 gold=A pred=C gen=392 rej=6 wall=37.3s tv=0.0001
+[lag_mask] id=457 gold=C pred=C gen=285 rej=1 wall=29.67s tv=0.0
+[lag_mask] id=465 gold=C pred=C gen=822 rej=6 wall=73.59s tv=0.0037
+[lag_mask] id=111 gold=C pred=C gen=162 rej=1 wall=21.18s tv=0.0
+[lag_mask] id=258 gold=C pred=C gen=297 rej=2 wall=31.22s tv=0.487
+[lag_mask] id=71 gold=B pred=C gen=1467 rej=2 wall=116.06s tv=0.0006
+[lag_mask] id=144 gold=A pred=C gen=1451 rej=6 wall=113.01s tv=0.0001
+[lag_mask] id=386 gold=C pred=A gen=389 rej=3 wall=38.53s tv=0.0109
+[lag_mask] id=48 gold=C pred=C gen=1066 rej=6 wall=83.92s tv=0.0001
+[lag_mask] id=316 gold=A pred=C gen=138 rej=1 wall=18.6s tv=0.0001
+[lag_mask] id=409 gold=C pred=C gen=958 rej=6 wall=81.47s tv=0.0
+[lag_mask] id=128 gold=A pred=C gen=281 rej=4 wall=34.27s tv=0.0895
+== lag_mask done Thu Oct 15 21:32:04 PDT 2026
+[lag_trunc] id=433 gold=A pred=C gen=168 rej=1 wall=19.54s tv=0.0
+[lag_trunc] id=197 gold=B pred=C gen=1670 rej=6 wall=130.74s tv=0.0
+[lag_trunc] id=388 gold=C pred=C gen=1433 rej=6 wall=111.99s tv=0.0
+[lag_trunc] id=456 gold=A pred=A gen=228 rej=0 wall=22.4s tv=0.0
+[lag_trunc] id=215 gold=B pred=C gen=1904 rej=6 wall=145.89s tv=0.0018
+[lag_trunc] id=20 gold=C pred=C gen=1677 rej=6 wall=127.97s tv=0.0
+[lag_trunc] id=132 gold=B pred=C gen=1774 rej=6 wall=134.72s tv=0.0
+[lag_trunc] id=496 gold=C pred=C gen=1643 rej=6 wall=124.6s tv=0.0
+[lag_trunc] id=261 gold=A pred=C gen=1619 rej=7 wall=124.89s tv=0.0
+[lag_trunc] id=248 gold=B pred=C gen=188 rej=1 wall=23.08s tv=0.0
+[lag_trunc] id=207 gold=A pred=C gen=1676 rej=6 wall=128.82s tv=0.0
+[lag_trunc] id=471 gold=B pred=B gen=171 rej=1 wall=19.43s tv=0.0065
+[lag_trunc] id=401 gold=B pred=B gen=30 rej=0 wall=11.54s tv=0.0
+[lag_trunc] id=425 gold=B pred=B gen=895 rej=3 wall=71.04s tv=0.0
+[lag_trunc] id=155 gold=A pred=C gen=179 rej=1 wall=21.73s tv=0.0
+[lag_trunc] id=497 gold=B pred=C gen=1881 rej=7 wall=146.23s tv=0.0
+[lag_trunc] id=244 gold=C pred=C gen=2502 rej=6 wall=199.88s tv=0.0009
+[lag_trunc] id=183 gold=C pred=C gen=1703 rej=6 wall=126.43s tv=0.0
+[lag_trunc] id=298 gold=A pred=C gen=410 rej=2 wall=34.83s tv=0.0
+[lag_trunc] id=457 gold=C pred=C gen=285 rej=1 wall=28.41s tv=0.0
+[lag_trunc] id=465 gold=C pred=C gen=1710 rej=6 wall=130.33s tv=0.0001
+[lag_trunc] id=111 gold=C pred=C gen=162 rej=1 wall=20.17s tv=0.0
+[lag_trunc] id=258 gold=C pred=C gen=294 rej=1 wall=29.21s tv=0.0019
+[lag_trunc] id=71 gold=B pred=C gen=901 rej=4 wall=72.31s tv=0.0
+[lag_trunc] id=144 gold=A pred=C gen=1766 rej=6 wall=129.76s tv=0.0001
+[lag_trunc] id=386 gold=C pred=A gen=947 rej=7 wall=76.09s tv=0.0
+[lag_trunc] id=48 gold=C pred=C gen=1370 rej=6 wall=101.63s tv=0.0
+[lag_trunc] id=316 gold=A pred=C gen=540 rej=4 wall=45.67s tv=0.0004
+[lag_trunc] id=409 gold=C pred=C gen=1647 rej=7 wall=120.76s tv=0.0
+[lag_trunc] id=128 gold=A pred=C gen=835 rej=4 wall=69.88s tv=0.0
+== lag_trunc done Thu Oct 15 22:20:00 PDT 2026
+[lag_refresh] id=433 gold=A pred=C gen=245 rej=3 wall=28.98s tv=0.0
+[lag_refresh] id=197 gold=B pred=C gen=1370 rej=6 wall=110.63s tv=0.0002
+[lag_refresh] id=388 gold=C pred=C gen=1174 rej=8 wall=92.88s tv=0.0
+[lag_refresh] id=456 gold=A pred=A gen=228 rej=0 wall=22.08s tv=0.0
+[lag_refresh] id=215 gold=B pred=C gen=1584 rej=6 wall=128.35s tv=0.0002
+[lag_refresh] id=20 gold=C pred=C gen=1201 rej=7 wall=95.57s tv=0.0
+[lag_refresh] id=132 gold=B pred=B gen=133 rej=1 wall=16.42s tv=0.0
+[lag_refresh] id=496 gold=C pred=C gen=99 rej=1 wall=14.82s tv=0.0
+[lag_refresh] id=261 gold=A pred=C gen=761 rej=5 wall=66.94s tv=0.0004
+[lag_refresh] id=248 gold=B pred=C gen=320 rej=3 wall=36.66s tv=0.0
+[lag_refresh] id=207 gold=A pred=C gen=801 rej=6 wall=74.24s tv=0.0
+[lag_refresh] id=471 gold=B pred=B gen=171 rej=1 wall=19.32s tv=0.0065
+[lag_refresh] id=401 gold=B pred=B gen=30 rej=0 wall=11.68s tv=0.0
+[lag_refresh] id=425 gold=B pred=B gen=1402 rej=6 wall=119.95s tv=0.002
+[lag_refresh] id=155 gold=A pred=C gen=179 rej=1 wall=22.72s tv=0.0
+[lag_refresh] id=497 gold=B pred=C gen=836 rej=5 wall=80.15s tv=0.0
+[lag_refresh] id=244 gold=C pred=C gen=665 rej=5 wall=63.0s tv=0.0
+[lag_refresh] id=183 gold=C pred=C gen=98 rej=1 wall=16.31s tv=0.0
+[lag_refresh] id=298 gold=A pred=C gen=594 rej=6 wall=58.29s tv=0.0001
+[lag_refresh] id=457 gold=C pred=C gen=285 rej=1 wall=29.23s tv=0.0
+[lag_refresh] id=465 gold=C pred=C gen=1110 rej=6 wall=103.45s tv=0.0037
+[lag_refresh] id=111 gold=C pred=C gen=162 rej=1 wall=21.15s tv=0.0
+[lag_refresh] id=258 gold=C pred=A gen=377 rej=2 wall=37.74s tv=0.0149
+[lag_refresh] id=71 gold=B pred=C gen=1075 rej=6 wall=96.6s tv=0.0
+[lag_refresh] id=144 gold=A pred=C gen=1451 rej=6 wall=123.98s tv=0.0001
+[lag_refresh] id=386 gold=C pred=A gen=865 rej=5 wall=78.31s tv=0.0001
+[lag_refresh] id=48 gold=C pred=C gen=1066 rej=6 wall=90.79s tv=0.0001
+[lag_refresh] id=316 gold=A pred=C gen=598 rej=8 wall=60.76s tv=0.0002
+[lag_refresh] id=409 gold=C pred=C gen=1287 rej=6 wall=106.54s tv=0.0
+[lag_refresh] id=128 gold=A pred=C gen=332 rej=4 wall=41.55s tv=0.0001
+== lag_refresh done Thu Oct 15 22:56:27 PDT 2026
+| cond | n | acc% | gen tok/q | wasted/q | salvaged/q | recomputed/q | rej/q | wrong prunes | forced ans | wall s/q | tok/s | probe TV (stale only) | flips | z3 verdicts, all steps |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| base | 30 | 46.7 | 265 | 0 | 0 | 0 | 0.00 | 0 | 0 | 36.5 | 7.3 | - | - |  |
+| fmt | 30 | 56.7 | 351 | 0 | 0 | 0 | 0.00 | 0 | 3 | 44.7 | 7.9 | - | - | entailed=142 not_fact=58 parse_error=1 refuted=62 unknown=15 |
+| sync | 30 | 56.7 | 398 | 278 | 0 | 52 | 4.47 | 6 | 10 | 47.5 | 8.4 | - | - | entailed=87 not_fact=61 parse_error=17 refuted=47 unknown=9 |
+| lag_trunc | 30 | 50.0 | 1074 | 1081 | 0 | 0 | 4.13 | 5 | 16 | 85.0 | 12.6 | - | 0 | entailed=79 not_fact=52 parse_error=41 refuted=25 unknown=6 |
+| lag_mask | 30 | 53.3 | 573 | 494 | 287 | 0 | 3.40 | 6 | 12 | 51.2 | 11.2 | 0.040 (n=25) | 1 | entailed=101 not_fact=46 parse_error=19 refuted=29 unknown=8 |
+| lag_refresh | 30 | 50.0 | 683 | 677 | 406 | 488 | 4.07 | 6 | 12 | 62.3 | 11.0 | - | 0 | entailed=91 not_fact=51 parse_error=29 refuted=34 unknown=8 |

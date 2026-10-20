@@ -1,0 +1,1742 @@
+=== 01:13:34 START MODEL=models/Qwen3-14B-Q4_K_M.gguf OUT=results_cloud/Qwen3-14B .venv/bin/python run.py --n 100 --cond base
+=== 01:13:37 DONE MODEL=models/Qwen3-14B-Q4_K_M.gguf OUT=results_cloud/Qwen3-14B .venv/bin/python run.py --n 100 --cond base
+=== 01:13:37 START MODEL=models/Qwen3-14B-Q4_K_M.gguf OUT=results_cloud/Qwen3-14B .venv/bin/python run.py --n 100 --cond fmt
+=== 01:13:41 DONE MODEL=models/Qwen3-14B-Q4_K_M.gguf OUT=results_cloud/Qwen3-14B .venv/bin/python run.py --n 100 --cond fmt
+=== 01:13:41 START MODEL=models/Qwen3-14B-Q4_K_M.gguf OUT=results_cloud/Qwen3-14B GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond sync
+=== 01:13:44 DONE MODEL=models/Qwen3-14B-Q4_K_M.gguf OUT=results_cloud/Qwen3-14B GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond sync
+=== 01:13:44 START MODEL=models/Qwen3-14B-Q4_K_M.gguf OUT=results_cloud/Qwen3-14B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond lag_trunc
+[lag_trunc] id=433 gold=A pred=C gen=559 rej=0 wall=21.63s tv=0.0
+[lag_trunc] id=197 gold=B pred=B gen=473 rej=0 wall=18.47s tv=0.0
+[lag_trunc] id=388 gold=C pred=A gen=370 rej=0 wall=14.57s tv=0.0046
+[lag_trunc] id=456 gold=A pred=A gen=264 rej=0 wall=10.61s tv=0.0
+[lag_trunc] id=215 gold=B pred=B gen=306 rej=0 wall=12.17s tv=0.0
+[lag_trunc] id=20 gold=C pred=C gen=716 rej=0 wall=27.9s tv=0.0002
+[lag_trunc] id=132 gold=B pred=B gen=377 rej=0 wall=14.8s tv=0.0
+[lag_trunc] id=261 gold=A pred=A gen=869 rej=6 wall=34.51s tv=0.0
+[lag_trunc] id=248 gold=B pred=C gen=706 rej=2 wall=28.05s tv=0.0
+[lag_trunc] id=207 gold=A pred=A gen=762 rej=3 wall=30.01s tv=0.0
+[lag_trunc] id=471 gold=B pred=C gen=1140 rej=0 wall=44.27s tv=0.0
+[lag_trunc] id=401 gold=B pred=B gen=66 rej=0 wall=3.39s tv=0.0
+[lag_trunc] id=425 gold=B pred=B gen=32 rej=0 wall=1.92s tv=0.0
+[lag_trunc] id=155 gold=A pred=A gen=456 rej=0 wall=18.18s tv=0.0
+[lag_trunc] id=244 gold=C pred=C gen=1255 rej=6 wall=49.81s tv=0.0001
+[lag_trunc] id=183 gold=C pred=C gen=415 rej=1 wall=16.63s tv=0.0002
+[lag_trunc] id=298 gold=A pred=A gen=614 rej=1 wall=24.0s tv=0.0
+[lag_trunc] id=457 gold=C pred=C gen=900 rej=6 wall=35.89s tv=0.0
+[lag_trunc] id=465 gold=C pred=C gen=1125 rej=7 wall=44.92s tv=0.0005
+[lag_trunc] id=111 gold=C pred=C gen=371 rej=1 wall=15.04s tv=0.0
+[lag_trunc] id=258 gold=C pred=A gen=393 rej=0 wall=15.86s tv=0.0
+[lag_trunc] id=71 gold=B pred=B gen=329 rej=0 wall=13.53s tv=0.0
+[lag_trunc] id=144 gold=A pred=C gen=1382 rej=6 wall=54.76s tv=0.0
+[lag_trunc] id=478 gold=A pred=A gen=368 rej=0 wall=14.62s tv=0.0
+[lag_trunc] id=386 gold=C pred=A gen=361 rej=1 wall=14.81s tv=0.0002
+[lag_trunc] id=48 gold=C pred=C gen=1640 rej=5 wall=63.9s tv=0.0
+[lag_trunc] id=316 gold=A pred=A gen=307 rej=0 wall=12.33s tv=0.0
+[lag_trunc] id=409 gold=C pred=C gen=1188 rej=8 wall=47.26s tv=0.0
+[lag_trunc] id=128 gold=A pred=A gen=665 rej=3 wall=26.83s tv=0.0
+[lag_trunc] id=466 gold=C pred=C gen=1010 rej=6 wall=40.39s tv=0.0
+[lag_trunc] id=272 gold=B pred=C gen=734 rej=6 wall=29.54s tv=0.0
+[lag_trunc] id=361 gold=B pred=B gen=437 rej=0 wall=17.9s tv=0.0
+[lag_trunc] id=415 gold=B pred=B gen=161 rej=0 wall=6.56s tv=0.0
+[lag_trunc] id=308 gold=A pred=C gen=1117 rej=6 wall=44.2s tv=0.0001
+[lag_trunc] id=462 gold=B pred=B gen=517 rej=0 wall=20.45s tv=0.0
+[lag_trunc] id=75 gold=B pred=B gen=242 rej=0 wall=9.66s tv=0.0
+[lag_trunc] id=158 gold=A pred=A gen=163 rej=0 wall=7.24s tv=0.0
+[lag_trunc] id=50 gold=B pred=C gen=668 rej=0 wall=26.79s tv=0.0
+[lag_trunc] id=373 gold=B pred=B gen=261 rej=0 wall=10.48s tv=0.0
+[lag_trunc] id=37 gold=A pred=A gen=176 rej=0 wall=7.1s tv=0.0
+[lag_trunc] id=436 gold=B pred=B gen=151 rej=0 wall=6.58s tv=0.0
+[lag_trunc] id=350 gold=A pred=C gen=636 rej=6 wall=26.26s tv=0.0001
+[lag_trunc] id=169 gold=B pred=B gen=409 rej=0 wall=16.73s tv=0.0
+[lag_trunc] id=241 gold=B pred=C gen=1841 rej=6 wall=73.85s tv=0.0
+[lag_trunc] id=286 gold=C pred=C gen=1005 rej=6 wall=39.92s tv=0.0
+[lag_trunc] id=51 gold=C pred=C gen=1230 rej=6 wall=48.33s tv=0.0
+[lag_trunc] id=181 gold=A pred=A gen=517 rej=2 wall=21.11s tv=0.0
+[lag_trunc] id=222 gold=C pred=A gen=621 rej=2 wall=24.6s tv=0.0069
+[lag_trunc] id=161 gold=C pred=B gen=596 rej=0 wall=23.19s tv=0.0
+[lag_trunc] id=312 gold=A pred=A gen=401 rej=0 wall=15.97s tv=0.0
+[lag_trunc] id=327 gold=A pred=A gen=730 rej=2 wall=29.39s tv=0.0
+[lag_trunc] id=104 gold=C pred=C gen=704 rej=2 wall=28.12s tv=0.0001
+[lag_trunc] id=282 gold=B pred=A gen=1123 rej=3 wall=44.63s tv=0.0
+[lag_trunc] id=485 gold=C pred=C gen=853 rej=0 wall=33.37s tv=0.0
+[lag_trunc] id=226 gold=C pred=C gen=868 rej=0 wall=34.22s tv=0.0
+[lag_trunc] id=266 gold=A pred=A gen=195 rej=1 wall=8.17s tv=0.0
+[lag_trunc] id=133 gold=A pred=C gen=289 rej=0 wall=12.1s tv=0.0
+[lag_trunc] id=31 gold=B pred=B gen=832 rej=1 wall=33.09s tv=0.0
+[lag_trunc] id=413 gold=B pred=C gen=800 rej=6 wall=32.33s tv=0.0001
+[lag_trunc] id=280 gold=B pred=B gen=308 rej=0 wall=12.39s tv=0.0
+[lag_trunc] id=7 gold=C pred=C gen=677 rej=6 wall=27.44s tv=0.0005
+[lag_trunc] id=47 gold=A pred=A gen=518 rej=1 wall=20.67s tv=0.0
+[lag_trunc] id=368 gold=B pred=B gen=584 rej=0 wall=23.65s tv=0.0
+[lag_trunc] id=431 gold=C pred=C gen=879 rej=0 wall=34.41s tv=0.0
+[lag_trunc] id=204 gold=B pred=C gen=958 rej=1 wall=37.41s tv=0.0058
+[lag_trunc] id=363 gold=A pred=A gen=1072 rej=5 wall=42.47s tv=0.0
+[lag_trunc] id=423 gold=B pred=B gen=220 rej=0 wall=8.81s tv=0.0
+[lag_trunc] id=488 gold=C pred=C gen=831 rej=6 wall=33.54s tv=0.0
+[lag_trunc] id=342 gold=B pred=B gen=472 rej=2 wall=18.57s tv=0.0
+[lag_trunc] id=320 gold=C pred=C gen=1196 rej=6 wall=47.12s tv=0.0
+[lag_trunc] id=0 gold=A pred=A gen=113 rej=0 wall=5.08s tv=0.0
+[lag_trunc] id=313 gold=A pred=C gen=538 rej=6 wall=22.43s tv=0.0571
+[lag_trunc] id=252 gold=C pred=C gen=593 rej=0 wall=22.88s tv=0.0
+[lag_trunc] id=424 gold=A pred=C gen=1181 rej=6 wall=47.1s tv=0.0
+[lag_trunc] id=170 gold=A pred=C gen=500 rej=1 wall=19.67s tv=0.0
+[lag_trunc] id=124 gold=C pred=C gen=523 rej=6 wall=21.65s tv=0.0
+[lag_trunc] id=460 gold=C pred=A gen=208 rej=0 wall=8.31s tv=0.0
+[lag_trunc] id=166 gold=C pred=A gen=197 rej=0 wall=8.06s tv=0.0
+[lag_trunc] id=360 gold=B pred=B gen=155 rej=0 wall=6.36s tv=0.0
+[lag_trunc] id=32 gold=A pred=C gen=1047 rej=6 wall=40.97s tv=0.0
+[lag_trunc] id=97 gold=C pred=C gen=395 rej=1 wall=15.6s tv=0.0
+[lag_trunc] id=290 gold=A pred=C gen=1094 rej=6 wall=43.19s tv=0.0
+[lag_trunc] id=113 gold=A pred=A gen=274 rej=0 wall=10.91s tv=0.0
+[lag_trunc] id=122 gold=B pred=B gen=377 rej=0 wall=14.99s tv=0.0
+[lag_trunc] id=412 gold=C pred=C gen=1225 rej=7 wall=48.84s tv=0.0
+[lag_trunc] id=72 gold=B pred=B gen=411 rej=0 wall=16.2s tv=0.0
+[lag_trunc] id=414 gold=A pred=A gen=156 rej=0 wall=6.47s tv=0.0
+[lag_trunc] id=278 gold=A pred=A gen=197 rej=0 wall=8.06s tv=0.0
+[lag_trunc] id=229 gold=C pred=C gen=873 rej=0 wall=34.07s tv=0.0
+[lag_trunc] id=46 gold=B pred=C gen=712 rej=0 wall=27.85s tv=0.0
+[lag_trunc] id=41 gold=A pred=A gen=271 rej=0 wall=10.96s tv=0.0
+[lag_trunc] id=163 gold=A pred=C gen=810 rej=2 wall=31.97s tv=0.0
+[lag_trunc] id=260 gold=C pred=C gen=957 rej=0 wall=36.82s tv=0.0
+[lag_trunc] id=250 gold=C pred=B gen=445 rej=0 wall=17.32s tv=0.1505
+[lag_trunc] id=55 gold=C pred=C gen=836 rej=0 wall=32.54s tv=0.0
+[lag_trunc] id=154 gold=A pred=A gen=265 rej=0 wall=10.56s tv=0.0
+[lag_trunc] id=446 gold=C pred=C gen=1063 rej=6 wall=41.47s tv=0.0
+[lag_trunc] id=149 gold=A pred=A gen=268 rej=0 wall=11.02s tv=0.0
+[lag_trunc] id=467 gold=A pred=C gen=914 rej=7 wall=36.14s tv=0.0
+[lag_trunc] id=63 gold=C pred=B gen=325 rej=0 wall=12.92s tv=0.0
+=== 01:57:04 DONE MODEL=models/Qwen3-14B-Q4_K_M.gguf OUT=results_cloud/Qwen3-14B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond lag_trunc
+=== 01:57:04 START MODEL=models/Qwen3-14B-Q4_K_M.gguf OUT=results_cloud/Qwen3-14B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond lag_mask
+[lag_mask] id=433 gold=A pred=C gen=559 rej=0 wall=21.7s tv=0.0
+[lag_mask] id=197 gold=B pred=B gen=473 rej=0 wall=18.55s tv=0.0
+[lag_mask] id=388 gold=C pred=A gen=370 rej=0 wall=14.6s tv=0.0046
+[lag_mask] id=456 gold=A pred=A gen=264 rej=0 wall=10.61s tv=0.0
+[lag_mask] id=215 gold=B pred=B gen=306 rej=0 wall=12.16s tv=0.0
+[lag_mask] id=20 gold=C pred=C gen=716 rej=0 wall=27.87s tv=0.0002
+[lag_mask] id=132 gold=B pred=B gen=377 rej=0 wall=14.82s tv=0.0
+[lag_mask] id=261 gold=A pred=C gen=1702 rej=6 wall=67.78s tv=0.0002
+[lag_mask] id=248 gold=B pred=C gen=990 rej=2 wall=39.23s tv=0.0001
+[lag_mask] id=207 gold=A pred=A gen=328 rej=1 wall=13.34s tv=0.0
+[lag_mask] id=471 gold=B pred=C gen=1140 rej=0 wall=44.31s tv=0.0
+[lag_mask] id=401 gold=B pred=B gen=66 rej=0 wall=3.4s tv=0.0
+[lag_mask] id=425 gold=B pred=B gen=32 rej=0 wall=1.93s tv=0.0
+[lag_mask] id=155 gold=A pred=A gen=456 rej=0 wall=18.2s tv=0.0
+[lag_mask] id=244 gold=C pred=C gen=1470 rej=7 wall=58.83s tv=0.3477
+[lag_mask] id=183 gold=C pred=C gen=388 rej=1 wall=15.73s tv=0.001
+[lag_mask] id=298 gold=A pred=A gen=614 rej=1 wall=24.15s tv=0.0
+[lag_mask] id=457 gold=C pred=C gen=900 rej=6 wall=36.71s tv=0.0
+[lag_mask] id=465 gold=C pred=C gen=1021 rej=7 wall=42.0s tv=0.0005
+[lag_mask] id=111 gold=C pred=C gen=648 rej=3 wall=26.32s tv=0.0
+[lag_mask] id=258 gold=C pred=A gen=393 rej=0 wall=15.87s tv=0.0
+[lag_mask] id=71 gold=B pred=B gen=329 rej=0 wall=13.57s tv=0.0
+[lag_mask] id=144 gold=A pred=C gen=1405 rej=4 wall=55.76s tv=0.0227
+[lag_mask] id=478 gold=A pred=A gen=368 rej=0 wall=14.65s tv=0.0
+[lag_mask] id=386 gold=C pred=A gen=628 rej=1 wall=25.35s tv=0.0
+[lag_mask] id=48 gold=C pred=C gen=177 rej=1 wall=7.54s tv=0.0123
+[lag_mask] id=316 gold=A pred=A gen=307 rej=0 wall=12.33s tv=0.0
+[lag_mask] id=409 gold=C pred=C gen=844 rej=6 wall=33.88s tv=0.0002
+[lag_mask] id=128 gold=A pred=A gen=475 rej=5 wall=19.87s tv=0.0381
+[lag_mask] id=466 gold=C pred=C gen=1102 rej=8 wall=45.25s tv=0.0
+[lag_mask] id=272 gold=B pred=C gen=229 rej=1 wall=9.49s tv=0.002
+[lag_mask] id=361 gold=B pred=B gen=437 rej=0 wall=17.89s tv=0.0
+[lag_mask] id=415 gold=B pred=B gen=161 rej=0 wall=6.56s tv=0.0
+[lag_mask] id=308 gold=A pred=A gen=1036 rej=4 wall=41.47s tv=0.0
+[lag_mask] id=462 gold=B pred=B gen=517 rej=0 wall=20.47s tv=0.0
+[lag_mask] id=75 gold=B pred=B gen=242 rej=0 wall=9.66s tv=0.0
+[lag_mask] id=158 gold=A pred=A gen=163 rej=0 wall=7.23s tv=0.0
+[lag_mask] id=50 gold=B pred=C gen=668 rej=0 wall=26.79s tv=0.0
+[lag_mask] id=373 gold=B pred=B gen=261 rej=0 wall=10.48s tv=0.0
+[lag_mask] id=37 gold=A pred=A gen=176 rej=0 wall=7.11s tv=0.0
+[lag_mask] id=436 gold=B pred=B gen=151 rej=0 wall=6.57s tv=0.0
+[lag_mask] id=350 gold=A pred=C gen=608 rej=6 wall=25.59s tv=0.0001
+[lag_mask] id=169 gold=B pred=B gen=409 rej=0 wall=16.73s tv=0.0
+[lag_mask] id=241 gold=B pred=C gen=1015 rej=4 wall=41.45s tv=0.0
+[lag_mask] id=286 gold=C pred=C gen=167 rej=2 wall=7.37s tv=0.0001
+[lag_mask] id=51 gold=C pred=C gen=1030 rej=6 wall=40.91s tv=0.0
+[lag_mask] id=181 gold=A pred=A gen=513 rej=2 wall=20.81s tv=0.0
+[lag_mask] id=222 gold=C pred=C gen=457 rej=2 wall=18.34s tv=0.0001
+[lag_mask] id=161 gold=C pred=B gen=596 rej=0 wall=23.18s tv=0.0
+[lag_mask] id=312 gold=A pred=A gen=401 rej=0 wall=15.98s tv=0.0
+[lag_mask] id=327 gold=A pred=C gen=511 rej=1 wall=20.78s tv=0.0242
+[lag_mask] id=104 gold=C pred=C gen=231 rej=2 wall=10.01s tv=0.0003
+[lag_mask] id=282 gold=B pred=C gen=634 rej=3 wall=25.64s tv=0.0
+[lag_mask] id=485 gold=C pred=C gen=853 rej=0 wall=33.34s tv=0.0
+[lag_mask] id=226 gold=C pred=C gen=868 rej=0 wall=34.19s tv=0.0
+[lag_mask] id=266 gold=A pred=A gen=160 rej=1 wall=6.89s tv=0.0006
+[lag_mask] id=133 gold=A pred=C gen=289 rej=0 wall=12.1s tv=0.0
+[lag_mask] id=31 gold=B pred=C gen=1136 rej=7 wall=46.62s tv=0.0009
+[lag_mask] id=413 gold=B pred=B gen=514 rej=1 wall=20.68s tv=0.0001
+[lag_mask] id=280 gold=B pred=B gen=308 rej=0 wall=12.39s tv=0.0
+[lag_mask] id=7 gold=C pred=C gen=257 rej=1 wall=10.63s tv=0.1527
+[lag_mask] id=47 gold=A pred=C gen=164 rej=1 wall=7.15s tv=0.0046
+[lag_mask] id=368 gold=B pred=B gen=584 rej=0 wall=23.62s tv=0.0
+[lag_mask] id=431 gold=C pred=C gen=879 rej=0 wall=34.7s tv=0.0
+[lag_mask] id=204 gold=B pred=C gen=907 rej=1 wall=35.81s tv=0.0021
+[lag_mask] id=363 gold=A pred=A gen=746 rej=3 wall=30.0s tv=0.0
+[lag_mask] id=423 gold=B pred=B gen=220 rej=0 wall=8.86s tv=0.0
+[lag_mask] id=488 gold=C pred=C gen=722 rej=5 wall=29.79s tv=0.001
+[lag_mask] id=342 gold=B pred=B gen=472 rej=2 wall=19.11s tv=0.0
+[lag_mask] id=320 gold=C pred=C gen=852 rej=3 wall=34.31s tv=0.0067
+[lag_mask] id=0 gold=A pred=A gen=113 rej=0 wall=5.15s tv=0.0
+[lag_mask] id=313 gold=A pred=C gen=535 rej=6 wall=22.76s tv=0.0571
+[lag_mask] id=252 gold=C pred=C gen=593 rej=0 wall=23.21s tv=0.0
+[lag_mask] id=424 gold=A pred=C gen=1164 rej=6 wall=47.72s tv=0.0
+[lag_mask] id=170 gold=A pred=C gen=500 rej=1 wall=20.0s tv=0.0086
+[lag_mask] id=124 gold=C pred=C gen=249 rej=2 wall=10.84s tv=0.0012
+[lag_mask] id=460 gold=C pred=A gen=208 rej=0 wall=8.41s tv=0.0
+[lag_mask] id=166 gold=C pred=A gen=197 rej=0 wall=8.16s tv=0.0
+[lag_mask] id=360 gold=B pred=B gen=155 rej=0 wall=6.45s tv=0.0
+[lag_mask] id=32 gold=A pred=A gen=478 rej=2 wall=19.23s tv=0.0
+[lag_mask] id=97 gold=C pred=C gen=467 rej=2 wall=18.9s tv=0.0001
+[lag_mask] id=290 gold=A pred=C gen=1094 rej=6 wall=44.41s tv=0.0
+[lag_mask] id=113 gold=A pred=A gen=274 rej=0 wall=11.06s tv=0.0
+[lag_mask] id=122 gold=B pred=B gen=377 rej=0 wall=15.22s tv=0.0
+[lag_mask] id=412 gold=C pred=C gen=1133 rej=2 wall=45.32s tv=0.0
+[lag_mask] id=72 gold=B pred=B gen=411 rej=0 wall=16.43s tv=0.0
+[lag_mask] id=414 gold=A pred=A gen=156 rej=0 wall=6.55s tv=0.0
+[lag_mask] id=278 gold=A pred=A gen=197 rej=0 wall=8.17s tv=0.0
+[lag_mask] id=229 gold=C pred=C gen=873 rej=0 wall=34.54s tv=0.0
+[lag_mask] id=46 gold=B pred=C gen=712 rej=0 wall=28.23s tv=0.0
+[lag_mask] id=41 gold=A pred=A gen=271 rej=0 wall=11.11s tv=0.0
+[lag_mask] id=163 gold=A pred=A gen=323 rej=1 wall=13.3s tv=0.0
+[lag_mask] id=260 gold=C pred=C gen=957 rej=0 wall=37.4s tv=0.0
+[lag_mask] id=250 gold=C pred=B gen=445 rej=0 wall=17.59s tv=0.1505
+[lag_mask] id=55 gold=C pred=C gen=836 rej=0 wall=33.07s tv=0.0
+[lag_mask] id=154 gold=A pred=A gen=265 rej=0 wall=10.72s tv=0.0
+[lag_mask] id=446 gold=C pred=C gen=1196 rej=7 wall=48.07s tv=0.0
+[lag_mask] id=149 gold=A pred=A gen=268 rej=0 wall=11.2s tv=0.0
+[lag_mask] id=467 gold=A pred=C gen=858 rej=7 wall=35.16s tv=0.0002
+[lag_mask] id=63 gold=C pred=B gen=325 rej=0 wall=13.12s tv=0.0
+=== 02:36:03 DONE MODEL=models/Qwen3-14B-Q4_K_M.gguf OUT=results_cloud/Qwen3-14B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond lag_mask
+=== 02:36:03 START MODEL=models/Qwen3-14B-Q4_K_M.gguf OUT=results_cloud/Qwen3-14B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond lag_refresh
+[lag_refresh] id=433 gold=A pred=C gen=559 rej=0 wall=21.69s tv=0.0
+[lag_refresh] id=197 gold=B pred=B gen=473 rej=0 wall=18.56s tv=0.0
+[lag_refresh] id=388 gold=C pred=A gen=370 rej=0 wall=14.6s tv=0.0046
+[lag_refresh] id=456 gold=A pred=A gen=264 rej=0 wall=10.62s tv=0.0
+[lag_refresh] id=215 gold=B pred=B gen=306 rej=0 wall=12.16s tv=0.0
+[lag_refresh] id=20 gold=C pred=C gen=716 rej=0 wall=27.87s tv=0.0002
+[lag_refresh] id=132 gold=B pred=B gen=377 rej=0 wall=14.82s tv=0.0
+[lag_refresh] id=261 gold=A pred=A gen=869 rej=6 wall=34.57s tv=0.0
+[lag_refresh] id=248 gold=B pred=C gen=706 rej=2 wall=28.01s tv=0.0
+[lag_refresh] id=207 gold=A pred=C gen=1073 rej=6 wall=42.47s tv=0.0
+[lag_refresh] id=471 gold=B pred=C gen=1140 rej=0 wall=44.23s tv=0.0
+[lag_refresh] id=401 gold=B pred=B gen=66 rej=0 wall=3.4s tv=0.0
+[lag_refresh] id=425 gold=B pred=B gen=32 rej=0 wall=1.91s tv=0.0
+[lag_refresh] id=155 gold=A pred=A gen=456 rej=0 wall=18.14s tv=0.0
+[lag_refresh] id=244 gold=C pred=C gen=1442 rej=5 wall=57.03s tv=0.0
+[lag_refresh] id=183 gold=C pred=C gen=415 rej=1 wall=16.61s tv=0.0002
+[lag_refresh] id=298 gold=A pred=A gen=614 rej=1 wall=23.95s tv=0.0
+[lag_refresh] id=457 gold=C pred=C gen=900 rej=6 wall=35.8s tv=0.0
+[lag_refresh] id=465 gold=C pred=C gen=1125 rej=7 wall=44.83s tv=0.0005
+[lag_refresh] id=111 gold=C pred=C gen=371 rej=1 wall=15.04s tv=0.0
+[lag_refresh] id=258 gold=C pred=A gen=393 rej=0 wall=15.8s tv=0.0
+[lag_refresh] id=71 gold=B pred=B gen=329 rej=0 wall=13.54s tv=0.0
+[lag_refresh] id=144 gold=A pred=C gen=1206 rej=2 wall=47.42s tv=0.0
+[lag_refresh] id=478 gold=A pred=A gen=368 rej=0 wall=14.6s tv=0.0
+[lag_refresh] id=386 gold=C pred=A gen=361 rej=1 wall=14.78s tv=0.0002
+[lag_refresh] id=48 gold=C pred=C gen=1106 rej=8 wall=43.61s tv=0.0
+[lag_refresh] id=316 gold=A pred=A gen=307 rej=0 wall=12.29s tv=0.0
+[lag_refresh] id=409 gold=C pred=C gen=1121 rej=8 wall=44.2s tv=0.0
+[lag_refresh] id=128 gold=A pred=A gen=924 rej=8 wall=38.8s tv=0.1358
+[lag_refresh] id=466 gold=C pred=C gen=1410 rej=9 wall=57.19s tv=0.0
+[lag_refresh] id=272 gold=B pred=C gen=734 rej=6 wall=29.51s tv=0.0
+[lag_refresh] id=361 gold=B pred=B gen=437 rej=0 wall=17.87s tv=0.0
+[lag_refresh] id=415 gold=B pred=B gen=161 rej=0 wall=6.55s tv=0.0
+[lag_refresh] id=308 gold=A pred=A gen=1131 rej=5 wall=44.67s tv=0.0
+[lag_refresh] id=462 gold=B pred=B gen=517 rej=0 wall=20.44s tv=0.0
+[lag_refresh] id=75 gold=B pred=B gen=242 rej=0 wall=9.63s tv=0.0
+[lag_refresh] id=158 gold=A pred=A gen=163 rej=0 wall=7.24s tv=0.0
+[lag_refresh] id=50 gold=B pred=C gen=668 rej=0 wall=26.74s tv=0.0
+[lag_refresh] id=373 gold=B pred=B gen=261 rej=0 wall=10.48s tv=0.0
+[lag_refresh] id=37 gold=A pred=A gen=176 rej=0 wall=7.09s tv=0.0
+[lag_refresh] id=436 gold=B pred=B gen=151 rej=0 wall=6.57s tv=0.0
+[lag_refresh] id=350 gold=A pred=C gen=636 rej=6 wall=26.23s tv=0.0001
+[lag_refresh] id=169 gold=B pred=B gen=409 rej=0 wall=16.7s tv=0.0
+[lag_refresh] id=241 gold=B pred=C gen=373 rej=1 wall=15.88s tv=0.0
+[lag_refresh] id=286 gold=C pred=C gen=862 rej=6 wall=34.57s tv=0.0
+[lag_refresh] id=51 gold=C pred=C gen=1034 rej=6 wall=41.15s tv=0.0
+[lag_refresh] id=181 gold=A pred=A gen=517 rej=2 wall=21.06s tv=0.0
+[lag_refresh] id=222 gold=C pred=C gen=564 rej=3 wall=22.57s tv=0.3087
+[lag_refresh] id=161 gold=C pred=B gen=596 rej=0 wall=23.15s tv=0.0
+[lag_refresh] id=312 gold=A pred=A gen=401 rej=0 wall=15.93s tv=0.0
+[lag_refresh] id=327 gold=A pred=A gen=730 rej=2 wall=29.35s tv=0.0
+[lag_refresh] id=104 gold=C pred=C gen=772 rej=3 wall=31.25s tv=0.0001
+[lag_refresh] id=282 gold=B pred=A gen=1123 rej=3 wall=44.56s tv=0.0
+[lag_refresh] id=485 gold=C pred=C gen=853 rej=0 wall=33.28s tv=0.0
+[lag_refresh] id=226 gold=C pred=C gen=868 rej=0 wall=34.16s tv=0.0
+[lag_refresh] id=266 gold=A pred=A gen=196 rej=1 wall=8.43s tv=0.0
+[lag_refresh] id=133 gold=A pred=C gen=289 rej=0 wall=12.1s tv=0.0
+[lag_refresh] id=31 gold=B pred=B gen=1132 rej=7 wall=46.07s tv=0.0
+[lag_refresh] id=413 gold=B pred=C gen=800 rej=6 wall=32.27s tv=0.0001
+[lag_refresh] id=280 gold=B pred=B gen=308 rej=0 wall=12.39s tv=0.0
+[lag_refresh] id=7 gold=C pred=C gen=848 rej=7 wall=34.18s tv=0.0349
+[lag_refresh] id=47 gold=A pred=A gen=518 rej=1 wall=20.62s tv=0.0
+[lag_refresh] id=368 gold=B pred=B gen=584 rej=0 wall=23.64s tv=0.0
+[lag_refresh] id=431 gold=C pred=C gen=879 rej=0 wall=34.66s tv=0.0
+[lag_refresh] id=204 gold=B pred=C gen=1004 rej=1 wall=39.75s tv=0.0582
+[lag_refresh] id=363 gold=A pred=A gen=746 rej=3 wall=29.9s tv=0.0
+[lag_refresh] id=423 gold=B pred=B gen=220 rej=0 wall=8.86s tv=0.0
+[lag_refresh] id=488 gold=C pred=C gen=831 rej=6 wall=33.81s tv=0.0
+[lag_refresh] id=342 gold=B pred=B gen=472 rej=2 wall=18.79s tv=0.0
+[lag_refresh] id=320 gold=C pred=C gen=1196 rej=6 wall=47.69s tv=0.0
+[lag_refresh] id=0 gold=A pred=A gen=113 rej=0 wall=5.14s tv=0.0
+[lag_refresh] id=313 gold=A pred=C gen=538 rej=6 wall=22.73s tv=0.0571
+[lag_refresh] id=252 gold=C pred=C gen=593 rej=0 wall=23.2s tv=0.0
+[lag_refresh] id=424 gold=A pred=C gen=1175 rej=6 wall=47.51s tv=0.0
+[lag_refresh] id=170 gold=A pred=C gen=500 rej=1 wall=19.91s tv=0.0
+[lag_refresh] id=124 gold=C pred=C gen=523 rej=6 wall=21.94s tv=0.0
+[lag_refresh] id=460 gold=C pred=A gen=208 rej=0 wall=8.4s tv=0.0
+[lag_refresh] id=166 gold=C pred=A gen=197 rej=0 wall=8.16s tv=0.0
+[lag_refresh] id=360 gold=B pred=B gen=155 rej=0 wall=6.43s tv=0.0
+[lag_refresh] id=32 gold=A pred=C gen=929 rej=6 wall=37.05s tv=0.0
+[lag_refresh] id=97 gold=C pred=C gen=395 rej=1 wall=15.82s tv=0.0
+[lag_refresh] id=290 gold=A pred=C gen=1094 rej=6 wall=43.96s tv=0.0
+[lag_refresh] id=113 gold=A pred=A gen=274 rej=0 wall=11.06s tv=0.0
+[lag_refresh] id=122 gold=B pred=B gen=377 rej=0 wall=15.23s tv=0.0
+[lag_refresh] id=412 gold=C pred=C gen=574 rej=4 wall=23.9s tv=0.0
+[lag_refresh] id=72 gold=B pred=B gen=411 rej=0 wall=16.47s tv=0.0
+[lag_refresh] id=414 gold=A pred=A gen=156 rej=0 wall=6.54s tv=0.0
+[lag_refresh] id=278 gold=A pred=A gen=197 rej=0 wall=8.17s tv=0.0
+[lag_refresh] id=229 gold=C pred=C gen=873 rej=0 wall=34.54s tv=0.0
+[lag_refresh] id=46 gold=B pred=C gen=712 rej=0 wall=28.05s tv=0.0
+[lag_refresh] id=41 gold=A pred=A gen=271 rej=0 wall=10.93s tv=0.0
+[lag_refresh] id=163 gold=A pred=A gen=323 rej=1 wall=13.2s tv=0.0
+[lag_refresh] id=260 gold=C pred=C gen=957 rej=0 wall=36.84s tv=0.0
+[lag_refresh] id=250 gold=C pred=B gen=445 rej=0 wall=17.35s tv=0.1505
+[lag_refresh] id=55 gold=C pred=C gen=836 rej=0 wall=32.58s tv=0.0
+[lag_refresh] id=154 gold=A pred=A gen=265 rej=0 wall=10.55s tv=0.0
+[lag_refresh] id=446 gold=C pred=C gen=1050 rej=6 wall=41.13s tv=0.0
+[lag_refresh] id=149 gold=A pred=A gen=268 rej=0 wall=11.03s tv=0.0
+[lag_refresh] id=467 gold=A pred=A gen=1082 rej=6 wall=42.57s tv=0.0
+[lag_refresh] id=63 gold=C pred=B gen=325 rej=0 wall=12.95s tv=0.0
+=== 03:18:05 DONE MODEL=models/Qwen3-14B-Q4_K_M.gguf OUT=results_cloud/Qwen3-14B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond lag_refresh
+=== 03:18:05 START MODEL=models/Qwen3-14B-Q4_K_M.gguf OUT=results_cloud/Qwen3-14B/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond lag_trunc
+[lag_trunc] id=433 gold=A pred=C gen=559 rej=0 wall=21.77s tv=0.0
+[lag_trunc] id=197 gold=B pred=B gen=473 rej=0 wall=18.63s tv=0.0
+[lag_trunc] id=388 gold=C pred=A gen=370 rej=0 wall=14.61s tv=0.0046
+[lag_trunc] id=456 gold=A pred=A gen=264 rej=0 wall=10.58s tv=0.0
+[lag_trunc] id=215 gold=B pred=B gen=306 rej=0 wall=12.14s tv=0.0
+[lag_trunc] id=20 gold=C pred=C gen=716 rej=0 wall=27.84s tv=0.0002
+[lag_trunc] id=132 gold=B pred=B gen=377 rej=0 wall=14.79s tv=0.0
+[lag_trunc] id=261 gold=A pred=A gen=839 rej=6 wall=33.4s tv=0.0
+[lag_trunc] id=248 gold=B pred=C gen=1164 rej=2 wall=45.74s tv=0.0
+[lag_trunc] id=207 gold=A pred=A gen=648 rej=3 wall=25.67s tv=0.0
+[lag_trunc] id=471 gold=B pred=C gen=1140 rej=0 wall=44.24s tv=0.0
+[lag_trunc] id=401 gold=B pred=B gen=66 rej=0 wall=3.39s tv=0.0
+[lag_trunc] id=425 gold=B pred=B gen=32 rej=0 wall=1.92s tv=0.0
+[lag_trunc] id=155 gold=A pred=A gen=456 rej=0 wall=18.17s tv=0.0
+[lag_trunc] id=244 gold=C pred=C gen=876 rej=6 wall=35.26s tv=0.0001
+[lag_trunc] id=183 gold=C pred=C gen=412 rej=1 wall=16.56s tv=0.0002
+[lag_trunc] id=298 gold=A pred=A gen=562 rej=1 wall=22.04s tv=0.0
+[lag_trunc] id=457 gold=C pred=C gen=629 rej=6 wall=25.61s tv=0.0
+[lag_trunc] id=465 gold=C pred=C gen=803 rej=7 wall=32.4s tv=0.0005
+[lag_trunc] id=111 gold=C pred=C gen=371 rej=1 wall=15.04s tv=0.0
+[lag_trunc] id=258 gold=C pred=A gen=393 rej=0 wall=15.85s tv=0.0
+[lag_trunc] id=71 gold=B pred=B gen=329 rej=0 wall=13.53s tv=0.0
+[lag_trunc] id=144 gold=A pred=C gen=887 rej=6 wall=35.68s tv=0.0
+[lag_trunc] id=478 gold=A pred=A gen=368 rej=0 wall=14.61s tv=0.0
+[lag_trunc] id=386 gold=C pred=A gen=358 rej=1 wall=14.66s tv=0.0002
+[lag_trunc] id=48 gold=C pred=C gen=1344 rej=5 wall=52.63s tv=0.0
+[lag_trunc] id=316 gold=A pred=A gen=307 rej=0 wall=12.3s tv=0.0
+[lag_trunc] id=409 gold=C pred=C gen=932 rej=8 wall=37.48s tv=0.0
+[lag_trunc] id=128 gold=A pred=A gen=501 rej=3 wall=20.48s tv=0.0
+[lag_trunc] id=466 gold=C pred=C gen=642 rej=6 wall=26.27s tv=0.0
+[lag_trunc] id=272 gold=B pred=C gen=725 rej=6 wall=29.17s tv=0.0
+[lag_trunc] id=361 gold=B pred=B gen=437 rej=0 wall=17.89s tv=0.0
+[lag_trunc] id=415 gold=B pred=B gen=161 rej=0 wall=6.55s tv=0.0
+[lag_trunc] id=308 gold=A pred=C gen=744 rej=6 wall=29.91s tv=0.0001
+[lag_trunc] id=462 gold=B pred=B gen=517 rej=0 wall=20.42s tv=0.0
+[lag_trunc] id=75 gold=B pred=B gen=242 rej=0 wall=9.63s tv=0.0
+[lag_trunc] id=158 gold=A pred=A gen=163 rej=0 wall=7.22s tv=0.0
+[lag_trunc] id=50 gold=B pred=C gen=668 rej=0 wall=26.74s tv=0.0
+[lag_trunc] id=373 gold=B pred=B gen=261 rej=0 wall=10.46s tv=0.0
+[lag_trunc] id=37 gold=A pred=A gen=176 rej=0 wall=7.09s tv=0.0
+[lag_trunc] id=436 gold=B pred=B gen=151 rej=0 wall=6.57s tv=0.0
+[lag_trunc] id=350 gold=A pred=C gen=596 rej=6 wall=24.67s tv=0.0001
+[lag_trunc] id=169 gold=B pred=B gen=409 rej=0 wall=16.68s tv=0.0
+[lag_trunc] id=241 gold=B pred=C gen=1491 rej=6 wall=60.03s tv=0.0
+[lag_trunc] id=286 gold=C pred=C gen=665 rej=6 wall=26.87s tv=0.0
+[lag_trunc] id=51 gold=C pred=C gen=1108 rej=6 wall=43.45s tv=0.0
+[lag_trunc] id=181 gold=A pred=A gen=517 rej=2 wall=21.09s tv=0.0
+[lag_trunc] id=222 gold=C pred=A gen=455 rej=2 wall=18.21s tv=0.0069
+[lag_trunc] id=161 gold=C pred=B gen=596 rej=0 wall=23.16s tv=0.0
+[lag_trunc] id=312 gold=A pred=A gen=401 rej=0 wall=15.96s tv=0.0
+[lag_trunc] id=327 gold=A pred=A gen=727 rej=2 wall=29.22s tv=0.0
+[lag_trunc] id=104 gold=C pred=C gen=573 rej=2 wall=23.05s tv=0.0001
+[lag_trunc] id=282 gold=B pred=A gen=1123 rej=3 wall=44.56s tv=0.0
+[lag_trunc] id=485 gold=C pred=C gen=853 rej=0 wall=33.31s tv=0.0
+[lag_trunc] id=226 gold=C pred=C gen=868 rej=0 wall=34.17s tv=0.0
+[lag_trunc] id=266 gold=A pred=A gen=192 rej=1 wall=8.06s tv=0.0
+[lag_trunc] id=133 gold=A pred=C gen=289 rej=0 wall=12.06s tv=0.0
+[lag_trunc] id=31 gold=B pred=B gen=771 rej=1 wall=30.72s tv=0.0
+[lag_trunc] id=413 gold=B pred=C gen=785 rej=6 wall=31.71s tv=0.0001
+[lag_trunc] id=280 gold=B pred=B gen=308 rej=0 wall=12.37s tv=0.0
+[lag_trunc] id=7 gold=C pred=C gen=659 rej=6 wall=26.7s tv=0.0005
+[lag_trunc] id=47 gold=A pred=A gen=458 rej=1 wall=18.32s tv=0.0
+[lag_trunc] id=368 gold=B pred=B gen=584 rej=0 wall=23.63s tv=0.0
+[lag_trunc] id=431 gold=C pred=C gen=879 rej=0 wall=34.47s tv=0.0
+[lag_trunc] id=204 gold=B pred=C gen=912 rej=1 wall=35.71s tv=0.0058
+[lag_trunc] id=363 gold=A pred=A gen=787 rej=5 wall=31.63s tv=0.0
+[lag_trunc] id=423 gold=B pred=B gen=220 rej=0 wall=8.79s tv=0.0
+[lag_trunc] id=488 gold=C pred=C gen=813 rej=6 wall=32.93s tv=0.0
+[lag_trunc] id=342 gold=B pred=B gen=356 rej=2 wall=14.29s tv=0.0
+[lag_trunc] id=320 gold=C pred=C gen=650 rej=3 wall=25.94s tv=0.0
+[lag_trunc] id=0 gold=A pred=A gen=113 rej=0 wall=5.12s tv=0.0
+[lag_trunc] id=313 gold=A pred=C gen=538 rej=6 wall=22.57s tv=0.0571
+[lag_trunc] id=252 gold=C pred=C gen=593 rej=0 wall=23.04s tv=0.0
+[lag_trunc] id=424 gold=A pred=C gen=728 rej=6 wall=29.87s tv=0.0
+[lag_trunc] id=170 gold=A pred=C gen=500 rej=1 wall=19.81s tv=0.0
+[lag_trunc] id=124 gold=C pred=C gen=523 rej=6 wall=21.81s tv=0.0
+[lag_trunc] id=460 gold=C pred=A gen=208 rej=0 wall=8.35s tv=0.0
+[lag_trunc] id=166 gold=C pred=A gen=197 rej=0 wall=8.12s tv=0.0
+[lag_trunc] id=360 gold=B pred=B gen=155 rej=0 wall=6.4s tv=0.0
+[lag_trunc] id=32 gold=A pred=C gen=770 rej=6 wall=30.69s tv=0.0
+[lag_trunc] id=97 gold=C pred=C gen=392 rej=1 wall=15.6s tv=0.0
+[lag_trunc] id=290 gold=A pred=C gen=568 rej=6 wall=23.45s tv=0.0
+[lag_trunc] id=113 gold=A pred=A gen=274 rej=0 wall=10.98s tv=0.0
+[lag_trunc] id=122 gold=B pred=B gen=377 rej=0 wall=15.13s tv=0.0
+[lag_trunc] id=412 gold=C pred=C gen=995 rej=7 wall=40.33s tv=0.0
+[lag_trunc] id=72 gold=B pred=B gen=411 rej=0 wall=16.3s tv=0.0
+[lag_trunc] id=414 gold=A pred=A gen=156 rej=0 wall=6.5s tv=0.0
+[lag_trunc] id=278 gold=A pred=A gen=197 rej=0 wall=8.11s tv=0.0
+[lag_trunc] id=229 gold=C pred=C gen=873 rej=0 wall=34.33s tv=0.0
+[lag_trunc] id=46 gold=B pred=C gen=712 rej=0 wall=28.06s tv=0.0
+[lag_trunc] id=41 gold=A pred=A gen=271 rej=0 wall=11.03s tv=0.0
+[lag_trunc] id=163 gold=A pred=C gen=777 rej=2 wall=30.98s tv=0.0
+[lag_trunc] id=260 gold=C pred=C gen=957 rej=0 wall=37.19s tv=0.0
+[lag_trunc] id=250 gold=C pred=B gen=445 rej=0 wall=17.49s tv=0.1505
+[lag_trunc] id=55 gold=C pred=C gen=836 rej=0 wall=32.9s tv=0.0
+[lag_trunc] id=154 gold=A pred=A gen=265 rej=0 wall=10.66s tv=0.0
+[lag_trunc] id=446 gold=C pred=C gen=683 rej=6 wall=27.41s tv=0.0
+[lag_trunc] id=149 gold=A pred=A gen=268 rej=0 wall=11.14s tv=0.0
+[lag_trunc] id=467 gold=A pred=C gen=678 rej=7 wall=27.43s tv=0.0
+[lag_trunc] id=63 gold=C pred=B gen=325 rej=0 wall=12.98s tv=0.0
+=== 03:56:55 DONE MODEL=models/Qwen3-14B-Q4_K_M.gguf OUT=results_cloud/Qwen3-14B/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond lag_trunc
+=== 03:56:55 START MODEL=models/Qwen3-14B-Q4_K_M.gguf OUT=results_cloud/Qwen3-14B/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond lag_mask
+[lag_mask] id=433 gold=A pred=C gen=559 rej=0 wall=21.77s tv=0.0
+[lag_mask] id=197 gold=B pred=B gen=473 rej=0 wall=18.63s tv=0.0
+[lag_mask] id=388 gold=C pred=A gen=370 rej=0 wall=14.62s tv=0.0046
+[lag_mask] id=456 gold=A pred=A gen=264 rej=0 wall=10.59s tv=0.0
+[lag_mask] id=215 gold=B pred=B gen=306 rej=0 wall=12.15s tv=0.0
+[lag_mask] id=20 gold=C pred=C gen=716 rej=0 wall=27.86s tv=0.0002
+[lag_mask] id=132 gold=B pred=B gen=377 rej=0 wall=14.8s tv=0.0
+[lag_mask] id=261 gold=A pred=C gen=1407 rej=6 wall=55.97s tv=0.0001
+[lag_mask] id=248 gold=B pred=C gen=1164 rej=2 wall=45.89s tv=0.0
+[lag_mask] id=207 gold=A pred=A gen=263 rej=1 wall=10.78s tv=0.0
+[lag_mask] id=471 gold=B pred=C gen=1140 rej=0 wall=44.31s tv=0.0
+[lag_mask] id=401 gold=B pred=B gen=66 rej=0 wall=3.4s tv=0.0
+[lag_mask] id=425 gold=B pred=B gen=32 rej=0 wall=1.92s tv=0.0
+[lag_mask] id=155 gold=A pred=A gen=456 rej=0 wall=18.19s tv=0.0
+[lag_mask] id=244 gold=C pred=C gen=1150 rej=8 wall=46.32s tv=0.2917
+[lag_mask] id=183 gold=C pred=C gen=412 rej=1 wall=16.62s tv=0.0002
+[lag_mask] id=298 gold=A pred=A gen=562 rej=1 wall=22.1s tv=0.0
+[lag_mask] id=457 gold=C pred=C gen=629 rej=6 wall=26.06s tv=0.0
+[lag_mask] id=465 gold=C pred=C gen=803 rej=7 wall=32.94s tv=0.0005
+[lag_mask] id=111 gold=C pred=C gen=563 rej=3 wall=22.96s tv=0.0
+[lag_mask] id=258 gold=C pred=A gen=393 rej=0 wall=15.86s tv=0.0
+[lag_mask] id=71 gold=B pred=B gen=329 rej=0 wall=13.54s tv=0.0
+[lag_mask] id=144 gold=A pred=A gen=1093 rej=5 wall=43.67s tv=0.0
+[lag_mask] id=478 gold=A pred=A gen=368 rej=0 wall=14.62s tv=0.0
+[lag_mask] id=386 gold=C pred=A gen=358 rej=1 wall=14.77s tv=0.0002
+[lag_mask] id=48 gold=C pred=C gen=1344 rej=5 wall=53.09s tv=0.0
+[lag_mask] id=316 gold=A pred=A gen=307 rej=0 wall=12.34s tv=0.0
+[lag_mask] id=409 gold=C pred=C gen=863 rej=8 wall=35.14s tv=0.0
+[lag_mask] id=128 gold=A pred=A gen=524 rej=5 wall=21.68s tv=0.0003
+[lag_mask] id=466 gold=C pred=C gen=1118 rej=2 wall=44.48s tv=0.0001
+[lag_mask] id=272 gold=B pred=C gen=727 rej=6 wall=29.63s tv=0.0
+[lag_mask] id=361 gold=B pred=B gen=437 rej=0 wall=17.91s tv=0.0
+[lag_mask] id=415 gold=B pred=B gen=161 rej=0 wall=6.56s tv=0.0
+[lag_mask] id=308 gold=A pred=C gen=744 rej=6 wall=30.45s tv=0.0001
+[lag_mask] id=462 gold=B pred=B gen=517 rej=0 wall=20.48s tv=0.0
+[lag_mask] id=75 gold=B pred=B gen=242 rej=0 wall=9.65s tv=0.0
+[lag_mask] id=158 gold=A pred=A gen=163 rej=0 wall=7.24s tv=0.0
+[lag_mask] id=50 gold=B pred=C gen=668 rej=0 wall=26.82s tv=0.0
+[lag_mask] id=373 gold=B pred=B gen=261 rej=0 wall=10.48s tv=0.0
+[lag_mask] id=37 gold=A pred=A gen=176 rej=0 wall=7.11s tv=0.0
+[lag_mask] id=436 gold=B pred=B gen=151 rej=0 wall=6.58s tv=0.0
+[lag_mask] id=350 gold=A pred=C gen=596 rej=6 wall=25.19s tv=0.0001
+[lag_mask] id=169 gold=B pred=B gen=409 rej=0 wall=16.73s tv=0.0
+[lag_mask] id=241 gold=B pred=B gen=1090 rej=4 wall=44.47s tv=0.0
+[lag_mask] id=286 gold=C pred=C gen=665 rej=6 wall=27.34s tv=0.0
+[lag_mask] id=51 gold=C pred=C gen=876 rej=5 wall=34.83s tv=0.0005
+[lag_mask] id=181 gold=A pred=A gen=513 rej=2 wall=20.81s tv=0.0
+[lag_mask] id=222 gold=C pred=A gen=455 rej=2 wall=18.38s tv=0.0069
+[lag_mask] id=161 gold=C pred=B gen=596 rej=0 wall=23.21s tv=0.0
+[lag_mask] id=312 gold=A pred=A gen=401 rej=0 wall=15.97s tv=0.0
+[lag_mask] id=327 gold=A pred=A gen=784 rej=2 wall=31.59s tv=0.0
+[lag_mask] id=104 gold=C pred=C gen=573 rej=2 wall=23.22s tv=0.0001
+[lag_mask] id=282 gold=B pred=C gen=634 rej=3 wall=25.69s tv=0.0
+[lag_mask] id=485 gold=C pred=C gen=853 rej=0 wall=33.37s tv=0.0
+[lag_mask] id=226 gold=C pred=C gen=868 rej=0 wall=34.25s tv=0.0
+[lag_mask] id=266 gold=A pred=A gen=157 rej=1 wall=6.75s tv=0.0
+[lag_mask] id=133 gold=A pred=C gen=289 rej=0 wall=12.11s tv=0.0
+[lag_mask] id=31 gold=B pred=B gen=771 rej=1 wall=30.85s tv=0.0
+[lag_mask] id=413 gold=B pred=C gen=785 rej=6 wall=32.17s tv=0.0001
+[lag_mask] id=280 gold=B pred=B gen=308 rej=0 wall=12.4s tv=0.0
+[lag_mask] id=7 gold=C pred=B gen=254 rej=1 wall=10.5s tv=0.6594
+[lag_mask] id=47 gold=A pred=C gen=164 rej=1 wall=7.15s tv=0.0046
+[lag_mask] id=368 gold=B pred=B gen=584 rej=0 wall=23.66s tv=0.0
+[lag_mask] id=431 gold=C pred=C gen=879 rej=0 wall=34.55s tv=0.0
+[lag_mask] id=204 gold=B pred=C gen=631 rej=1 wall=25.02s tv=0.0006
+[lag_mask] id=363 gold=A pred=A gen=626 rej=3 wall=25.21s tv=0.0
+[lag_mask] id=423 gold=B pred=B gen=220 rej=0 wall=8.82s tv=0.0
+[lag_mask] id=488 gold=C pred=C gen=813 rej=6 wall=33.43s tv=0.0
+[lag_mask] id=342 gold=B pred=B gen=356 rej=2 wall=14.47s tv=0.0
+[lag_mask] id=320 gold=C pred=C gen=650 rej=3 wall=26.23s tv=0.0
+[lag_mask] id=0 gold=A pred=A gen=113 rej=0 wall=5.14s tv=0.0
+[lag_mask] id=313 gold=A pred=C gen=535 rej=6 wall=22.67s tv=0.0571
+[lag_mask] id=252 gold=C pred=C gen=593 rej=0 wall=23.1s tv=0.0
+[lag_mask] id=424 gold=A pred=A gen=464 rej=2 wall=19.22s tv=0.0
+[lag_mask] id=170 gold=A pred=C gen=500 rej=1 wall=19.92s tv=0.0086
+[lag_mask] id=124 gold=C pred=C gen=249 rej=2 wall=10.8s tv=0.0012
+[lag_mask] id=460 gold=C pred=A gen=208 rej=0 wall=8.38s tv=0.0
+[lag_mask] id=166 gold=C pred=A gen=197 rej=0 wall=8.13s tv=0.0
+[lag_mask] id=360 gold=B pred=B gen=155 rej=0 wall=6.4s tv=0.0
+[lag_mask] id=32 gold=A pred=C gen=770 rej=6 wall=31.13s tv=0.0
+[lag_mask] id=97 gold=C pred=C gen=392 rej=1 wall=15.69s tv=0.0
+[lag_mask] id=290 gold=A pred=C gen=568 rej=6 wall=23.67s tv=0.0
+[lag_mask] id=113 gold=A pred=A gen=274 rej=0 wall=11.02s tv=0.0
+[lag_mask] id=122 gold=B pred=B gen=377 rej=0 wall=15.13s tv=0.0
+[lag_mask] id=412 gold=C pred=C gen=713 rej=4 wall=29.15s tv=0.0
+[lag_mask] id=72 gold=B pred=B gen=411 rej=0 wall=16.37s tv=0.0
+[lag_mask] id=414 gold=A pred=A gen=156 rej=0 wall=6.5s tv=0.0
+[lag_mask] id=278 gold=A pred=A gen=197 rej=0 wall=8.12s tv=0.0
+[lag_mask] id=229 gold=C pred=C gen=873 rej=0 wall=34.4s tv=0.0
+[lag_mask] id=46 gold=B pred=C gen=712 rej=0 wall=28.1s tv=0.0
+[lag_mask] id=41 gold=A pred=A gen=271 rej=0 wall=11.07s tv=0.0
+[lag_mask] id=163 gold=A pred=A gen=324 rej=1 wall=13.29s tv=0.0
+[lag_mask] id=260 gold=C pred=C gen=957 rej=0 wall=37.27s tv=0.0
+[lag_mask] id=250 gold=C pred=B gen=445 rej=0 wall=17.53s tv=0.1505
+[lag_mask] id=55 gold=C pred=C gen=836 rej=0 wall=32.96s tv=0.0
+[lag_mask] id=154 gold=A pred=A gen=265 rej=0 wall=10.67s tv=0.0
+[lag_mask] id=446 gold=C pred=C gen=683 rej=6 wall=27.85s tv=0.0
+[lag_mask] id=149 gold=A pred=A gen=268 rej=0 wall=11.15s tv=0.0
+[lag_mask] id=467 gold=A pred=C gen=708 rej=8 wall=29.3s tv=0.0006
+[lag_mask] id=63 gold=C pred=B gen=325 rej=0 wall=13.07s tv=0.0
+=== 04:34:32 DONE MODEL=models/Qwen3-14B-Q4_K_M.gguf OUT=results_cloud/Qwen3-14B/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond lag_mask
+=== 04:34:32 START MODEL=models/Qwen3-14B-Q4_K_M.gguf OUT=results_cloud/Qwen3-14B/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond lag_trunc
+[lag_trunc] id=433 gold=A pred=C gen=559 rej=0 wall=21.76s tv=0.0
+[lag_trunc] id=197 gold=B pred=B gen=473 rej=0 wall=18.62s tv=0.0
+[lag_trunc] id=388 gold=C pred=A gen=370 rej=0 wall=14.67s tv=0.0046
+[lag_trunc] id=456 gold=A pred=A gen=264 rej=0 wall=10.65s tv=0.0
+[lag_trunc] id=215 gold=B pred=B gen=306 rej=0 wall=12.22s tv=0.0
+[lag_trunc] id=20 gold=C pred=C gen=716 rej=0 wall=28.01s tv=0.0002
+[lag_trunc] id=132 gold=B pred=B gen=377 rej=0 wall=14.88s tv=0.0
+[lag_trunc] id=261 gold=A pred=A gen=1104 rej=6 wall=43.89s tv=0.0
+[lag_trunc] id=248 gold=B pred=C gen=1166 rej=2 wall=46.2s tv=0.0
+[lag_trunc] id=207 gold=A pred=A gen=571 rej=3 wall=22.85s tv=0.0
+[lag_trunc] id=471 gold=B pred=C gen=1140 rej=0 wall=44.49s tv=0.0
+[lag_trunc] id=401 gold=B pred=B gen=66 rej=0 wall=3.41s tv=0.0
+[lag_trunc] id=425 gold=B pred=B gen=32 rej=0 wall=1.93s tv=0.0
+[lag_trunc] id=155 gold=A pred=A gen=456 rej=0 wall=18.28s tv=0.0
+[lag_trunc] id=244 gold=C pred=C gen=814 rej=6 wall=32.91s tv=0.0001
+[lag_trunc] id=183 gold=C pred=C gen=477 rej=1 wall=19.04s tv=0.0
+[lag_trunc] id=298 gold=A pred=A gen=516 rej=1 wall=20.29s tv=0.0
+[lag_trunc] id=457 gold=C pred=C gen=361 rej=6 wall=15.42s tv=0.0
+[lag_trunc] id=465 gold=C pred=C gen=601 rej=7 wall=24.64s tv=0.0005
+[lag_trunc] id=111 gold=C pred=C gen=368 rej=1 wall=14.94s tv=0.0
+[lag_trunc] id=258 gold=C pred=A gen=393 rej=0 wall=15.85s tv=0.0
+[lag_trunc] id=71 gold=B pred=B gen=329 rej=0 wall=13.54s tv=0.0
+[lag_trunc] id=144 gold=A pred=C gen=803 rej=6 wall=32.46s tv=0.0
+[lag_trunc] id=478 gold=A pred=A gen=368 rej=0 wall=14.61s tv=0.0
+[lag_trunc] id=386 gold=C pred=A gen=320 rej=1 wall=13.23s tv=0.0002
+[lag_trunc] id=48 gold=C pred=C gen=1185 rej=5 wall=46.66s tv=0.0
+[lag_trunc] id=316 gold=A pred=A gen=307 rej=0 wall=12.31s tv=0.0
+[lag_trunc] id=409 gold=C pred=C gen=635 rej=8 wall=25.94s tv=0.0
+[lag_trunc] id=128 gold=A pred=A gen=469 rej=3 wall=19.24s tv=0.0
+[lag_trunc] id=466 gold=C pred=C gen=469 rej=6 wall=19.68s tv=0.0
+[lag_trunc] id=272 gold=B pred=C gen=716 rej=6 wall=28.85s tv=0.0
+[lag_trunc] id=361 gold=B pred=B gen=437 rej=0 wall=17.89s tv=0.0
+[lag_trunc] id=415 gold=B pred=B gen=161 rej=0 wall=6.55s tv=0.0
+[lag_trunc] id=308 gold=A pred=C gen=511 rej=6 wall=21.06s tv=0.0001
+[lag_trunc] id=462 gold=B pred=B gen=517 rej=0 wall=20.42s tv=0.0
+[lag_trunc] id=75 gold=B pred=B gen=242 rej=0 wall=9.64s tv=0.0
+[lag_trunc] id=158 gold=A pred=A gen=163 rej=0 wall=7.23s tv=0.0
+[lag_trunc] id=50 gold=B pred=C gen=668 rej=0 wall=26.78s tv=0.0
+[lag_trunc] id=373 gold=B pred=B gen=261 rej=0 wall=10.47s tv=0.0
+[lag_trunc] id=37 gold=A pred=A gen=176 rej=0 wall=7.08s tv=0.0
+[lag_trunc] id=436 gold=B pred=B gen=151 rej=0 wall=6.57s tv=0.0
+[lag_trunc] id=350 gold=A pred=C gen=389 rej=6 wall=16.73s tv=0.0001
+[lag_trunc] id=169 gold=B pred=B gen=409 rej=0 wall=16.72s tv=0.0
+[lag_trunc] id=241 gold=B pred=C gen=1297 rej=6 wall=52.53s tv=0.0
+[lag_trunc] id=286 gold=C pred=C gen=376 rej=6 wall=15.9s tv=0.0
+[lag_trunc] id=51 gold=C pred=C gen=964 rej=6 wall=37.99s tv=0.0
+[lag_trunc] id=181 gold=A pred=A gen=517 rej=2 wall=21.11s tv=0.0
+[lag_trunc] id=222 gold=C pred=A gen=410 rej=2 wall=16.49s tv=0.0069
+[lag_trunc] id=161 gold=C pred=B gen=596 rej=0 wall=23.17s tv=0.0
+[lag_trunc] id=312 gold=A pred=A gen=401 rej=0 wall=15.96s tv=0.0
+[lag_trunc] id=327 gold=A pred=A gen=688 rej=2 wall=27.73s tv=0.0
+[lag_trunc] id=104 gold=C pred=C gen=545 rej=2 wall=21.98s tv=0.0001
+[lag_trunc] id=282 gold=B pred=A gen=1117 rej=3 wall=44.4s tv=0.0
+[lag_trunc] id=485 gold=C pred=C gen=853 rej=0 wall=33.35s tv=0.0
+[lag_trunc] id=226 gold=C pred=C gen=868 rej=0 wall=34.22s tv=0.0
+[lag_trunc] id=266 gold=A pred=A gen=157 rej=1 wall=6.73s tv=0.0
+[lag_trunc] id=133 gold=A pred=C gen=289 rej=0 wall=12.1s tv=0.0
+[lag_trunc] id=31 gold=B pred=B gen=726 rej=1 wall=29.02s tv=0.0
+[lag_trunc] id=413 gold=B pred=C gen=612 rej=6 wall=25.07s tv=0.0001
+[lag_trunc] id=280 gold=B pred=B gen=308 rej=0 wall=12.4s tv=0.0
+[lag_trunc] id=7 gold=C pred=C gen=554 rej=6 wall=22.71s tv=0.0005
+[lag_trunc] id=47 gold=A pred=A gen=472 rej=1 wall=18.87s tv=0.0
+[lag_trunc] id=368 gold=B pred=B gen=584 rej=0 wall=23.64s tv=0.0
+[lag_trunc] id=431 gold=C pred=C gen=879 rej=0 wall=34.69s tv=0.0
+[lag_trunc] id=204 gold=B pred=C gen=802 rej=1 wall=31.69s tv=0.0009
+[lag_trunc] id=363 gold=A pred=A gen=687 rej=5 wall=27.98s tv=0.0
+[lag_trunc] id=423 gold=B pred=B gen=220 rej=0 wall=8.86s tv=0.0
+[lag_trunc] id=488 gold=C pred=C gen=573 rej=6 wall=23.83s tv=0.0
+[lag_trunc] id=342 gold=B pred=B gen=260 rej=2 wall=10.72s tv=0.0
+[lag_trunc] id=320 gold=C pred=C gen=986 rej=2 wall=39.3s tv=0.0
+[lag_trunc] id=0 gold=A pred=A gen=113 rej=0 wall=5.15s tv=0.0
+[lag_trunc] id=313 gold=A pred=C gen=520 rej=6 wall=22.04s tv=0.0571
+[lag_trunc] id=252 gold=C pred=C gen=593 rej=0 wall=23.2s tv=0.0
+[lag_trunc] id=424 gold=A pred=C gen=679 rej=6 wall=28.14s tv=0.0
+[lag_trunc] id=170 gold=A pred=C gen=497 rej=1 wall=19.82s tv=0.0
+[lag_trunc] id=124 gold=C pred=C gen=505 rej=6 wall=21.13s tv=0.0
+[lag_trunc] id=460 gold=C pred=A gen=208 rej=0 wall=8.29s tv=0.0
+[lag_trunc] id=166 gold=C pred=A gen=197 rej=0 wall=8.04s tv=0.0
+[lag_trunc] id=360 gold=B pred=B gen=155 rej=0 wall=6.34s tv=0.0
+[lag_trunc] id=32 gold=A pred=C gen=579 rej=6 wall=23.24s tv=0.0
+[lag_trunc] id=97 gold=C pred=C gen=392 rej=1 wall=15.5s tv=0.0
+[lag_trunc] id=290 gold=A pred=C gen=527 rej=6 wall=21.64s tv=0.0
+[lag_trunc] id=113 gold=A pred=A gen=274 rej=0 wall=10.9s tv=0.0
+[lag_trunc] id=122 gold=B pred=B gen=377 rej=0 wall=15.0s tv=0.0
+[lag_trunc] id=412 gold=C pred=C gen=827 rej=7 wall=33.53s tv=0.0
+[lag_trunc] id=72 gold=B pred=B gen=411 rej=0 wall=16.18s tv=0.0
+[lag_trunc] id=414 gold=A pred=A gen=156 rej=0 wall=6.44s tv=0.0
+[lag_trunc] id=278 gold=A pred=A gen=197 rej=0 wall=8.05s tv=0.0
+[lag_trunc] id=229 gold=C pred=C gen=873 rej=0 wall=34.06s tv=0.0
+[lag_trunc] id=46 gold=B pred=C gen=712 rej=0 wall=27.84s tv=0.0
+[lag_trunc] id=41 gold=A pred=A gen=271 rej=0 wall=10.94s tv=0.0
+[lag_trunc] id=163 gold=A pred=C gen=690 rej=2 wall=27.44s tv=0.0
+[lag_trunc] id=260 gold=C pred=C gen=957 rej=0 wall=36.92s tv=0.0
+[lag_trunc] id=250 gold=C pred=B gen=445 rej=0 wall=17.37s tv=0.1505
+[lag_trunc] id=55 gold=C pred=C gen=836 rej=0 wall=32.66s tv=0.0
+[lag_trunc] id=154 gold=A pred=A gen=265 rej=0 wall=10.58s tv=0.0
+[lag_trunc] id=446 gold=C pred=C gen=503 rej=6 wall=20.41s tv=0.0
+[lag_trunc] id=149 gold=A pred=A gen=268 rej=0 wall=11.04s tv=0.0
+[lag_trunc] id=467 gold=A pred=C gen=559 rej=7 wall=22.81s tv=0.0
+[lag_trunc] id=63 gold=C pred=B gen=325 rej=0 wall=12.95s tv=0.0
+=== 05:11:02 DONE MODEL=models/Qwen3-14B-Q4_K_M.gguf OUT=results_cloud/Qwen3-14B/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond lag_trunc
+=== 05:11:02 START MODEL=models/Qwen3-14B-Q4_K_M.gguf OUT=results_cloud/Qwen3-14B/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond lag_mask
+[lag_mask] id=433 gold=A pred=C gen=559 rej=0 wall=21.77s tv=0.0
+[lag_mask] id=197 gold=B pred=B gen=473 rej=0 wall=18.62s tv=0.0
+[lag_mask] id=388 gold=C pred=A gen=370 rej=0 wall=14.67s tv=0.0046
+[lag_mask] id=456 gold=A pred=A gen=264 rej=0 wall=10.64s tv=0.0
+[lag_mask] id=215 gold=B pred=B gen=306 rej=0 wall=12.22s tv=0.0
+[lag_mask] id=20 gold=C pred=C gen=716 rej=0 wall=28.02s tv=0.0002
+[lag_mask] id=132 gold=B pred=B gen=377 rej=0 wall=14.89s tv=0.0
+[lag_mask] id=261 gold=A pred=A gen=1104 rej=6 wall=44.16s tv=0.0
+[lag_mask] id=248 gold=B pred=C gen=1166 rej=2 wall=46.32s tv=0.0
+[lag_mask] id=207 gold=A pred=A gen=263 rej=1 wall=10.83s tv=0.0
+[lag_mask] id=471 gold=B pred=C gen=1140 rej=0 wall=44.55s tv=0.0
+[lag_mask] id=401 gold=B pred=B gen=66 rej=0 wall=3.41s tv=0.0
+[lag_mask] id=425 gold=B pred=B gen=32 rej=0 wall=1.94s tv=0.0
+[lag_mask] id=155 gold=A pred=A gen=456 rej=0 wall=18.27s tv=0.0
+[lag_mask] id=244 gold=C pred=C gen=1071 rej=8 wall=43.34s tv=0.055
+[lag_mask] id=183 gold=C pred=C gen=477 rej=1 wall=19.18s tv=0.0
+[lag_mask] id=298 gold=A pred=A gen=516 rej=1 wall=20.43s tv=0.0
+[lag_mask] id=457 gold=C pred=C gen=361 rej=6 wall=15.71s tv=0.0
+[lag_mask] id=465 gold=C pred=C gen=601 rej=7 wall=25.02s tv=0.0005
+[lag_mask] id=111 gold=C pred=C gen=368 rej=1 wall=15.06s tv=0.0
+[lag_mask] id=258 gold=C pred=A gen=393 rej=0 wall=15.93s tv=0.0
+[lag_mask] id=71 gold=B pred=B gen=329 rej=0 wall=13.61s tv=0.0
+[lag_mask] id=144 gold=A pred=C gen=803 rej=6 wall=32.84s tv=0.0
+[lag_mask] id=478 gold=A pred=A gen=368 rej=0 wall=14.67s tv=0.0
+[lag_mask] id=386 gold=C pred=A gen=320 rej=1 wall=13.33s tv=0.0002
+[lag_mask] id=48 gold=C pred=C gen=1185 rej=5 wall=47.05s tv=0.0
+[lag_mask] id=316 gold=A pred=A gen=307 rej=0 wall=12.39s tv=0.0
+[lag_mask] id=409 gold=C pred=C gen=561 rej=8 wall=23.19s tv=0.0
+[lag_mask] id=128 gold=A pred=A gen=301 rej=2 wall=12.77s tv=0.0
+[lag_mask] id=466 gold=C pred=C gen=637 rej=8 wall=26.57s tv=0.0
+[lag_mask] id=272 gold=B pred=C gen=716 rej=6 wall=29.2s tv=0.0
+[lag_mask] id=361 gold=B pred=B gen=437 rej=0 wall=17.96s tv=0.0
+[lag_mask] id=415 gold=B pred=B gen=161 rej=0 wall=6.59s tv=0.0
+[lag_mask] id=308 gold=A pred=C gen=511 rej=6 wall=21.39s tv=0.0001
+[lag_mask] id=462 gold=B pred=B gen=517 rej=0 wall=20.54s tv=0.0
+[lag_mask] id=75 gold=B pred=B gen=242 rej=0 wall=9.68s tv=0.0
+[lag_mask] id=158 gold=A pred=A gen=163 rej=0 wall=7.26s tv=0.0
+[lag_mask] id=50 gold=B pred=C gen=668 rej=0 wall=26.9s tv=0.0
+[lag_mask] id=373 gold=B pred=B gen=261 rej=0 wall=10.53s tv=0.0
+[lag_mask] id=37 gold=A pred=A gen=176 rej=0 wall=7.11s tv=0.0
+[lag_mask] id=436 gold=B pred=B gen=151 rej=0 wall=6.6s tv=0.0
+[lag_mask] id=350 gold=A pred=C gen=389 rej=6 wall=17.04s tv=0.0001
+[lag_mask] id=169 gold=B pred=B gen=409 rej=0 wall=16.79s tv=0.0
+[lag_mask] id=241 gold=B pred=C gen=1297 rej=6 wall=52.81s tv=0.0
+[lag_mask] id=286 gold=C pred=C gen=376 rej=6 wall=16.17s tv=0.0
+[lag_mask] id=51 gold=C pred=C gen=888 rej=6 wall=35.47s tv=0.0
+[lag_mask] id=181 gold=A pred=A gen=513 rej=2 wall=20.89s tv=0.0
+[lag_mask] id=222 gold=C pred=A gen=410 rej=2 wall=16.68s tv=0.0069
+[lag_mask] id=161 gold=C pred=B gen=596 rej=0 wall=23.27s tv=0.0
+[lag_mask] id=312 gold=A pred=A gen=401 rej=0 wall=16.03s tv=0.0
+[lag_mask] id=327 gold=A pred=A gen=688 rej=2 wall=27.93s tv=0.0
+[lag_mask] id=104 gold=C pred=C gen=545 rej=2 wall=22.17s tv=0.0001
+[lag_mask] id=282 gold=B pred=C gen=631 rej=3 wall=25.61s tv=0.0
+[lag_mask] id=485 gold=C pred=C gen=853 rej=0 wall=33.5s tv=0.0
+[lag_mask] id=226 gold=C pred=C gen=868 rej=0 wall=34.36s tv=0.0
+[lag_mask] id=266 gold=A pred=A gen=157 rej=1 wall=6.75s tv=0.0
+[lag_mask] id=133 gold=A pred=C gen=289 rej=0 wall=12.14s tv=0.0
+[lag_mask] id=31 gold=B pred=B gen=726 rej=1 wall=29.18s tv=0.0
+[lag_mask] id=413 gold=B pred=C gen=612 rej=6 wall=25.4s tv=0.0001
+[lag_mask] id=280 gold=B pred=B gen=308 rej=0 wall=12.44s tv=0.0
+[lag_mask] id=7 gold=C pred=B gen=233 rej=1 wall=9.68s tv=0.6594
+[lag_mask] id=47 gold=A pred=A gen=472 rej=1 wall=18.98s tv=0.0
+[lag_mask] id=368 gold=B pred=B gen=584 rej=0 wall=23.72s tv=0.0
+[lag_mask] id=431 gold=C pred=C gen=879 rej=0 wall=34.41s tv=0.0
+[lag_mask] id=204 gold=B pred=B gen=1037 rej=1 wall=40.57s tv=0.0038
+[lag_mask] id=363 gold=A pred=C gen=564 rej=5 wall=23.12s tv=0.0
+[lag_mask] id=423 gold=B pred=B gen=220 rej=0 wall=8.75s tv=0.0
+[lag_mask] id=488 gold=C pred=C gen=573 rej=6 wall=23.86s tv=0.0
+[lag_mask] id=342 gold=B pred=B gen=260 rej=2 wall=10.71s tv=0.0
+[lag_mask] id=320 gold=C pred=C gen=986 rej=2 wall=39.07s tv=0.0
+[lag_mask] id=0 gold=A pred=A gen=113 rej=0 wall=5.12s tv=0.0
+[lag_mask] id=313 gold=A pred=C gen=520 rej=6 wall=22.09s tv=0.0571
+[lag_mask] id=252 gold=C pred=C gen=593 rej=0 wall=23.03s tv=0.0
+[lag_mask] id=424 gold=A pred=A gen=436 rej=2 wall=18.05s tv=0.0
+[lag_mask] id=170 gold=A pred=C gen=497 rej=1 wall=19.69s tv=0.0
+[lag_mask] id=124 gold=C pred=C gen=505 rej=6 wall=21.27s tv=0.0
+[lag_mask] id=460 gold=C pred=A gen=208 rej=0 wall=8.33s tv=0.0
+[lag_mask] id=166 gold=C pred=A gen=197 rej=0 wall=8.09s tv=0.0
+[lag_mask] id=360 gold=B pred=B gen=155 rej=0 wall=6.39s tv=0.0
+[lag_mask] id=32 gold=A pred=C gen=579 rej=6 wall=23.6s tv=0.0
+[lag_mask] id=97 gold=C pred=C gen=392 rej=1 wall=15.63s tv=0.0
+[lag_mask] id=290 gold=A pred=C gen=527 rej=6 wall=21.97s tv=0.0
+[lag_mask] id=113 gold=A pred=A gen=274 rej=0 wall=10.97s tv=0.0
+[lag_mask] id=122 gold=B pred=B gen=377 rej=0 wall=15.1s tv=0.0
+[lag_mask] id=412 gold=C pred=C gen=793 rej=6 wall=32.24s tv=0.0002
+[lag_mask] id=72 gold=B pred=B gen=411 rej=0 wall=16.18s tv=0.0
+[lag_mask] id=414 gold=A pred=A gen=156 rej=0 wall=6.44s tv=0.0
+[lag_mask] id=278 gold=A pred=A gen=197 rej=0 wall=8.05s tv=0.0
+[lag_mask] id=229 gold=C pred=C gen=873 rej=0 wall=34.04s tv=0.0
+[lag_mask] id=46 gold=B pred=C gen=712 rej=0 wall=27.82s tv=0.0
+[lag_mask] id=41 gold=A pred=A gen=271 rej=0 wall=10.94s tv=0.0
+[lag_mask] id=163 gold=A pred=C gen=690 rej=2 wall=27.49s tv=0.0
+[lag_mask] id=260 gold=C pred=C gen=957 rej=0 wall=36.87s tv=0.0
+[lag_mask] id=250 gold=C pred=B gen=445 rej=0 wall=17.36s tv=0.1505
+[lag_mask] id=55 gold=C pred=C gen=836 rej=0 wall=32.62s tv=0.0
+[lag_mask] id=154 gold=A pred=A gen=265 rej=0 wall=10.56s tv=0.0
+[lag_mask] id=446 gold=C pred=C gen=503 rej=6 wall=20.63s tv=0.0
+[lag_mask] id=149 gold=A pred=A gen=268 rej=0 wall=11.03s tv=0.0
+[lag_mask] id=467 gold=A pred=C gen=591 rej=8 wall=24.35s tv=0.0003
+[lag_mask] id=63 gold=C pred=B gen=325 rej=0 wall=12.91s tv=0.0
+=== 05:46:55 DONE MODEL=models/Qwen3-14B-Q4_K_M.gguf OUT=results_cloud/Qwen3-14B/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond lag_mask
+=== ALL DONE 05:46:55
+=== 05:47:34 START MODEL=models/Qwen3-30B-A3B-Q4_K_M.gguf OUT=results_cloud/Qwen3-30B-A3B .venv/bin/python run.py --n 100 --cond base
+[base] id=433 gold=A pred=C gen=110 rej=0 wall=2.07s
+[base] id=197 gold=B pred=B gen=66 rej=0 wall=1.4s
+[base] id=388 gold=C pred=A gen=156 rej=0 wall=2.45s
+[base] id=456 gold=A pred=A gen=197 rej=0 wall=2.93s
+[base] id=215 gold=B pred=B gen=164 rej=0 wall=2.56s
+[base] id=20 gold=C pred=A gen=217 rej=0 wall=3.21s
+[base] id=132 gold=B pred=B gen=100 rej=0 wall=1.82s
+[base] id=261 gold=A pred=C gen=243 rej=0 wall=3.51s
+[base] id=248 gold=B pred=C gen=347 rej=0 wall=4.84s
+[base] id=207 gold=A pred=A gen=145 rej=0 wall=2.4s
+[base] id=471 gold=B pred=B gen=188 rej=0 wall=2.89s
+[base] id=401 gold=B pred=B gen=76 rej=0 wall=1.66s
+[base] id=425 gold=B pred=B gen=74 rej=0 wall=1.56s
+[base] id=155 gold=A pred=A gen=221 rej=0 wall=3.35s
+[base] id=244 gold=C pred=C gen=223 rej=0 wall=3.37s
+[base] id=183 gold=C pred=A gen=231 rej=0 wall=3.41s
+[base] id=298 gold=A pred=A gen=171 rej=0 wall=2.69s
+[base] id=457 gold=C pred=A gen=139 rej=0 wall=2.35s
+[base] id=465 gold=C pred=A gen=194 rej=0 wall=3.06s
+[base] id=111 gold=C pred=C gen=122 rej=0 wall=2.16s
+[base] id=258 gold=C pred=C gen=176 rej=0 wall=2.77s
+[base] id=71 gold=B pred=A gen=91 rej=0 wall=1.87s
+[base] id=144 gold=A pred=None gen=1500 rej=0 wall=19.12s
+[base] id=478 gold=A pred=A gen=335 rej=0 wall=4.63s
+[base] id=386 gold=C pred=A gen=155 rej=0 wall=2.59s
+[base] id=48 gold=C pred=C gen=158 rej=0 wall=2.51s
+[base] id=316 gold=A pred=A gen=172 rej=0 wall=2.71s
+[base] id=409 gold=C pred=C gen=271 rej=0 wall=3.85s
+[base] id=128 gold=A pred=A gen=227 rej=0 wall=3.47s
+[base] id=466 gold=C pred=C gen=143 rej=0 wall=2.43s
+[base] id=272 gold=B pred=B gen=222 rej=0 wall=3.28s
+[base] id=361 gold=B pred=B gen=234 rej=0 wall=3.62s
+[base] id=415 gold=B pred=B gen=153 rej=0 wall=2.45s
+[base] id=308 gold=A pred=A gen=133 rej=0 wall=2.26s
+[base] id=462 gold=B pred=B gen=144 rej=0 wall=2.38s
+[base] id=75 gold=B pred=B gen=213 rej=0 wall=3.18s
+[base] id=158 gold=A pred=A gen=153 rej=0 wall=2.59s
+[base] id=50 gold=B pred=A gen=207 rej=0 wall=3.28s
+[base] id=373 gold=B pred=B gen=185 rej=0 wall=2.86s
+[base] id=37 gold=A pred=C gen=196 rej=0 wall=2.96s
+[base] id=436 gold=B pred=B gen=125 rej=0 wall=2.22s
+[base] id=350 gold=A pred=A gen=72 rej=0 wall=1.65s
+[base] id=169 gold=B pred=A gen=166 rej=0 wall=2.77s
+[base] id=241 gold=B pred=A gen=366 rej=0 wall=5.26s
+[base] id=286 gold=C pred=C gen=170 rej=0 wall=2.7s
+[base] id=51 gold=C pred=A gen=132 rej=0 wall=2.22s
+[base] id=181 gold=A pred=A gen=72 rej=0 wall=1.6s
+[base] id=222 gold=C pred=A gen=294 rej=0 wall=4.14s
+[base] id=161 gold=C pred=B gen=180 rej=0 wall=2.79s
+[base] id=312 gold=A pred=C gen=172 rej=0 wall=2.72s
+[base] id=327 gold=A pred=A gen=193 rej=0 wall=3.04s
+[base] id=104 gold=C pred=C gen=226 rej=0 wall=3.38s
+[base] id=282 gold=B pred=C gen=173 rej=0 wall=2.75s
+[base] id=485 gold=C pred=C gen=252 rej=0 wall=3.58s
+[base] id=226 gold=C pred=A gen=165 rej=0 wall=2.6s
+[base] id=266 gold=A pred=A gen=61 rej=0 wall=1.37s
+[base] id=133 gold=A pred=C gen=261 rej=0 wall=3.87s
+[base] id=31 gold=B pred=B gen=261 rej=0 wall=3.82s
+[base] id=413 gold=B pred=B gen=219 rej=0 wall=3.23s
+[base] id=280 gold=B pred=None gen=1500 rej=0 wall=18.88s
+[base] id=7 gold=C pred=A gen=254 rej=0 wall=3.63s
+[base] id=47 gold=A pred=C gen=251 rej=0 wall=3.61s
+[base] id=368 gold=B pred=B gen=259 rej=0 wall=3.87s
+[base] id=431 gold=C pred=C gen=307 rej=0 wall=4.29s
+[base] id=204 gold=B pred=B gen=318 rej=0 wall=4.4s
+[base] id=363 gold=A pred=A gen=247 rej=0 wall=3.58s
+[base] id=423 gold=B pred=B gen=223 rej=0 wall=3.27s
+[base] id=488 gold=C pred=A gen=330 rej=0 wall=4.63s
+[base] id=342 gold=B pred=A gen=259 rej=0 wall=3.69s
+[base] id=320 gold=C pred=B gen=251 rej=0 wall=3.67s
+[base] id=0 gold=A pred=B gen=155 rej=0 wall=2.54s
+[base] id=313 gold=A pred=B gen=170 rej=0 wall=2.76s
+[base] id=252 gold=C pred=B gen=209 rej=0 wall=3.13s
+[base] id=424 gold=A pred=B gen=117 rej=0 wall=2.21s
+[base] id=170 gold=A pred=A gen=156 rej=0 wall=2.53s
+[base] id=124 gold=C pred=B gen=193 rej=0 wall=3.05s
+[base] id=460 gold=C pred=A gen=178 rej=0 wall=2.76s
+[base] id=166 gold=C pred=C gen=207 rej=0 wall=3.11s
+[base] id=360 gold=B pred=A gen=59 rej=0 wall=1.35s
+[base] id=32 gold=A pred=C gen=230 rej=0 wall=3.39s
+[base] id=97 gold=C pred=C gen=264 rej=0 wall=3.78s
+[base] id=290 gold=A pred=A gen=246 rej=0 wall=3.6s
+[base] id=113 gold=A pred=A gen=135 rej=0 wall=2.26s
+[base] id=122 gold=B pred=C gen=225 rej=0 wall=3.35s
+[base] id=412 gold=C pred=B gen=412 rej=0 wall=5.73s
+[base] id=72 gold=B pred=B gen=158 rej=0 wall=2.53s
+[base] id=414 gold=A pred=A gen=240 rej=0 wall=3.5s
+[base] id=278 gold=A pred=A gen=173 rej=0 wall=2.72s
+[base] id=229 gold=C pred=B gen=218 rej=0 wall=3.28s
+[base] id=46 gold=B pred=B gen=174 rej=0 wall=2.75s
+[base] id=41 gold=A pred=A gen=155 rej=0 wall=2.52s
+[base] id=163 gold=A pred=C gen=248 rej=0 wall=3.63s
+[base] id=260 gold=C pred=B gen=231 rej=0 wall=3.39s
+[base] id=250 gold=C pred=C gen=104 rej=0 wall=1.89s
+[base] id=55 gold=C pred=A gen=185 rej=0 wall=2.87s
+[base] id=154 gold=A pred=A gen=226 rej=0 wall=3.33s
+[base] id=446 gold=C pred=C gen=248 rej=0 wall=3.61s
+[base] id=149 gold=A pred=B gen=203 rej=0 wall=3.2s
+[base] id=467 gold=A pred=A gen=70 rej=0 wall=1.52s
+[base] id=63 gold=C pred=C gen=146 rej=0 wall=2.39s
+=== 05:53:11 DONE MODEL=models/Qwen3-30B-A3B-Q4_K_M.gguf OUT=results_cloud/Qwen3-30B-A3B .venv/bin/python run.py --n 100 --cond base
+=== 05:53:11 START MODEL=models/Qwen3-30B-A3B-Q4_K_M.gguf OUT=results_cloud/Qwen3-30B-A3B .venv/bin/python run.py --n 100 --cond fmt
+[fmt] id=433 gold=A pred=C gen=284 rej=0 wall=3.8s
+[fmt] id=197 gold=B pred=B gen=414 rej=0 wall=5.24s
+[fmt] id=388 gold=C pred=A gen=796 rej=0 wall=9.82s
+[fmt] id=456 gold=A pred=A gen=331 rej=0 wall=4.23s
+[fmt] id=215 gold=B pred=B gen=243 rej=0 wall=3.22s
+[fmt] id=20 gold=C pred=C gen=768 rej=0 wall=9.39s
+[fmt] id=132 gold=B pred=B gen=819 rej=0 wall=9.9s
+[fmt] id=261 gold=A pred=A gen=318 rej=0 wall=4.26s
+[fmt] id=248 gold=B pred=C gen=985 rej=0 wall=12.43s
+[fmt] id=207 gold=A pred=C gen=287 rej=0 wall=3.85s
+[fmt] id=471 gold=B pred=A gen=411 rej=0 wall=5.21s
+[fmt] id=401 gold=B pred=B gen=152 rej=0 wall=2.41s
+[fmt] id=425 gold=B pred=B gen=107 rej=0 wall=1.77s
+[fmt] id=155 gold=A pred=A gen=824 rej=0 wall=10.4s
+[fmt] id=244 gold=C pred=C gen=715 rej=0 wall=9.08s
+[fmt] id=183 gold=C pred=C gen=765 rej=0 wall=9.63s
+[fmt] id=298 gold=A pred=A gen=697 rej=0 wall=8.56s
+[fmt] id=457 gold=C pred=C gen=886 rej=0 wall=11.23s
+[fmt] id=465 gold=C pred=C gen=841 rej=0 wall=10.76s
+[fmt] id=111 gold=C pred=C gen=750 rej=0 wall=9.57s
+[fmt] id=258 gold=C pred=C gen=857 rej=0 wall=10.92s
+[fmt] id=71 gold=B pred=C gen=804 rej=0 wall=10.4s
+[fmt] id=144 gold=A pred=C gen=297 rej=0 wall=4.09s
+[fmt] id=478 gold=A pred=A gen=441 rej=0 wall=5.61s
+[fmt] id=386 gold=C pred=A gen=779 rej=0 wall=10.04s
+[fmt] id=48 gold=C pred=C gen=969 rej=0 wall=11.92s
+[fmt] id=316 gold=A pred=A gen=458 rej=0 wall=5.82s
+[fmt] id=409 gold=C pred=C gen=986 rej=0 wall=12.01s
+[fmt] id=128 gold=A pred=A gen=716 rej=0 wall=9.36s
+[fmt] id=466 gold=C pred=C gen=861 rej=0 wall=11.02s
+[fmt] id=272 gold=B pred=B gen=847 rej=0 wall=10.42s
+[fmt] id=361 gold=B pred=C gen=1065 rej=0 wall=13.84s
+[fmt] id=415 gold=B pred=B gen=254 rej=0 wall=3.32s
+[fmt] id=308 gold=A pred=B gen=497 rej=0 wall=6.46s
+[fmt] id=462 gold=B pred=B gen=624 rej=0 wall=7.92s
+[fmt] id=75 gold=B pred=B gen=263 rej=0 wall=3.46s
+[fmt] id=158 gold=A pred=A gen=77 rej=0 wall=1.57s
+[fmt] id=50 gold=B pred=C gen=855 rej=0 wall=11.13s
+[fmt] id=373 gold=B pred=A gen=493 rej=0 wall=6.21s
+[fmt] id=37 gold=A pred=A gen=358 rej=0 wall=4.5s
+[fmt] id=436 gold=B pred=B gen=762 rej=0 wall=9.8s
+[fmt] id=350 gold=A pred=A gen=784 rej=0 wall=10.28s
+[fmt] id=169 gold=B pred=B gen=395 rej=0 wall=5.38s
+[fmt] id=241 gold=B pred=C gen=855 rej=0 wall=11.5s
+[fmt] id=286 gold=C pred=C gen=764 rej=0 wall=9.71s
+[fmt] id=51 gold=C pred=A gen=731 rej=0 wall=9.11s
+[fmt] id=181 gold=A pred=C gen=870 rej=0 wall=11.23s
+[fmt] id=222 gold=C pred=A gen=964 rej=0 wall=12.0s
+[fmt] id=161 gold=C pred=A gen=762 rej=0 wall=9.43s
+[fmt] id=312 gold=A pred=A gen=354 rej=0 wall=4.65s
+[fmt] id=327 gold=A pred=A gen=255 rej=0 wall=3.69s
+[fmt] id=104 gold=C pred=C gen=830 rej=0 wall=10.8s
+[fmt] id=282 gold=B pred=C gen=952 rej=0 wall=12.28s
+[fmt] id=485 gold=C pred=C gen=805 rej=0 wall=10.12s
+[fmt] id=226 gold=C pred=C gen=904 rej=0 wall=11.6s
+[fmt] id=266 gold=A pred=A gen=222 rej=0 wall=3.08s
+[fmt] id=133 gold=A pred=C gen=674 rej=0 wall=8.97s
+[fmt] id=31 gold=B pred=B gen=878 rej=0 wall=11.43s
+[fmt] id=413 gold=B pred=B gen=282 rej=0 wall=3.97s
+[fmt] id=280 gold=B pred=B gen=748 rej=0 wall=9.47s
+[fmt] id=7 gold=C pred=C gen=643 rej=0 wall=8.2s
+[fmt] id=47 gold=A pred=C gen=710 rej=0 wall=9.07s
+[fmt] id=368 gold=B pred=B gen=647 rej=0 wall=8.62s
+[fmt] id=431 gold=C pred=C gen=817 rej=0 wall=10.54s
+[fmt] id=204 gold=B pred=C gen=761 rej=0 wall=9.61s
+[fmt] id=363 gold=A pred=C gen=198 rej=0 wall=2.85s
+[fmt] id=423 gold=B pred=B gen=280 rej=0 wall=3.56s
+[fmt] id=488 gold=C pred=C gen=789 rej=0 wall=9.91s
+[fmt] id=342 gold=B pred=A gen=597 rej=0 wall=7.19s
+[fmt] id=320 gold=C pred=B gen=341 rej=0 wall=4.51s
+[fmt] id=0 gold=A pred=C gen=776 rej=0 wall=9.72s
+[fmt] id=313 gold=A pred=A gen=62 rej=0 wall=1.34s
+[fmt] id=252 gold=C pred=C gen=370 rej=0 wall=4.59s
+[fmt] id=424 gold=A pred=A gen=275 rej=0 wall=3.83s
+[fmt] id=170 gold=A pred=A gen=1090 rej=0 wall=13.23s
+[fmt] id=124 gold=C pred=C gen=843 rej=0 wall=10.63s
+[fmt] id=460 gold=C pred=A gen=421 rej=0 wall=5.19s
+[fmt] id=166 gold=C pred=C gen=842 rej=0 wall=10.2s
+[fmt] id=360 gold=B pred=B gen=193 rej=0 wall=2.59s
+[fmt] id=32 gold=A pred=A gen=293 rej=0 wall=3.72s
+[fmt] id=97 gold=C pred=C gen=764 rej=0 wall=9.28s
+[fmt] id=290 gold=A pred=B gen=709 rej=0 wall=8.89s
+[fmt] id=113 gold=A pred=C gen=814 rej=0 wall=9.88s
+[fmt] id=122 gold=B pred=C gen=1095 rej=0 wall=13.59s
+[fmt] id=412 gold=C pred=C gen=912 rej=0 wall=11.48s
+[fmt] id=72 gold=B pred=C gen=893 rej=0 wall=10.88s
+[fmt] id=414 gold=A pred=A gen=357 rej=0 wall=4.52s
+[fmt] id=278 gold=A pred=A gen=335 rej=0 wall=4.27s
+[fmt] id=229 gold=C pred=C gen=814 rej=0 wall=10.16s
+[fmt] id=46 gold=B pred=C gen=899 rej=0 wall=11.15s
+[fmt] id=41 gold=A pred=A gen=335 rej=0 wall=4.39s
+[fmt] id=163 gold=A pred=A gen=723 rej=0 wall=9.12s
+[fmt] id=260 gold=C pred=C gen=619 rej=0 wall=7.57s
+[fmt] id=250 gold=C pred=A gen=363 rej=0 wall=4.55s
+[fmt] id=55 gold=C pred=C gen=752 rej=0 wall=9.23s
+[fmt] id=154 gold=A pred=A gen=364 rej=0 wall=4.51s
+[fmt] id=446 gold=C pred=C gen=772 rej=0 wall=9.18s
+[fmt] id=149 gold=A pred=A gen=555 rej=0 wall=7.03s
+[fmt] id=467 gold=A pred=A gen=204 rej=0 wall=2.76s
+[fmt] id=63 gold=C pred=B gen=821 rej=0 wall=9.86s
+=== 06:06:22 DONE MODEL=models/Qwen3-30B-A3B-Q4_K_M.gguf OUT=results_cloud/Qwen3-30B-A3B .venv/bin/python run.py --n 100 --cond fmt
+=== 06:06:22 START MODEL=models/Qwen3-30B-A3B-Q4_K_M.gguf OUT=results_cloud/Qwen3-30B-A3B GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond sync
+[sync] id=433 gold=A pred=C gen=426 rej=1 wall=5.5s
+[sync] id=197 gold=B pred=B gen=414 rej=0 wall=5.25s
+[sync] id=388 gold=C pred=A gen=796 rej=0 wall=9.65s
+[sync] id=456 gold=A pred=A gen=331 rej=0 wall=4.16s
+[sync] id=215 gold=B pred=B gen=243 rej=0 wall=3.18s
+[sync] id=20 gold=C pred=C gen=768 rej=0 wall=9.29s
+[sync] id=132 gold=B pred=B gen=1032 rej=1 wall=12.4s
+[sync] id=261 gold=A pred=C gen=1029 rej=3 wall=12.92s
+[sync] id=248 gold=B pred=C gen=981 rej=5 wall=12.68s
+[sync] id=207 gold=A pred=C gen=415 rej=8 wall=5.99s
+[sync] id=471 gold=B pred=C gen=695 rej=1 wall=8.56s
+[sync] id=401 gold=B pred=B gen=833 rej=4 wall=10.88s
+[sync] id=425 gold=B pred=B gen=107 rej=0 wall=1.73s
+[sync] id=155 gold=A pred=A gen=824 rej=0 wall=10.3s
+[sync] id=244 gold=C pred=C gen=831 rej=1 wall=10.48s
+[sync] id=183 gold=C pred=A gen=794 rej=2 wall=10.08s
+[sync] id=298 gold=A pred=A gen=697 rej=0 wall=8.51s
+[sync] id=457 gold=C pred=C gen=886 rej=0 wall=11.16s
+[sync] id=465 gold=C pred=C gen=924 rej=2 wall=11.92s
+[sync] id=111 gold=C pred=C gen=866 rej=0 wall=10.99s
+[sync] id=258 gold=C pred=C gen=857 rej=0 wall=10.92s
+[sync] id=71 gold=B pred=C gen=912 rej=2 wall=11.87s
+[sync] id=144 gold=A pred=A gen=425 rej=7 wall=6.18s
+[sync] id=478 gold=A pred=A gen=441 rej=0 wall=5.58s
+[sync] id=386 gold=C pred=A gen=779 rej=0 wall=10.0s
+[sync] id=48 gold=C pred=C gen=969 rej=0 wall=11.86s
+[sync] id=316 gold=A pred=A gen=458 rej=0 wall=5.79s
+[sync] id=409 gold=C pred=C gen=986 rej=0 wall=12.01s
+[sync] id=128 gold=A pred=A gen=1026 rej=4 wall=13.51s
+[sync] id=466 gold=C pred=C gen=861 rej=0 wall=10.98s
+[sync] id=272 gold=B pred=B gen=847 rej=0 wall=10.44s
+[sync] id=361 gold=B pred=C gen=1065 rej=0 wall=13.85s
+[sync] id=415 gold=B pred=B gen=254 rej=0 wall=3.32s
+[sync] id=308 gold=A pred=B gen=497 rej=0 wall=6.46s
+[sync] id=462 gold=B pred=B gen=478 rej=1 wall=6.2s
+[sync] id=75 gold=B pred=B gen=263 rej=0 wall=3.44s
+[sync] id=158 gold=A pred=A gen=77 rej=0 wall=1.57s
+[sync] id=50 gold=B pred=C gen=855 rej=0 wall=11.05s
+[sync] id=373 gold=B pred=B gen=677 rej=2 wall=8.51s
+[sync] id=37 gold=A pred=A gen=358 rej=0 wall=4.48s
+[sync] id=436 gold=B pred=B gen=762 rej=0 wall=9.72s
+[sync] id=350 gold=A pred=A gen=1039 rej=1 wall=13.49s
+[sync] id=169 gold=B pred=B gen=983 rej=4 wall=13.04s
+[sync] id=241 gold=B pred=C gen=940 rej=2 wall=12.66s
+[sync] id=286 gold=C pred=C gen=764 rej=0 wall=9.63s
+[sync] id=51 gold=C pred=A gen=809 rej=3 wall=10.22s
+[sync] id=181 gold=A pred=C gen=870 rej=0 wall=11.15s
+[sync] id=222 gold=C pred=A gen=964 rej=0 wall=11.88s
+[sync] id=161 gold=C pred=A gen=762 rej=0 wall=9.34s
+[sync] id=312 gold=A pred=A gen=354 rej=0 wall=4.61s
+[sync] id=327 gold=A pred=A gen=1317 rej=5 wall=17.33s
+[sync] id=104 gold=C pred=C gen=908 rej=1 wall=11.78s
+[sync] id=282 gold=B pred=C gen=952 rej=0 wall=12.18s
+[sync] id=485 gold=C pred=C gen=1022 rej=1 wall=12.79s
+[sync] id=226 gold=C pred=C gen=904 rej=0 wall=11.5s
+[sync] id=266 gold=A pred=A gen=316 rej=3 wall=4.44s
+[sync] id=133 gold=A pred=C gen=674 rej=0 wall=8.9s
+[sync] id=31 gold=B pred=B gen=878 rej=0 wall=11.38s
+[sync] id=413 gold=B pred=B gen=282 rej=0 wall=3.96s
+[sync] id=280 gold=B pred=B gen=216 rej=1 wall=3.07s
+[sync] id=7 gold=C pred=C gen=643 rej=0 wall=8.17s
+[sync] id=47 gold=A pred=C gen=710 rej=0 wall=9.07s
+[sync] id=368 gold=B pred=B gen=647 rej=0 wall=8.61s
+[sync] id=431 gold=C pred=C gen=817 rej=0 wall=10.49s
+[sync] id=204 gold=B pred=B gen=691 rej=1 wall=8.87s
+[sync] id=363 gold=A pred=A gen=578 rej=1 wall=7.6s
+[sync] id=423 gold=B pred=B gen=280 rej=0 wall=3.71s
+[sync] id=488 gold=C pred=C gen=1099 rej=1 wall=14.31s
+[sync] id=342 gold=B pred=B gen=653 rej=3 wall=8.42s
+[sync] id=320 gold=C pred=C gen=853 rej=2 wall=11.2s
+[sync] id=0 gold=A pred=C gen=776 rej=0 wall=10.09s
+[sync] id=313 gold=A pred=A gen=62 rej=0 wall=1.37s
+[sync] id=252 gold=C pred=C gen=370 rej=0 wall=4.77s
+[sync] id=424 gold=A pred=A gen=275 rej=0 wall=3.98s
+[sync] id=170 gold=A pred=A gen=1090 rej=0 wall=13.74s
+[sync] id=124 gold=C pred=C gen=843 rej=0 wall=11.06s
+[sync] id=460 gold=C pred=A gen=421 rej=0 wall=5.41s
+[sync] id=166 gold=C pred=C gen=842 rej=0 wall=10.56s
+[sync] id=360 gold=B pred=B gen=193 rej=0 wall=2.67s
+[sync] id=32 gold=A pred=A gen=293 rej=0 wall=3.86s
+[sync] id=97 gold=C pred=C gen=764 rej=0 wall=9.61s
+[sync] id=290 gold=A pred=C gen=779 rej=1 wall=10.17s
+[sync] id=113 gold=A pred=A gen=606 rej=0 wall=7.68s
+[sync] id=122 gold=B pred=C gen=1095 rej=0 wall=14.01s
+[sync] id=412 gold=C pred=C gen=1104 rej=1 wall=13.99s
+[sync] id=72 gold=B pred=C gen=1195 rej=4 wall=14.79s
+[sync] id=414 gold=A pred=A gen=357 rej=0 wall=4.47s
+[sync] id=278 gold=A pred=A gen=335 rej=0 wall=4.24s
+[sync] id=229 gold=C pred=C gen=814 rej=0 wall=10.08s
+[sync] id=46 gold=B pred=C gen=899 rej=0 wall=11.11s
+[sync] id=41 gold=A pred=A gen=335 rej=0 wall=4.34s
+[sync] id=163 gold=A pred=A gen=723 rej=0 wall=9.07s
+[sync] id=260 gold=C pred=C gen=444 rej=1 wall=5.56s
+[sync] id=250 gold=C pred=C gen=388 rej=1 wall=4.9s
+[sync] id=55 gold=C pred=C gen=808 rej=3 wall=10.29s
+[sync] id=154 gold=A pred=A gen=364 rej=0 wall=4.61s
+[sync] id=446 gold=C pred=C gen=1031 rej=5 wall=12.85s
+[sync] id=149 gold=A pred=A gen=555 rej=0 wall=7.14s
+[sync] id=467 gold=A pred=A gen=394 rej=1 wall=5.09s
+[sync] id=63 gold=C pred=B gen=707 rej=1 wall=8.74s
+=== 06:21:07 DONE MODEL=models/Qwen3-30B-A3B-Q4_K_M.gguf OUT=results_cloud/Qwen3-30B-A3B GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond sync
+=== 06:21:07 START MODEL=models/Qwen3-30B-A3B-Q4_K_M.gguf OUT=results_cloud/Qwen3-30B-A3B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond lag_trunc
+[lag_trunc] id=433 gold=A pred=C gen=549 rej=1 wall=6.84s tv=0.0
+[lag_trunc] id=197 gold=B pred=B gen=414 rej=0 wall=5.18s tv=0.0
+[lag_trunc] id=388 gold=C pred=A gen=796 rej=0 wall=9.63s tv=0.0003
+[lag_trunc] id=456 gold=A pred=A gen=331 rej=0 wall=4.23s tv=0.0
+[lag_trunc] id=215 gold=B pred=B gen=243 rej=0 wall=3.2s tv=0.0
+[lag_trunc] id=20 gold=C pred=C gen=768 rej=0 wall=9.33s tv=0.0
+[lag_trunc] id=132 gold=B pred=B gen=1163 rej=1 wall=13.96s tv=0.0
+[lag_trunc] id=261 gold=A pred=A gen=315 rej=1 wall=4.31s tv=0.0
+[lag_trunc] id=248 gold=B pred=C gen=1447 rej=3 wall=18.02s tv=0.0
+[lag_trunc] id=207 gold=A pred=A gen=793 rej=3 wall=9.84s tv=0.0
+[lag_trunc] id=471 gold=B pred=C gen=742 rej=1 wall=9.0s tv=0.1171
+[lag_trunc] id=401 gold=B pred=B gen=659 rej=2 wall=8.52s tv=0.0
+[lag_trunc] id=425 gold=B pred=B gen=107 rej=0 wall=1.75s tv=0.0
+[lag_trunc] id=155 gold=A pred=A gen=824 rej=0 wall=10.33s tv=0.1002
+[lag_trunc] id=244 gold=C pred=C gen=945 rej=1 wall=11.84s tv=0.001
+[lag_trunc] id=183 gold=C pred=C gen=1091 rej=1 wall=13.56s tv=0.0916
+[lag_trunc] id=298 gold=A pred=A gen=697 rej=0 wall=8.54s tv=0.0
+[lag_trunc] id=457 gold=C pred=C gen=886 rej=0 wall=11.16s tv=0.0001
+[lag_trunc] id=465 gold=C pred=C gen=1189 rej=2 wall=15.09s tv=0.3749
+[lag_trunc] id=111 gold=C pred=C gen=866 rej=0 wall=10.95s tv=0.0005
+[lag_trunc] id=258 gold=C pred=C gen=857 rej=0 wall=10.89s tv=0.0
+[lag_trunc] id=71 gold=B pred=C gen=1347 rej=3 wall=16.94s tv=0.0013
+[lag_trunc] id=144 gold=A pred=C gen=1000 rej=6 wall=12.6s tv=0.0003
+[lag_trunc] id=478 gold=A pred=A gen=441 rej=0 wall=5.5s tv=0.0
+[lag_trunc] id=386 gold=C pred=A gen=779 rej=0 wall=9.83s tv=0.0013
+[lag_trunc] id=48 gold=C pred=C gen=969 rej=0 wall=11.65s tv=0.0023
+[lag_trunc] id=316 gold=A pred=A gen=458 rej=0 wall=5.71s tv=0.0
+[lag_trunc] id=409 gold=C pred=C gen=986 rej=0 wall=11.76s tv=0.0
+[lag_trunc] id=128 gold=A pred=A gen=1054 rej=1 wall=13.27s tv=0.2491
+[lag_trunc] id=466 gold=C pred=C gen=861 rej=0 wall=10.83s tv=0.0
+[lag_trunc] id=272 gold=B pred=B gen=847 rej=0 wall=10.25s tv=0.0
+[lag_trunc] id=361 gold=B pred=C gen=1065 rej=0 wall=13.59s tv=0.0001
+[lag_trunc] id=415 gold=B pred=B gen=254 rej=0 wall=3.29s tv=0.0
+[lag_trunc] id=308 gold=A pred=B gen=497 rej=0 wall=6.35s tv=0.34
+[lag_trunc] id=462 gold=B pred=C gen=730 rej=1 wall=9.1s tv=0.0245
+[lag_trunc] id=75 gold=B pred=B gen=263 rej=0 wall=3.41s tv=0.0
+[lag_trunc] id=158 gold=A pred=A gen=77 rej=0 wall=1.56s tv=0.0
+[lag_trunc] id=50 gold=B pred=C gen=855 rej=0 wall=10.94s tv=0.1669
+[lag_trunc] id=373 gold=B pred=B gen=751 rej=2 wall=9.31s tv=0.0
+[lag_trunc] id=37 gold=A pred=A gen=358 rej=0 wall=4.42s tv=0.0
+[lag_trunc] id=436 gold=B pred=B gen=762 rej=0 wall=9.64s tv=0.0
+[lag_trunc] id=350 gold=A pred=C gen=1672 rej=3 wall=21.03s tv=0.006
+[lag_trunc] id=169 gold=B pred=B gen=1465 rej=4 wall=18.75s tv=0.6271
+[lag_trunc] id=241 gold=B pred=C gen=1244 rej=2 wall=16.28s tv=0.0
+[lag_trunc] id=286 gold=C pred=C gen=764 rej=0 wall=9.53s tv=0.0
+[lag_trunc] id=51 gold=C pred=C gen=1373 rej=6 wall=17.03s tv=0.0005
+[lag_trunc] id=181 gold=A pred=C gen=870 rej=0 wall=11.0s tv=0.0
+[lag_trunc] id=222 gold=C pred=A gen=964 rej=0 wall=11.78s tv=0.0995
+[lag_trunc] id=161 gold=C pred=A gen=762 rej=0 wall=9.28s tv=0.5404
+[lag_trunc] id=312 gold=A pred=A gen=354 rej=0 wall=4.58s tv=0.0
+[lag_trunc] id=327 gold=A pred=C gen=2073 rej=7 wall=26.64s tv=0.0043
+[lag_trunc] id=104 gold=C pred=C gen=1028 rej=1 wall=13.12s tv=0.0
+[lag_trunc] id=282 gold=B pred=C gen=952 rej=0 wall=12.06s tv=0.2417
+[lag_trunc] id=485 gold=C pred=C gen=1151 rej=1 wall=14.19s tv=0.0001
+[lag_trunc] id=226 gold=C pred=C gen=904 rej=0 wall=11.4s tv=0.4953
+[lag_trunc] id=266 gold=A pred=A gen=839 rej=4 wall=10.58s tv=0.0195
+[lag_trunc] id=133 gold=A pred=C gen=674 rej=0 wall=8.84s tv=0.3113
+[lag_trunc] id=31 gold=B pred=B gen=878 rej=0 wall=11.25s tv=0.0
+[lag_trunc] id=413 gold=B pred=B gen=282 rej=0 wall=3.93s tv=0.0
+[lag_trunc] id=280 gold=B pred=B gen=1325 rej=4 wall=16.6s tv=0.0006
+[lag_trunc] id=7 gold=C pred=C gen=643 rej=0 wall=8.05s tv=0.0591
+[lag_trunc] id=47 gold=A pred=C gen=710 rej=0 wall=8.97s tv=0.0201
+[lag_trunc] id=368 gold=B pred=B gen=647 rej=0 wall=8.55s tv=0.0
+[lag_trunc] id=431 gold=C pred=C gen=817 rej=0 wall=10.41s tv=0.0
+[lag_trunc] id=204 gold=B pred=B gen=764 rej=1 wall=9.66s tv=0.3177
+[lag_trunc] id=363 gold=A pred=A gen=673 rej=1 wall=8.68s tv=0.0
+[lag_trunc] id=423 gold=B pred=B gen=280 rej=0 wall=3.69s tv=0.0
+[lag_trunc] id=488 gold=C pred=C gen=1109 rej=1 wall=14.15s tv=0.0147
+[lag_trunc] id=342 gold=B pred=B gen=624 rej=1 wall=7.87s tv=0.0
+[lag_trunc] id=320 gold=C pred=C gen=1574 rej=5 wall=20.31s tv=0.0001
+[lag_trunc] id=0 gold=A pred=C gen=776 rej=0 wall=9.98s tv=0.0135
+[lag_trunc] id=313 gold=A pred=A gen=62 rej=0 wall=1.37s tv=0.0002
+[lag_trunc] id=252 gold=C pred=C gen=370 rej=0 wall=4.73s tv=0.0024
+[lag_trunc] id=424 gold=A pred=A gen=275 rej=0 wall=3.94s tv=0.0
+[lag_trunc] id=170 gold=A pred=A gen=1090 rej=0 wall=13.35s tv=0.0
+[lag_trunc] id=124 gold=C pred=C gen=843 rej=0 wall=10.5s tv=0.0
+[lag_trunc] id=460 gold=C pred=A gen=421 rej=0 wall=5.15s tv=0.0
+[lag_trunc] id=166 gold=C pred=C gen=842 rej=0 wall=10.03s tv=0.0
+[lag_trunc] id=360 gold=B pred=B gen=193 rej=0 wall=2.56s tv=0.0
+[lag_trunc] id=32 gold=A pred=A gen=293 rej=0 wall=3.69s tv=0.0
+[lag_trunc] id=97 gold=C pred=C gen=764 rej=0 wall=9.12s tv=0.0
+[lag_trunc] id=290 gold=A pred=C gen=959 rej=1 wall=11.78s tv=0.1312
+[lag_trunc] id=113 gold=A pred=A gen=606 rej=0 wall=7.33s tv=0.0
+[lag_trunc] id=122 gold=B pred=C gen=1095 rej=0 wall=13.43s tv=0.0862
+[lag_trunc] id=412 gold=C pred=C gen=1246 rej=1 wall=15.37s tv=0.0203
+[lag_trunc] id=72 gold=B pred=C gen=1783 rej=3 wall=21.43s tv=0.0037
+[lag_trunc] id=414 gold=A pred=A gen=357 rej=0 wall=4.46s tv=0.0
+[lag_trunc] id=278 gold=A pred=A gen=335 rej=0 wall=4.23s tv=0.0
+[lag_trunc] id=229 gold=C pred=C gen=814 rej=0 wall=10.0s tv=0.0046
+[lag_trunc] id=46 gold=B pred=C gen=899 rej=0 wall=11.0s tv=0.1972
+[lag_trunc] id=41 gold=A pred=A gen=335 rej=0 wall=4.33s tv=0.0
+[lag_trunc] id=163 gold=A pred=A gen=723 rej=0 wall=9.0s tv=0.0
+[lag_trunc] id=260 gold=C pred=C gen=562 rej=1 wall=6.88s tv=0.0
+[lag_trunc] id=250 gold=C pred=C gen=510 rej=1 wall=6.27s tv=0.0
+[lag_trunc] id=55 gold=C pred=C gen=1212 rej=6 wall=15.03s tv=0.0007
+[lag_trunc] id=154 gold=A pred=A gen=364 rej=0 wall=4.56s tv=0.0
+[lag_trunc] id=446 gold=C pred=C gen=1414 rej=3 wall=16.89s tv=0.0
+[lag_trunc] id=149 gold=A pred=A gen=555 rej=0 wall=7.12s tv=0.0
+[lag_trunc] id=467 gold=A pred=A gen=505 rej=1 wall=6.36s tv=0.0
+[lag_trunc] id=63 gold=C pred=B gen=839 rej=1 wall=10.25s tv=0.0021
+=== 06:39:05 DONE MODEL=models/Qwen3-30B-A3B-Q4_K_M.gguf OUT=results_cloud/Qwen3-30B-A3B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond lag_trunc
+=== 06:39:05 START MODEL=models/Qwen3-30B-A3B-Q4_K_M.gguf OUT=results_cloud/Qwen3-30B-A3B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond lag_mask
+[lag_mask] id=433 gold=A pred=C gen=555 rej=3 wall=7.07s tv=0.0
+[lag_mask] id=197 gold=B pred=B gen=414 rej=0 wall=5.17s tv=0.0
+[lag_mask] id=388 gold=C pred=A gen=796 rej=0 wall=9.61s tv=0.0003
+[lag_mask] id=456 gold=A pred=A gen=331 rej=0 wall=4.23s tv=0.0
+[lag_mask] id=215 gold=B pred=B gen=243 rej=0 wall=3.2s tv=0.0
+[lag_mask] id=20 gold=C pred=C gen=768 rej=0 wall=9.31s tv=0.0
+[lag_mask] id=132 gold=B pred=B gen=620 rej=1 wall=7.63s tv=0.0
+[lag_mask] id=261 gold=A pred=A gen=315 rej=1 wall=4.31s tv=0.0
+[lag_mask] id=248 gold=B pred=C gen=1136 rej=2 wall=14.38s tv=0.0114
+[lag_mask] id=207 gold=A pred=A gen=618 rej=3 wall=8.01s tv=0.0
+[lag_mask] id=471 gold=B pred=C gen=761 rej=1 wall=9.37s tv=0.1053
+[lag_mask] id=401 gold=B pred=B gen=270 rej=1 wall=3.9s tv=0.0
+[lag_mask] id=425 gold=B pred=B gen=107 rej=0 wall=1.77s tv=0.0
+[lag_mask] id=155 gold=A pred=A gen=824 rej=0 wall=10.32s tv=0.1002
+[lag_mask] id=244 gold=C pred=C gen=856 rej=1 wall=10.8s tv=0.0005
+[lag_mask] id=183 gold=C pred=A gen=866 rej=1 wall=10.89s tv=0.2761
+[lag_mask] id=298 gold=A pred=A gen=697 rej=0 wall=8.54s tv=0.0
+[lag_mask] id=457 gold=C pred=C gen=886 rej=0 wall=11.17s tv=0.0001
+[lag_mask] id=465 gold=C pred=B gen=1100 rej=4 wall=14.24s tv=0.3096
+[lag_mask] id=111 gold=C pred=C gen=866 rej=0 wall=10.96s tv=0.0005
+[lag_mask] id=258 gold=C pred=C gen=857 rej=0 wall=10.88s tv=0.0
+[lag_mask] id=71 gold=B pred=B gen=790 rej=1 wall=10.26s tv=0.2917
+[lag_mask] id=144 gold=A pred=A gen=950 rej=7 wall=12.42s tv=0.0
+[lag_mask] id=478 gold=A pred=A gen=441 rej=0 wall=5.5s tv=0.0
+[lag_mask] id=386 gold=C pred=A gen=779 rej=0 wall=9.83s tv=0.0013
+[lag_mask] id=48 gold=C pred=C gen=969 rej=0 wall=11.67s tv=0.0023
+[lag_mask] id=316 gold=A pred=A gen=458 rej=0 wall=5.73s tv=0.0
+[lag_mask] id=409 gold=C pred=C gen=986 rej=0 wall=11.77s tv=0.0
+[lag_mask] id=128 gold=A pred=C gen=910 rej=3 wall=11.92s tv=0.0494
+[lag_mask] id=466 gold=C pred=C gen=861 rej=0 wall=10.98s tv=0.0
+[lag_mask] id=272 gold=B pred=B gen=847 rej=0 wall=10.42s tv=0.0
+[lag_mask] id=361 gold=B pred=C gen=1065 rej=0 wall=13.8s tv=0.0001
+[lag_mask] id=415 gold=B pred=B gen=254 rej=0 wall=3.33s tv=0.0
+[lag_mask] id=308 gold=A pred=B gen=497 rej=0 wall=6.46s tv=0.34
+[lag_mask] id=462 gold=B pred=B gen=692 rej=1 wall=8.83s tv=0.0
+[lag_mask] id=75 gold=B pred=B gen=263 rej=0 wall=3.46s tv=0.0
+[lag_mask] id=158 gold=A pred=A gen=77 rej=0 wall=1.58s tv=0.0
+[lag_mask] id=50 gold=B pred=C gen=855 rej=0 wall=11.07s tv=0.1669
+[lag_mask] id=373 gold=B pred=B gen=679 rej=1 wall=8.47s tv=0.0
+[lag_mask] id=37 gold=A pred=A gen=358 rej=0 wall=4.49s tv=0.0
+[lag_mask] id=436 gold=B pred=B gen=762 rej=0 wall=9.73s tv=0.0
+[lag_mask] id=350 gold=A pred=C gen=1119 rej=4 wall=14.7s tv=0.1542
+[lag_mask] id=169 gold=B pred=B gen=566 rej=1 wall=7.56s tv=0.0
+[lag_mask] id=241 gold=B pred=C gen=908 rej=1 wall=12.16s tv=0.0
+[lag_mask] id=286 gold=C pred=C gen=764 rej=0 wall=9.65s tv=0.0
+[lag_mask] id=51 gold=C pred=C gen=773 rej=1 wall=9.68s tv=0.0768
+[lag_mask] id=181 gold=A pred=C gen=870 rej=0 wall=11.15s tv=0.0
+[lag_mask] id=222 gold=C pred=A gen=964 rej=0 wall=11.94s tv=0.0995
+[lag_mask] id=161 gold=C pred=A gen=762 rej=0 wall=9.41s tv=0.5404
+[lag_mask] id=312 gold=A pred=A gen=354 rej=0 wall=4.65s tv=0.0
+[lag_mask] id=327 gold=A pred=A gen=423 rej=1 wall=5.84s tv=0.0
+[lag_mask] id=104 gold=C pred=C gen=268 rej=1 wall=3.92s tv=0.0
+[lag_mask] id=282 gold=B pred=C gen=952 rej=0 wall=12.19s tv=0.2417
+[lag_mask] id=485 gold=C pred=C gen=1050 rej=1 wall=13.13s tv=0.0
+[lag_mask] id=226 gold=C pred=C gen=904 rej=0 wall=11.47s tv=0.4953
+[lag_mask] id=266 gold=A pred=B gen=225 rej=1 wall=3.2s tv=0.4192
+[lag_mask] id=133 gold=A pred=C gen=674 rej=0 wall=8.9s tv=0.3113
+[lag_mask] id=31 gold=B pred=B gen=878 rej=0 wall=11.34s tv=0.0
+[lag_mask] id=413 gold=B pred=B gen=282 rej=0 wall=3.97s tv=0.0
+[lag_mask] id=280 gold=B pred=B gen=834 rej=3 wall=10.68s tv=0.0
+[lag_mask] id=7 gold=C pred=C gen=643 rej=0 wall=8.11s tv=0.0591
+[lag_mask] id=47 gold=A pred=C gen=710 rej=0 wall=9.04s tv=0.0201
+[lag_mask] id=368 gold=B pred=B gen=647 rej=0 wall=8.62s tv=0.0
+[lag_mask] id=431 gold=C pred=C gen=817 rej=0 wall=10.48s tv=0.0
+[lag_mask] id=204 gold=B pred=C gen=1100 rej=1 wall=13.94s tv=0.0
+[lag_mask] id=363 gold=A pred=A gen=1088 rej=3 wall=14.16s tv=0.0
+[lag_mask] id=423 gold=B pred=B gen=280 rej=0 wall=3.72s tv=0.0
+[lag_mask] id=488 gold=C pred=C gen=1113 rej=2 wall=14.51s tv=0.0011
+[lag_mask] id=342 gold=B pred=B gen=631 rej=2 wall=8.07s tv=0.0027
+[lag_mask] id=320 gold=C pred=C gen=379 rej=2 wall=5.15s tv=0.0025
+[lag_mask] id=0 gold=A pred=C gen=776 rej=0 wall=9.69s tv=0.0135
+[lag_mask] id=313 gold=A pred=A gen=62 rej=0 wall=1.34s tv=0.0002
+[lag_mask] id=252 gold=C pred=C gen=370 rej=0 wall=4.64s tv=0.0024
+[lag_mask] id=424 gold=A pred=A gen=275 rej=0 wall=3.97s tv=0.0
+[lag_mask] id=170 gold=A pred=A gen=1090 rej=0 wall=13.7s tv=0.0
+[lag_mask] id=124 gold=C pred=C gen=843 rej=0 wall=10.98s tv=0.0
+[lag_mask] id=460 gold=C pred=A gen=421 rej=0 wall=5.4s tv=0.0
+[lag_mask] id=166 gold=C pred=C gen=842 rej=0 wall=10.53s tv=0.0
+[lag_mask] id=360 gold=B pred=B gen=193 rej=0 wall=2.67s tv=0.0
+[lag_mask] id=32 gold=A pred=A gen=293 rej=0 wall=3.86s tv=0.0
+[lag_mask] id=97 gold=C pred=C gen=764 rej=0 wall=9.57s tv=0.0
+[lag_mask] id=290 gold=A pred=C gen=850 rej=1 wall=11.0s tv=0.0006
+[lag_mask] id=113 gold=A pred=A gen=606 rej=0 wall=7.68s tv=0.0
+[lag_mask] id=122 gold=B pred=C gen=1095 rej=0 wall=13.95s tv=0.0862
+[lag_mask] id=412 gold=C pred=C gen=1263 rej=2 wall=15.91s tv=0.0008
+[lag_mask] id=72 gold=B pred=C gen=1456 rej=3 wall=17.77s tv=0.0
+[lag_mask] id=414 gold=A pred=A gen=357 rej=0 wall=4.51s tv=0.0
+[lag_mask] id=278 gold=A pred=A gen=335 rej=0 wall=4.25s tv=0.0
+[lag_mask] id=229 gold=C pred=C gen=814 rej=0 wall=10.1s tv=0.0046
+[lag_mask] id=46 gold=B pred=C gen=899 rej=0 wall=11.08s tv=0.1972
+[lag_mask] id=41 gold=A pred=A gen=335 rej=0 wall=4.37s tv=0.0
+[lag_mask] id=163 gold=A pred=A gen=723 rej=0 wall=9.06s tv=0.0
+[lag_mask] id=260 gold=C pred=C gen=562 rej=1 wall=6.98s tv=0.0
+[lag_mask] id=250 gold=C pred=C gen=800 rej=2 wall=9.85s tv=0.424
+[lag_mask] id=55 gold=C pred=C gen=808 rej=2 wall=10.18s tv=0.0004
+[lag_mask] id=154 gold=A pred=A gen=364 rej=0 wall=4.6s tv=0.0
+[lag_mask] id=446 gold=C pred=C gen=851 rej=1 wall=10.38s tv=0.0
+[lag_mask] id=149 gold=A pred=A gen=555 rej=0 wall=7.17s tv=0.0
+[lag_mask] id=467 gold=A pred=B gen=882 rej=3 wall=11.08s tv=0.0
+[lag_mask] id=63 gold=C pred=B gen=1211 rej=3 wall=14.96s tv=0.0005
+=== 06:55:19 DONE MODEL=models/Qwen3-30B-A3B-Q4_K_M.gguf OUT=results_cloud/Qwen3-30B-A3B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond lag_mask
+=== 06:55:19 START MODEL=models/Qwen3-30B-A3B-Q4_K_M.gguf OUT=results_cloud/Qwen3-30B-A3B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond lag_refresh
+[lag_refresh] id=433 gold=A pred=C gen=649 rej=3 wall=9.04s tv=0.0
+[lag_refresh] id=197 gold=B pred=B gen=414 rej=0 wall=5.16s tv=0.0
+[lag_refresh] id=388 gold=C pred=A gen=796 rej=0 wall=9.59s tv=0.0003
+[lag_refresh] id=456 gold=A pred=A gen=331 rej=0 wall=4.23s tv=0.0
+[lag_refresh] id=215 gold=B pred=B gen=243 rej=0 wall=3.21s tv=0.0
+[lag_refresh] id=20 gold=C pred=C gen=768 rej=0 wall=9.3s tv=0.0
+[lag_refresh] id=132 gold=B pred=B gen=557 rej=1 wall=7.11s tv=0.0
+[lag_refresh] id=261 gold=A pred=A gen=315 rej=1 wall=4.29s tv=0.0
+[lag_refresh] id=248 gold=B pred=C gen=925 rej=1 wall=11.88s tv=0.1065
+[lag_refresh] id=207 gold=A pred=A gen=418 rej=1 wall=5.5s tv=0.0
+[lag_refresh] id=471 gold=B pred=C gen=742 rej=1 wall=9.12s tv=0.1171
+[lag_refresh] id=401 gold=B pred=B gen=659 rej=2 wall=8.59s tv=0.0
+[lag_refresh] id=425 gold=B pred=B gen=107 rej=0 wall=1.77s tv=0.0
+[lag_refresh] id=155 gold=A pred=A gen=824 rej=0 wall=10.29s tv=0.1002
+[lag_refresh] id=244 gold=C pred=C gen=781 rej=1 wall=10.06s tv=0.0002
+[lag_refresh] id=183 gold=C pred=C gen=937 rej=2 wall=12.31s tv=0.0344
+[lag_refresh] id=298 gold=A pred=A gen=697 rej=0 wall=8.52s tv=0.0
+[lag_refresh] id=457 gold=C pred=C gen=886 rej=0 wall=11.13s tv=0.0001
+[lag_refresh] id=465 gold=C pred=C gen=1047 rej=2 wall=13.63s tv=0.1521
+[lag_refresh] id=111 gold=C pred=C gen=866 rej=0 wall=10.93s tv=0.0005
+[lag_refresh] id=258 gold=C pred=C gen=857 rej=0 wall=10.84s tv=0.0
+[lag_refresh] id=71 gold=B pred=C gen=262 rej=1 wall=4.04s tv=0.0002
+[lag_refresh] id=144 gold=A pred=C gen=969 rej=4 wall=13.12s tv=0.0454
+[lag_refresh] id=478 gold=A pred=A gen=441 rej=0 wall=5.58s tv=0.0
+[lag_refresh] id=386 gold=C pred=A gen=779 rej=0 wall=9.97s tv=0.0013
+[lag_refresh] id=48 gold=C pred=C gen=969 rej=0 wall=11.88s tv=0.0023
+[lag_refresh] id=316 gold=A pred=A gen=458 rej=0 wall=5.8s tv=0.0
+[lag_refresh] id=409 gold=C pred=C gen=986 rej=0 wall=11.95s tv=0.0
+[lag_refresh] id=128 gold=A pred=C gen=821 rej=3 wall=11.56s tv=0.0458
+[lag_refresh] id=466 gold=C pred=C gen=861 rej=0 wall=10.97s tv=0.0
+[lag_refresh] id=272 gold=B pred=B gen=847 rej=0 wall=10.4s tv=0.0
+[lag_refresh] id=361 gold=B pred=C gen=1065 rej=0 wall=13.76s tv=0.0001
+[lag_refresh] id=415 gold=B pred=B gen=254 rej=0 wall=3.32s tv=0.0
+[lag_refresh] id=308 gold=A pred=B gen=497 rej=0 wall=6.43s tv=0.34
+[lag_refresh] id=462 gold=B pred=B gen=777 rej=1 wall=10.0s tv=0.5036
+[lag_refresh] id=75 gold=B pred=B gen=263 rej=0 wall=3.45s tv=0.0
+[lag_refresh] id=158 gold=A pred=A gen=77 rej=0 wall=1.57s tv=0.0
+[lag_refresh] id=50 gold=B pred=C gen=855 rej=0 wall=10.89s tv=0.1669
+[lag_refresh] id=373 gold=B pred=B gen=751 rej=2 wall=9.24s tv=0.0
+[lag_refresh] id=37 gold=A pred=A gen=358 rej=0 wall=4.34s tv=0.0
+[lag_refresh] id=436 gold=B pred=B gen=762 rej=0 wall=9.46s tv=0.0
+[lag_refresh] id=350 gold=A pred=C gen=1942 rej=5 wall=24.61s tv=0.0105
+[lag_refresh] id=169 gold=B pred=C gen=1483 rej=8 wall=19.36s tv=0.1522
+[lag_refresh] id=241 gold=B pred=C gen=967 rej=3 wall=13.5s tv=0.0007
+[lag_refresh] id=286 gold=C pred=C gen=764 rej=0 wall=9.39s tv=0.0
+[lag_refresh] id=51 gold=C pred=C gen=909 rej=2 wall=11.5s tv=0.0113
+[lag_refresh] id=181 gold=A pred=C gen=870 rej=0 wall=10.86s tv=0.0
+[lag_refresh] id=222 gold=C pred=A gen=964 rej=0 wall=11.58s tv=0.0995
+[lag_refresh] id=161 gold=C pred=A gen=762 rej=0 wall=9.13s tv=0.5404
+[lag_refresh] id=312 gold=A pred=A gen=354 rej=0 wall=4.52s tv=0.0
+[lag_refresh] id=327 gold=A pred=A gen=421 rej=1 wall=5.7s tv=0.0
+[lag_refresh] id=104 gold=C pred=C gen=841 rej=1 wall=10.86s tv=0.0
+[lag_refresh] id=282 gold=B pred=C gen=952 rej=0 wall=11.86s tv=0.2417
+[lag_refresh] id=485 gold=C pred=C gen=1083 rej=2 wall=13.41s tv=0.0
+[lag_refresh] id=226 gold=C pred=C gen=904 rej=0 wall=11.22s tv=0.4953
+[lag_refresh] id=266 gold=A pred=A gen=260 rej=1 wall=3.67s tv=0.0013
+[lag_refresh] id=133 gold=A pred=C gen=674 rej=0 wall=8.68s tv=0.3113
+[lag_refresh] id=31 gold=B pred=B gen=878 rej=0 wall=11.08s tv=0.0
+[lag_refresh] id=413 gold=B pred=B gen=282 rej=0 wall=3.87s tv=0.0
+[lag_refresh] id=280 gold=B pred=B gen=684 rej=3 wall=9.44s tv=0.0
+[lag_refresh] id=7 gold=C pred=C gen=643 rej=0 wall=7.92s tv=0.0591
+[lag_refresh] id=47 gold=A pred=C gen=710 rej=0 wall=8.84s tv=0.0201
+[lag_refresh] id=368 gold=B pred=B gen=647 rej=0 wall=8.43s tv=0.0
+[lag_refresh] id=431 gold=C pred=C gen=817 rej=0 wall=10.25s tv=0.0
+[lag_refresh] id=204 gold=B pred=B gen=764 rej=1 wall=9.54s tv=0.3177
+[lag_refresh] id=363 gold=A pred=A gen=673 rej=1 wall=8.56s tv=0.0
+[lag_refresh] id=423 gold=B pred=B gen=280 rej=0 wall=3.64s tv=0.0
+[lag_refresh] id=488 gold=C pred=C gen=1485 rej=8 wall=21.05s tv=0.0001
+[lag_refresh] id=342 gold=B pred=B gen=624 rej=1 wall=7.76s tv=0.0
+[lag_refresh] id=320 gold=C pred=C gen=1100 rej=5 wall=14.57s tv=0.0
+[lag_refresh] id=0 gold=A pred=C gen=776 rej=0 wall=9.87s tv=0.0135
+[lag_refresh] id=313 gold=A pred=A gen=62 rej=0 wall=1.36s tv=0.0002
+[lag_refresh] id=252 gold=C pred=C gen=370 rej=0 wall=4.66s tv=0.0024
+[lag_refresh] id=424 gold=A pred=A gen=275 rej=0 wall=3.9s tv=0.0
+[lag_refresh] id=170 gold=A pred=A gen=1090 rej=0 wall=13.47s tv=0.0
+[lag_refresh] id=124 gold=C pred=C gen=843 rej=0 wall=10.82s tv=0.0
+[lag_refresh] id=460 gold=C pred=A gen=421 rej=0 wall=5.3s tv=0.0
+[lag_refresh] id=166 gold=C pred=C gen=842 rej=0 wall=10.38s tv=0.0
+[lag_refresh] id=360 gold=B pred=B gen=193 rej=0 wall=2.63s tv=0.0
+[lag_refresh] id=32 gold=A pred=A gen=293 rej=0 wall=3.79s tv=0.0
+[lag_refresh] id=97 gold=C pred=C gen=764 rej=0 wall=9.29s tv=0.0
+[lag_refresh] id=290 gold=A pred=C gen=854 rej=1 wall=10.76s tv=0.1046
+[lag_refresh] id=113 gold=A pred=A gen=606 rej=0 wall=7.32s tv=0.0
+[lag_refresh] id=122 gold=B pred=C gen=1095 rej=0 wall=13.33s tv=0.0862
+[lag_refresh] id=412 gold=C pred=C gen=496 rej=1 wall=6.5s tv=0.0
+[lag_refresh] id=72 gold=B pred=C gen=1579 rej=5 wall=20.41s tv=0.0113
+[lag_refresh] id=414 gold=A pred=A gen=357 rej=0 wall=4.44s tv=0.0
+[lag_refresh] id=278 gold=A pred=A gen=335 rej=0 wall=4.2s tv=0.0
+[lag_refresh] id=229 gold=C pred=C gen=814 rej=0 wall=9.93s tv=0.0046
+[lag_refresh] id=46 gold=B pred=C gen=899 rej=0 wall=10.93s tv=0.1972
+[lag_refresh] id=41 gold=A pred=A gen=335 rej=0 wall=4.3s tv=0.0
+[lag_refresh] id=163 gold=A pred=A gen=723 rej=0 wall=8.92s tv=0.0
+[lag_refresh] id=260 gold=C pred=C gen=562 rej=1 wall=6.83s tv=0.0
+[lag_refresh] id=250 gold=C pred=B gen=796 rej=3 wall=9.99s tv=0.1318
+[lag_refresh] id=55 gold=C pred=C gen=783 rej=1 wall=9.91s tv=0.0138
+[lag_refresh] id=154 gold=A pred=A gen=364 rej=0 wall=4.52s tv=0.0
+[lag_refresh] id=446 gold=C pred=C gen=844 rej=1 wall=10.32s tv=0.0026
+[lag_refresh] id=149 gold=A pred=A gen=555 rej=0 wall=7.03s tv=0.0
+[lag_refresh] id=467 gold=A pred=B gen=790 rej=6 wall=11.38s tv=0.0137
+[lag_refresh] id=63 gold=C pred=B gen=1182 rej=3 wall=15.14s tv=0.0005
+=== 07:11:54 DONE MODEL=models/Qwen3-30B-A3B-Q4_K_M.gguf OUT=results_cloud/Qwen3-30B-A3B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond lag_refresh
+=== 07:11:54 START MODEL=models/Qwen3-30B-A3B-Q4_K_M.gguf OUT=results_cloud/Qwen3-30B-A3B/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond lag_trunc
+[lag_trunc] id=433 gold=A pred=C gen=494 rej=1 wall=6.18s tv=0.0
+[lag_trunc] id=197 gold=B pred=B gen=414 rej=0 wall=5.16s tv=0.0
+[lag_trunc] id=388 gold=C pred=A gen=796 rej=0 wall=9.61s tv=0.0003
+[lag_trunc] id=456 gold=A pred=A gen=331 rej=0 wall=4.2s tv=0.0
+[lag_trunc] id=215 gold=B pred=B gen=243 rej=0 wall=3.19s tv=0.0
+[lag_trunc] id=20 gold=C pred=C gen=768 rej=0 wall=9.32s tv=0.0
+[lag_trunc] id=132 gold=B pred=B gen=1075 rej=1 wall=12.94s tv=0.0
+[lag_trunc] id=261 gold=A pred=A gen=274 rej=1 wall=3.81s tv=0.0
+[lag_trunc] id=248 gold=B pred=C gen=1279 rej=3 wall=16.08s tv=0.0
+[lag_trunc] id=207 gold=A pred=A gen=643 rej=3 wall=8.24s tv=0.0
+[lag_trunc] id=471 gold=B pred=B gen=754 rej=1 wall=9.26s tv=0.2011
+[lag_trunc] id=401 gold=B pred=B gen=656 rej=2 wall=8.59s tv=0.0
+[lag_trunc] id=425 gold=B pred=B gen=107 rej=0 wall=1.76s tv=0.0
+[lag_trunc] id=155 gold=A pred=A gen=824 rej=0 wall=10.32s tv=0.1002
+[lag_trunc] id=244 gold=C pred=C gen=899 rej=1 wall=11.3s tv=0.001
+[lag_trunc] id=183 gold=C pred=C gen=1000 rej=1 wall=12.54s tv=0.0916
+[lag_trunc] id=298 gold=A pred=A gen=697 rej=0 wall=8.55s tv=0.0
+[lag_trunc] id=457 gold=C pred=C gen=886 rej=0 wall=11.2s tv=0.0001
+[lag_trunc] id=465 gold=C pred=C gen=1106 rej=2 wall=14.11s tv=0.3749
+[lag_trunc] id=111 gold=C pred=C gen=866 rej=0 wall=10.95s tv=0.0005
+[lag_trunc] id=258 gold=C pred=C gen=857 rej=0 wall=10.91s tv=0.0
+[lag_trunc] id=71 gold=B pred=C gen=1346 rej=8 wall=17.52s tv=0.0
+[lag_trunc] id=144 gold=A pred=C gen=586 rej=6 wall=7.96s tv=0.0003
+[lag_trunc] id=478 gold=A pred=A gen=441 rej=0 wall=5.59s tv=0.0
+[lag_trunc] id=386 gold=C pred=A gen=779 rej=0 wall=10.01s tv=0.0013
+[lag_trunc] id=48 gold=C pred=C gen=969 rej=0 wall=11.89s tv=0.0023
+[lag_trunc] id=316 gold=A pred=A gen=458 rej=0 wall=5.82s tv=0.0
+[lag_trunc] id=409 gold=C pred=C gen=986 rej=0 wall=11.98s tv=0.0
+[lag_trunc] id=128 gold=A pred=C gen=927 rej=1 wall=11.95s tv=0.0422
+[lag_trunc] id=466 gold=C pred=C gen=861 rej=0 wall=11.01s tv=0.0
+[lag_trunc] id=272 gold=B pred=B gen=847 rej=0 wall=10.43s tv=0.0
+[lag_trunc] id=361 gold=B pred=C gen=1065 rej=0 wall=13.83s tv=0.0001
+[lag_trunc] id=415 gold=B pred=B gen=254 rej=0 wall=3.32s tv=0.0
+[lag_trunc] id=308 gold=A pred=B gen=497 rej=0 wall=6.46s tv=0.34
+[lag_trunc] id=462 gold=B pred=C gen=722 rej=1 wall=9.14s tv=0.0438
+[lag_trunc] id=75 gold=B pred=B gen=263 rej=0 wall=3.44s tv=0.0
+[lag_trunc] id=158 gold=A pred=A gen=77 rej=0 wall=1.57s tv=0.0
+[lag_trunc] id=50 gold=B pred=C gen=855 rej=0 wall=10.92s tv=0.1669
+[lag_trunc] id=373 gold=B pred=B gen=751 rej=2 wall=9.28s tv=0.0
+[lag_trunc] id=37 gold=A pred=A gen=358 rej=0 wall=4.4s tv=0.0
+[lag_trunc] id=436 gold=B pred=B gen=762 rej=0 wall=9.6s tv=0.0
+[lag_trunc] id=350 gold=A pred=C gen=1729 rej=4 wall=21.9s tv=0.0152
+[lag_trunc] id=169 gold=B pred=B gen=1221 rej=4 wall=15.75s tv=0.6271
+[lag_trunc] id=241 gold=B pred=C gen=1121 rej=2 wall=14.69s tv=0.0002
+[lag_trunc] id=286 gold=C pred=C gen=764 rej=0 wall=9.5s tv=0.0
+[lag_trunc] id=51 gold=C pred=C gen=1043 rej=6 wall=13.08s tv=0.0005
+[lag_trunc] id=181 gold=A pred=C gen=870 rej=0 wall=11.01s tv=0.0
+[lag_trunc] id=222 gold=C pred=A gen=964 rej=0 wall=11.73s tv=0.0995
+[lag_trunc] id=161 gold=C pred=A gen=762 rej=0 wall=9.26s tv=0.5404
+[lag_trunc] id=312 gold=A pred=A gen=354 rej=0 wall=4.56s tv=0.0
+[lag_trunc] id=327 gold=A pred=C gen=1723 rej=7 wall=22.22s tv=0.0043
+[lag_trunc] id=104 gold=C pred=C gen=989 rej=1 wall=12.58s tv=0.0
+[lag_trunc] id=282 gold=B pred=C gen=952 rej=0 wall=12.02s tv=0.2417
+[lag_trunc] id=485 gold=C pred=C gen=1099 rej=1 wall=13.52s tv=0.0001
+[lag_trunc] id=226 gold=C pred=C gen=904 rej=0 wall=11.37s tv=0.4953
+[lag_trunc] id=266 gold=A pred=A gen=664 rej=4 wall=8.5s tv=0.0195
+[lag_trunc] id=133 gold=A pred=C gen=674 rej=0 wall=8.8s tv=0.3113
+[lag_trunc] id=31 gold=B pred=B gen=878 rej=0 wall=11.23s tv=0.0
+[lag_trunc] id=413 gold=B pred=B gen=282 rej=0 wall=3.91s tv=0.0
+[lag_trunc] id=280 gold=B pred=B gen=1313 rej=8 wall=16.86s tv=0.0272
+[lag_trunc] id=7 gold=C pred=C gen=643 rej=0 wall=8.04s tv=0.0591
+[lag_trunc] id=47 gold=A pred=C gen=710 rej=0 wall=8.95s tv=0.0201
+[lag_trunc] id=368 gold=B pred=B gen=647 rej=0 wall=8.52s tv=0.0
+[lag_trunc] id=431 gold=C pred=C gen=817 rej=0 wall=10.37s tv=0.0
+[lag_trunc] id=204 gold=B pred=B gen=761 rej=1 wall=9.63s tv=0.3177
+[lag_trunc] id=363 gold=A pred=A gen=650 rej=1 wall=8.39s tv=0.0
+[lag_trunc] id=423 gold=B pred=B gen=280 rej=0 wall=3.68s tv=0.0
+[lag_trunc] id=488 gold=C pred=C gen=1155 rej=1 wall=14.81s tv=0.0005
+[lag_trunc] id=342 gold=B pred=B gen=624 rej=1 wall=7.85s tv=0.0
+[lag_trunc] id=320 gold=C pred=C gen=955 rej=1 wall=12.24s tv=0.0
+[lag_trunc] id=0 gold=A pred=C gen=776 rej=0 wall=10.0s tv=0.0135
+[lag_trunc] id=313 gold=A pred=A gen=62 rej=0 wall=1.37s tv=0.0002
+[lag_trunc] id=252 gold=C pred=C gen=370 rej=0 wall=4.71s tv=0.0024
+[lag_trunc] id=424 gold=A pred=A gen=275 rej=0 wall=3.95s tv=0.0
+[lag_trunc] id=170 gold=A pred=A gen=1090 rej=0 wall=13.63s tv=0.0
+[lag_trunc] id=124 gold=C pred=C gen=843 rej=0 wall=10.95s tv=0.0
+[lag_trunc] id=460 gold=C pred=A gen=421 rej=0 wall=5.37s tv=0.0
+[lag_trunc] id=166 gold=C pred=C gen=842 rej=0 wall=10.51s tv=0.0
+[lag_trunc] id=360 gold=B pred=B gen=193 rej=0 wall=2.6s tv=0.0
+[lag_trunc] id=32 gold=A pred=A gen=293 rej=0 wall=3.68s tv=0.0
+[lag_trunc] id=97 gold=C pred=C gen=764 rej=0 wall=9.12s tv=0.0
+[lag_trunc] id=290 gold=A pred=C gen=891 rej=1 wall=10.97s tv=0.1312
+[lag_trunc] id=113 gold=A pred=A gen=606 rej=0 wall=7.32s tv=0.0
+[lag_trunc] id=122 gold=B pred=C gen=1095 rej=0 wall=13.34s tv=0.0862
+[lag_trunc] id=412 gold=C pred=C gen=1168 rej=1 wall=14.47s tv=0.0203
+[lag_trunc] id=72 gold=B pred=C gen=1532 rej=3 wall=18.41s tv=0.0241
+[lag_trunc] id=414 gold=A pred=A gen=357 rej=0 wall=4.43s tv=0.0
+[lag_trunc] id=278 gold=A pred=A gen=335 rej=0 wall=4.2s tv=0.0
+[lag_trunc] id=229 gold=C pred=C gen=814 rej=0 wall=9.94s tv=0.0046
+[lag_trunc] id=46 gold=B pred=C gen=899 rej=0 wall=10.94s tv=0.1972
+[lag_trunc] id=41 gold=A pred=A gen=335 rej=0 wall=4.3s tv=0.0
+[lag_trunc] id=163 gold=A pred=A gen=723 rej=0 wall=8.92s tv=0.0
+[lag_trunc] id=260 gold=C pred=C gen=506 rej=1 wall=6.18s tv=0.0
+[lag_trunc] id=250 gold=C pred=C gen=437 rej=1 wall=5.39s tv=0.0
+[lag_trunc] id=55 gold=C pred=C gen=816 rej=6 wall=10.34s tv=0.0007
+[lag_trunc] id=154 gold=A pred=A gen=364 rej=0 wall=4.5s tv=0.0
+[lag_trunc] id=446 gold=C pred=C gen=1197 rej=3 wall=14.24s tv=0.0
+[lag_trunc] id=149 gold=A pred=A gen=555 rej=0 wall=7.05s tv=0.0
+[lag_trunc] id=467 gold=A pred=A gen=440 rej=1 wall=5.53s tv=0.0
+[lag_trunc] id=63 gold=C pred=B gen=773 rej=1 wall=9.36s tv=0.0021
+=== 07:29:03 DONE MODEL=models/Qwen3-30B-A3B-Q4_K_M.gguf OUT=results_cloud/Qwen3-30B-A3B/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond lag_trunc
+=== 07:29:03 START MODEL=models/Qwen3-30B-A3B-Q4_K_M.gguf OUT=results_cloud/Qwen3-30B-A3B/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond lag_mask
+[lag_mask] id=433 gold=A pred=C gen=174 rej=2 wall=2.68s tv=0.0
+[lag_mask] id=197 gold=B pred=B gen=414 rej=0 wall=5.16s tv=0.0
+[lag_mask] id=388 gold=C pred=A gen=796 rej=0 wall=9.63s tv=0.0003
+[lag_mask] id=456 gold=A pred=A gen=331 rej=0 wall=4.23s tv=0.0
+[lag_mask] id=215 gold=B pred=B gen=243 rej=0 wall=3.2s tv=0.0
+[lag_mask] id=20 gold=C pred=C gen=768 rej=0 wall=9.38s tv=0.0
+[lag_mask] id=132 gold=B pred=B gen=1063 rej=1 wall=12.91s tv=0.0
+[lag_mask] id=261 gold=A pred=A gen=274 rej=1 wall=3.85s tv=0.0
+[lag_mask] id=248 gold=B pred=C gen=1010 rej=1 wall=12.79s tv=0.0
+[lag_mask] id=207 gold=A pred=A gen=629 rej=3 wall=8.17s tv=0.0
+[lag_mask] id=471 gold=B pred=C gen=790 rej=1 wall=9.73s tv=0.1741
+[lag_mask] id=401 gold=B pred=B gen=270 rej=1 wall=3.88s tv=0.0
+[lag_mask] id=425 gold=B pred=B gen=107 rej=0 wall=1.76s tv=0.0
+[lag_mask] id=155 gold=A pred=A gen=824 rej=0 wall=10.36s tv=0.1002
+[lag_mask] id=244 gold=C pred=C gen=743 rej=1 wall=9.46s tv=0.001
+[lag_mask] id=183 gold=C pred=C gen=957 rej=1 wall=12.06s tv=0.1029
+[lag_mask] id=298 gold=A pred=A gen=697 rej=0 wall=8.58s tv=0.0
+[lag_mask] id=457 gold=C pred=C gen=886 rej=0 wall=11.22s tv=0.0001
+[lag_mask] id=465 gold=C pred=C gen=1048 rej=2 wall=13.48s tv=0.0107
+[lag_mask] id=111 gold=C pred=C gen=866 rej=0 wall=10.99s tv=0.0005
+[lag_mask] id=258 gold=C pred=C gen=857 rej=0 wall=10.9s tv=0.0
+[lag_mask] id=71 gold=B pred=C gen=839 rej=1 wall=10.88s tv=0.0
+[lag_mask] id=144 gold=A pred=C gen=586 rej=6 wall=8.09s tv=0.0003
+[lag_mask] id=478 gold=A pred=A gen=441 rej=0 wall=5.59s tv=0.0
+[lag_mask] id=386 gold=C pred=A gen=779 rej=0 wall=9.99s tv=0.0013
+[lag_mask] id=48 gold=C pred=C gen=969 rej=0 wall=11.92s tv=0.0023
+[lag_mask] id=316 gold=A pred=A gen=458 rej=0 wall=5.83s tv=0.0
+[lag_mask] id=409 gold=C pred=C gen=986 rej=0 wall=12.0s tv=0.0
+[lag_mask] id=128 gold=A pred=A gen=943 rej=2 wall=12.32s tv=0.2157
+[lag_mask] id=466 gold=C pred=C gen=861 rej=0 wall=11.02s tv=0.0
+[lag_mask] id=272 gold=B pred=B gen=847 rej=0 wall=10.44s tv=0.0
+[lag_mask] id=361 gold=B pred=C gen=1065 rej=0 wall=13.82s tv=0.0001
+[lag_mask] id=415 gold=B pred=B gen=254 rej=0 wall=3.33s tv=0.0
+[lag_mask] id=308 gold=A pred=B gen=497 rej=0 wall=6.47s tv=0.34
+[lag_mask] id=462 gold=B pred=C gen=812 rej=3 wall=10.47s tv=0.0001
+[lag_mask] id=75 gold=B pred=B gen=263 rej=0 wall=3.46s tv=0.0
+[lag_mask] id=158 gold=A pred=A gen=77 rej=0 wall=1.57s tv=0.0
+[lag_mask] id=50 gold=B pred=C gen=855 rej=0 wall=11.15s tv=0.1669
+[lag_mask] id=373 gold=B pred=B gen=679 rej=1 wall=8.54s tv=0.0
+[lag_mask] id=37 gold=A pred=A gen=358 rej=0 wall=4.45s tv=0.0
+[lag_mask] id=436 gold=B pred=B gen=762 rej=0 wall=9.68s tv=0.0
+[lag_mask] id=350 gold=A pred=C gen=1645 rej=6 wall=21.02s tv=0.0448
+[lag_mask] id=169 gold=B pred=B gen=501 rej=1 wall=6.6s tv=0.0
+[lag_mask] id=241 gold=B pred=C gen=890 rej=1 wall=11.66s tv=0.0
+[lag_mask] id=286 gold=C pred=C gen=764 rej=0 wall=9.39s tv=0.0
+[lag_mask] id=51 gold=C pred=A gen=674 rej=1 wall=8.23s tv=0.0007
+[lag_mask] id=181 gold=A pred=C gen=870 rej=0 wall=10.87s tv=0.0
+[lag_mask] id=222 gold=C pred=A gen=964 rej=0 wall=11.6s tv=0.0995
+[lag_mask] id=161 gold=C pred=A gen=762 rej=0 wall=9.16s tv=0.5404
+[lag_mask] id=312 gold=A pred=A gen=354 rej=0 wall=4.52s tv=0.0
+[lag_mask] id=327 gold=A pred=A gen=329 rej=1 wall=4.56s tv=0.0
+[lag_mask] id=104 gold=C pred=B gen=838 rej=1 wall=10.66s tv=0.5211
+[lag_mask] id=282 gold=B pred=C gen=952 rej=0 wall=11.87s tv=0.2417
+[lag_mask] id=485 gold=C pred=C gen=998 rej=1 wall=12.22s tv=0.0
+[lag_mask] id=226 gold=C pred=C gen=904 rej=0 wall=11.26s tv=0.4953
+[lag_mask] id=266 gold=A pred=A gen=255 rej=1 wall=3.46s tv=0.0031
+[lag_mask] id=133 gold=A pred=C gen=674 rej=0 wall=8.7s tv=0.3113
+[lag_mask] id=31 gold=B pred=B gen=878 rej=0 wall=11.11s tv=0.0
+[lag_mask] id=413 gold=B pred=B gen=282 rej=0 wall=3.88s tv=0.0
+[lag_mask] id=280 gold=B pred=B gen=350 rej=3 wall=4.73s tv=0.0
+[lag_mask] id=7 gold=C pred=C gen=643 rej=0 wall=7.94s tv=0.0591
+[lag_mask] id=47 gold=A pred=C gen=710 rej=0 wall=8.85s tv=0.0201
+[lag_mask] id=368 gold=B pred=B gen=647 rej=0 wall=8.42s tv=0.0
+[lag_mask] id=431 gold=C pred=C gen=817 rej=0 wall=10.26s tv=0.0
+[lag_mask] id=204 gold=B pred=B gen=761 rej=1 wall=9.53s tv=0.3177
+[lag_mask] id=363 gold=A pred=A gen=650 rej=1 wall=8.31s tv=0.0
+[lag_mask] id=423 gold=B pred=B gen=280 rej=0 wall=3.64s tv=0.0
+[lag_mask] id=488 gold=C pred=C gen=977 rej=2 wall=12.56s tv=0.0302
+[lag_mask] id=342 gold=B pred=B gen=631 rej=2 wall=7.92s tv=0.0027
+[lag_mask] id=320 gold=C pred=C gen=1217 rej=4 wall=15.6s tv=0.0
+[lag_mask] id=0 gold=A pred=C gen=776 rej=0 wall=9.88s tv=0.0135
+[lag_mask] id=313 gold=A pred=A gen=62 rej=0 wall=1.36s tv=0.0002
+[lag_mask] id=252 gold=C pred=C gen=370 rej=0 wall=4.67s tv=0.0024
+[lag_mask] id=424 gold=A pred=A gen=275 rej=0 wall=3.91s tv=0.0
+[lag_mask] id=170 gold=A pred=A gen=1090 rej=0 wall=13.49s tv=0.0
+[lag_mask] id=124 gold=C pred=C gen=843 rej=0 wall=10.81s tv=0.0
+[lag_mask] id=460 gold=C pred=A gen=421 rej=0 wall=5.31s tv=0.0
+[lag_mask] id=166 gold=C pred=C gen=842 rej=0 wall=10.39s tv=0.0
+[lag_mask] id=360 gold=B pred=B gen=193 rej=0 wall=2.63s tv=0.0
+[lag_mask] id=32 gold=A pred=A gen=293 rej=0 wall=3.79s tv=0.0
+[lag_mask] id=97 gold=C pred=C gen=764 rej=0 wall=9.43s tv=0.0
+[lag_mask] id=290 gold=A pred=C gen=775 rej=1 wall=9.93s tv=0.0429
+[lag_mask] id=113 gold=A pred=A gen=606 rej=0 wall=7.57s tv=0.0
+[lag_mask] id=122 gold=B pred=C gen=1095 rej=0 wall=13.79s tv=0.0862
+[lag_mask] id=412 gold=C pred=C gen=1172 rej=2 wall=15.09s tv=0.011
+[lag_mask] id=72 gold=B pred=C gen=1381 rej=1 wall=16.65s tv=0.0013
+[lag_mask] id=414 gold=A pred=A gen=357 rej=0 wall=4.43s tv=0.0
+[lag_mask] id=278 gold=A pred=A gen=335 rej=0 wall=4.2s tv=0.0
+[lag_mask] id=229 gold=C pred=C gen=814 rej=0 wall=9.93s tv=0.0046
+[lag_mask] id=46 gold=B pred=C gen=899 rej=0 wall=10.92s tv=0.1972
+[lag_mask] id=41 gold=A pred=A gen=335 rej=0 wall=4.28s tv=0.0
+[lag_mask] id=163 gold=A pred=A gen=723 rej=0 wall=8.9s tv=0.0
+[lag_mask] id=260 gold=C pred=C gen=506 rej=1 wall=6.2s tv=0.0
+[lag_mask] id=250 gold=C pred=C gen=932 rej=3 wall=11.28s tv=0.176
+[lag_mask] id=55 gold=C pred=C gen=768 rej=1 wall=9.44s tv=0.0153
+[lag_mask] id=154 gold=A pred=A gen=364 rej=0 wall=4.51s tv=0.0
+[lag_mask] id=446 gold=C pred=C gen=994 rej=4 wall=12.11s tv=0.0009
+[lag_mask] id=149 gold=A pred=A gen=555 rej=0 wall=7.02s tv=0.0
+[lag_mask] id=467 gold=A pred=A gen=838 rej=2 wall=10.22s tv=0.0009
+[lag_mask] id=63 gold=C pred=B gen=1127 rej=3 wall=13.63s tv=0.0005
+=== 07:45:07 DONE MODEL=models/Qwen3-30B-A3B-Q4_K_M.gguf OUT=results_cloud/Qwen3-30B-A3B/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond lag_mask
+=== 07:45:07 START MODEL=models/Qwen3-30B-A3B-Q4_K_M.gguf OUT=results_cloud/Qwen3-30B-A3B/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond lag_trunc
+[lag_trunc] id=433 gold=A pred=C gen=458 rej=1 wall=5.87s tv=0.0
+[lag_trunc] id=197 gold=B pred=B gen=414 rej=0 wall=5.18s tv=0.0
+[lag_trunc] id=388 gold=C pred=A gen=796 rej=0 wall=9.62s tv=0.0003
+[lag_trunc] id=456 gold=A pred=A gen=331 rej=0 wall=4.2s tv=0.0
+[lag_trunc] id=215 gold=B pred=B gen=243 rej=0 wall=3.2s tv=0.0
+[lag_trunc] id=20 gold=C pred=C gen=768 rej=0 wall=9.35s tv=0.0
+[lag_trunc] id=132 gold=B pred=B gen=1075 rej=1 wall=13.01s tv=0.0
+[lag_trunc] id=261 gold=A pred=A gen=237 rej=1 wall=3.38s tv=0.0
+[lag_trunc] id=248 gold=B pred=C gen=1145 rej=3 wall=14.56s tv=0.0
+[lag_trunc] id=207 gold=A pred=A gen=539 rej=3 wall=7.02s tv=0.0
+[lag_trunc] id=471 gold=B pred=C gen=917 rej=4 wall=11.55s tv=0.0093
+[lag_trunc] id=401 gold=B pred=B gen=595 rej=1 wall=7.76s tv=0.0
+[lag_trunc] id=425 gold=B pred=B gen=107 rej=0 wall=1.76s tv=0.0
+[lag_trunc] id=155 gold=A pred=A gen=824 rej=0 wall=10.35s tv=0.1002
+[lag_trunc] id=244 gold=C pred=C gen=856 rej=1 wall=10.8s tv=0.001
+[lag_trunc] id=183 gold=C pred=C gen=1000 rej=1 wall=12.54s tv=0.0916
+[lag_trunc] id=298 gold=A pred=A gen=697 rej=0 wall=8.56s tv=0.0
+[lag_trunc] id=457 gold=C pred=C gen=886 rej=0 wall=11.21s tv=0.0001
+[lag_trunc] id=465 gold=C pred=C gen=978 rej=2 wall=12.58s tv=0.3749
+[lag_trunc] id=111 gold=C pred=C gen=866 rej=0 wall=10.95s tv=0.0005
+[lag_trunc] id=258 gold=C pred=C gen=857 rej=0 wall=10.88s tv=0.0
+[lag_trunc] id=71 gold=B pred=C gen=1454 rej=7 wall=18.92s tv=0.0
+[lag_trunc] id=144 gold=A pred=C gen=405 rej=6 wall=5.82s tv=0.0003
+[lag_trunc] id=478 gold=A pred=A gen=441 rej=0 wall=5.58s tv=0.0
+[lag_trunc] id=386 gold=C pred=A gen=779 rej=0 wall=10.01s tv=0.0013
+[lag_trunc] id=48 gold=C pred=C gen=969 rej=0 wall=11.89s tv=0.0023
+[lag_trunc] id=316 gold=A pred=A gen=458 rej=0 wall=5.83s tv=0.0
+[lag_trunc] id=409 gold=C pred=C gen=986 rej=0 wall=11.98s tv=0.0
+[lag_trunc] id=128 gold=A pred=C gen=885 rej=1 wall=11.47s tv=0.0422
+[lag_trunc] id=466 gold=C pred=C gen=861 rej=0 wall=11.03s tv=0.0
+[lag_trunc] id=272 gold=B pred=B gen=847 rej=0 wall=10.43s tv=0.0
+[lag_trunc] id=361 gold=B pred=C gen=1065 rej=0 wall=13.82s tv=0.0001
+[lag_trunc] id=415 gold=B pred=B gen=254 rej=0 wall=3.34s tv=0.0
+[lag_trunc] id=308 gold=A pred=B gen=497 rej=0 wall=6.46s tv=0.34
+[lag_trunc] id=462 gold=B pred=C gen=683 rej=1 wall=8.7s tv=0.0438
+[lag_trunc] id=75 gold=B pred=B gen=263 rej=0 wall=3.46s tv=0.0
+[lag_trunc] id=158 gold=A pred=A gen=77 rej=0 wall=1.58s tv=0.0
+[lag_trunc] id=50 gold=B pred=C gen=855 rej=0 wall=10.8s tv=0.1669
+[lag_trunc] id=373 gold=B pred=B gen=745 rej=2 wall=9.09s tv=0.0
+[lag_trunc] id=37 gold=A pred=A gen=358 rej=0 wall=4.35s tv=0.0
+[lag_trunc] id=436 gold=B pred=B gen=762 rej=0 wall=9.5s tv=0.0
+[lag_trunc] id=350 gold=A pred=C gen=1625 rej=4 wall=20.5s tv=0.0152
+[lag_trunc] id=169 gold=B pred=B gen=1129 rej=4 wall=14.5s tv=0.6271
+[lag_trunc] id=241 gold=B pred=C gen=1061 rej=2 wall=13.84s tv=0.0002
+[lag_trunc] id=286 gold=C pred=C gen=764 rej=0 wall=9.43s tv=0.0
+[lag_trunc] id=51 gold=C pred=C gen=833 rej=6 wall=10.51s tv=0.0005
+[lag_trunc] id=181 gold=A pred=C gen=870 rej=0 wall=10.9s tv=0.0
+[lag_trunc] id=222 gold=C pred=A gen=964 rej=0 wall=11.64s tv=0.0995
+[lag_trunc] id=161 gold=C pred=A gen=762 rej=0 wall=9.18s tv=0.5404
+[lag_trunc] id=312 gold=A pred=A gen=354 rej=0 wall=4.53s tv=0.0
+[lag_trunc] id=327 gold=A pred=C gen=1531 rej=7 wall=19.67s tv=0.0043
+[lag_trunc] id=104 gold=C pred=C gen=934 rej=1 wall=11.86s tv=0.0
+[lag_trunc] id=282 gold=B pred=C gen=952 rej=0 wall=11.94s tv=0.2417
+[lag_trunc] id=485 gold=C pred=C gen=1052 rej=1 wall=12.88s tv=0.0001
+[lag_trunc] id=226 gold=C pred=C gen=904 rej=0 wall=11.27s tv=0.4953
+[lag_trunc] id=266 gold=A pred=A gen=611 rej=4 wall=7.84s tv=0.0195
+[lag_trunc] id=133 gold=A pred=C gen=674 rej=0 wall=8.73s tv=0.3113
+[lag_trunc] id=31 gold=B pred=B gen=878 rej=0 wall=11.13s tv=0.0
+[lag_trunc] id=413 gold=B pred=B gen=282 rej=0 wall=3.89s tv=0.0
+[lag_trunc] id=280 gold=B pred=B gen=840 rej=2 wall=10.45s tv=0.0
+[lag_trunc] id=7 gold=C pred=C gen=643 rej=0 wall=7.95s tv=0.0591
+[lag_trunc] id=47 gold=A pred=C gen=710 rej=0 wall=8.87s tv=0.0201
+[lag_trunc] id=368 gold=B pred=B gen=647 rej=0 wall=8.47s tv=0.0
+[lag_trunc] id=431 gold=C pred=C gen=817 rej=0 wall=10.29s tv=0.0
+[lag_trunc] id=204 gold=B pred=B gen=761 rej=1 wall=9.55s tv=0.3177
+[lag_trunc] id=363 gold=A pred=A gen=617 rej=1 wall=7.93s tv=0.0
+[lag_trunc] id=423 gold=B pred=B gen=280 rej=0 wall=3.66s tv=0.0
+[lag_trunc] id=488 gold=C pred=C gen=1155 rej=1 wall=14.72s tv=0.0005
+[lag_trunc] id=342 gold=B pred=B gen=624 rej=1 wall=7.79s tv=0.0
+[lag_trunc] id=320 gold=C pred=C gen=932 rej=1 wall=11.85s tv=0.0
+[lag_trunc] id=0 gold=A pred=C gen=776 rej=0 wall=9.91s tv=0.0135
+[lag_trunc] id=313 gold=A pred=A gen=62 rej=0 wall=1.36s tv=0.0002
+[lag_trunc] id=252 gold=C pred=C gen=370 rej=0 wall=4.68s tv=0.0024
+[lag_trunc] id=424 gold=A pred=A gen=275 rej=0 wall=3.92s tv=0.0
+[lag_trunc] id=170 gold=A pred=A gen=1090 rej=0 wall=13.51s tv=0.0
+[lag_trunc] id=124 gold=C pred=C gen=843 rej=0 wall=10.85s tv=0.0
+[lag_trunc] id=460 gold=C pred=A gen=421 rej=0 wall=5.3s tv=0.0
+[lag_trunc] id=166 gold=C pred=C gen=842 rej=0 wall=10.41s tv=0.0
+[lag_trunc] id=360 gold=B pred=B gen=193 rej=0 wall=2.64s tv=0.0
+[lag_trunc] id=32 gold=A pred=A gen=293 rej=0 wall=3.81s tv=0.0
+[lag_trunc] id=97 gold=C pred=C gen=764 rej=0 wall=9.42s tv=0.0
+[lag_trunc] id=290 gold=A pred=C gen=854 rej=1 wall=10.53s tv=0.1312
+[lag_trunc] id=113 gold=A pred=A gen=606 rej=0 wall=7.32s tv=0.0
+[lag_trunc] id=122 gold=B pred=C gen=1095 rej=0 wall=13.33s tv=0.0862
+[lag_trunc] id=412 gold=C pred=C gen=1168 rej=1 wall=14.47s tv=0.0203
+[lag_trunc] id=72 gold=B pred=C gen=1532 rej=3 wall=18.42s tv=0.0241
+[lag_trunc] id=414 gold=A pred=A gen=357 rej=0 wall=4.43s tv=0.0
+[lag_trunc] id=278 gold=A pred=A gen=335 rej=0 wall=4.2s tv=0.0
+[lag_trunc] id=229 gold=C pred=C gen=814 rej=0 wall=9.96s tv=0.0046
+[lag_trunc] id=46 gold=B pred=C gen=899 rej=0 wall=10.94s tv=0.1972
+[lag_trunc] id=41 gold=A pred=A gen=335 rej=0 wall=4.3s tv=0.0
+[lag_trunc] id=163 gold=A pred=A gen=723 rej=0 wall=8.93s tv=0.0
+[lag_trunc] id=260 gold=C pred=C gen=476 rej=1 wall=5.83s tv=0.0
+[lag_trunc] id=250 gold=C pred=C gen=437 rej=1 wall=5.39s tv=0.0
+[lag_trunc] id=55 gold=C pred=C gen=558 rej=6 wall=7.39s tv=0.0007
+[lag_trunc] id=154 gold=A pred=A gen=364 rej=0 wall=4.51s tv=0.0
+[lag_trunc] id=446 gold=C pred=C gen=1197 rej=3 wall=14.25s tv=0.0
+[lag_trunc] id=149 gold=A pred=A gen=555 rej=0 wall=7.03s tv=0.0
+[lag_trunc] id=467 gold=A pred=A gen=440 rej=1 wall=5.53s tv=0.0
+[lag_trunc] id=63 gold=C pred=B gen=740 rej=1 wall=8.97s tv=0.0021
+=== 08:01:47 DONE MODEL=models/Qwen3-30B-A3B-Q4_K_M.gguf OUT=results_cloud/Qwen3-30B-A3B/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond lag_trunc
+=== 08:01:47 START MODEL=models/Qwen3-30B-A3B-Q4_K_M.gguf OUT=results_cloud/Qwen3-30B-A3B/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond lag_mask
+[lag_mask] id=433 gold=A pred=A gen=168 rej=2 wall=2.65s tv=0.0004
+[lag_mask] id=197 gold=B pred=B gen=414 rej=0 wall=5.28s tv=0.0
+[lag_mask] id=388 gold=C pred=A gen=796 rej=0 wall=9.67s tv=0.0003
+[lag_mask] id=456 gold=A pred=A gen=331 rej=0 wall=4.23s tv=0.0
+[lag_mask] id=215 gold=B pred=B gen=243 rej=0 wall=3.2s tv=0.0
+[lag_mask] id=20 gold=C pred=C gen=768 rej=0 wall=9.38s tv=0.0
+[lag_mask] id=132 gold=B pred=B gen=1063 rej=1 wall=12.88s tv=0.0
+[lag_mask] id=261 gold=A pred=A gen=237 rej=1 wall=3.42s tv=0.0
+[lag_mask] id=248 gold=B pred=C gen=1032 rej=1 wall=13.07s tv=0.0001
+[lag_mask] id=207 gold=A pred=A gen=567 rej=3 wall=7.42s tv=0.0
+[lag_mask] id=471 gold=B pred=C gen=774 rej=1 wall=9.54s tv=0.0766
+[lag_mask] id=401 gold=B pred=B gen=270 rej=1 wall=3.88s tv=0.0
+[lag_mask] id=425 gold=B pred=B gen=107 rej=0 wall=1.76s tv=0.0
+[lag_mask] id=155 gold=A pred=A gen=824 rej=0 wall=10.35s tv=0.1002
+[lag_mask] id=244 gold=C pred=C gen=856 rej=1 wall=10.83s tv=0.0005
+[lag_mask] id=183 gold=C pred=C gen=957 rej=1 wall=12.02s tv=0.1029
+[lag_mask] id=298 gold=A pred=A gen=697 rej=0 wall=8.59s tv=0.0
+[lag_mask] id=457 gold=C pred=C gen=886 rej=0 wall=11.26s tv=0.0001
+[lag_mask] id=465 gold=C pred=C gen=983 rej=2 wall=12.72s tv=0.0107
+[lag_mask] id=111 gold=C pred=C gen=866 rej=0 wall=11.05s tv=0.0005
+[lag_mask] id=258 gold=C pred=C gen=857 rej=0 wall=10.96s tv=0.0
+[lag_mask] id=71 gold=B pred=C gen=1043 rej=4 wall=13.75s tv=0.0001
+[lag_mask] id=144 gold=A pred=C gen=405 rej=6 wall=5.92s tv=0.0003
+[lag_mask] id=478 gold=A pred=A gen=441 rej=0 wall=5.61s tv=0.0
+[lag_mask] id=386 gold=C pred=A gen=779 rej=0 wall=10.06s tv=0.0013
+[lag_mask] id=48 gold=C pred=C gen=969 rej=0 wall=11.96s tv=0.0023
+[lag_mask] id=316 gold=A pred=A gen=458 rej=0 wall=5.85s tv=0.0
+[lag_mask] id=409 gold=C pred=C gen=986 rej=0 wall=12.02s tv=0.0
+[lag_mask] id=128 gold=A pred=A gen=414 rej=1 wall=5.68s tv=0.0
+[lag_mask] id=466 gold=C pred=C gen=861 rej=0 wall=11.02s tv=0.0
+[lag_mask] id=272 gold=B pred=B gen=847 rej=0 wall=10.46s tv=0.0
+[lag_mask] id=361 gold=B pred=C gen=1065 rej=0 wall=13.85s tv=0.0001
+[lag_mask] id=415 gold=B pred=B gen=254 rej=0 wall=3.32s tv=0.0
+[lag_mask] id=308 gold=A pred=B gen=497 rej=0 wall=6.48s tv=0.34
+[lag_mask] id=462 gold=B pred=C gen=778 rej=1 wall=9.89s tv=0.0
+[lag_mask] id=75 gold=B pred=B gen=263 rej=0 wall=3.45s tv=0.0
+[lag_mask] id=158 gold=A pred=A gen=77 rej=0 wall=1.57s tv=0.0
+[lag_mask] id=50 gold=B pred=C gen=855 rej=0 wall=11.07s tv=0.1669
+[lag_mask] id=373 gold=B pred=B gen=745 rej=2 wall=9.35s tv=0.0
+[lag_mask] id=37 gold=A pred=A gen=358 rej=0 wall=4.49s tv=0.0
+[lag_mask] id=436 gold=B pred=B gen=762 rej=0 wall=9.76s tv=0.0
+[lag_mask] id=350 gold=A pred=C gen=1551 rej=6 wall=20.26s tv=0.1153
+[lag_mask] id=169 gold=B pred=B gen=1026 rej=3 wall=13.46s tv=0.8023
+[lag_mask] id=241 gold=B pred=C gen=890 rej=1 wall=11.94s tv=0.0
+[lag_mask] id=286 gold=C pred=C gen=764 rej=0 wall=9.64s tv=0.0
+[lag_mask] id=51 gold=C pred=A gen=731 rej=1 wall=9.15s tv=0.349
+[lag_mask] id=181 gold=A pred=C gen=870 rej=0 wall=11.13s tv=0.0
+[lag_mask] id=222 gold=C pred=A gen=964 rej=0 wall=11.92s tv=0.0995
+[lag_mask] id=161 gold=C pred=A gen=762 rej=0 wall=9.39s tv=0.5404
+[lag_mask] id=312 gold=A pred=A gen=354 rej=0 wall=4.64s tv=0.0
+[lag_mask] id=327 gold=A pred=A gen=329 rej=1 wall=4.64s tv=0.0
+[lag_mask] id=104 gold=C pred=C gen=833 rej=1 wall=10.83s tv=0.0
+[lag_mask] id=282 gold=B pred=C gen=952 rej=0 wall=12.18s tv=0.2417
+[lag_mask] id=485 gold=C pred=C gen=869 rej=1 wall=10.89s tv=0.0
+[lag_mask] id=226 gold=C pred=C gen=904 rej=0 wall=11.52s tv=0.4953
+[lag_mask] id=266 gold=A pred=A gen=255 rej=1 wall=3.54s tv=0.0031
+[lag_mask] id=133 gold=A pred=C gen=674 rej=0 wall=8.9s tv=0.3113
+[lag_mask] id=31 gold=B pred=B gen=878 rej=0 wall=11.39s tv=0.0
+[lag_mask] id=413 gold=B pred=B gen=282 rej=0 wall=3.98s tv=0.0
+[lag_mask] id=280 gold=B pred=B gen=644 rej=2 wall=8.29s tv=0.0
+[lag_mask] id=7 gold=C pred=C gen=643 rej=0 wall=8.12s tv=0.0591
+[lag_mask] id=47 gold=A pred=C gen=710 rej=0 wall=9.06s tv=0.0201
+[lag_mask] id=368 gold=B pred=B gen=647 rej=0 wall=8.62s tv=0.0
+[lag_mask] id=431 gold=C pred=C gen=817 rej=0 wall=10.47s tv=0.0
+[lag_mask] id=204 gold=B pred=B gen=761 rej=1 wall=9.73s tv=0.3177
+[lag_mask] id=363 gold=A pred=A gen=617 rej=1 wall=8.08s tv=0.0
+[lag_mask] id=423 gold=B pred=B gen=280 rej=0 wall=3.7s tv=0.0
+[lag_mask] id=488 gold=C pred=C gen=1059 rej=4 wall=14.02s tv=0.004
+[lag_mask] id=342 gold=B pred=B gen=631 rej=2 wall=8.07s tv=0.0027
+[lag_mask] id=320 gold=C pred=C gen=932 rej=1 wall=12.03s tv=0.0
+[lag_mask] id=0 gold=A pred=C gen=776 rej=0 wall=10.06s tv=0.0135
+[lag_mask] id=313 gold=A pred=A gen=62 rej=0 wall=1.37s tv=0.0002
+[lag_mask] id=252 gold=C pred=C gen=370 rej=0 wall=4.75s tv=0.0024
+[lag_mask] id=424 gold=A pred=A gen=275 rej=0 wall=3.97s tv=0.0
+[lag_mask] id=170 gold=A pred=A gen=1090 rej=0 wall=13.69s tv=0.0
+[lag_mask] id=124 gold=C pred=C gen=843 rej=0 wall=10.97s tv=0.0
+[lag_mask] id=460 gold=C pred=A gen=421 rej=0 wall=5.37s tv=0.0
+[lag_mask] id=166 gold=C pred=C gen=842 rej=0 wall=10.52s tv=0.0
+[lag_mask] id=360 gold=B pred=B gen=193 rej=0 wall=2.65s tv=0.0
+[lag_mask] id=32 gold=A pred=A gen=293 rej=0 wall=3.86s tv=0.0
+[lag_mask] id=97 gold=C pred=C gen=764 rej=0 wall=9.56s tv=0.0
+[lag_mask] id=290 gold=A pred=C gen=853 rej=2 wall=11.11s tv=0.0434
+[lag_mask] id=113 gold=A pred=A gen=606 rej=0 wall=7.67s tv=0.0
+[lag_mask] id=122 gold=B pred=C gen=1095 rej=0 wall=13.94s tv=0.0862
+[lag_mask] id=412 gold=C pred=C gen=1172 rej=2 wall=15.29s tv=0.011
+[lag_mask] id=72 gold=B pred=C gen=1381 rej=1 wall=17.47s tv=0.0013
+[lag_mask] id=414 gold=A pred=A gen=357 rej=0 wall=4.64s tv=0.0
+[lag_mask] id=278 gold=A pred=A gen=335 rej=0 wall=4.39s tv=0.0
+[lag_mask] id=229 gold=C pred=C gen=814 rej=0 wall=10.42s tv=0.0046
+[lag_mask] id=46 gold=B pred=C gen=899 rej=0 wall=11.31s tv=0.1972
+[lag_mask] id=41 gold=A pred=A gen=335 rej=0 wall=4.34s tv=0.0
+[lag_mask] id=163 gold=A pred=A gen=723 rej=0 wall=9.03s tv=0.0
+[lag_mask] id=260 gold=C pred=C gen=476 rej=1 wall=5.91s tv=0.0
+[lag_mask] id=250 gold=C pred=C gen=837 rej=3 wall=10.31s tv=0.176
+[lag_mask] id=55 gold=C pred=C gen=766 rej=7 wall=10.01s tv=0.0003
+[lag_mask] id=154 gold=A pred=A gen=364 rej=0 wall=4.58s tv=0.0
+[lag_mask] id=446 gold=C pred=C gen=1172 rej=6 wall=14.61s tv=0.0
+[lag_mask] id=149 gold=A pred=A gen=555 rej=0 wall=7.12s tv=0.0
+[lag_mask] id=467 gold=A pred=A gen=838 rej=2 wall=10.41s tv=0.0009
+[lag_mask] id=63 gold=C pred=B gen=961 rej=2 wall=11.91s tv=0.1228
+=== 08:18:01 DONE MODEL=models/Qwen3-30B-A3B-Q4_K_M.gguf OUT=results_cloud/Qwen3-30B-A3B/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond lag_mask
+=== ALL DONE 08:18:01

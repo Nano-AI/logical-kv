@@ -1,0 +1,1606 @@
+=== 18:26:29 START MODEL=models/Llama-3.1-8B-Q4_K_M.gguf OUT=results_cloud/Llama-3.1-8B .venv/bin/python run.py --n 30 --cond base
+[base] id=433 gold=A pred=A gen=107 rej=0 wall=1.21s
+[base] id=197 gold=B pred=A gen=59 rej=0 wall=0.74s
+[base] id=388 gold=C pred=None gen=1500 rej=0 wall=11.41s
+[base] id=456 gold=A pred=None gen=1500 rej=0 wall=11.43s
+[base] id=215 gold=B pred=B gen=176 rej=0 wall=1.6s
+[base] id=20 gold=C pred=B gen=246 rej=0 wall=2.12s
+[base] id=132 gold=B pred=B gen=138 rej=0 wall=1.33s
+[base] id=496 gold=C pred=B gen=170 rej=0 wall=1.58s
+[base] id=261 gold=A pred=C gen=58 rej=0 wall=0.76s
+[base] id=248 gold=B pred=B gen=90 rej=0 wall=1.01s
+[base] id=207 gold=A pred=B gen=271 rej=0 wall=2.3s
+[base] id=471 gold=B pred=B gen=76 rej=0 wall=0.87s
+[base] id=401 gold=B pred=B gen=42 rej=0 wall=0.66s
+[base] id=425 gold=B pred=B gen=89 rej=0 wall=0.97s
+[base] id=155 gold=A pred=B gen=204 rej=0 wall=1.85s
+[base] id=497 gold=B pred=B gen=142 rej=0 wall=1.37s
+[base] id=244 gold=C pred=None gen=1500 rej=0 wall=11.51s
+[base] id=183 gold=C pred=B gen=69 rej=0 wall=0.83s
+[base] id=298 gold=A pred=C gen=186 rej=0 wall=1.68s
+[base] id=457 gold=C pred=None gen=1500 rej=0 wall=11.6s
+[base] id=465 gold=C pred=A gen=59 rej=0 wall=0.78s
+[base] id=111 gold=C pred=A gen=224 rej=0 wall=2.01s
+[base] id=258 gold=C pred=A gen=127 rej=0 wall=1.27s
+[base] id=71 gold=B pred=B gen=177 rej=0 wall=1.67s
+[base] id=144 gold=A pred=B gen=137 rej=0 wall=1.35s
+[base] id=386 gold=C pred=A gen=143 rej=0 wall=1.4s
+[base] id=48 gold=C pred=B gen=193 rej=0 wall=1.75s
+[base] id=316 gold=A pred=B gen=174 rej=0 wall=1.63s
+[base] id=409 gold=C pred=B gen=78 rej=0 wall=0.88s
+[base] id=128 gold=A pred=A gen=45 rej=0 wall=0.68s
+=== 18:27:52 DONE MODEL=models/Llama-3.1-8B-Q4_K_M.gguf OUT=results_cloud/Llama-3.1-8B .venv/bin/python run.py --n 30 --cond base
+=== 18:27:52 START MODEL=models/Llama-3.1-8B-Q4_K_M.gguf OUT=results_cloud/Llama-3.1-8B .venv/bin/python run.py --n 30 --cond fmt
+[fmt] id=433 gold=A pred=A gen=441 rej=0 wall=3.77s
+[fmt] id=197 gold=B pred=A gen=313 rej=0 wall=2.5s
+[fmt] id=388 gold=C pred=A gen=395 rej=0 wall=3.14s
+[fmt] id=456 gold=A pred=A gen=203 rej=0 wall=1.69s
+[fmt] id=215 gold=B pred=A gen=368 rej=0 wall=2.92s
+[fmt] id=20 gold=C pred=B gen=407 rej=0 wall=3.22s
+[fmt] id=132 gold=B pred=B gen=284 rej=0 wall=2.28s
+[fmt] id=496 gold=C pred=A gen=805 rej=0 wall=6.26s
+[fmt] id=261 gold=A pred=C gen=104 rej=0 wall=1.0s
+[fmt] id=248 gold=B pred=C gen=1048 rej=0 wall=8.11s
+[fmt] id=207 gold=A pred=A gen=151 rej=0 wall=1.35s
+[fmt] id=471 gold=B pred=B gen=518 rej=0 wall=4.12s
+[fmt] id=401 gold=B pred=B gen=460 rej=0 wall=3.73s
+[fmt] id=425 gold=B pred=A gen=798 rej=0 wall=6.2s
+[fmt] id=155 gold=A pred=B gen=550 rej=0 wall=4.4s
+[fmt] id=497 gold=B pred=A gen=516 rej=0 wall=4.08s
+[fmt] id=244 gold=C pred=B gen=689 rej=0 wall=5.41s
+[fmt] id=183 gold=C pred=A gen=790 rej=0 wall=6.2s
+[fmt] id=298 gold=A pred=A gen=523 rej=0 wall=4.1s
+[fmt] id=457 gold=C pred=C gen=730 rej=0 wall=5.74s
+[fmt] id=465 gold=C pred=B gen=664 rej=0 wall=5.3s
+[fmt] id=111 gold=C pred=B gen=685 rej=0 wall=5.43s
+[fmt] id=258 gold=C pred=A gen=292 rej=0 wall=2.47s
+[fmt] id=71 gold=B pred=C gen=736 rej=0 wall=5.76s
+[fmt] id=144 gold=A pred=B gen=869 rej=0 wall=6.59s
+[fmt] id=386 gold=C pred=B gen=387 rej=0 wall=3.13s
+[fmt] id=48 gold=C pred=C gen=414 rej=0 wall=3.21s
+[fmt] id=316 gold=A pred=A gen=405 rej=0 wall=3.17s
+[fmt] id=409 gold=C pred=B gen=732 rej=0 wall=5.54s
+[fmt] id=128 gold=A pred=B gen=704 rej=0 wall=5.49s
+=== 18:30:02 DONE MODEL=models/Llama-3.1-8B-Q4_K_M.gguf OUT=results_cloud/Llama-3.1-8B .venv/bin/python run.py --n 30 --cond fmt
+=== 18:30:02 START MODEL=models/Llama-3.1-8B-Q4_K_M.gguf OUT=results_cloud/Llama-3.1-8B GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond sync
+[sync] id=433 gold=A pred=A gen=556 rej=5 wall=4.53s
+[sync] id=197 gold=B pred=B gen=388 rej=4 wall=3.23s
+[sync] id=388 gold=C pred=A gen=647 rej=1 wall=5.06s
+[sync] id=456 gold=A pred=A gen=150 rej=0 wall=1.34s
+[sync] id=215 gold=B pred=B gen=245 rej=2 wall=2.12s
+[sync] id=20 gold=C pred=B gen=769 rej=4 wall=6.14s
+[sync] id=132 gold=B pred=B gen=294 rej=2 wall=2.43s
+[sync] id=496 gold=C pred=A gen=753 rej=6 wall=6.05s
+[sync] id=261 gold=A pred=A gen=119 rej=0 wall=1.14s
+[sync] id=248 gold=B pred=C gen=867 rej=8 wall=7.13s
+[sync] id=207 gold=A pred=A gen=309 rej=2 wall=2.59s
+[sync] id=471 gold=B pred=A gen=736 rej=5 wall=6.06s
+[sync] id=401 gold=B pred=C gen=252 rej=8 wall=2.46s
+[sync] id=425 gold=B pred=B gen=911 rej=5 wall=7.29s
+[sync] id=155 gold=A pred=B gen=807 rej=4 wall=6.5s
+[sync] id=497 gold=B pred=C gen=253 rej=8 wall=2.43s
+[sync] id=244 gold=C pred=B gen=689 rej=0 wall=5.5s
+[sync] id=183 gold=C pred=A gen=550 rej=0 wall=4.44s
+[sync] id=298 gold=A pred=A gen=119 rej=0 wall=1.12s
+[sync] id=457 gold=C pred=C gen=548 rej=8 wall=4.81s
+[sync] id=465 gold=C pred=C gen=1391 rej=2 wall=11.05s
+[sync] id=111 gold=C pred=A gen=586 rej=2 wall=4.84s
+[sync] id=258 gold=C pred=B gen=798 rej=6 wall=6.6s
+[sync] id=71 gold=B pred=C gen=813 rej=8 wall=6.72s
+[sync] id=144 gold=A pred=C gen=279 rej=8 wall=2.71s
+[sync] id=386 gold=C pred=B gen=693 rej=1 wall=5.72s
+[sync] id=48 gold=C pred=C gen=756 rej=5 wall=5.93s
+[sync] id=316 gold=A pred=A gen=162 rej=1 wall=1.51s
+[sync] id=409 gold=C pred=C gen=2610 rej=2 wall=20.65s
+[sync] id=128 gold=A pred=B gen=367 rej=8 wall=3.42s
+=== 18:32:36 DONE MODEL=models/Llama-3.1-8B-Q4_K_M.gguf OUT=results_cloud/Llama-3.1-8B GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond sync
+=== 18:32:36 START MODEL=models/Llama-3.1-8B-Q4_K_M.gguf OUT=results_cloud/Llama-3.1-8B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+[lag_trunc] id=433 gold=A pred=C gen=954 rej=6 wall=7.62s tv=0.0033
+[lag_trunc] id=197 gold=B pred=C gen=1244 rej=4 wall=9.5s tv=0.0424
+[lag_trunc] id=388 gold=C pred=A gen=639 rej=1 wall=4.96s tv=0.0012
+[lag_trunc] id=456 gold=A pred=A gen=150 rej=0 wall=1.36s tv=0.0
+[lag_trunc] id=215 gold=B pred=B gen=391 rej=2 wall=3.19s tv=0.0009
+[lag_trunc] id=20 gold=C pred=B gen=704 rej=1 wall=5.46s tv=0.0027
+[lag_trunc] id=132 gold=B pred=B gen=452 rej=2 wall=3.6s tv=0.0158
+[lag_trunc] id=496 gold=C pred=C gen=1142 rej=3 wall=8.82s tv=0.0001
+[lag_trunc] id=261 gold=A pred=A gen=119 rej=0 wall=1.14s tv=0.0002
+[lag_trunc] id=248 gold=B pred=A gen=1556 rej=3 wall=12.01s tv=0.0633
+[lag_trunc] id=207 gold=A pred=B gen=1189 rej=3 wall=9.23s tv=0.1128
+[lag_trunc] id=471 gold=B pred=B gen=1517 rej=8 wall=11.86s tv=0.0169
+[lag_trunc] id=401 gold=B pred=C gen=1174 rej=7 wall=9.38s tv=0.0169
+[lag_trunc] id=425 gold=B pred=B gen=1354 rej=6 wall=10.57s tv=0.015
+[lag_trunc] id=155 gold=A pred=C gen=964 rej=6 wall=7.68s tv=0.0038
+[lag_trunc] id=497 gold=B pred=C gen=1120 rej=6 wall=8.89s tv=0.0012
+[lag_trunc] id=244 gold=C pred=B gen=689 rej=0 wall=5.47s tv=0.0226
+[lag_trunc] id=183 gold=C pred=A gen=550 rej=0 wall=4.41s tv=0.0085
+[lag_trunc] id=298 gold=A pred=A gen=119 rej=0 wall=1.12s tv=0.0003
+[lag_trunc] id=457 gold=C pred=B gen=1077 rej=3 wall=8.4s tv=0.0105
+[lag_trunc] id=465 gold=C pred=C gen=2143 rej=2 wall=16.74s tv=0.0319
+[lag_trunc] id=111 gold=C pred=A gen=849 rej=2 wall=6.79s tv=0.0116
+[lag_trunc] id=258 gold=C pred=B gen=830 rej=3 wall=6.44s tv=0.0002
+[lag_trunc] id=71 gold=B pred=C gen=1434 rej=8 wall=10.99s tv=0.0181
+[lag_trunc] id=144 gold=A pred=C gen=933 rej=6 wall=7.26s tv=0.0011
+[lag_trunc] id=386 gold=C pred=C gen=1544 rej=2 wall=11.77s tv=0.1515
+[lag_trunc] id=48 gold=C pred=C gen=1133 rej=7 wall=8.71s tv=0.0043
+[lag_trunc] id=316 gold=A pred=A gen=1479 rej=3 wall=11.16s tv=0.0
+[lag_trunc] id=409 gold=C pred=B gen=1969 rej=7 wall=14.95s tv=0.0504
+[lag_trunc] id=128 gold=A pred=A gen=230 rej=1 wall=2.04s tv=0.0195
+=== 18:36:43 DONE MODEL=models/Llama-3.1-8B-Q4_K_M.gguf OUT=results_cloud/Llama-3.1-8B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+=== 18:36:43 START MODEL=models/Llama-3.1-8B-Q4_K_M.gguf OUT=results_cloud/Llama-3.1-8B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+[lag_mask] id=433 gold=A pred=C gen=960 rej=6 wall=7.78s tv=0.0033
+[lag_mask] id=197 gold=B pred=C gen=1244 rej=4 wall=9.63s tv=0.0424
+[lag_mask] id=388 gold=C pred=A gen=566 rej=1 wall=4.46s tv=0.0012
+[lag_mask] id=456 gold=A pred=A gen=150 rej=0 wall=1.35s tv=0.0
+[lag_mask] id=215 gold=B pred=B gen=642 rej=2 wall=5.07s tv=0.0198
+[lag_mask] id=20 gold=C pred=B gen=704 rej=1 wall=5.5s tv=0.0027
+[lag_mask] id=132 gold=B pred=B gen=389 rej=2 wall=3.18s tv=0.2486
+[lag_mask] id=496 gold=C pred=C gen=1142 rej=3 wall=8.89s tv=0.0001
+[lag_mask] id=261 gold=A pred=A gen=119 rej=0 wall=1.15s tv=0.0002
+[lag_mask] id=248 gold=B pred=B gen=878 rej=4 wall=7.05s tv=0.0038
+[lag_mask] id=207 gold=A pred=A gen=1880 rej=6 wall=14.7s tv=0.588
+[lag_mask] id=471 gold=B pred=B gen=970 rej=5 wall=7.79s tv=0.2359
+[lag_mask] id=401 gold=B pred=C gen=1243 rej=8 wall=10.08s tv=0.2293
+[lag_mask] id=425 gold=B pred=A gen=932 rej=3 wall=7.38s tv=0.0249
+[lag_mask] id=155 gold=A pred=C gen=964 rej=6 wall=7.81s tv=0.0038
+[lag_mask] id=497 gold=B pred=C gen=1318 rej=7 wall=10.61s tv=0.0107
+[lag_mask] id=244 gold=C pred=B gen=689 rej=0 wall=5.21s tv=0.0226
+[lag_mask] id=183 gold=C pred=A gen=550 rej=0 wall=4.19s tv=0.0085
+[lag_mask] id=298 gold=A pred=A gen=119 rej=0 wall=1.08s tv=0.0003
+[lag_mask] id=457 gold=C pred=B gen=437 rej=2 wall=3.56s tv=0.4706
+[lag_mask] id=465 gold=C pred=C gen=2143 rej=2 wall=16.73s tv=0.0319
+[lag_mask] id=111 gold=C pred=A gen=849 rej=2 wall=6.83s tv=0.0116
+[lag_mask] id=258 gold=C pred=B gen=830 rej=3 wall=6.6s tv=0.0002
+[lag_mask] id=71 gold=B pred=C gen=1434 rej=8 wall=11.4s tv=0.0181
+[lag_mask] id=144 gold=A pred=C gen=933 rej=6 wall=7.54s tv=0.0011
+[lag_mask] id=386 gold=C pred=A gen=776 rej=1 wall=6.17s tv=0.081
+[lag_mask] id=48 gold=C pred=C gen=851 rej=6 wall=6.85s tv=0.0012
+[lag_mask] id=316 gold=A pred=B gen=587 rej=5 wall=4.8s tv=0.0165
+[lag_mask] id=409 gold=C pred=A gen=887 rej=5 wall=7.01s tv=0.2714
+[lag_mask] id=128 gold=A pred=A gen=230 rej=1 wall=2.07s tv=0.0195
+=== 18:40:19 DONE MODEL=models/Llama-3.1-8B-Q4_K_M.gguf OUT=results_cloud/Llama-3.1-8B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+=== 18:40:19 START MODEL=models/Llama-3.1-8B-Q4_K_M.gguf OUT=results_cloud/Llama-3.1-8B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_refresh
+[lag_refresh] id=433 gold=A pred=C gen=954 rej=6 wall=7.36s tv=0.0033
+[lag_refresh] id=197 gold=B pred=C gen=1244 rej=4 wall=9.37s tv=0.0424
+[lag_refresh] id=388 gold=C pred=A gen=639 rej=1 wall=4.91s tv=0.0012
+[lag_refresh] id=456 gold=A pred=A gen=150 rej=0 wall=1.34s tv=0.0
+[lag_refresh] id=215 gold=B pred=B gen=391 rej=2 wall=3.16s tv=0.0009
+[lag_refresh] id=20 gold=C pred=B gen=704 rej=1 wall=5.39s tv=0.0027
+[lag_refresh] id=132 gold=B pred=B gen=452 rej=2 wall=3.56s tv=0.0158
+[lag_refresh] id=496 gold=C pred=C gen=1142 rej=3 wall=8.73s tv=0.0001
+[lag_refresh] id=261 gold=A pred=A gen=119 rej=0 wall=1.13s tv=0.0002
+[lag_refresh] id=248 gold=B pred=C gen=1040 rej=3 wall=8.18s tv=0.0315
+[lag_refresh] id=207 gold=A pred=A gen=734 rej=2 wall=5.69s tv=0.0006
+[lag_refresh] id=471 gold=B pred=B gen=1530 rej=8 wall=12.2s tv=0.0435
+[lag_refresh] id=401 gold=B pred=B gen=1555 rej=7 wall=12.2s tv=0.0105
+[lag_refresh] id=425 gold=B pred=B gen=1354 rej=6 wall=10.42s tv=0.015
+[lag_refresh] id=155 gold=A pred=C gen=964 rej=6 wall=7.58s tv=0.0038
+[lag_refresh] id=497 gold=B pred=C gen=2652 rej=2 wall=20.33s tv=0.0125
+[lag_refresh] id=244 gold=C pred=B gen=689 rej=0 wall=5.4s tv=0.0226
+[lag_refresh] id=183 gold=C pred=A gen=550 rej=0 wall=4.36s tv=0.0085
+[lag_refresh] id=298 gold=A pred=A gen=119 rej=0 wall=1.11s tv=0.0003
+[lag_refresh] id=457 gold=C pred=B gen=1077 rej=3 wall=8.5s tv=0.0105
+[lag_refresh] id=465 gold=C pred=C gen=2143 rej=2 wall=16.55s tv=0.0319
+[lag_refresh] id=111 gold=C pred=A gen=849 rej=2 wall=6.75s tv=0.0116
+[lag_refresh] id=258 gold=C pred=B gen=830 rej=3 wall=6.69s tv=0.0002
+[lag_refresh] id=71 gold=B pred=C gen=1434 rej=8 wall=11.46s tv=0.0181
+[lag_refresh] id=144 gold=A pred=C gen=933 rej=6 wall=7.55s tv=0.0011
+[lag_refresh] id=386 gold=C pred=C gen=1544 rej=2 wall=12.23s tv=0.1515
+[lag_refresh] id=48 gold=C pred=C gen=1133 rej=7 wall=9.05s tv=0.0043
+[lag_refresh] id=316 gold=A pred=B gen=912 rej=3 wall=7.44s tv=0.0077
+[lag_refresh] id=409 gold=C pred=B gen=1397 rej=8 wall=11.18s tv=0.0407
+[lag_refresh] id=128 gold=A pred=A gen=230 rej=1 wall=2.11s tv=0.0195
+=== 18:44:26 DONE MODEL=models/Llama-3.1-8B-Q4_K_M.gguf OUT=results_cloud/Llama-3.1-8B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_refresh
+=== 18:44:26 START MODEL=models/Llama-3.1-8B-Q4_K_M.gguf OUT=results_cloud/Llama-3.1-8B/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+[lag_trunc] id=433 gold=A pred=C gen=614 rej=6 wall=4.94s tv=0.0033
+[lag_trunc] id=197 gold=B pred=C gen=1021 rej=4 wall=7.72s tv=0.0388
+[lag_trunc] id=388 gold=C pred=A gen=612 rej=1 wall=4.67s tv=0.0007
+[lag_trunc] id=456 gold=A pred=A gen=150 rej=0 wall=1.32s tv=0.0
+[lag_trunc] id=215 gold=B pred=B gen=324 rej=2 wall=2.65s tv=0.0009
+[lag_trunc] id=20 gold=C pred=B gen=1187 rej=7 wall=9.23s tv=0.0177
+[lag_trunc] id=132 gold=B pred=B gen=388 rej=2 wall=3.04s tv=0.0158
+[lag_trunc] id=496 gold=C pred=B gen=1000 rej=8 wall=7.87s tv=0.0616
+[lag_trunc] id=261 gold=A pred=A gen=119 rej=0 wall=1.13s tv=0.0002
+[lag_trunc] id=248 gold=B pred=A gen=1328 rej=3 wall=10.17s tv=0.0317
+[lag_trunc] id=207 gold=A pred=C gen=968 rej=2 wall=7.39s tv=0.0602
+[lag_trunc] id=471 gold=B pred=B gen=1023 rej=8 wall=7.98s tv=0.014
+[lag_trunc] id=401 gold=B pred=C gen=988 rej=4 wall=7.83s tv=0.0043
+[lag_trunc] id=425 gold=B pred=B gen=1136 rej=6 wall=8.78s tv=0.015
+[lag_trunc] id=155 gold=A pred=C gen=479 rej=6 wall=4.01s tv=0.0038
+[lag_trunc] id=497 gold=B pred=C gen=551 rej=6 wall=4.52s tv=0.0012
+[lag_trunc] id=244 gold=C pred=B gen=689 rej=0 wall=5.36s tv=0.0226
+[lag_trunc] id=183 gold=C pred=A gen=550 rej=0 wall=4.33s tv=0.0085
+[lag_trunc] id=298 gold=A pred=A gen=119 rej=0 wall=1.11s tv=0.0003
+[lag_trunc] id=457 gold=C pred=B gen=1248 rej=6 wall=9.86s tv=0.0082
+[lag_trunc] id=465 gold=C pred=C gen=2019 rej=2 wall=15.53s tv=0.0319
+[lag_trunc] id=111 gold=C pred=A gen=733 rej=2 wall=5.83s tv=0.0116
+[lag_trunc] id=258 gold=C pred=B gen=618 rej=3 wall=5.03s tv=0.0002
+[lag_trunc] id=71 gold=B pred=C gen=812 rej=8 wall=6.67s tv=0.0181
+[lag_trunc] id=144 gold=A pred=C gen=486 rej=6 wall=4.16s tv=0.0011
+[lag_trunc] id=386 gold=C pred=B gen=1244 rej=2 wall=9.79s tv=0.1219
+[lag_trunc] id=48 gold=C pred=B gen=838 rej=7 wall=6.8s tv=0.1275
+[lag_trunc] id=316 gold=A pred=A gen=836 rej=3 wall=6.62s tv=0.0009
+[lag_trunc] id=409 gold=C pred=C gen=1070 rej=4 wall=8.36s tv=0.0332
+[lag_trunc] id=128 gold=A pred=A gen=173 rej=1 wall=1.64s tv=0.0195
+=== 18:47:45 DONE MODEL=models/Llama-3.1-8B-Q4_K_M.gguf OUT=results_cloud/Llama-3.1-8B/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+=== 18:47:45 START MODEL=models/Llama-3.1-8B-Q4_K_M.gguf OUT=results_cloud/Llama-3.1-8B/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+[lag_mask] id=433 gold=A pred=C gen=614 rej=6 wall=5.14s tv=0.0033
+[lag_mask] id=197 gold=B pred=C gen=1021 rej=4 wall=8.09s tv=0.0388
+[lag_mask] id=388 gold=C pred=A gen=612 rej=1 wall=4.89s tv=0.0007
+[lag_mask] id=456 gold=A pred=A gen=150 rej=0 wall=1.37s tv=0.0
+[lag_mask] id=215 gold=B pred=B gen=575 rej=2 wall=4.66s tv=0.0198
+[lag_mask] id=20 gold=C pred=A gen=1120 rej=4 wall=8.77s tv=0.0179
+[lag_mask] id=132 gold=B pred=B gen=325 rej=2 wall=2.67s tv=0.2486
+[lag_mask] id=496 gold=C pred=A gen=1002 rej=8 wall=8.02s tv=0.099
+[lag_mask] id=261 gold=A pred=A gen=119 rej=0 wall=1.12s tv=0.0002
+[lag_mask] id=248 gold=B pred=B gen=1239 rej=7 wall=9.81s tv=0.0894
+[lag_mask] id=207 gold=A pred=A gen=862 rej=3 wall=6.65s tv=0.0022
+[lag_mask] id=471 gold=B pred=C gen=643 rej=8 wall=5.28s tv=0.1119
+[lag_mask] id=401 gold=B pred=C gen=988 rej=4 wall=7.86s tv=0.0043
+[lag_mask] id=425 gold=B pred=C gen=953 rej=3 wall=7.37s tv=0.3537
+[lag_mask] id=155 gold=A pred=C gen=479 rej=6 wall=4.04s tv=0.0038
+[lag_mask] id=497 gold=B pred=C gen=551 rej=6 wall=4.58s tv=0.0012
+[lag_mask] id=244 gold=C pred=B gen=689 rej=0 wall=5.33s tv=0.0226
+[lag_mask] id=183 gold=C pred=A gen=550 rej=0 wall=4.3s tv=0.0085
+[lag_mask] id=298 gold=A pred=A gen=119 rej=0 wall=1.1s tv=0.0003
+[lag_mask] id=457 gold=C pred=C gen=1311 rej=7 wall=10.43s tv=0.1144
+[lag_mask] id=465 gold=C pred=C gen=2019 rej=2 wall=15.49s tv=0.0319
+[lag_mask] id=111 gold=C pred=A gen=733 rej=2 wall=5.85s tv=0.0116
+[lag_mask] id=258 gold=C pred=B gen=618 rej=3 wall=5.03s tv=0.0002
+[lag_mask] id=71 gold=B pred=C gen=812 rej=8 wall=6.74s tv=0.0181
+[lag_mask] id=144 gold=A pred=C gen=486 rej=6 wall=4.22s tv=0.0011
+[lag_mask] id=386 gold=C pred=A gen=771 rej=1 wall=6.16s tv=0.001
+[lag_mask] id=48 gold=C pred=B gen=759 rej=7 wall=6.09s tv=0.1275
+[lag_mask] id=316 gold=A pred=A gen=836 rej=3 wall=6.49s tv=0.0009
+[lag_mask] id=409 gold=C pred=C gen=1070 rej=4 wall=8.34s tv=0.0332
+[lag_mask] id=128 gold=A pred=A gen=173 rej=1 wall=1.65s tv=0.0195
+=== 18:50:57 DONE MODEL=models/Llama-3.1-8B-Q4_K_M.gguf OUT=results_cloud/Llama-3.1-8B/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+=== 18:50:57 START MODEL=models/Llama-3.1-8B-Q4_K_M.gguf OUT=results_cloud/Llama-3.1-8B/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+[lag_trunc] id=433 gold=A pred=C gen=492 rej=6 wall=4.12s tv=0.0033
+[lag_trunc] id=197 gold=B pred=C gen=1452 rej=6 wall=11.33s tv=0.0136
+[lag_trunc] id=388 gold=C pred=A gen=582 rej=1 wall=4.62s tv=0.0008
+[lag_trunc] id=456 gold=A pred=A gen=150 rej=0 wall=1.34s tv=0.0
+[lag_trunc] id=215 gold=B pred=B gen=293 rej=2 wall=2.51s tv=0.0009
+[lag_trunc] id=20 gold=C pred=B gen=662 rej=1 wall=5.22s tv=0.0267
+[lag_trunc] id=132 gold=B pred=B gen=345 rej=2 wall=2.83s tv=0.0158
+[lag_trunc] id=496 gold=C pred=B gen=1000 rej=8 wall=7.82s tv=0.0616
+[lag_trunc] id=261 gold=A pred=A gen=119 rej=0 wall=1.11s tv=0.0002
+[lag_trunc] id=248 gold=B pred=C gen=1015 rej=8 wall=7.95s tv=0.0292
+[lag_trunc] id=207 gold=A pred=A gen=621 rej=2 wall=4.73s tv=0.002
+[lag_trunc] id=471 gold=B pred=B gen=825 rej=8 wall=6.44s tv=0.021
+[lag_trunc] id=401 gold=B pred=C gen=591 rej=8 wall=4.91s tv=0.0415
+[lag_trunc] id=425 gold=B pred=B gen=944 rej=6 wall=7.19s tv=0.015
+[lag_trunc] id=155 gold=A pred=C gen=479 rej=6 wall=3.89s tv=0.0038
+[lag_trunc] id=497 gold=B pred=C gen=395 rej=6 wall=3.29s tv=0.0012
+[lag_trunc] id=244 gold=C pred=B gen=689 rej=0 wall=5.19s tv=0.0226
+[lag_trunc] id=183 gold=C pred=A gen=550 rej=0 wall=4.19s tv=0.0085
+[lag_trunc] id=298 gold=A pred=A gen=119 rej=0 wall=1.08s tv=0.0003
+[lag_trunc] id=457 gold=C pred=B gen=1014 rej=5 wall=7.86s tv=0.0059
+[lag_trunc] id=465 gold=C pred=C gen=1960 rej=2 wall=14.53s tv=0.0319
+[lag_trunc] id=111 gold=C pred=A gen=645 rej=2 wall=4.99s tv=0.0116
+[lag_trunc] id=258 gold=C pred=B gen=529 rej=3 wall=4.2s tv=0.0002
+[lag_trunc] id=71 gold=B pred=C gen=620 rej=8 wall=5.05s tv=0.0181
+[lag_trunc] id=144 gold=A pred=C gen=351 rej=6 wall=3.04s tv=0.0011
+[lag_trunc] id=386 gold=C pred=B gen=1241 rej=2 wall=9.35s tv=0.1219
+[lag_trunc] id=48 gold=C pred=B gen=575 rej=4 wall=4.49s tv=0.0762
+[lag_trunc] id=316 gold=A pred=A gen=334 rej=3 wall=2.7s tv=0.0
+[lag_trunc] id=409 gold=C pred=C gen=569 rej=8 wall=4.52s tv=0.0068
+[lag_trunc] id=128 gold=A pred=A gen=134 rej=1 wall=1.3s tv=0.0195
+=== 18:53:43 DONE MODEL=models/Llama-3.1-8B-Q4_K_M.gguf OUT=results_cloud/Llama-3.1-8B/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+=== 18:53:43 START MODEL=models/Llama-3.1-8B-Q4_K_M.gguf OUT=results_cloud/Llama-3.1-8B/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+[lag_mask] id=433 gold=A pred=C gen=492 rej=6 wall=4.12s tv=0.0033
+[lag_mask] id=197 gold=B pred=C gen=1452 rej=6 wall=11.25s tv=0.0136
+[lag_mask] id=388 gold=C pred=A gen=582 rej=1 wall=4.58s tv=0.0008
+[lag_mask] id=456 gold=A pred=A gen=150 rej=0 wall=1.33s tv=0.0
+[lag_mask] id=215 gold=B pred=B gen=293 rej=2 wall=2.49s tv=0.0009
+[lag_mask] id=20 gold=C pred=B gen=662 rej=1 wall=5.18s tv=0.0267
+[lag_mask] id=132 gold=B pred=B gen=345 rej=2 wall=2.81s tv=0.0158
+[lag_mask] id=496 gold=C pred=A gen=1002 rej=8 wall=8.06s tv=0.099
+[lag_mask] id=261 gold=A pred=A gen=119 rej=0 wall=1.14s tv=0.0002
+[lag_mask] id=248 gold=B pred=C gen=1354 rej=6 wall=10.79s tv=0.0228
+[lag_mask] id=207 gold=A pred=A gen=621 rej=2 wall=4.94s tv=0.002
+[lag_mask] id=471 gold=B pred=C gen=755 rej=8 wall=6.21s tv=0.0504
+[lag_mask] id=401 gold=B pred=C gen=462 rej=7 wall=4.09s tv=0.0049
+[lag_mask] id=425 gold=B pred=B gen=944 rej=6 wall=7.53s tv=0.015
+[lag_mask] id=155 gold=A pred=C gen=479 rej=6 wall=4.1s tv=0.0038
+[lag_mask] id=497 gold=B pred=C gen=395 rej=6 wall=3.46s tv=0.0012
+[lag_mask] id=244 gold=C pred=B gen=689 rej=0 wall=5.45s tv=0.0226
+[lag_mask] id=183 gold=C pred=A gen=550 rej=0 wall=4.42s tv=0.0085
+[lag_mask] id=298 gold=A pred=A gen=119 rej=0 wall=1.12s tv=0.0003
+[lag_mask] id=457 gold=C pred=B gen=1014 rej=5 wall=8.15s tv=0.0059
+[lag_mask] id=465 gold=C pred=C gen=1960 rej=2 wall=14.57s tv=0.0319
+[lag_mask] id=111 gold=C pred=A gen=645 rej=2 wall=5.0s tv=0.0116
+[lag_mask] id=258 gold=C pred=B gen=529 rej=3 wall=4.37s tv=0.0002
+[lag_mask] id=71 gold=B pred=C gen=620 rej=8 wall=5.19s tv=0.0181
+[lag_mask] id=144 gold=A pred=C gen=351 rej=6 wall=3.08s tv=0.0011
+[lag_mask] id=386 gold=C pred=C gen=375 rej=2 wall=3.07s tv=0.6768
+[lag_mask] id=48 gold=C pred=B gen=575 rej=4 wall=4.51s tv=0.0762
+[lag_mask] id=316 gold=A pred=A gen=629 rej=5 wall=4.95s tv=0.0
+[lag_mask] id=409 gold=C pred=C gen=569 rej=8 wall=4.57s tv=0.0068
+[lag_mask] id=128 gold=A pred=A gen=134 rej=1 wall=1.31s tv=0.0195
+=== 18:56:29 DONE MODEL=models/Llama-3.1-8B-Q4_K_M.gguf OUT=results_cloud/Llama-3.1-8B/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+=== ALL DONE 18:56:29
+=== 18:56:30 START MODEL=models/Phi-4-Q4_K_M.gguf OUT=results_cloud/Phi-4 .venv/bin/python run.py --n 30 --cond base
+[base] id=433 gold=A pred=B gen=512 rej=0 wall=6.62s
+[base] id=197 gold=B pred=B gen=434 rej=0 wall=5.61s
+[base] id=388 gold=C pred=C gen=661 rej=0 wall=8.24s
+[base] id=456 gold=A pred=A gen=495 rej=0 wall=6.31s
+[base] id=215 gold=B pred=B gen=491 rej=0 wall=6.27s
+[base] id=20 gold=C pred=C gen=536 rej=0 wall=6.79s
+[base] id=132 gold=B pred=B gen=504 rej=0 wall=6.41s
+[base] id=496 gold=C pred=C gen=658 rej=0 wall=8.23s
+[base] id=261 gold=A pred=C gen=500 rej=0 wall=6.41s
+[base] id=248 gold=B pred=C gen=652 rej=0 wall=8.19s
+[base] id=207 gold=A pred=C gen=472 rej=0 wall=6.09s
+[base] id=471 gold=B pred=A gen=499 rej=0 wall=6.38s
+[base] id=401 gold=B pred=B gen=517 rej=0 wall=6.63s
+[base] id=425 gold=B pred=B gen=219 rej=0 wall=3.14s
+[base] id=155 gold=A pred=C gen=561 rej=0 wall=7.17s
+[base] id=497 gold=B pred=C gen=689 rej=0 wall=8.66s
+[base] id=244 gold=C pred=B gen=370 rej=0 wall=4.94s
+[base] id=183 gold=C pred=A gen=587 rej=0 wall=7.47s
+[base] id=298 gold=A pred=C gen=700 rej=0 wall=8.77s
+[base] id=457 gold=C pred=A gen=492 rej=0 wall=6.36s
+[base] id=465 gold=C pred=C gen=614 rej=0 wall=7.82s
+[base] id=111 gold=C pred=C gen=512 rej=0 wall=6.61s
+[base] id=258 gold=C pred=B gen=615 rej=0 wall=7.82s
+[base] id=71 gold=B pred=A gen=576 rej=0 wall=7.4s
+[base] id=144 gold=A pred=C gen=590 rej=0 wall=7.53s
+[base] id=386 gold=C pred=A gen=423 rej=0 wall=5.59s
+[base] id=48 gold=C pred=C gen=521 rej=0 wall=6.68s
+[base] id=316 gold=A pred=C gen=404 rej=0 wall=5.33s
+[base] id=409 gold=C pred=C gen=501 rej=0 wall=6.42s
+[base] id=128 gold=A pred=C gen=520 rej=0 wall=6.75s
+=== 18:59:56 DONE MODEL=models/Phi-4-Q4_K_M.gguf OUT=results_cloud/Phi-4 .venv/bin/python run.py --n 30 --cond base
+=== 18:59:56 START MODEL=models/Phi-4-Q4_K_M.gguf OUT=results_cloud/Phi-4 .venv/bin/python run.py --n 30 --cond fmt
+[fmt] id=433 gold=A pred=C gen=388 rej=0 wall=4.86s
+[fmt] id=197 gold=B pred=B gen=326 rej=0 wall=4.1s
+[fmt] id=388 gold=C pred=C gen=616 rej=0 wall=7.44s
+[fmt] id=456 gold=A pred=B gen=375 rej=0 wall=4.68s
+[fmt] id=215 gold=B pred=B gen=235 rej=0 wall=3.05s
+[fmt] id=20 gold=C pred=C gen=455 rej=0 wall=5.62s
+[fmt] id=132 gold=B pred=B gen=314 rej=0 wall=3.91s
+[fmt] id=496 gold=C pred=C gen=449 rej=0 wall=5.53s
+[fmt] id=261 gold=A pred=B gen=557 rej=0 wall=6.87s
+[fmt] id=248 gold=B pred=B gen=413 rej=0 wall=5.26s
+[fmt] id=207 gold=A pred=B gen=292 rej=0 wall=3.77s
+[fmt] id=471 gold=B pred=A gen=452 rej=0 wall=5.58s
+[fmt] id=401 gold=B pred=B gen=80 rej=0 wall=1.43s
+[fmt] id=425 gold=B pred=B gen=131 rej=0 wall=1.91s
+[fmt] id=155 gold=A pred=B gen=909 rej=0 wall=11.01s
+[fmt] id=497 gold=B pred=B gen=351 rej=0 wall=4.47s
+[fmt] id=244 gold=C pred=B gen=846 rej=0 wall=10.3s
+[fmt] id=183 gold=C pred=A gen=761 rej=0 wall=9.28s
+[fmt] id=298 gold=A pred=A gen=325 rej=0 wall=4.1s
+[fmt] id=457 gold=C pred=C gen=689 rej=0 wall=8.48s
+[fmt] id=465 gold=C pred=A gen=448 rej=0 wall=5.7s
+[fmt] id=111 gold=C pred=A gen=1295 rej=0 wall=15.6s
+[fmt] id=258 gold=C pred=A gen=362 rej=0 wall=4.67s
+[fmt] id=71 gold=B pred=A gen=723 rej=0 wall=8.97s
+[fmt] id=144 gold=A pred=C gen=612 rej=0 wall=7.57s
+[fmt] id=386 gold=C pred=B gen=655 rej=0 wall=8.16s
+[fmt] id=48 gold=C pred=A gen=583 rej=0 wall=7.11s
+[fmt] id=316 gold=A pred=A gen=237 rej=0 wall=3.13s
+[fmt] id=409 gold=C pred=C gen=551 rej=0 wall=6.69s
+[fmt] id=128 gold=A pred=A gen=287 rej=0 wall=3.87s
+=== 19:03:03 DONE MODEL=models/Phi-4-Q4_K_M.gguf OUT=results_cloud/Phi-4 .venv/bin/python run.py --n 30 --cond fmt
+=== 19:03:03 START MODEL=models/Phi-4-Q4_K_M.gguf OUT=results_cloud/Phi-4 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond sync
+[sync] id=433 gold=A pred=A gen=283 rej=0 wall=3.67s
+[sync] id=197 gold=B pred=B gen=337 rej=0 wall=4.24s
+[sync] id=388 gold=C pred=A gen=163 rej=0 wall=2.26s
+[sync] id=456 gold=A pred=B gen=437 rej=8 wall=5.8s
+[sync] id=215 gold=B pred=B gen=225 rej=0 wall=2.96s
+[sync] id=20 gold=C pred=C gen=709 rej=4 wall=8.8s
+[sync] id=132 gold=B pred=B gen=361 rej=2 wall=4.62s
+[sync] id=496 gold=C pred=C gen=264 rej=8 wall=3.9s
+[sync] id=261 gold=A pred=B gen=466 rej=7 wall=6.19s
+[sync] id=248 gold=B pred=B gen=671 rej=4 wall=8.48s
+[sync] id=207 gold=A pred=C gen=613 rej=2 wall=7.6s
+[sync] id=471 gold=B pred=C gen=357 rej=5 wall=4.8s
+[sync] id=401 gold=B pred=B gen=63 rej=0 wall=1.26s
+[sync] id=425 gold=B pred=B gen=29 rej=0 wall=0.76s
+[sync] id=155 gold=A pred=A gen=656 rej=5 wall=8.33s
+[sync] id=497 gold=B pred=B gen=337 rej=1 wall=4.38s
+[sync] id=244 gold=C pred=B gen=339 rej=0 wall=4.4s
+[sync] id=183 gold=C pred=A gen=474 rej=3 wall=6.08s
+[sync] id=298 gold=A pred=A gen=360 rej=0 wall=4.54s
+[sync] id=457 gold=C pred=C gen=760 rej=8 wall=9.84s
+[sync] id=465 gold=C pred=A gen=428 rej=1 wall=5.54s
+[sync] id=111 gold=C pred=C gen=1011 rej=2 wall=12.43s
+[sync] id=258 gold=C pred=C gen=286 rej=1 wall=3.86s
+[sync] id=71 gold=B pred=B gen=396 rej=0 wall=5.16s
+[sync] id=144 gold=A pred=C gen=302 rej=8 wall=4.41s
+[sync] id=386 gold=C pred=A gen=734 rej=3 wall=9.27s
+[sync] id=48 gold=C pred=C gen=431 rej=0 wall=5.4s
+[sync] id=316 gold=A pred=A gen=404 rej=0 wall=5.08s
+[sync] id=409 gold=C pred=C gen=277 rej=2 wall=3.65s
+[sync] id=128 gold=A pred=A gen=357 rej=8 wall=5.11s
+=== 19:05:50 DONE MODEL=models/Phi-4-Q4_K_M.gguf OUT=results_cloud/Phi-4 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond sync
+=== 19:05:50 START MODEL=models/Phi-4-Q4_K_M.gguf OUT=results_cloud/Phi-4/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+[lag_trunc] id=433 gold=A pred=A gen=283 rej=0 wall=3.67s tv=0.0
+[lag_trunc] id=197 gold=B pred=B gen=337 rej=0 wall=4.24s tv=0.0
+[lag_trunc] id=388 gold=C pred=A gen=163 rej=0 wall=2.28s tv=0.0
+[lag_trunc] id=456 gold=A pred=A gen=541 rej=2 wall=6.79s tv=0.0
+[lag_trunc] id=215 gold=B pred=B gen=225 rej=0 wall=2.97s tv=0.0001
+[lag_trunc] id=20 gold=C pred=A gen=1118 rej=5 wall=13.69s tv=0.0
+[lag_trunc] id=132 gold=B pred=B gen=632 rej=2 wall=7.72s tv=0.0005
+[lag_trunc] id=496 gold=C pred=C gen=954 rej=6 wall=11.67s tv=0.0001
+[lag_trunc] id=261 gold=A pred=A gen=884 rej=5 wall=11.08s tv=0.0
+[lag_trunc] id=248 gold=B pred=B gen=1106 rej=3 wall=13.57s tv=0.0
+[lag_trunc] id=207 gold=A pred=A gen=810 rej=3 wall=10.05s tv=0.0
+[lag_trunc] id=471 gold=B pred=C gen=1005 rej=5 wall=12.33s tv=0.0001
+[lag_trunc] id=401 gold=B pred=B gen=63 rej=0 wall=1.27s tv=0.0
+[lag_trunc] id=425 gold=B pred=B gen=29 rej=0 wall=0.78s tv=0.0
+[lag_trunc] id=155 gold=A pred=C gen=946 rej=6 wall=11.82s tv=0.0008
+[lag_trunc] id=497 gold=B pred=B gen=448 rej=1 wall=5.62s tv=0.0
+[lag_trunc] id=244 gold=C pred=B gen=339 rej=0 wall=4.37s tv=0.0
+[lag_trunc] id=183 gold=C pred=A gen=1393 rej=7 wall=17.0s tv=0.0547
+[lag_trunc] id=298 gold=A pred=A gen=360 rej=0 wall=4.52s tv=0.0
+[lag_trunc] id=457 gold=C pred=C gen=1095 rej=7 wall=13.69s tv=0.0
+[lag_trunc] id=465 gold=C pred=A gen=553 rej=1 wall=7.0s tv=0.0
+[lag_trunc] id=111 gold=C pred=C gen=943 rej=0 wall=11.51s tv=0.0001
+[lag_trunc] id=258 gold=C pred=C gen=422 rej=1 wall=5.47s tv=0.0008
+[lag_trunc] id=71 gold=B pred=B gen=396 rej=0 wall=5.19s tv=0.0
+[lag_trunc] id=144 gold=A pred=C gen=987 rej=6 wall=12.29s tv=0.0004
+[lag_trunc] id=386 gold=C pred=A gen=1465 rej=3 wall=17.81s tv=0.0196
+[lag_trunc] id=48 gold=C pred=C gen=431 rej=0 wall=5.41s tv=0.0005
+[lag_trunc] id=316 gold=A pred=A gen=404 rej=0 wall=5.11s tv=0.0
+[lag_trunc] id=409 gold=C pred=C gen=524 rej=3 wall=6.7s tv=0.0
+[lag_trunc] id=128 gold=A pred=C gen=1153 rej=7 wall=14.46s tv=0.0
+=== 19:10:22 DONE MODEL=models/Phi-4-Q4_K_M.gguf OUT=results_cloud/Phi-4/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+=== 19:10:22 START MODEL=models/Phi-4-Q4_K_M.gguf OUT=results_cloud/Phi-4/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+[lag_mask] id=433 gold=A pred=A gen=283 rej=0 wall=3.66s tv=0.0
+[lag_mask] id=197 gold=B pred=B gen=337 rej=0 wall=4.22s tv=0.0
+[lag_mask] id=388 gold=C pred=A gen=163 rej=0 wall=2.27s tv=0.0
+[lag_mask] id=456 gold=A pred=A gen=273 rej=1 wall=3.57s tv=0.0
+[lag_mask] id=215 gold=B pred=B gen=225 rej=0 wall=2.96s tv=0.0001
+[lag_mask] id=20 gold=C pred=C gen=699 rej=3 wall=8.69s tv=0.1164
+[lag_mask] id=132 gold=B pred=B gen=364 rej=1 wall=4.59s tv=0.0001
+[lag_mask] id=496 gold=C pred=C gen=784 rej=8 wall=10.1s tv=0.0016
+[lag_mask] id=261 gold=A pred=C gen=678 rej=5 wall=8.68s tv=0.0015
+[lag_mask] id=248 gold=B pred=C gen=1206 rej=8 wall=15.1s tv=0.0014
+[lag_mask] id=207 gold=A pred=A gen=634 rej=3 wall=7.91s tv=0.0
+[lag_mask] id=471 gold=B pred=C gen=1139 rej=6 wall=14.03s tv=0.0007
+[lag_mask] id=401 gold=B pred=B gen=63 rej=0 wall=1.25s tv=0.0
+[lag_mask] id=425 gold=B pred=B gen=29 rej=0 wall=0.77s tv=0.0
+[lag_mask] id=155 gold=A pred=A gen=429 rej=3 wall=5.55s tv=0.0
+[lag_mask] id=497 gold=B pred=B gen=716 rej=1 wall=8.79s tv=0.0
+[lag_mask] id=244 gold=C pred=B gen=339 rej=0 wall=4.42s tv=0.0
+[lag_mask] id=183 gold=C pred=A gen=1129 rej=6 wall=14.02s tv=0.2348
+[lag_mask] id=298 gold=A pred=A gen=360 rej=0 wall=4.51s tv=0.0
+[lag_mask] id=457 gold=C pred=A gen=778 rej=1 wall=9.54s tv=0.0
+[lag_mask] id=465 gold=C pred=A gen=847 rej=5 wall=10.72s tv=0.0
+[lag_mask] id=111 gold=C pred=C gen=943 rej=0 wall=11.43s tv=0.0001
+[lag_mask] id=258 gold=C pred=C gen=427 rej=1 wall=5.53s tv=0.0005
+[lag_mask] id=71 gold=B pred=B gen=396 rej=0 wall=5.14s tv=0.0
+[lag_mask] id=144 gold=A pred=A gen=574 rej=3 wall=7.4s tv=0.0
+[lag_mask] id=386 gold=C pred=C gen=823 rej=3 wall=10.34s tv=0.074
+[lag_mask] id=48 gold=C pred=C gen=431 rej=0 wall=5.38s tv=0.0005
+[lag_mask] id=316 gold=A pred=A gen=404 rej=0 wall=5.06s tv=0.0
+[lag_mask] id=409 gold=C pred=C gen=373 rej=1 wall=4.78s tv=0.0
+[lag_mask] id=128 gold=A pred=A gen=470 rej=4 wall=6.28s tv=0.0
+=== 19:14:11 DONE MODEL=models/Phi-4-Q4_K_M.gguf OUT=results_cloud/Phi-4/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+=== 19:14:11 START MODEL=models/Phi-4-Q4_K_M.gguf OUT=results_cloud/Phi-4/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_refresh
+[lag_refresh] id=433 gold=A pred=A gen=283 rej=0 wall=3.67s tv=0.0
+[lag_refresh] id=197 gold=B pred=B gen=337 rej=0 wall=4.23s tv=0.0
+[lag_refresh] id=388 gold=C pred=A gen=163 rej=0 wall=2.27s tv=0.0
+[lag_refresh] id=456 gold=A pred=A gen=418 rej=1 wall=5.3s tv=0.0
+[lag_refresh] id=215 gold=B pred=B gen=225 rej=0 wall=2.95s tv=0.0001
+[lag_refresh] id=20 gold=C pred=A gen=879 rej=5 wall=11.07s tv=0.0648
+[lag_refresh] id=132 gold=B pred=B gen=401 rej=2 wall=5.12s tv=0.0019
+[lag_refresh] id=496 gold=C pred=C gen=950 rej=8 wall=12.36s tv=0.0
+[lag_refresh] id=261 gold=A pred=C gen=1458 rej=8 wall=17.96s tv=0.0001
+[lag_refresh] id=248 gold=B pred=C gen=1066 rej=8 wall=13.68s tv=0.0006
+[lag_refresh] id=207 gold=A pred=C gen=1042 rej=4 wall=12.81s tv=0.0
+[lag_refresh] id=471 gold=B pred=C gen=1005 rej=5 wall=12.2s tv=0.0001
+[lag_refresh] id=401 gold=B pred=B gen=63 rej=0 wall=1.26s tv=0.0
+[lag_refresh] id=425 gold=B pred=B gen=29 rej=0 wall=0.77s tv=0.0
+[lag_refresh] id=155 gold=A pred=A gen=1284 rej=7 wall=15.82s tv=0.0
+[lag_refresh] id=497 gold=B pred=B gen=822 rej=3 wall=10.04s tv=0.0
+[lag_refresh] id=244 gold=C pred=B gen=339 rej=0 wall=4.39s tv=0.0
+[lag_refresh] id=183 gold=C pred=C gen=969 rej=8 wall=12.42s tv=0.0003
+[lag_refresh] id=298 gold=A pred=A gen=360 rej=0 wall=4.52s tv=0.0
+[lag_refresh] id=457 gold=C pred=C gen=758 rej=1 wall=9.32s tv=0.0466
+[lag_refresh] id=465 gold=C pred=C gen=1147 rej=8 wall=14.42s tv=0.0
+[lag_refresh] id=111 gold=C pred=C gen=943 rej=0 wall=11.43s tv=0.0001
+[lag_refresh] id=258 gold=C pred=A gen=630 rej=1 wall=7.86s tv=0.0
+[lag_refresh] id=71 gold=B pred=B gen=396 rej=0 wall=5.14s tv=0.0
+[lag_refresh] id=144 gold=A pred=C gen=1370 rej=8 wall=17.3s tv=0.0001
+[lag_refresh] id=386 gold=C pred=A gen=678 rej=2 wall=8.59s tv=0.0
+[lag_refresh] id=48 gold=C pred=C gen=431 rej=0 wall=5.39s tv=0.0005
+[lag_refresh] id=316 gold=A pred=A gen=404 rej=0 wall=5.08s tv=0.0
+[lag_refresh] id=409 gold=C pred=C gen=658 rej=7 wall=8.43s tv=0.0
+[lag_refresh] id=128 gold=A pred=A gen=559 rej=5 wall=7.77s tv=0.0
+=== 19:18:47 DONE MODEL=models/Phi-4-Q4_K_M.gguf OUT=results_cloud/Phi-4/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_refresh
+=== 19:18:47 START MODEL=models/Phi-4-Q4_K_M.gguf OUT=results_cloud/Phi-4/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+[lag_trunc] id=433 gold=A pred=A gen=283 rej=0 wall=3.69s tv=0.0
+[lag_trunc] id=197 gold=B pred=B gen=337 rej=0 wall=4.25s tv=0.0
+[lag_trunc] id=388 gold=C pred=A gen=163 rej=0 wall=2.28s tv=0.0
+[lag_trunc] id=456 gold=A pred=A gen=407 rej=2 wall=5.22s tv=0.0
+[lag_trunc] id=215 gold=B pred=B gen=225 rej=0 wall=2.97s tv=0.0001
+[lag_trunc] id=20 gold=C pred=A gen=965 rej=6 wall=11.98s tv=0.0141
+[lag_trunc] id=132 gold=B pred=B gen=482 rej=2 wall=6.0s tv=0.0005
+[lag_trunc] id=496 gold=C pred=C gen=591 rej=6 wall=7.53s tv=0.0001
+[lag_trunc] id=261 gold=A pred=C gen=741 rej=5 wall=9.34s tv=0.0
+[lag_trunc] id=248 gold=B pred=B gen=943 rej=3 wall=11.67s tv=0.0
+[lag_trunc] id=207 gold=A pred=A gen=582 rej=3 wall=7.37s tv=0.0
+[lag_trunc] id=471 gold=B pred=B gen=680 rej=5 wall=8.53s tv=0.0
+[lag_trunc] id=401 gold=B pred=B gen=63 rej=0 wall=1.27s tv=0.0
+[lag_trunc] id=425 gold=B pred=B gen=29 rej=0 wall=0.78s tv=0.0
+[lag_trunc] id=155 gold=A pred=C gen=576 rej=6 wall=7.5s tv=0.0008
+[lag_trunc] id=497 gold=B pred=B gen=396 rej=1 wall=5.09s tv=0.0
+[lag_trunc] id=244 gold=C pred=B gen=339 rej=0 wall=4.43s tv=0.0
+[lag_trunc] id=183 gold=C pred=A gen=837 rej=5 wall=10.57s tv=0.0
+[lag_trunc] id=298 gold=A pred=A gen=360 rej=0 wall=4.56s tv=0.0
+[lag_trunc] id=457 gold=C pred=C gen=689 rej=7 wall=9.01s tv=0.0
+[lag_trunc] id=465 gold=C pred=A gen=496 rej=1 wall=6.37s tv=0.0
+[lag_trunc] id=111 gold=C pred=C gen=943 rej=0 wall=11.58s tv=0.0001
+[lag_trunc] id=258 gold=C pred=C gen=333 rej=1 wall=4.44s tv=0.0008
+[lag_trunc] id=71 gold=B pred=B gen=396 rej=0 wall=5.22s tv=0.0
+[lag_trunc] id=144 gold=A pred=C gen=627 rej=6 wall=8.14s tv=0.0004
+[lag_trunc] id=386 gold=C pred=A gen=777 rej=4 wall=9.94s tv=0.0002
+[lag_trunc] id=48 gold=C pred=C gen=431 rej=0 wall=5.45s tv=0.0005
+[lag_trunc] id=316 gold=A pred=A gen=404 rej=0 wall=5.13s tv=0.0
+[lag_trunc] id=409 gold=C pred=C gen=443 rej=3 wall=5.76s tv=0.0
+[lag_trunc] id=128 gold=A pred=C gen=814 rej=7 wall=10.59s tv=0.0
+=== 19:22:26 DONE MODEL=models/Phi-4-Q4_K_M.gguf OUT=results_cloud/Phi-4/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+=== 19:22:26 START MODEL=models/Phi-4-Q4_K_M.gguf OUT=results_cloud/Phi-4/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+[lag_mask] id=433 gold=A pred=A gen=283 rej=0 wall=3.7s tv=0.0
+[lag_mask] id=197 gold=B pred=B gen=337 rej=0 wall=4.26s tv=0.0
+[lag_mask] id=388 gold=C pred=A gen=163 rej=0 wall=2.28s tv=0.0
+[lag_mask] id=456 gold=A pred=A gen=246 rej=1 wall=3.27s tv=0.0
+[lag_mask] id=215 gold=B pred=B gen=225 rej=0 wall=2.98s tv=0.0001
+[lag_mask] id=20 gold=C pred=C gen=672 rej=3 wall=8.36s tv=0.0037
+[lag_mask] id=132 gold=B pred=B gen=466 rej=3 wall=5.92s tv=0.0044
+[lag_mask] id=496 gold=C pred=C gen=704 rej=8 wall=9.22s tv=0.0017
+[lag_mask] id=261 gold=A pred=A gen=1232 rej=7 wall=15.25s tv=0.0209
+[lag_mask] id=248 gold=B pred=C gen=829 rej=6 wall=10.54s tv=0.0002
+[lag_mask] id=207 gold=A pred=A gen=582 rej=3 wall=7.41s tv=0.0
+[lag_mask] id=471 gold=B pred=B gen=680 rej=5 wall=8.66s tv=0.0
+[lag_mask] id=401 gold=B pred=B gen=63 rej=0 wall=1.27s tv=0.0
+[lag_mask] id=425 gold=B pred=B gen=29 rej=0 wall=0.77s tv=0.0
+[lag_mask] id=155 gold=A pred=C gen=480 rej=6 wall=6.48s tv=0.0008
+[lag_mask] id=497 gold=B pred=B gen=396 rej=1 wall=5.1s tv=0.0
+[lag_mask] id=244 gold=C pred=B gen=339 rej=0 wall=4.44s tv=0.0
+[lag_mask] id=183 gold=C pred=A gen=571 rej=3 wall=7.3s tv=0.0411
+[lag_mask] id=298 gold=A pred=A gen=360 rej=0 wall=4.56s tv=0.0
+[lag_mask] id=457 gold=C pred=C gen=857 rej=7 wall=11.16s tv=0.0001
+[lag_mask] id=465 gold=C pred=A gen=496 rej=1 wall=6.39s tv=0.0
+[lag_mask] id=111 gold=C pred=C gen=943 rej=0 wall=11.55s tv=0.0001
+[lag_mask] id=258 gold=C pred=C gen=333 rej=1 wall=4.43s tv=0.0008
+[lag_mask] id=71 gold=B pred=B gen=396 rej=0 wall=5.19s tv=0.0
+[lag_mask] id=144 gold=A pred=C gen=627 rej=6 wall=8.24s tv=0.0004
+[lag_mask] id=386 gold=C pred=C gen=668 rej=1 wall=8.45s tv=0.1606
+[lag_mask] id=48 gold=C pred=C gen=431 rej=0 wall=5.43s tv=0.0005
+[lag_mask] id=316 gold=A pred=A gen=404 rej=0 wall=5.12s tv=0.0
+[lag_mask] id=409 gold=C pred=C gen=292 rej=1 wall=3.8s tv=0.0
+[lag_mask] id=128 gold=A pred=A gen=591 rej=8 wall=8.03s tv=0.0219
+=== 19:25:57 DONE MODEL=models/Phi-4-Q4_K_M.gguf OUT=results_cloud/Phi-4/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+=== 19:25:57 START MODEL=models/Phi-4-Q4_K_M.gguf OUT=results_cloud/Phi-4/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+[lag_trunc] id=433 gold=A pred=A gen=283 rej=0 wall=3.7s tv=0.0
+[lag_trunc] id=197 gold=B pred=B gen=337 rej=0 wall=4.28s tv=0.0
+[lag_trunc] id=388 gold=C pred=A gen=163 rej=0 wall=2.28s tv=0.0
+[lag_trunc] id=456 gold=A pred=A gen=342 rej=2 wall=4.44s tv=0.0
+[lag_trunc] id=215 gold=B pred=B gen=225 rej=0 wall=2.98s tv=0.0001
+[lag_trunc] id=20 gold=C pred=A gen=771 rej=5 wall=9.61s tv=0.0186
+[lag_trunc] id=132 gold=B pred=B gen=416 rej=2 wall=5.27s tv=0.0005
+[lag_trunc] id=496 gold=C pred=C gen=409 rej=6 wall=5.43s tv=0.0001
+[lag_trunc] id=261 gold=A pred=C gen=670 rej=5 wall=8.52s tv=0.0
+[lag_trunc] id=248 gold=B pred=B gen=827 rej=5 wall=10.41s tv=0.0
+[lag_trunc] id=207 gold=A pred=C gen=897 rej=3 wall=10.97s tv=0.0
+[lag_trunc] id=471 gold=B pred=B gen=496 rej=5 wall=6.33s tv=0.0
+[lag_trunc] id=401 gold=B pred=B gen=63 rej=0 wall=1.26s tv=0.0
+[lag_trunc] id=425 gold=B pred=B gen=29 rej=0 wall=0.77s tv=0.0
+[lag_trunc] id=155 gold=A pred=C gen=403 rej=6 wall=5.46s tv=0.0008
+[lag_trunc] id=497 gold=B pred=B gen=363 rej=1 wall=4.66s tv=0.0
+[lag_trunc] id=244 gold=C pred=B gen=339 rej=0 wall=4.4s tv=0.0
+[lag_trunc] id=183 gold=C pred=A gen=772 rej=5 wall=9.7s tv=0.0
+[lag_trunc] id=298 gold=A pred=A gen=360 rej=0 wall=4.54s tv=0.0
+[lag_trunc] id=457 gold=C pred=C gen=448 rej=7 wall=6.05s tv=0.0
+[lag_trunc] id=465 gold=C pred=A gen=456 rej=1 wall=5.85s tv=0.0
+[lag_trunc] id=111 gold=C pred=C gen=943 rej=0 wall=11.49s tv=0.0001
+[lag_trunc] id=258 gold=C pred=C gen=333 rej=1 wall=4.42s tv=0.0008
+[lag_trunc] id=71 gold=B pred=B gen=396 rej=0 wall=5.16s tv=0.0
+[lag_trunc] id=144 gold=A pred=C gen=443 rej=6 wall=5.94s tv=0.0004
+[lag_trunc] id=386 gold=C pred=A gen=780 rej=2 wall=9.72s tv=0.0097
+[lag_trunc] id=48 gold=C pred=C gen=431 rej=0 wall=5.4s tv=0.0005
+[lag_trunc] id=316 gold=A pred=A gen=404 rej=0 wall=5.1s tv=0.0
+[lag_trunc] id=409 gold=C pred=C gen=368 rej=3 wall=4.76s tv=0.0
+[lag_trunc] id=128 gold=A pred=C gen=625 rej=7 wall=8.22s tv=0.0
+=== 19:29:16 DONE MODEL=models/Phi-4-Q4_K_M.gguf OUT=results_cloud/Phi-4/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+=== 19:29:16 START MODEL=models/Phi-4-Q4_K_M.gguf OUT=results_cloud/Phi-4/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+[lag_mask] id=433 gold=A pred=A gen=283 rej=0 wall=3.7s tv=0.0
+[lag_mask] id=197 gold=B pred=B gen=337 rej=0 wall=4.27s tv=0.0
+[lag_mask] id=388 gold=C pred=A gen=163 rej=0 wall=2.28s tv=0.0
+[lag_mask] id=456 gold=A pred=A gen=274 rej=1 wall=3.6s tv=0.0
+[lag_mask] id=215 gold=B pred=B gen=225 rej=0 wall=2.99s tv=0.0001
+[lag_mask] id=20 gold=C pred=C gen=521 rej=3 wall=6.64s tv=0.0001
+[lag_mask] id=132 gold=B pred=B gen=608 rej=6 wall=7.74s tv=0.0001
+[lag_mask] id=496 gold=C pred=C gen=409 rej=6 wall=5.53s tv=0.0001
+[lag_mask] id=261 gold=A pred=C gen=540 rej=4 wall=7.02s tv=0.0664
+[lag_mask] id=248 gold=B pred=B gen=936 rej=6 wall=11.85s tv=0.0
+[lag_mask] id=207 gold=A pred=C gen=897 rej=3 wall=11.11s tv=0.0
+[lag_mask] id=471 gold=B pred=B gen=496 rej=5 wall=6.46s tv=0.0
+[lag_mask] id=401 gold=B pred=B gen=63 rej=0 wall=1.27s tv=0.0
+[lag_mask] id=425 gold=B pred=B gen=29 rej=0 wall=0.78s tv=0.0
+[lag_mask] id=155 gold=A pred=C gen=366 rej=6 wall=5.13s tv=0.0008
+[lag_mask] id=497 gold=B pred=B gen=363 rej=1 wall=4.71s tv=0.0
+[lag_mask] id=244 gold=C pred=B gen=339 rej=0 wall=4.45s tv=0.0
+[lag_mask] id=183 gold=C pred=A gen=516 rej=4 wall=6.72s tv=0.2262
+[lag_mask] id=298 gold=A pred=A gen=360 rej=0 wall=4.57s tv=0.0
+[lag_mask] id=457 gold=C pred=C gen=645 rej=8 wall=8.57s tv=0.0
+[lag_mask] id=465 gold=C pred=A gen=456 rej=1 wall=5.91s tv=0.0
+[lag_mask] id=111 gold=C pred=C gen=943 rej=0 wall=11.6s tv=0.0001
+[lag_mask] id=258 gold=C pred=C gen=333 rej=1 wall=4.45s tv=0.0008
+[lag_mask] id=71 gold=B pred=B gen=396 rej=0 wall=5.21s tv=0.0
+[lag_mask] id=144 gold=A pred=C gen=443 rej=6 wall=6.04s tv=0.0004
+[lag_mask] id=386 gold=C pred=C gen=268 rej=1 wall=3.73s tv=0.0826
+[lag_mask] id=48 gold=C pred=C gen=431 rej=0 wall=5.45s tv=0.0005
+[lag_mask] id=316 gold=A pred=A gen=404 rej=0 wall=5.15s tv=0.0
+[lag_mask] id=409 gold=C pred=C gen=366 rej=3 wall=4.77s tv=0.0
+[lag_mask] id=128 gold=A pred=A gen=556 rej=8 wall=7.5s tv=0.0
+=== 19:32:28 DONE MODEL=models/Phi-4-Q4_K_M.gguf OUT=results_cloud/Phi-4/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+=== ALL DONE 19:32:28
+=== 19:32:28 START MODEL=models/Mistral-Small-24B-Q4_K_M.gguf OUT=results_cloud/Mistral-Small-24B .venv/bin/python run.py --n 30 --cond base
+[base] id=433 gold=A pred=A gen=132 rej=0 wall=3.25s
+[base] id=197 gold=B pred=A gen=120 rej=0 wall=2.92s
+[base] id=388 gold=C pred=C gen=140 rej=0 wall=3.27s
+[base] id=456 gold=A pred=A gen=218 rej=0 wall=4.62s
+[base] id=215 gold=B pred=B gen=171 rej=0 wall=3.82s
+[base] id=20 gold=C pred=A gen=184 rej=0 wall=4.04s
+[base] id=132 gold=B pred=B gen=163 rej=0 wall=3.67s
+[base] id=496 gold=C pred=C gen=61 rej=0 wall=1.96s
+[base] id=261 gold=A pred=B gen=234 rej=0 wall=4.93s
+[base] id=248 gold=B pred=C gen=274 rej=0 wall=5.63s
+[base] id=207 gold=A pred=A gen=160 rej=0 wall=3.67s
+[base] id=471 gold=B pred=A gen=95 rej=0 wall=2.51s
+[base] id=401 gold=B pred=B gen=58 rej=0 wall=1.96s
+[base] id=425 gold=B pred=B gen=57 rej=0 wall=1.86s
+[base] id=155 gold=A pred=A gen=171 rej=0 wall=3.86s
+[base] id=497 gold=B pred=C gen=317 rej=0 wall=6.33s
+[base] id=244 gold=C pred=C gen=240 rej=0 wall=5.07s
+[base] id=183 gold=C pred=B gen=287 rej=0 wall=5.86s
+[base] id=298 gold=A pred=A gen=301 rej=0 wall=6.05s
+[base] id=457 gold=C pred=C gen=153 rej=0 wall=3.56s
+[base] id=465 gold=C pred=None gen=1500 rej=0 wall=26.91s
+[base] id=111 gold=C pred=A gen=182 rej=0 wall=4.06s
+[base] id=258 gold=C pred=C gen=135 rej=0 wall=3.24s
+[base] id=71 gold=B pred=B gen=218 rej=0 wall=4.74s
+[base] id=144 gold=A pred=C gen=145 rej=0 wall=3.41s
+[base] id=386 gold=C pred=A gen=341 rej=0 wall=6.83s
+[base] id=48 gold=C pred=None gen=1500 rej=0 wall=26.85s
+[base] id=316 gold=A pred=C gen=199 rej=0 wall=4.36s
+[base] id=409 gold=C pred=C gen=68 rej=0 wall=2.02s
+[base] id=128 gold=A pred=A gen=90 rej=0 wall=2.53s
+=== 19:35:18 DONE MODEL=models/Mistral-Small-24B-Q4_K_M.gguf OUT=results_cloud/Mistral-Small-24B .venv/bin/python run.py --n 30 --cond base
+=== 19:35:18 START MODEL=models/Mistral-Small-24B-Q4_K_M.gguf OUT=results_cloud/Mistral-Small-24B .venv/bin/python run.py --n 30 --cond fmt
+[fmt] id=433 gold=A pred=C gen=388 rej=0 wall=7.22s
+[fmt] id=197 gold=B pred=B gen=294 rej=0 wall=5.6s
+[fmt] id=388 gold=C pred=C gen=630 rej=0 wall=11.37s
+[fmt] id=456 gold=A pred=A gen=259 rej=0 wall=5.01s
+[fmt] id=215 gold=B pred=B gen=252 rej=0 wall=4.9s
+[fmt] id=20 gold=C pred=C gen=588 rej=0 wall=10.7s
+[fmt] id=132 gold=B pred=C gen=154 rej=0 wall=3.15s
+[fmt] id=496 gold=C pred=C gen=115 rej=0 wall=2.59s
+[fmt] id=261 gold=A pred=C gen=222 rej=0 wall=4.49s
+[fmt] id=248 gold=B pred=B gen=190 rej=0 wall=4.06s
+[fmt] id=207 gold=A pred=A gen=197 rej=0 wall=4.04s
+[fmt] id=471 gold=B pred=C gen=381 rej=0 wall=7.15s
+[fmt] id=401 gold=B pred=B gen=42 rej=0 wall=1.59s
+[fmt] id=425 gold=B pred=B gen=28 rej=0 wall=1.13s
+[fmt] id=155 gold=A pred=C gen=236 rej=0 wall=4.81s
+[fmt] id=497 gold=B pred=B gen=162 rej=0 wall=3.45s
+[fmt] id=244 gold=C pred=B gen=390 rej=0 wall=7.43s
+[fmt] id=183 gold=C pred=A gen=721 rej=0 wall=13.14s
+[fmt] id=298 gold=A pred=A gen=300 rej=0 wall=5.74s
+[fmt] id=457 gold=C pred=C gen=529 rej=0 wall=9.84s
+[fmt] id=465 gold=C pred=B gen=207 rej=0 wall=4.39s
+[fmt] id=111 gold=C pred=C gen=199 rej=0 wall=4.17s
+[fmt] id=258 gold=C pred=A gen=240 rej=0 wall=4.86s
+[fmt] id=71 gold=B pred=A gen=424 rej=0 wall=8.15s
+[fmt] id=144 gold=A pred=C gen=178 rej=0 wall=3.8s
+[fmt] id=386 gold=C pred=A gen=593 rej=0 wall=11.03s
+[fmt] id=48 gold=C pred=C gen=194 rej=0 wall=3.92s
+[fmt] id=316 gold=A pred=B gen=304 rej=0 wall=5.87s
+[fmt] id=409 gold=C pred=C gen=703 rej=0 wall=12.6s
+[fmt] id=128 gold=A pred=A gen=634 rej=0 wall=11.9s
+=== 19:38:31 DONE MODEL=models/Mistral-Small-24B-Q4_K_M.gguf OUT=results_cloud/Mistral-Small-24B .venv/bin/python run.py --n 30 --cond fmt
+=== 19:38:31 START MODEL=models/Mistral-Small-24B-Q4_K_M.gguf OUT=results_cloud/Mistral-Small-24B GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond sync
+[sync] id=433 gold=A pred=C gen=256 rej=1 wall=5.04s
+[sync] id=197 gold=B pred=B gen=294 rej=0 wall=5.59s
+[sync] id=388 gold=C pred=C gen=630 rej=0 wall=11.38s
+[sync] id=456 gold=A pred=A gen=259 rej=0 wall=5.01s
+[sync] id=215 gold=B pred=B gen=256 rej=1 wall=5.04s
+[sync] id=20 gold=C pred=C gen=588 rej=0 wall=10.68s
+[sync] id=132 gold=B pred=B gen=262 rej=2 wall=5.13s
+[sync] id=496 gold=C pred=C gen=107 rej=3 wall=2.67s
+[sync] id=261 gold=A pred=A gen=280 rej=5 wall=5.9s
+[sync] id=248 gold=B pred=B gen=462 rej=6 wall=9.19s
+[sync] id=207 gold=A pred=A gen=288 rej=2 wall=5.72s
+[sync] id=471 gold=B pred=B gen=56 rej=1 wall=1.66s
+[sync] id=401 gold=B pred=B gen=42 rej=0 wall=1.58s
+[sync] id=425 gold=B pred=B gen=28 rej=0 wall=1.14s
+[sync] id=155 gold=A pred=C gen=355 rej=7 wall=7.31s
+[sync] id=497 gold=B pred=B gen=162 rej=0 wall=3.46s
+[sync] id=244 gold=C pred=B gen=390 rej=0 wall=7.45s
+[sync] id=183 gold=C pred=A gen=336 rej=3 wall=6.72s
+[sync] id=298 gold=A pred=A gen=300 rej=0 wall=5.74s
+[sync] id=457 gold=C pred=C gen=571 rej=1 wall=10.66s
+[sync] id=465 gold=C pred=C gen=272 rej=8 wall=6.06s
+[sync] id=111 gold=C pred=C gen=270 rej=8 wall=6.01s
+[sync] id=258 gold=C pred=A gen=263 rej=3 wall=5.49s
+[sync] id=71 gold=B pred=C gen=159 rej=1 wall=3.66s
+[sync] id=144 gold=A pred=C gen=278 rej=8 wall=6.15s
+[sync] id=386 gold=C pred=A gen=322 rej=1 wall=6.43s
+[sync] id=48 gold=C pred=C gen=309 rej=6 wall=6.35s
+[sync] id=316 gold=A pred=A gen=249 rej=3 wall=5.16s
+[sync] id=409 gold=C pred=C gen=170 rej=1 wall=3.48s
+[sync] id=128 gold=A pred=A gen=634 rej=0 wall=11.88s
+=== 19:41:34 DONE MODEL=models/Mistral-Small-24B-Q4_K_M.gguf OUT=results_cloud/Mistral-Small-24B GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond sync
+=== 19:41:34 START MODEL=models/Mistral-Small-24B-Q4_K_M.gguf OUT=results_cloud/Mistral-Small-24B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+[lag_trunc] id=433 gold=A pred=C gen=388 rej=1 wall=7.28s tv=0.0007
+[lag_trunc] id=197 gold=B pred=B gen=294 rej=0 wall=5.61s tv=0.0
+[lag_trunc] id=388 gold=C pred=C gen=630 rej=0 wall=11.35s tv=0.0049
+[lag_trunc] id=456 gold=A pred=A gen=259 rej=0 wall=5.05s tv=0.0
+[lag_trunc] id=215 gold=B pred=B gen=282 rej=1 wall=5.48s tv=0.0029
+[lag_trunc] id=20 gold=C pred=C gen=588 rej=0 wall=10.64s tv=0.0024
+[lag_trunc] id=132 gold=B pred=B gen=410 rej=2 wall=7.59s tv=0.0005
+[lag_trunc] id=496 gold=C pred=C gen=933 rej=6 wall=17.01s tv=0.0012
+[lag_trunc] id=261 gold=A pred=C gen=959 rej=6 wall=17.47s tv=0.001
+[lag_trunc] id=248 gold=B pred=C gen=1114 rej=5 wall=20.23s tv=0.0
+[lag_trunc] id=207 gold=A pred=A gen=714 rej=3 wall=13.07s tv=0.0002
+[lag_trunc] id=471 gold=B pred=B gen=197 rej=1 wall=4.08s tv=0.0022
+[lag_trunc] id=401 gold=B pred=B gen=42 rej=0 wall=1.6s tv=0.0002
+[lag_trunc] id=425 gold=B pred=B gen=28 rej=0 wall=1.14s tv=0.0007
+[lag_trunc] id=155 gold=A pred=A gen=664 rej=3 wall=12.38s tv=0.0014
+[lag_trunc] id=497 gold=B pred=B gen=162 rej=0 wall=3.49s tv=0.0008
+[lag_trunc] id=244 gold=C pred=B gen=390 rej=0 wall=7.45s tv=0.0024
+[lag_trunc] id=183 gold=C pred=A gen=425 rej=1 wall=8.12s tv=0.0001
+[lag_trunc] id=298 gold=A pred=A gen=300 rej=0 wall=5.74s tv=0.0001
+[lag_trunc] id=457 gold=C pred=C gen=585 rej=1 wall=10.89s tv=0.0018
+[lag_trunc] id=465 gold=C pred=C gen=842 rej=6 wall=15.77s tv=0.0037
+[lag_trunc] id=111 gold=C pred=C gen=899 rej=6 wall=16.7s tv=0.0001
+[lag_trunc] id=258 gold=C pred=C gen=791 rej=6 wall=14.78s tv=0.0451
+[lag_trunc] id=71 gold=B pred=C gen=288 rej=1 wall=5.87s tv=0.001
+[lag_trunc] id=144 gold=A pred=C gen=856 rej=6 wall=15.86s tv=0.0003
+[lag_trunc] id=386 gold=C pred=C gen=562 rej=1 wall=10.55s tv=0.0085
+[lag_trunc] id=48 gold=C pred=C gen=944 rej=6 wall=17.2s tv=0.0015
+[lag_trunc] id=316 gold=A pred=A gen=543 rej=2 wall=10.08s tv=0.0005
+[lag_trunc] id=409 gold=C pred=C gen=310 rej=1 wall=5.85s tv=0.0006
+[lag_trunc] id=128 gold=A pred=A gen=634 rej=0 wall=11.84s tv=0.0541
+=== 19:47:08 DONE MODEL=models/Mistral-Small-24B-Q4_K_M.gguf OUT=results_cloud/Mistral-Small-24B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+=== 19:47:08 START MODEL=models/Mistral-Small-24B-Q4_K_M.gguf OUT=results_cloud/Mistral-Small-24B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+[lag_mask] id=433 gold=A pred=C gen=388 rej=1 wall=7.31s tv=0.0007
+[lag_mask] id=197 gold=B pred=B gen=294 rej=0 wall=5.59s tv=0.0
+[lag_mask] id=388 gold=C pred=C gen=630 rej=0 wall=11.3s tv=0.0049
+[lag_mask] id=456 gold=A pred=A gen=259 rej=0 wall=5.04s tv=0.0
+[lag_mask] id=215 gold=B pred=B gen=282 rej=1 wall=5.49s tv=0.003
+[lag_mask] id=20 gold=C pred=C gen=588 rej=0 wall=10.6s tv=0.0024
+[lag_mask] id=132 gold=B pred=B gen=487 rej=5 wall=9.21s tv=0.0084
+[lag_mask] id=496 gold=C pred=C gen=693 rej=6 wall=12.89s tv=0.0155
+[lag_mask] id=261 gold=A pred=C gen=333 rej=2 wall=6.58s tv=0.0084
+[lag_mask] id=248 gold=B pred=C gen=589 rej=7 wall=11.38s tv=0.0008
+[lag_mask] id=207 gold=A pred=A gen=197 rej=1 wall=4.07s tv=0.0022
+[lag_mask] id=471 gold=B pred=B gen=197 rej=1 wall=4.09s tv=0.0022
+[lag_mask] id=401 gold=B pred=B gen=42 rej=0 wall=1.58s tv=0.0002
+[lag_mask] id=425 gold=B pred=B gen=28 rej=0 wall=1.13s tv=0.0007
+[lag_mask] id=155 gold=A pred=C gen=332 rej=2 wall=6.58s tv=0.0263
+[lag_mask] id=497 gold=B pred=B gen=162 rej=0 wall=3.44s tv=0.0008
+[lag_mask] id=244 gold=C pred=B gen=390 rej=0 wall=7.37s tv=0.0024
+[lag_mask] id=183 gold=C pred=C gen=264 rej=1 wall=5.31s tv=0.3106
+[lag_mask] id=298 gold=A pred=A gen=300 rej=0 wall=5.69s tv=0.0001
+[lag_mask] id=457 gold=C pred=C gen=674 rej=2 wall=12.44s tv=0.0045
+[lag_mask] id=465 gold=C pred=C gen=884 rej=6 wall=16.55s tv=0.0007
+[lag_mask] id=111 gold=C pred=C gen=937 rej=6 wall=17.5s tv=0.0001
+[lag_mask] id=258 gold=C pred=C gen=243 rej=1 wall=5.0s tv=0.1531
+[lag_mask] id=71 gold=B pred=C gen=452 rej=3 wall=8.78s tv=0.1723
+[lag_mask] id=144 gold=A pred=C gen=1146 rej=8 wall=21.18s tv=0.02
+[lag_mask] id=386 gold=C pred=A gen=523 rej=2 wall=9.91s tv=0.1144
+[lag_mask] id=48 gold=C pred=C gen=944 rej=6 wall=17.49s tv=0.0015
+[lag_mask] id=316 gold=A pred=A gen=333 rej=2 wall=6.46s tv=0.0017
+[lag_mask] id=409 gold=C pred=C gen=310 rej=1 wall=5.88s tv=0.0018
+[lag_mask] id=128 gold=A pred=A gen=634 rej=0 wall=11.76s tv=0.0541
+=== 19:51:59 DONE MODEL=models/Mistral-Small-24B-Q4_K_M.gguf OUT=results_cloud/Mistral-Small-24B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+=== 19:51:59 START MODEL=models/Mistral-Small-24B-Q4_K_M.gguf OUT=results_cloud/Mistral-Small-24B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_refresh
+[lag_refresh] id=433 gold=A pred=C gen=388 rej=1 wall=7.24s tv=0.0007
+[lag_refresh] id=197 gold=B pred=B gen=294 rej=0 wall=5.59s tv=0.0
+[lag_refresh] id=388 gold=C pred=C gen=630 rej=0 wall=11.3s tv=0.0049
+[lag_refresh] id=456 gold=A pred=A gen=259 rej=0 wall=5.05s tv=0.0
+[lag_refresh] id=215 gold=B pred=B gen=282 rej=1 wall=5.48s tv=0.0029
+[lag_refresh] id=20 gold=C pred=C gen=588 rej=0 wall=10.62s tv=0.0024
+[lag_refresh] id=132 gold=B pred=B gen=345 rej=2 wall=6.55s tv=0.005
+[lag_refresh] id=496 gold=C pred=C gen=439 rej=4 wall=8.53s tv=0.0002
+[lag_refresh] id=261 gold=A pred=A gen=385 rej=2 wall=7.44s tv=0.0059
+[lag_refresh] id=248 gold=B pred=C gen=687 rej=6 wall=13.46s tv=0.0002
+[lag_refresh] id=207 gold=A pred=C gen=158 rej=1 wall=3.51s tv=0.0078
+[lag_refresh] id=471 gold=B pred=B gen=197 rej=1 wall=4.06s tv=0.0022
+[lag_refresh] id=401 gold=B pred=B gen=42 rej=0 wall=1.58s tv=0.0002
+[lag_refresh] id=425 gold=B pred=B gen=28 rej=0 wall=1.14s tv=0.0007
+[lag_refresh] id=155 gold=A pred=A gen=664 rej=3 wall=12.3s tv=0.0014
+[lag_refresh] id=497 gold=B pred=B gen=162 rej=0 wall=3.45s tv=0.0008
+[lag_refresh] id=244 gold=C pred=B gen=390 rej=0 wall=7.36s tv=0.0024
+[lag_refresh] id=183 gold=C pred=A gen=264 rej=1 wall=5.44s tv=0.0093
+[lag_refresh] id=298 gold=A pred=A gen=300 rej=0 wall=5.68s tv=0.0001
+[lag_refresh] id=457 gold=C pred=C gen=585 rej=1 wall=10.82s tv=0.0018
+[lag_refresh] id=465 gold=C pred=C gen=842 rej=6 wall=15.65s tv=0.0037
+[lag_refresh] id=111 gold=C pred=C gen=899 rej=6 wall=16.56s tv=0.0001
+[lag_refresh] id=258 gold=C pred=A gen=302 rej=1 wall=6.0s tv=0.0
+[lag_refresh] id=71 gold=B pred=C gen=288 rej=1 wall=5.9s tv=0.0043
+[lag_refresh] id=144 gold=A pred=C gen=730 rej=6 wall=14.02s tv=0.0003
+[lag_refresh] id=386 gold=C pred=A gen=491 rej=2 wall=9.5s tv=0.0953
+[lag_refresh] id=48 gold=C pred=C gen=944 rej=6 wall=17.16s tv=0.0015
+[lag_refresh] id=316 gold=A pred=C gen=350 rej=2 wall=6.85s tv=0.0003
+[lag_refresh] id=409 gold=C pred=C gen=453 rej=2 wall=8.39s tv=0.0004
+[lag_refresh] id=128 gold=A pred=A gen=634 rej=0 wall=11.81s tv=0.0541
+=== 19:56:40 DONE MODEL=models/Mistral-Small-24B-Q4_K_M.gguf OUT=results_cloud/Mistral-Small-24B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_refresh
+=== 19:56:40 START MODEL=models/Mistral-Small-24B-Q4_K_M.gguf OUT=results_cloud/Mistral-Small-24B/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+[lag_trunc] id=433 gold=A pred=C gen=314 rej=1 wall=6.01s tv=0.0007
+[lag_trunc] id=197 gold=B pred=B gen=294 rej=0 wall=5.57s tv=0.0
+[lag_trunc] id=388 gold=C pred=C gen=630 rej=0 wall=11.3s tv=0.0049
+[lag_trunc] id=456 gold=A pred=A gen=259 rej=0 wall=5.01s tv=0.0
+[lag_trunc] id=215 gold=B pred=B gen=282 rej=1 wall=5.48s tv=0.0029
+[lag_trunc] id=20 gold=C pred=C gen=588 rej=0 wall=10.67s tv=0.0024
+[lag_trunc] id=132 gold=B pred=B gen=346 rej=2 wall=6.53s tv=0.0005
+[lag_trunc] id=496 gold=C pred=C gen=566 rej=6 wall=10.79s tv=0.0012
+[lag_trunc] id=261 gold=A pred=C gen=561 rej=6 wall=10.69s tv=0.001
+[lag_trunc] id=248 gold=B pred=B gen=739 rej=5 wall=13.91s tv=0.001
+[lag_trunc] id=207 gold=A pred=C gen=952 rej=8 wall=17.64s tv=0.0013
+[lag_trunc] id=471 gold=B pred=B gen=122 rej=1 wall=2.79s tv=0.0022
+[lag_trunc] id=401 gold=B pred=B gen=42 rej=0 wall=1.59s tv=0.0002
+[lag_trunc] id=425 gold=B pred=B gen=28 rej=0 wall=1.14s tv=0.0007
+[lag_trunc] id=155 gold=A pred=A gen=599 rej=3 wall=11.28s tv=0.0014
+[lag_trunc] id=497 gold=B pred=B gen=162 rej=0 wall=3.46s tv=0.0008
+[lag_trunc] id=244 gold=C pred=B gen=390 rej=0 wall=7.45s tv=0.0024
+[lag_trunc] id=183 gold=C pred=A gen=360 rej=1 wall=6.98s tv=0.0004
+[lag_trunc] id=298 gold=A pred=A gen=300 rej=0 wall=5.75s tv=0.0001
+[lag_trunc] id=457 gold=C pred=C gen=582 rej=1 wall=10.84s tv=0.0018
+[lag_trunc] id=465 gold=C pred=C gen=565 rej=6 wall=10.96s tv=0.0037
+[lag_trunc] id=111 gold=C pred=C gen=597 rej=6 wall=11.47s tv=0.0001
+[lag_trunc] id=258 gold=C pred=C gen=612 rej=6 wall=11.74s tv=0.0451
+[lag_trunc] id=71 gold=B pred=C gen=220 rej=1 wall=4.72s tv=0.001
+[lag_trunc] id=144 gold=A pred=C gen=553 rej=6 wall=10.68s tv=0.0003
+[lag_trunc] id=386 gold=C pred=C gen=753 rej=2 wall=13.94s tv=0.0202
+[lag_trunc] id=48 gold=C pred=C gen=551 rej=6 wall=10.53s tv=0.0015
+[lag_trunc] id=316 gold=A pred=A gen=344 rej=2 wall=6.69s tv=0.0009
+[lag_trunc] id=409 gold=C pred=C gen=234 rej=1 wall=4.57s tv=0.0006
+[lag_trunc] id=128 gold=A pred=A gen=634 rej=0 wall=11.87s tv=0.0541
+=== 20:01:25 DONE MODEL=models/Mistral-Small-24B-Q4_K_M.gguf OUT=results_cloud/Mistral-Small-24B/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+=== 20:01:25 START MODEL=models/Mistral-Small-24B-Q4_K_M.gguf OUT=results_cloud/Mistral-Small-24B/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+[lag_mask] id=433 gold=A pred=C gen=314 rej=1 wall=6.05s tv=0.0007
+[lag_mask] id=197 gold=B pred=B gen=294 rej=0 wall=5.58s tv=0.0
+[lag_mask] id=388 gold=C pred=C gen=630 rej=0 wall=11.3s tv=0.0049
+[lag_mask] id=456 gold=A pred=A gen=259 rej=0 wall=5.01s tv=0.0
+[lag_mask] id=215 gold=B pred=B gen=282 rej=1 wall=5.5s tv=0.003
+[lag_mask] id=20 gold=C pred=C gen=588 rej=0 wall=10.67s tv=0.0024
+[lag_mask] id=132 gold=B pred=B gen=277 rej=3 wall=5.48s tv=0.0309
+[lag_mask] id=496 gold=C pred=C gen=561 rej=7 wall=10.78s tv=0.0135
+[lag_mask] id=261 gold=A pred=C gen=199 rej=2 wall=4.26s tv=0.0084
+[lag_mask] id=248 gold=B pred=C gen=504 rej=6 wall=9.82s tv=0.0002
+[lag_mask] id=207 gold=A pred=A gen=406 rej=3 wall=7.82s tv=0.0003
+[lag_mask] id=471 gold=B pred=B gen=122 rej=1 wall=2.8s tv=0.0022
+[lag_mask] id=401 gold=B pred=B gen=42 rej=0 wall=1.59s tv=0.0002
+[lag_mask] id=425 gold=B pred=B gen=28 rej=0 wall=1.14s tv=0.0007
+[lag_mask] id=155 gold=A pred=A gen=599 rej=3 wall=11.25s tv=0.0014
+[lag_mask] id=497 gold=B pred=B gen=162 rej=0 wall=3.44s tv=0.0008
+[lag_mask] id=244 gold=C pred=B gen=390 rej=0 wall=7.37s tv=0.0024
+[lag_mask] id=183 gold=C pred=C gen=573 rej=5 wall=10.94s tv=0.1475
+[lag_mask] id=298 gold=A pred=A gen=300 rej=0 wall=5.69s tv=0.0001
+[lag_mask] id=457 gold=C pred=C gen=582 rej=1 wall=10.78s tv=0.0018
+[lag_mask] id=465 gold=C pred=C gen=565 rej=6 wall=11.08s tv=0.0037
+[lag_mask] id=111 gold=C pred=C gen=597 rej=6 wall=11.56s tv=0.0001
+[lag_mask] id=258 gold=C pred=A gen=264 rej=1 wall=5.33s tv=0.001
+[lag_mask] id=71 gold=B pred=C gen=220 rej=1 wall=4.71s tv=0.001
+[lag_mask] id=144 gold=A pred=C gen=553 rej=6 wall=10.8s tv=0.0003
+[lag_mask] id=386 gold=C pred=C gen=753 rej=2 wall=13.91s tv=0.0202
+[lag_mask] id=48 gold=C pred=C gen=551 rej=6 wall=10.66s tv=0.0015
+[lag_mask] id=316 gold=A pred=C gen=120 rej=1 wall=2.75s tv=0.0031
+[lag_mask] id=409 gold=C pred=C gen=234 rej=1 wall=4.54s tv=0.0018
+[lag_mask] id=128 gold=A pred=A gen=634 rej=0 wall=11.77s tv=0.0541
+=== 20:05:42 DONE MODEL=models/Mistral-Small-24B-Q4_K_M.gguf OUT=results_cloud/Mistral-Small-24B/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+=== 20:05:42 START MODEL=models/Mistral-Small-24B-Q4_K_M.gguf OUT=results_cloud/Mistral-Small-24B/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+[lag_trunc] id=433 gold=A pred=C gen=285 rej=1 wall=5.52s tv=0.0007
+[lag_trunc] id=197 gold=B pred=B gen=294 rej=0 wall=5.58s tv=0.0
+[lag_trunc] id=388 gold=C pred=C gen=630 rej=0 wall=11.3s tv=0.0049
+[lag_trunc] id=456 gold=A pred=A gen=259 rej=0 wall=5.01s tv=0.0
+[lag_trunc] id=215 gold=B pred=B gen=279 rej=1 wall=5.43s tv=0.0029
+[lag_trunc] id=20 gold=C pred=C gen=588 rej=0 wall=10.67s tv=0.0024
+[lag_trunc] id=132 gold=B pred=B gen=314 rej=2 wall=5.98s tv=0.0005
+[lag_trunc] id=496 gold=C pred=C gen=393 rej=6 wall=7.8s tv=0.0012
+[lag_trunc] id=261 gold=A pred=C gen=417 rej=6 wall=8.23s tv=0.001
+[lag_trunc] id=248 gold=B pred=C gen=768 rej=8 wall=14.56s tv=0.0
+[lag_trunc] id=207 gold=A pred=C gen=812 rej=8 wall=15.24s tv=0.0013
+[lag_trunc] id=471 gold=B pred=B gen=82 rej=1 wall=2.1s tv=0.0022
+[lag_trunc] id=401 gold=B pred=B gen=42 rej=0 wall=1.6s tv=0.0002
+[lag_trunc] id=425 gold=B pred=B gen=28 rej=0 wall=1.13s tv=0.0007
+[lag_trunc] id=155 gold=A pred=A gen=517 rej=3 wall=9.84s tv=0.0014
+[lag_trunc] id=497 gold=B pred=B gen=162 rej=0 wall=3.46s tv=0.0008
+[lag_trunc] id=244 gold=C pred=B gen=390 rej=0 wall=7.45s tv=0.0024
+[lag_trunc] id=183 gold=C pred=A gen=360 rej=1 wall=6.97s tv=0.0004
+[lag_trunc] id=298 gold=A pred=A gen=300 rej=0 wall=5.74s tv=0.0001
+[lag_trunc] id=457 gold=C pred=C gen=540 rej=1 wall=10.1s tv=0.0018
+[lag_trunc] id=465 gold=C pred=C gen=391 rej=6 wall=7.98s tv=0.0037
+[lag_trunc] id=111 gold=C pred=C gen=395 rej=6 wall=8.02s tv=0.0001
+[lag_trunc] id=258 gold=C pred=C gen=450 rej=6 wall=8.95s tv=0.0451
+[lag_trunc] id=71 gold=B pred=C gen=193 rej=1 wall=4.25s tv=0.001
+[lag_trunc] id=144 gold=A pred=C gen=337 rej=6 wall=6.97s tv=0.0003
+[lag_trunc] id=386 gold=C pred=A gen=415 rej=1 wall=8.02s tv=0.0129
+[lag_trunc] id=48 gold=C pred=C gen=353 rej=6 wall=7.15s tv=0.0015
+[lag_trunc] id=316 gold=A pred=A gen=287 rej=2 wall=5.71s tv=0.0035
+[lag_trunc] id=409 gold=C pred=C gen=203 rej=1 wall=4.05s tv=0.0006
+[lag_trunc] id=128 gold=A pred=A gen=634 rej=0 wall=11.85s tv=0.0541
+=== 20:09:52 DONE MODEL=models/Mistral-Small-24B-Q4_K_M.gguf OUT=results_cloud/Mistral-Small-24B/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+=== 20:09:52 START MODEL=models/Mistral-Small-24B-Q4_K_M.gguf OUT=results_cloud/Mistral-Small-24B/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+[lag_mask] id=433 gold=A pred=C gen=285 rej=1 wall=5.53s tv=0.0007
+[lag_mask] id=197 gold=B pred=B gen=294 rej=0 wall=5.58s tv=0.0
+[lag_mask] id=388 gold=C pred=C gen=630 rej=0 wall=11.31s tv=0.0049
+[lag_mask] id=456 gold=A pred=A gen=259 rej=0 wall=5.01s tv=0.0
+[lag_mask] id=215 gold=B pred=B gen=279 rej=1 wall=5.44s tv=0.0029
+[lag_mask] id=20 gold=C pred=C gen=588 rej=0 wall=10.65s tv=0.0024
+[lag_mask] id=132 gold=B pred=B gen=314 rej=2 wall=6.01s tv=0.0005
+[lag_mask] id=496 gold=C pred=C gen=403 rej=8 wall=8.09s tv=0.0051
+[lag_mask] id=261 gold=A pred=B gen=334 rej=3 wall=6.67s tv=0.0223
+[lag_mask] id=248 gold=B pred=C gen=411 rej=6 wall=8.34s tv=0.0
+[lag_mask] id=207 gold=A pred=A gen=388 rej=3 wall=7.52s tv=0.0025
+[lag_mask] id=471 gold=B pred=B gen=82 rej=1 wall=2.11s tv=0.0022
+[lag_mask] id=401 gold=B pred=B gen=42 rej=0 wall=1.6s tv=0.0002
+[lag_mask] id=425 gold=B pred=B gen=28 rej=0 wall=1.13s tv=0.0007
+[lag_mask] id=155 gold=A pred=A gen=517 rej=3 wall=9.89s tv=0.0014
+[lag_mask] id=497 gold=B pred=B gen=162 rej=0 wall=3.45s tv=0.0008
+[lag_mask] id=244 gold=C pred=B gen=390 rej=0 wall=7.45s tv=0.0024
+[lag_mask] id=183 gold=C pred=C gen=541 rej=5 wall=10.41s tv=0.0091
+[lag_mask] id=298 gold=A pred=A gen=300 rej=0 wall=5.74s tv=0.0001
+[lag_mask] id=457 gold=C pred=C gen=540 rej=1 wall=10.11s tv=0.0018
+[lag_mask] id=465 gold=C pred=C gen=391 rej=6 wall=8.07s tv=0.0037
+[lag_mask] id=111 gold=C pred=C gen=395 rej=6 wall=8.11s tv=0.0001
+[lag_mask] id=258 gold=C pred=A gen=234 rej=1 wall=4.81s tv=0.001
+[lag_mask] id=71 gold=B pred=C gen=193 rej=1 wall=4.27s tv=0.001
+[lag_mask] id=144 gold=A pred=C gen=337 rej=6 wall=7.04s tv=0.0003
+[lag_mask] id=386 gold=C pred=A gen=415 rej=1 wall=8.03s tv=0.0129
+[lag_mask] id=48 gold=C pred=C gen=353 rej=6 wall=7.24s tv=0.0015
+[lag_mask] id=316 gold=A pred=C gen=234 rej=5 wall=5.04s tv=0.0088
+[lag_mask] id=409 gold=C pred=C gen=203 rej=1 wall=4.06s tv=0.0006
+[lag_mask] id=128 gold=A pred=A gen=634 rej=0 wall=11.84s tv=0.0541
+=== 20:13:46 DONE MODEL=models/Mistral-Small-24B-Q4_K_M.gguf OUT=results_cloud/Mistral-Small-24B/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+=== ALL DONE 20:13:46
+=== 20:13:46 START MODEL=models/Qwen3-32B-Q4_K_M.gguf OUT=results_cloud/Qwen3-32B .venv/bin/python run.py --n 30 --cond base
+[base] id=433 gold=A pred=C gen=96 rej=0 wall=3.73s
+[base] id=197 gold=B pred=B gen=148 rej=0 wall=4.85s
+[base] id=388 gold=C pred=C gen=374 rej=0 wall=10.31s
+[base] id=456 gold=A pred=A gen=253 rej=0 wall=7.4s
+[base] id=215 gold=B pred=B gen=190 rej=0 wall=5.87s
+[base] id=20 gold=C pred=A gen=298 rej=0 wall=8.51s
+[base] id=132 gold=B pred=B gen=169 rej=0 wall=5.37s
+[base] id=496 gold=C pred=C gen=466 rej=0 wall=12.59s
+[base] id=261 gold=A pred=C gen=79 rej=0 wall=3.26s
+[base] id=248 gold=B pred=B gen=394 rej=0 wall=10.92s
+[base] id=207 gold=A pred=C gen=171 rej=0 wall=5.45s
+[base] id=471 gold=B pred=A gen=122 rej=0 wall=4.23s
+[base] id=401 gold=B pred=B gen=64 rej=0 wall=2.95s
+[base] id=425 gold=B pred=B gen=71 rej=0 wall=3.05s
+[base] id=155 gold=A pred=A gen=238 rej=0 wall=7.13s
+[base] id=497 gold=B pred=C gen=149 rej=0 wall=4.93s
+[base] id=244 gold=C pred=B gen=268 rej=0 wall=7.86s
+[base] id=183 gold=C pred=B gen=225 rej=0 wall=6.77s
+[base] id=298 gold=A pred=B gen=259 rej=0 wall=7.55s
+[base] id=457 gold=C pred=B gen=207 rej=0 wall=6.37s
+[base] id=465 gold=C pred=B gen=129 rej=0 wall=4.52s
+[base] id=111 gold=C pred=A gen=212 rej=0 wall=6.5s
+[base] id=258 gold=C pred=A gen=241 rej=0 wall=7.17s
+[base] id=71 gold=B pred=B gen=235 rej=0 wall=7.12s
+[base] id=144 gold=A pred=C gen=172 rej=0 wall=5.51s
+[base] id=386 gold=C pred=A gen=239 rej=0 wall=7.21s
+[base] id=48 gold=C pred=B gen=229 rej=0 wall=6.82s
+[base] id=316 gold=A pred=C gen=168 rej=0 wall=5.39s
+[base] id=409 gold=C pred=C gen=207 rej=0 wall=6.24s
+[base] id=128 gold=A pred=A gen=69 rej=0 wall=3.11s
+=== 20:17:02 DONE MODEL=models/Qwen3-32B-Q4_K_M.gguf OUT=results_cloud/Qwen3-32B .venv/bin/python run.py --n 30 --cond base
+=== 20:17:02 START MODEL=models/Qwen3-32B-Q4_K_M.gguf OUT=results_cloud/Qwen3-32B .venv/bin/python run.py --n 30 --cond fmt
+[fmt] id=433 gold=A pred=A gen=380 rej=0 wall=9.98s
+[fmt] id=197 gold=B pred=B gen=438 rej=0 wall=11.45s
+[fmt] id=388 gold=C pred=A gen=207 rej=0 wall=5.83s
+[fmt] id=456 gold=A pred=A gen=221 rej=0 wall=6.15s
+[fmt] id=215 gold=B pred=B gen=224 rej=0 wall=6.24s
+[fmt] id=20 gold=C pred=A gen=419 rej=0 wall=11.01s
+[fmt] id=132 gold=B pred=B gen=274 rej=0 wall=7.38s
+[fmt] id=496 gold=C pred=B gen=405 rej=0 wall=10.68s
+[fmt] id=261 gold=A pred=A gen=107 rej=0 wall=3.62s
+[fmt] id=248 gold=B pred=C gen=950 rej=0 wall=24.34s
+[fmt] id=207 gold=A pred=A gen=264 rej=0 wall=7.35s
+[fmt] id=471 gold=B pred=B gen=172 rej=0 wall=5.02s
+[fmt] id=401 gold=B pred=B gen=63 rej=0 wall=2.71s
+[fmt] id=425 gold=B pred=B gen=30 rej=0 wall=1.69s
+[fmt] id=155 gold=A pred=B gen=118 rej=0 wall=3.93s
+[fmt] id=497 gold=B pred=C gen=449 rej=0 wall=11.86s
+[fmt] id=244 gold=C pred=C gen=934 rej=0 wall=23.87s
+[fmt] id=183 gold=C pred=C gen=420 rej=0 wall=11.24s
+[fmt] id=298 gold=A pred=A gen=314 rej=0 wall=8.42s
+[fmt] id=457 gold=C pred=C gen=883 rej=0 wall=22.66s
+[fmt] id=465 gold=C pred=A gen=69 rej=0 wall=2.85s
+[fmt] id=111 gold=C pred=C gen=464 rej=0 wall=12.39s
+[fmt] id=258 gold=C pred=C gen=395 rej=0 wall=10.71s
+[fmt] id=71 gold=B pred=A gen=851 rej=0 wall=22.07s
+[fmt] id=144 gold=A pred=A gen=841 rej=0 wall=21.57s
+[fmt] id=386 gold=C pred=A gen=372 rej=0 wall=10.24s
+[fmt] id=48 gold=C pred=B gen=134 rej=0 wall=4.09s
+[fmt] id=316 gold=A pred=C gen=315 rej=0 wall=8.54s
+[fmt] id=409 gold=C pred=C gen=842 rej=0 wall=21.22s
+[fmt] id=128 gold=A pred=A gen=340 rej=0 wall=9.5s
+=== 20:22:28 DONE MODEL=models/Qwen3-32B-Q4_K_M.gguf OUT=results_cloud/Qwen3-32B .venv/bin/python run.py --n 30 --cond fmt
+=== 20:22:28 START MODEL=models/Qwen3-32B-Q4_K_M.gguf OUT=results_cloud/Qwen3-32B GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond sync
+[sync] id=433 gold=A pred=A gen=380 rej=0 wall=9.99s
+[sync] id=197 gold=B pred=B gen=438 rej=0 wall=11.47s
+[sync] id=388 gold=C pred=A gen=207 rej=0 wall=5.83s
+[sync] id=456 gold=A pred=A gen=221 rej=0 wall=6.15s
+[sync] id=215 gold=B pred=B gen=224 rej=0 wall=6.25s
+[sync] id=20 gold=C pred=A gen=419 rej=0 wall=11.0s
+[sync] id=132 gold=B pred=B gen=274 rej=0 wall=7.39s
+[sync] id=496 gold=C pred=C gen=385 rej=2 wall=10.38s
+[sync] id=261 gold=A pred=A gen=107 rej=0 wall=3.61s
+[sync] id=248 gold=B pred=C gen=950 rej=0 wall=24.32s
+[sync] id=207 gold=A pred=A gen=322 rej=1 wall=8.8s
+[sync] id=471 gold=B pred=B gen=172 rej=0 wall=4.97s
+[sync] id=401 gold=B pred=B gen=63 rej=0 wall=2.69s
+[sync] id=425 gold=B pred=B gen=30 rej=0 wall=1.68s
+[sync] id=155 gold=A pred=C gen=240 rej=5 wall=7.37s
+[sync] id=497 gold=B pred=C gen=404 rej=1 wall=10.73s
+[sync] id=244 gold=C pred=C gen=472 rej=8 wall=13.36s
+[sync] id=183 gold=C pred=C gen=420 rej=0 wall=11.09s
+[sync] id=298 gold=A pred=A gen=439 rej=1 wall=11.46s
+[sync] id=457 gold=C pred=C gen=883 rej=0 wall=22.4s
+[sync] id=465 gold=C pred=A gen=69 rej=0 wall=2.83s
+[sync] id=111 gold=C pred=C gen=185 rej=2 wall=5.72s
+[sync] id=258 gold=C pred=C gen=395 rej=0 wall=10.61s
+[sync] id=71 gold=B pred=C gen=411 rej=1 wall=11.21s
+[sync] id=144 gold=A pred=C gen=463 rej=2 wall=12.44s
+[sync] id=386 gold=C pred=A gen=372 rej=0 wall=10.12s
+[sync] id=48 gold=C pred=C gen=59 rej=2 wall=2.44s
+[sync] id=316 gold=A pred=A gen=337 rej=1 wall=9.07s
+[sync] id=409 gold=C pred=C gen=220 rej=0 wall=6.05s
+[sync] id=128 gold=A pred=A gen=544 rej=4 wall=14.86s
+=== 20:27:11 DONE MODEL=models/Qwen3-32B-Q4_K_M.gguf OUT=results_cloud/Qwen3-32B GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond sync
+=== 20:27:11 START MODEL=models/Qwen3-32B-Q4_K_M.gguf OUT=results_cloud/Qwen3-32B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+[lag_trunc] id=433 gold=A pred=A gen=380 rej=0 wall=9.95s tv=0.0
+[lag_trunc] id=197 gold=B pred=B gen=438 rej=0 wall=11.39s tv=0.0
+[lag_trunc] id=388 gold=C pred=A gen=207 rej=0 wall=5.81s tv=0.0
+[lag_trunc] id=456 gold=A pred=A gen=221 rej=0 wall=6.13s tv=0.0
+[lag_trunc] id=215 gold=B pred=B gen=224 rej=0 wall=6.2s tv=0.0002
+[lag_trunc] id=20 gold=C pred=A gen=419 rej=0 wall=10.92s tv=0.0
+[lag_trunc] id=132 gold=B pred=B gen=274 rej=0 wall=7.34s tv=0.0001
+[lag_trunc] id=496 gold=C pred=C gen=568 rej=6 wall=15.3s tv=0.0004
+[lag_trunc] id=261 gold=A pred=A gen=107 rej=0 wall=3.6s tv=0.0
+[lag_trunc] id=248 gold=B pred=C gen=950 rej=0 wall=24.05s tv=0.0007
+[lag_trunc] id=207 gold=A pred=A gen=398 rej=1 wall=10.6s tv=0.0
+[lag_trunc] id=471 gold=B pred=B gen=172 rej=0 wall=5.0s tv=0.0
+[lag_trunc] id=401 gold=B pred=B gen=63 rej=0 wall=2.69s tv=0.0
+[lag_trunc] id=425 gold=B pred=B gen=30 rej=0 wall=1.67s tv=0.0
+[lag_trunc] id=155 gold=A pred=C gen=625 rej=7 wall=16.92s tv=0.0184
+[lag_trunc] id=497 gold=B pred=C gen=456 rej=1 wall=12.07s tv=0.0
+[lag_trunc] id=244 gold=C pred=C gen=997 rej=5 wall=25.69s tv=0.0038
+[lag_trunc] id=183 gold=C pred=C gen=420 rej=0 wall=11.15s tv=0.0102
+[lag_trunc] id=298 gold=A pred=A gen=475 rej=1 wall=12.34s tv=0.0
+[lag_trunc] id=457 gold=C pred=C gen=883 rej=0 wall=22.41s tv=0.0
+[lag_trunc] id=465 gold=C pred=A gen=69 rej=0 wall=2.85s tv=0.0
+[lag_trunc] id=111 gold=C pred=C gen=449 rej=2 wall=12.08s tv=0.0
+[lag_trunc] id=258 gold=C pred=C gen=395 rej=0 wall=10.66s tv=0.0
+[lag_trunc] id=71 gold=B pred=C gen=549 rej=1 wall=14.58s tv=0.0
+[lag_trunc] id=144 gold=A pred=C gen=667 rej=2 wall=17.39s tv=0.0001
+[lag_trunc] id=386 gold=C pred=A gen=372 rej=0 wall=10.17s tv=0.0008
+[lag_trunc] id=48 gold=C pred=C gen=294 rej=2 wall=8.06s tv=0.0
+[lag_trunc] id=316 gold=A pred=A gen=416 rej=1 wall=11.0s tv=0.0
+[lag_trunc] id=409 gold=C pred=C gen=220 rej=0 wall=6.07s tv=0.0
+[lag_trunc] id=128 gold=A pred=A gen=1590 rej=6 wall=40.65s tv=0.0063
+=== 20:33:55 DONE MODEL=models/Qwen3-32B-Q4_K_M.gguf OUT=results_cloud/Qwen3-32B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+=== 20:33:55 START MODEL=models/Qwen3-32B-Q4_K_M.gguf OUT=results_cloud/Qwen3-32B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+[lag_mask] id=433 gold=A pred=A gen=380 rej=0 wall=9.97s tv=0.0
+[lag_mask] id=197 gold=B pred=B gen=438 rej=0 wall=11.39s tv=0.0
+[lag_mask] id=388 gold=C pred=A gen=207 rej=0 wall=5.83s tv=0.0
+[lag_mask] id=456 gold=A pred=A gen=221 rej=0 wall=6.13s tv=0.0
+[lag_mask] id=215 gold=B pred=B gen=224 rej=0 wall=6.2s tv=0.0002
+[lag_mask] id=20 gold=C pred=A gen=419 rej=0 wall=10.93s tv=0.0
+[lag_mask] id=132 gold=B pred=B gen=274 rej=0 wall=7.34s tv=0.0001
+[lag_mask] id=496 gold=C pred=C gen=440 rej=2 wall=11.68s tv=0.0235
+[lag_mask] id=261 gold=A pred=A gen=107 rej=0 wall=3.61s tv=0.0
+[lag_mask] id=248 gold=B pred=C gen=950 rej=0 wall=24.05s tv=0.0007
+[lag_mask] id=207 gold=A pred=A gen=267 rej=1 wall=7.49s tv=0.0049
+[lag_mask] id=471 gold=B pred=B gen=172 rej=0 wall=4.98s tv=0.0
+[lag_mask] id=401 gold=B pred=B gen=63 rej=0 wall=2.69s tv=0.0
+[lag_mask] id=425 gold=B pred=B gen=30 rej=0 wall=1.67s tv=0.0
+[lag_mask] id=155 gold=A pred=C gen=930 rej=3 wall=23.89s tv=0.0031
+[lag_mask] id=497 gold=B pred=B gen=736 rej=1 wall=18.91s tv=0.0001
+[lag_mask] id=244 gold=C pred=C gen=997 rej=5 wall=26.12s tv=0.0038
+[lag_mask] id=183 gold=C pred=C gen=420 rej=0 wall=11.14s tv=0.0102
+[lag_mask] id=298 gold=A pred=A gen=441 rej=1 wall=11.57s tv=0.0001
+[lag_mask] id=457 gold=C pred=C gen=883 rej=0 wall=22.39s tv=0.0
+[lag_mask] id=465 gold=C pred=A gen=69 rej=0 wall=2.85s tv=0.0
+[lag_mask] id=111 gold=C pred=C gen=449 rej=2 wall=12.23s tv=0.0
+[lag_mask] id=258 gold=C pred=C gen=395 rej=0 wall=10.64s tv=0.0
+[lag_mask] id=71 gold=B pred=C gen=549 rej=1 wall=14.69s tv=0.0
+[lag_mask] id=144 gold=A pred=C gen=1026 rej=6 wall=26.93s tv=0.0025
+[lag_mask] id=386 gold=C pred=A gen=372 rej=0 wall=10.18s tv=0.0008
+[lag_mask] id=48 gold=C pred=C gen=593 rej=4 wall=15.86s tv=0.0
+[lag_mask] id=316 gold=A pred=C gen=544 rej=2 wall=14.28s tv=0.0004
+[lag_mask] id=409 gold=C pred=C gen=220 rej=0 wall=6.1s tv=0.0
+[lag_mask] id=128 gold=A pred=A gen=531 rej=5 wall=14.87s tv=0.2194
+=== 20:40:40 DONE MODEL=models/Qwen3-32B-Q4_K_M.gguf OUT=results_cloud/Qwen3-32B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+=== 20:40:40 START MODEL=models/Qwen3-32B-Q4_K_M.gguf OUT=results_cloud/Qwen3-32B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_refresh
+[lag_refresh] id=433 gold=A pred=A gen=380 rej=0 wall=9.96s tv=0.0
+[lag_refresh] id=197 gold=B pred=B gen=438 rej=0 wall=11.39s tv=0.0
+[lag_refresh] id=388 gold=C pred=A gen=207 rej=0 wall=5.82s tv=0.0
+[lag_refresh] id=456 gold=A pred=A gen=221 rej=0 wall=6.13s tv=0.0
+[lag_refresh] id=215 gold=B pred=B gen=224 rej=0 wall=6.2s tv=0.0002
+[lag_refresh] id=20 gold=C pred=A gen=419 rej=0 wall=10.93s tv=0.0
+[lag_refresh] id=132 gold=B pred=B gen=274 rej=0 wall=7.34s tv=0.0001
+[lag_refresh] id=496 gold=C pred=C gen=568 rej=6 wall=15.28s tv=0.0004
+[lag_refresh] id=261 gold=A pred=A gen=107 rej=0 wall=3.6s tv=0.0
+[lag_refresh] id=248 gold=B pred=C gen=950 rej=0 wall=24.07s tv=0.0007
+[lag_refresh] id=207 gold=A pred=A gen=295 rej=1 wall=8.37s tv=0.0002
+[lag_refresh] id=471 gold=B pred=B gen=172 rej=0 wall=4.99s tv=0.0
+[lag_refresh] id=401 gold=B pred=B gen=63 rej=0 wall=2.69s tv=0.0
+[lag_refresh] id=425 gold=B pred=B gen=30 rej=0 wall=1.68s tv=0.0
+[lag_refresh] id=155 gold=A pred=C gen=625 rej=7 wall=16.93s tv=0.0184
+[lag_refresh] id=497 gold=B pred=C gen=456 rej=1 wall=12.03s tv=0.0
+[lag_refresh] id=244 gold=C pred=C gen=997 rej=5 wall=25.71s tv=0.0038
+[lag_refresh] id=183 gold=C pred=C gen=420 rej=0 wall=11.17s tv=0.0102
+[lag_refresh] id=298 gold=A pred=A gen=475 rej=1 wall=12.34s tv=0.0
+[lag_refresh] id=457 gold=C pred=C gen=883 rej=0 wall=22.43s tv=0.0
+[lag_refresh] id=465 gold=C pred=A gen=69 rej=0 wall=2.85s tv=0.0
+[lag_refresh] id=111 gold=C pred=C gen=449 rej=2 wall=12.1s tv=0.0
+[lag_refresh] id=258 gold=C pred=C gen=395 rej=0 wall=10.65s tv=0.0
+[lag_refresh] id=71 gold=B pred=C gen=549 rej=1 wall=14.59s tv=0.0
+[lag_refresh] id=144 gold=A pred=C gen=667 rej=2 wall=17.4s tv=0.0001
+[lag_refresh] id=386 gold=C pred=A gen=372 rej=0 wall=10.2s tv=0.0008
+[lag_refresh] id=48 gold=C pred=C gen=294 rej=2 wall=8.09s tv=0.0
+[lag_refresh] id=316 gold=A pred=A gen=416 rej=1 wall=11.01s tv=0.0
+[lag_refresh] id=409 gold=C pred=C gen=220 rej=0 wall=6.08s tv=0.0
+[lag_refresh] id=128 gold=A pred=A gen=1046 rej=7 wall=27.71s tv=0.0403
+=== 20:47:08 DONE MODEL=models/Qwen3-32B-Q4_K_M.gguf OUT=results_cloud/Qwen3-32B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_refresh
+=== 20:47:08 START MODEL=models/Qwen3-32B-Q4_K_M.gguf OUT=results_cloud/Qwen3-32B/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+[lag_trunc] id=433 gold=A pred=A gen=380 rej=0 wall=9.97s tv=0.0
+[lag_trunc] id=197 gold=B pred=B gen=438 rej=0 wall=11.42s tv=0.0
+[lag_trunc] id=388 gold=C pred=A gen=207 rej=0 wall=5.83s tv=0.0
+[lag_trunc] id=456 gold=A pred=A gen=221 rej=0 wall=6.11s tv=0.0
+[lag_trunc] id=215 gold=B pred=B gen=224 rej=0 wall=6.19s tv=0.0002
+[lag_trunc] id=20 gold=C pred=A gen=419 rej=0 wall=10.92s tv=0.0
+[lag_trunc] id=132 gold=B pred=B gen=274 rej=0 wall=7.33s tv=0.0001
+[lag_trunc] id=496 gold=C pred=C gen=565 rej=6 wall=15.21s tv=0.0004
+[lag_trunc] id=261 gold=A pred=A gen=107 rej=0 wall=3.6s tv=0.0
+[lag_trunc] id=248 gold=B pred=C gen=950 rej=0 wall=24.04s tv=0.0007
+[lag_trunc] id=207 gold=A pred=A gen=392 rej=1 wall=10.45s tv=0.0
+[lag_trunc] id=471 gold=B pred=B gen=172 rej=0 wall=4.99s tv=0.0
+[lag_trunc] id=401 gold=B pred=B gen=63 rej=0 wall=2.69s tv=0.0
+[lag_trunc] id=425 gold=B pred=B gen=30 rej=0 wall=1.67s tv=0.0
+[lag_trunc] id=155 gold=A pred=C gen=478 rej=7 wall=13.39s tv=0.0184
+[lag_trunc] id=497 gold=B pred=C gen=453 rej=1 wall=12.01s tv=0.0
+[lag_trunc] id=244 gold=C pred=C gen=664 rej=5 wall=17.67s tv=0.0038
+[lag_trunc] id=183 gold=C pred=C gen=420 rej=0 wall=11.15s tv=0.0102
+[lag_trunc] id=298 gold=A pred=A gen=475 rej=1 wall=12.33s tv=0.0
+[lag_trunc] id=457 gold=C pred=C gen=883 rej=0 wall=22.4s tv=0.0
+[lag_trunc] id=465 gold=C pred=A gen=69 rej=0 wall=2.84s tv=0.0
+[lag_trunc] id=111 gold=C pred=C gen=285 rej=2 wall=8.13s tv=0.0
+[lag_trunc] id=258 gold=C pred=C gen=395 rej=0 wall=10.65s tv=0.0
+[lag_trunc] id=71 gold=B pred=C gen=485 rej=1 wall=13.02s tv=0.0
+[lag_trunc] id=144 gold=A pred=C gen=609 rej=2 wall=15.99s tv=0.0001
+[lag_trunc] id=386 gold=C pred=A gen=372 rej=0 wall=10.16s tv=0.0008
+[lag_trunc] id=48 gold=C pred=C gen=182 rej=2 wall=5.39s tv=0.0
+[lag_trunc] id=316 gold=A pred=A gen=413 rej=1 wall=10.92s tv=0.0
+[lag_trunc] id=409 gold=C pred=C gen=220 rej=0 wall=6.06s tv=0.0
+[lag_trunc] id=128 gold=A pred=A gen=1117 rej=8 wall=29.46s tv=0.0141
+=== 20:53:18 DONE MODEL=models/Qwen3-32B-Q4_K_M.gguf OUT=results_cloud/Qwen3-32B/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+=== 20:53:18 START MODEL=models/Qwen3-32B-Q4_K_M.gguf OUT=results_cloud/Qwen3-32B/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+[lag_mask] id=433 gold=A pred=A gen=380 rej=0 wall=9.95s tv=0.0
+[lag_mask] id=197 gold=B pred=B gen=438 rej=0 wall=11.42s tv=0.0
+[lag_mask] id=388 gold=C pred=A gen=207 rej=0 wall=5.82s tv=0.0
+[lag_mask] id=456 gold=A pred=A gen=221 rej=0 wall=6.11s tv=0.0
+[lag_mask] id=215 gold=B pred=B gen=224 rej=0 wall=6.18s tv=0.0002
+[lag_mask] id=20 gold=C pred=A gen=419 rej=0 wall=10.93s tv=0.0
+[lag_mask] id=132 gold=B pred=B gen=274 rej=0 wall=7.33s tv=0.0001
+[lag_mask] id=496 gold=C pred=C gen=533 rej=5 wall=14.22s tv=0.0187
+[lag_mask] id=261 gold=A pred=A gen=107 rej=0 wall=3.6s tv=0.0
+[lag_mask] id=248 gold=B pred=C gen=950 rej=0 wall=24.03s tv=0.0007
+[lag_mask] id=207 gold=A pred=C gen=237 rej=1 wall=6.74s tv=0.2761
+[lag_mask] id=471 gold=B pred=B gen=172 rej=0 wall=4.98s tv=0.0
+[lag_mask] id=401 gold=B pred=B gen=63 rej=0 wall=2.69s tv=0.0
+[lag_mask] id=425 gold=B pred=B gen=30 rej=0 wall=1.67s tv=0.0
+[lag_mask] id=155 gold=A pred=C gen=456 rej=4 wall=12.74s tv=0.001
+[lag_mask] id=497 gold=B pred=C gen=453 rej=1 wall=12.0s tv=0.0
+[lag_mask] id=244 gold=C pred=C gen=664 rej=5 wall=17.85s tv=0.0038
+[lag_mask] id=183 gold=C pred=C gen=420 rej=0 wall=11.09s tv=0.0102
+[lag_mask] id=298 gold=A pred=A gen=441 rej=1 wall=11.49s tv=0.0001
+[lag_mask] id=457 gold=C pred=C gen=883 rej=0 wall=22.37s tv=0.0
+[lag_mask] id=465 gold=C pred=A gen=69 rej=0 wall=2.84s tv=0.0
+[lag_mask] id=111 gold=C pred=C gen=285 rej=2 wall=8.16s tv=0.0
+[lag_mask] id=258 gold=C pred=C gen=395 rej=0 wall=10.59s tv=0.0
+[lag_mask] id=71 gold=B pred=C gen=485 rej=1 wall=13.07s tv=0.0
+[lag_mask] id=144 gold=A pred=C gen=609 rej=2 wall=16.1s tv=0.0001
+[lag_mask] id=386 gold=C pred=A gen=372 rej=0 wall=10.1s tv=0.0008
+[lag_mask] id=48 gold=C pred=C gen=182 rej=2 wall=5.47s tv=0.0
+[lag_mask] id=316 gold=A pred=A gen=413 rej=1 wall=10.95s tv=0.0
+[lag_mask] id=409 gold=C pred=C gen=220 rej=0 wall=6.09s tv=0.0
+[lag_mask] id=128 gold=A pred=A gen=865 rej=8 wall=23.54s tv=0.263
+=== 20:59:16 DONE MODEL=models/Qwen3-32B-Q4_K_M.gguf OUT=results_cloud/Qwen3-32B/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+=== 20:59:16 START MODEL=models/Qwen3-32B-Q4_K_M.gguf OUT=results_cloud/Qwen3-32B/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+[lag_trunc] id=433 gold=A pred=A gen=380 rej=0 wall=9.97s tv=0.0
+[lag_trunc] id=197 gold=B pred=B gen=438 rej=0 wall=11.43s tv=0.0
+[lag_trunc] id=388 gold=C pred=A gen=207 rej=0 wall=5.82s tv=0.0
+[lag_trunc] id=456 gold=A pred=A gen=221 rej=0 wall=6.14s tv=0.0
+[lag_trunc] id=215 gold=B pred=B gen=224 rej=0 wall=6.23s tv=0.0002
+[lag_trunc] id=20 gold=C pred=A gen=419 rej=0 wall=11.0s tv=0.0
+[lag_trunc] id=132 gold=B pred=B gen=274 rej=0 wall=7.36s tv=0.0001
+[lag_trunc] id=496 gold=C pred=C gen=565 rej=6 wall=15.28s tv=0.0004
+[lag_trunc] id=261 gold=A pred=A gen=107 rej=0 wall=3.62s tv=0.0
+[lag_trunc] id=248 gold=B pred=C gen=950 rej=0 wall=24.19s tv=0.0007
+[lag_trunc] id=207 gold=A pred=A gen=362 rej=1 wall=9.79s tv=0.0
+[lag_trunc] id=471 gold=B pred=B gen=172 rej=0 wall=5.02s tv=0.0
+[lag_trunc] id=401 gold=B pred=B gen=63 rej=0 wall=2.7s tv=0.0
+[lag_trunc] id=425 gold=B pred=B gen=30 rej=0 wall=1.67s tv=0.0
+[lag_trunc] id=155 gold=A pred=C gen=424 rej=7 wall=12.12s tv=0.0184
+[lag_trunc] id=497 gold=B pred=C gen=453 rej=1 wall=11.96s tv=0.0
+[lag_trunc] id=244 gold=C pred=C gen=517 rej=5 wall=14.08s tv=0.0038
+[lag_trunc] id=183 gold=C pred=C gen=420 rej=0 wall=11.1s tv=0.0102
+[lag_trunc] id=298 gold=A pred=A gen=472 rej=1 wall=12.19s tv=0.0
+[lag_trunc] id=457 gold=C pred=C gen=883 rej=0 wall=22.34s tv=0.0
+[lag_trunc] id=465 gold=C pred=A gen=69 rej=0 wall=2.84s tv=0.0
+[lag_trunc] id=111 gold=C pred=C gen=285 rej=2 wall=8.09s tv=0.0
+[lag_trunc] id=258 gold=C pred=C gen=395 rej=0 wall=10.61s tv=0.0
+[lag_trunc] id=71 gold=B pred=C gen=438 rej=1 wall=11.84s tv=0.0
+[lag_trunc] id=144 gold=A pred=C gen=525 rej=2 wall=13.91s tv=0.0001
+[lag_trunc] id=386 gold=C pred=A gen=372 rej=0 wall=10.13s tv=0.0008
+[lag_trunc] id=48 gold=C pred=C gen=121 rej=2 wall=3.92s tv=0.0
+[lag_trunc] id=316 gold=A pred=A gen=413 rej=1 wall=10.88s tv=0.0
+[lag_trunc] id=409 gold=C pred=C gen=220 rej=0 wall=6.05s tv=0.0
+[lag_trunc] id=128 gold=A pred=A gen=941 rej=8 wall=25.06s tv=0.0141
+=== 21:05:12 DONE MODEL=models/Qwen3-32B-Q4_K_M.gguf OUT=results_cloud/Qwen3-32B/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+=== 21:05:12 START MODEL=models/Qwen3-32B-Q4_K_M.gguf OUT=results_cloud/Qwen3-32B/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+[lag_mask] id=433 gold=A pred=A gen=380 rej=0 wall=9.96s tv=0.0
+[lag_mask] id=197 gold=B pred=B gen=438 rej=0 wall=11.41s tv=0.0
+[lag_mask] id=388 gold=C pred=A gen=207 rej=0 wall=5.82s tv=0.0
+[lag_mask] id=456 gold=A pred=A gen=221 rej=0 wall=6.14s tv=0.0
+[lag_mask] id=215 gold=B pred=B gen=224 rej=0 wall=6.23s tv=0.0002
+[lag_mask] id=20 gold=C pred=A gen=419 rej=0 wall=11.0s tv=0.0
+[lag_mask] id=132 gold=B pred=B gen=274 rej=0 wall=7.37s tv=0.0001
+[lag_mask] id=496 gold=C pred=C gen=533 rej=5 wall=14.3s tv=0.0187
+[lag_mask] id=261 gold=A pred=A gen=107 rej=0 wall=3.62s tv=0.0
+[lag_mask] id=248 gold=B pred=C gen=950 rej=0 wall=24.18s tv=0.0007
+[lag_mask] id=207 gold=A pred=C gen=207 rej=1 wall=6.04s tv=0.0016
+[lag_mask] id=471 gold=B pred=B gen=172 rej=0 wall=5.01s tv=0.0
+[lag_mask] id=401 gold=B pred=B gen=63 rej=0 wall=2.7s tv=0.0
+[lag_mask] id=425 gold=B pred=B gen=30 rej=0 wall=1.67s tv=0.0
+[lag_mask] id=155 gold=A pred=C gen=402 rej=4 wall=11.4s tv=0.001
+[lag_mask] id=497 gold=B pred=C gen=453 rej=1 wall=12.06s tv=0.0
+[lag_mask] id=244 gold=C pred=C gen=517 rej=5 wall=14.29s tv=0.0038
+[lag_mask] id=183 gold=C pred=C gen=420 rej=0 wall=11.19s tv=0.0102
+[lag_mask] id=298 gold=A pred=A gen=472 rej=1 wall=12.35s tv=0.0
+[lag_mask] id=457 gold=C pred=C gen=883 rej=0 wall=22.5s tv=0.0
+[lag_mask] id=465 gold=C pred=A gen=69 rej=0 wall=2.84s tv=0.0
+[lag_mask] id=111 gold=C pred=C gen=285 rej=2 wall=8.21s tv=0.0
+[lag_mask] id=258 gold=C pred=C gen=395 rej=0 wall=10.68s tv=0.0
+[lag_mask] id=71 gold=B pred=C gen=438 rej=1 wall=11.96s tv=0.0
+[lag_mask] id=144 gold=A pred=C gen=525 rej=2 wall=14.1s tv=0.0001
+[lag_mask] id=386 gold=C pred=A gen=372 rej=0 wall=10.08s tv=0.0008
+[lag_mask] id=48 gold=C pred=C gen=121 rej=2 wall=3.95s tv=0.0
+[lag_mask] id=316 gold=A pred=A gen=413 rej=1 wall=10.86s tv=0.0
+[lag_mask] id=409 gold=C pred=C gen=220 rej=0 wall=6.02s tv=0.0
+[lag_mask] id=128 gold=A pred=A gen=941 rej=8 wall=25.12s tv=0.0141
+=== 21:11:04 DONE MODEL=models/Qwen3-32B-Q4_K_M.gguf OUT=results_cloud/Qwen3-32B/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+=== ALL DONE 21:11:04
+=== 21:11:05 START MODEL=models/Qwen3-4B-Q4_K_M.gguf OUT=results_cloud/Qwen3-4B .venv/bin/python run.py --n 30 --cond base
+[base] id=433 gold=A pred=C gen=110 rej=0 wall=0.99s
+[base] id=197 gold=B pred=B gen=223 rej=0 wall=1.57s
+[base] id=388 gold=C pred=A gen=247 rej=0 wall=1.73s
+[base] id=456 gold=A pred=A gen=193 rej=0 wall=1.4s
+[base] id=215 gold=B pred=B gen=232 rej=0 wall=1.65s
+[base] id=20 gold=C pred=A gen=335 rej=0 wall=2.28s
+[base] id=132 gold=B pred=B gen=141 rej=0 wall=1.08s
+[base] id=496 gold=C pred=A gen=379 rej=0 wall=2.58s
+[base] id=261 gold=A pred=None gen=1500 rej=0 wall=9.68s
+[base] id=248 gold=B pred=C gen=93 rej=0 wall=0.79s
+[base] id=207 gold=A pred=C gen=261 rej=0 wall=1.82s
+[base] id=471 gold=B pred=C gen=179 rej=0 wall=1.32s
+[base] id=401 gold=B pred=B gen=64 rej=0 wall=0.63s
+[base] id=425 gold=B pred=B gen=69 rej=0 wall=0.65s
+[base] id=155 gold=A pred=C gen=103 rej=0 wall=0.86s
+[base] id=497 gold=B pred=C gen=143 rej=0 wall=1.1s
+[base] id=244 gold=C pred=B gen=300 rej=0 wall=2.09s
+[base] id=183 gold=C pred=A gen=210 rej=0 wall=1.54s
+[base] id=298 gold=A pred=A gen=198 rej=0 wall=1.43s
+[base] id=457 gold=C pred=A gen=289 rej=0 wall=2.03s
+[base] id=465 gold=C pred=A gen=336 rej=0 wall=2.35s
+[base] id=111 gold=C pred=None gen=1500 rej=0 wall=9.8s
+[base] id=258 gold=C pred=A gen=223 rej=0 wall=1.6s
+[base] id=71 gold=B pred=None gen=1500 rej=0 wall=9.84s
+[base] id=144 gold=A pred=A gen=170 rej=0 wall=1.29s
+[base] id=386 gold=C pred=A gen=161 rej=0 wall=1.24s
+[base] id=48 gold=C pred=None gen=1500 rej=0 wall=9.81s
+[base] id=316 gold=A pred=B gen=232 rej=0 wall=1.69s
+[base] id=409 gold=C pred=None gen=1500 rej=0 wall=9.84s
+[base] id=128 gold=A pred=A gen=137 rej=0 wall=1.11s
+=== 21:12:32 DONE MODEL=models/Qwen3-4B-Q4_K_M.gguf OUT=results_cloud/Qwen3-4B .venv/bin/python run.py --n 30 --cond base
+=== 21:12:32 START MODEL=models/Qwen3-4B-Q4_K_M.gguf OUT=results_cloud/Qwen3-4B .venv/bin/python run.py --n 30 --cond fmt
+[fmt] id=433 gold=A pred=A gen=490 rej=0 wall=3.29s
+[fmt] id=197 gold=B pred=A gen=428 rej=0 wall=2.86s
+[fmt] id=388 gold=C pred=A gen=673 rej=0 wall=4.5s
+[fmt] id=456 gold=A pred=A gen=319 rej=0 wall=2.14s
+[fmt] id=215 gold=B pred=B gen=171 rej=0 wall=1.19s
+[fmt] id=20 gold=C pred=A gen=635 rej=0 wall=4.11s
+[fmt] id=132 gold=B pred=B gen=233 rej=0 wall=1.55s
+[fmt] id=496 gold=C pred=B gen=436 rej=0 wall=2.84s
+[fmt] id=261 gold=A pred=A gen=682 rej=0 wall=4.44s
+[fmt] id=248 gold=B pred=C gen=801 rej=0 wall=5.3s
+[fmt] id=207 gold=A pred=A gen=475 rej=0 wall=3.14s
+[fmt] id=471 gold=B pred=A gen=367 rej=0 wall=2.45s
+[fmt] id=401 gold=B pred=B gen=658 rej=0 wall=4.41s
+[fmt] id=425 gold=B pred=B gen=89 rej=0 wall=0.71s
+[fmt] id=155 gold=A pred=A gen=348 rej=0 wall=2.38s
+[fmt] id=497 gold=B pred=A gen=608 rej=0 wall=3.99s
+[fmt] id=244 gold=C pred=B gen=716 rej=0 wall=4.72s
+[fmt] id=183 gold=C pred=A gen=860 rej=0 wall=5.65s
+[fmt] id=298 gold=A pred=A gen=306 rej=0 wall=2.04s
+[fmt] id=457 gold=C pred=C gen=79 rej=0 wall=0.67s
+[fmt] id=465 gold=C pred=A gen=665 rej=0 wall=4.45s
+[fmt] id=111 gold=C pred=C gen=646 rej=0 wall=4.32s
+[fmt] id=258 gold=C pred=A gen=309 rej=0 wall=2.15s
+[fmt] id=71 gold=B pred=C gen=781 rej=0 wall=5.24s
+[fmt] id=144 gold=A pred=A gen=303 rej=0 wall=2.11s
+[fmt] id=386 gold=C pred=A gen=516 rej=0 wall=3.48s
+[fmt] id=48 gold=C pred=B gen=416 rej=0 wall=2.79s
+[fmt] id=316 gold=A pred=A gen=514 rej=0 wall=3.4s
+[fmt] id=409 gold=C pred=C gen=401 rej=0 wall=2.67s
+[fmt] id=128 gold=A pred=B gen=316 rej=0 wall=2.25s
+=== 21:14:10 DONE MODEL=models/Qwen3-4B-Q4_K_M.gguf OUT=results_cloud/Qwen3-4B .venv/bin/python run.py --n 30 --cond fmt
+=== 21:14:10 START MODEL=models/Qwen3-4B-Q4_K_M.gguf OUT=results_cloud/Qwen3-4B GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond sync
+[sync] id=433 gold=A pred=C gen=114 rej=1 wall=0.95s
+[sync] id=197 gold=B pred=C gen=398 rej=1 wall=2.67s
+[sync] id=388 gold=C pred=A gen=673 rej=0 wall=4.44s
+[sync] id=456 gold=A pred=A gen=319 rej=0 wall=2.17s
+[sync] id=215 gold=B pred=B gen=171 rej=0 wall=1.22s
+[sync] id=20 gold=C pred=C gen=519 rej=1 wall=3.5s
+[sync] id=132 gold=B pred=B gen=233 rej=0 wall=1.62s
+[sync] id=496 gold=C pred=C gen=382 rej=1 wall=2.58s
+[sync] id=261 gold=A pred=C gen=819 rej=4 wall=5.61s
+[sync] id=248 gold=B pred=C gen=175 rej=3 wall=1.4s
+[sync] id=207 gold=A pred=A gen=475 rej=0 wall=3.19s
+[sync] id=471 gold=B pred=A gen=367 rej=0 wall=2.51s
+[sync] id=401 gold=B pred=B gen=311 rej=4 wall=2.3s
+[sync] id=425 gold=B pred=B gen=89 rej=0 wall=0.72s
+[sync] id=155 gold=A pred=A gen=348 rej=0 wall=2.44s
+[sync] id=497 gold=B pred=C gen=351 rej=1 wall=2.44s
+[sync] id=244 gold=C pred=C gen=827 rej=4 wall=5.68s
+[sync] id=183 gold=C pred=C gen=741 rej=1 wall=5.0s
+[sync] id=298 gold=A pred=A gen=322 rej=1 wall=2.25s
+[sync] id=457 gold=C pred=C gen=79 rej=0 wall=0.68s
+[sync] id=465 gold=C pred=C gen=821 rej=1 wall=5.59s
+[sync] id=111 gold=C pred=C gen=389 rej=8 wall=2.95s
+[sync] id=258 gold=C pred=A gen=270 rej=3 wall=2.03s
+[sync] id=71 gold=B pred=C gen=376 rej=1 wall=2.67s
+[sync] id=144 gold=A pred=C gen=295 rej=8 wall=2.37s
+[sync] id=386 gold=C pred=A gen=516 rej=0 wall=3.55s
+[sync] id=48 gold=C pred=C gen=262 rej=8 wall=2.07s
+[sync] id=316 gold=A pred=A gen=514 rej=0 wall=3.46s
+[sync] id=409 gold=C pred=C gen=386 rej=8 wall=2.85s
+[sync] id=128 gold=A pred=A gen=257 rej=8 wall=2.13s
+=== 21:15:35 DONE MODEL=models/Qwen3-4B-Q4_K_M.gguf OUT=results_cloud/Qwen3-4B GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond sync
+=== 21:15:35 START MODEL=models/Qwen3-4B-Q4_K_M.gguf OUT=results_cloud/Qwen3-4B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+[lag_trunc] id=433 gold=A pred=C gen=245 rej=1 wall=1.75s tv=0.0
+[lag_trunc] id=197 gold=B pred=C gen=431 rej=1 wall=2.82s tv=0.0
+[lag_trunc] id=388 gold=C pred=A gen=673 rej=0 wall=4.31s tv=0.0
+[lag_trunc] id=456 gold=A pred=A gen=319 rej=0 wall=2.13s tv=0.0
+[lag_trunc] id=215 gold=B pred=B gen=171 rej=0 wall=1.2s tv=0.0
+[lag_trunc] id=20 gold=C pred=C gen=638 rej=1 wall=4.17s tv=0.0001
+[lag_trunc] id=132 gold=B pred=B gen=233 rej=0 wall=1.56s tv=0.0
+[lag_trunc] id=496 gold=C pred=C gen=439 rej=1 wall=2.9s tv=0.0
+[lag_trunc] id=261 gold=A pred=B gen=1089 rej=2 wall=7.04s tv=0.2542
+[lag_trunc] id=248 gold=B pred=C gen=625 rej=6 wall=4.32s tv=0.0
+[lag_trunc] id=207 gold=A pred=A gen=475 rej=0 wall=3.13s tv=0.0
+[lag_trunc] id=471 gold=B pred=A gen=367 rej=0 wall=2.46s tv=0.0005
+[lag_trunc] id=401 gold=B pred=B gen=752 rej=7 wall=5.11s tv=0.0
+[lag_trunc] id=425 gold=B pred=B gen=89 rej=0 wall=0.72s tv=0.0
+[lag_trunc] id=155 gold=A pred=A gen=348 rej=0 wall=2.38s tv=0.0
+[lag_trunc] id=497 gold=B pred=C gen=503 rej=1 wall=3.35s tv=0.0
+[lag_trunc] id=244 gold=C pred=C gen=1298 rej=7 wall=8.68s tv=0.0001
+[lag_trunc] id=183 gold=C pred=C gen=863 rej=1 wall=5.68s tv=0.0
+[lag_trunc] id=298 gold=A pred=A gen=458 rej=1 wall=3.06s tv=0.0
+[lag_trunc] id=457 gold=C pred=C gen=79 rej=0 wall=0.69s tv=0.0094
+[lag_trunc] id=465 gold=C pred=C gen=945 rej=1 wall=6.24s tv=0.0529
+[lag_trunc] id=111 gold=C pred=C gen=1121 rej=7 wall=7.54s tv=0.0
+[lag_trunc] id=258 gold=C pred=C gen=641 rej=6 wall=4.44s tv=0.0
+[lag_trunc] id=71 gold=B pred=C gen=500 rej=1 wall=3.43s tv=0.0
+[lag_trunc] id=144 gold=A pred=C gen=1311 rej=8 wall=8.82s tv=0.0156
+[lag_trunc] id=386 gold=C pred=A gen=516 rej=0 wall=3.53s tv=0.0041
+[lag_trunc] id=48 gold=C pred=C gen=956 rej=6 wall=6.35s tv=0.0
+[lag_trunc] id=316 gold=A pred=A gen=514 rej=0 wall=3.44s tv=0.0
+[lag_trunc] id=409 gold=C pred=C gen=990 rej=6 wall=6.59s tv=0.0
+[lag_trunc] id=128 gold=A pred=C gen=881 rej=6 wall=6.08s tv=0.0
+=== 21:17:48 DONE MODEL=models/Qwen3-4B-Q4_K_M.gguf OUT=results_cloud/Qwen3-4B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+=== 21:17:48 START MODEL=models/Qwen3-4B-Q4_K_M.gguf OUT=results_cloud/Qwen3-4B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+[lag_mask] id=433 gold=A pred=C gen=248 rej=2 wall=1.82s tv=0.0
+[lag_mask] id=197 gold=B pred=C gen=431 rej=1 wall=2.84s tv=0.0048
+[lag_mask] id=388 gold=C pred=A gen=673 rej=0 wall=4.33s tv=0.0
+[lag_mask] id=456 gold=A pred=A gen=319 rej=0 wall=2.15s tv=0.0
+[lag_mask] id=215 gold=B pred=B gen=171 rej=0 wall=1.2s tv=0.0
+[lag_mask] id=20 gold=C pred=C gen=638 rej=1 wall=4.22s tv=0.0001
+[lag_mask] id=132 gold=B pred=B gen=233 rej=0 wall=1.57s tv=0.0
+[lag_mask] id=496 gold=C pred=C gen=439 rej=1 wall=2.92s tv=0.4627
+[lag_mask] id=261 gold=A pred=B gen=1009 rej=5 wall=6.68s tv=0.1795
+[lag_mask] id=248 gold=B pred=C gen=711 rej=6 wall=4.92s tv=0.0
+[lag_mask] id=207 gold=A pred=A gen=475 rej=0 wall=3.16s tv=0.0
+[lag_mask] id=471 gold=B pred=A gen=367 rej=0 wall=2.47s tv=0.0005
+[lag_mask] id=401 gold=B pred=B gen=201 rej=2 wall=1.52s tv=0.0001
+[lag_mask] id=425 gold=B pred=B gen=89 rej=0 wall=0.71s tv=0.0
+[lag_mask] id=155 gold=A pred=A gen=348 rej=0 wall=2.38s tv=0.0
+[lag_mask] id=497 gold=B pred=C gen=503 rej=1 wall=3.38s tv=0.0
+[lag_mask] id=244 gold=C pred=C gen=305 rej=1 wall=2.13s tv=0.0
+[lag_mask] id=183 gold=C pred=C gen=866 rej=2 wall=5.72s tv=0.0003
+[lag_mask] id=298 gold=A pred=A gen=306 rej=1 wall=2.11s tv=0.0
+[lag_mask] id=457 gold=C pred=C gen=79 rej=0 wall=0.68s tv=0.0094
+[lag_mask] id=465 gold=C pred=B gen=1033 rej=4 wall=6.98s tv=0.2495
+[lag_mask] id=111 gold=C pred=C gen=248 rej=1 wall=1.8s tv=0.0
+[lag_mask] id=258 gold=C pred=A gen=309 rej=1 wall=2.2s tv=0.3713
+[lag_mask] id=71 gold=B pred=C gen=723 rej=6 wall=4.99s tv=0.0
+[lag_mask] id=144 gold=A pred=C gen=284 rej=1 wall=2.03s tv=0.0089
+[lag_mask] id=386 gold=C pred=A gen=516 rej=0 wall=3.51s tv=0.0041
+[lag_mask] id=48 gold=C pred=B gen=653 rej=3 wall=4.41s tv=0.5371
+[lag_mask] id=316 gold=A pred=A gen=514 rej=0 wall=3.44s tv=0.0
+[lag_mask] id=409 gold=C pred=C gen=232 rej=1 wall=1.64s tv=0.0
+[lag_mask] id=128 gold=A pred=A gen=466 rej=8 wall=3.44s tv=0.2682
+=== 21:19:29 DONE MODEL=models/Qwen3-4B-Q4_K_M.gguf OUT=results_cloud/Qwen3-4B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+=== 21:19:29 START MODEL=models/Qwen3-4B-Q4_K_M.gguf OUT=results_cloud/Qwen3-4B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_refresh
+[lag_refresh] id=433 gold=A pred=C gen=371 rej=3 wall=2.68s tv=0.0
+[lag_refresh] id=197 gold=B pred=C gen=431 rej=1 wall=2.85s tv=0.0
+[lag_refresh] id=388 gold=C pred=A gen=673 rej=0 wall=4.35s tv=0.0
+[lag_refresh] id=456 gold=A pred=A gen=319 rej=0 wall=2.14s tv=0.0
+[lag_refresh] id=215 gold=B pred=B gen=171 rej=0 wall=1.21s tv=0.0
+[lag_refresh] id=20 gold=C pred=C gen=638 rej=1 wall=4.18s tv=0.0001
+[lag_refresh] id=132 gold=B pred=B gen=233 rej=0 wall=1.57s tv=0.0
+[lag_refresh] id=496 gold=C pred=C gen=439 rej=1 wall=2.93s tv=0.0001
+[lag_refresh] id=261 gold=A pred=A gen=861 rej=3 wall=5.78s tv=0.1071
+[lag_refresh] id=248 gold=B pred=C gen=732 rej=6 wall=5.09s tv=0.0
+[lag_refresh] id=207 gold=A pred=A gen=475 rej=0 wall=3.14s tv=0.0
+[lag_refresh] id=471 gold=B pred=A gen=367 rej=0 wall=2.47s tv=0.0005
+[lag_refresh] id=401 gold=B pred=B gen=816 rej=3 wall=5.66s tv=0.0001
+[lag_refresh] id=425 gold=B pred=B gen=89 rej=0 wall=0.72s tv=0.0
+[lag_refresh] id=155 gold=A pred=A gen=348 rej=0 wall=2.39s tv=0.0
+[lag_refresh] id=497 gold=B pred=C gen=503 rej=1 wall=3.36s tv=0.0
+[lag_refresh] id=244 gold=C pred=C gen=305 rej=1 wall=2.17s tv=0.0
+[lag_refresh] id=183 gold=C pred=A gen=914 rej=2 wall=6.17s tv=0.1108
+[lag_refresh] id=298 gold=A pred=A gen=306 rej=1 wall=2.15s tv=0.0
+[lag_refresh] id=457 gold=C pred=C gen=79 rej=0 wall=0.69s tv=0.0094
+[lag_refresh] id=465 gold=C pred=A gen=1282 rej=4 wall=8.6s tv=0.0078
+[lag_refresh] id=111 gold=C pred=C gen=248 rej=1 wall=1.86s tv=0.0
+[lag_refresh] id=258 gold=C pred=A gen=806 rej=1 wall=5.44s tv=0.0
+[lag_refresh] id=71 gold=B pred=C gen=793 rej=6 wall=5.85s tv=0.0
+[lag_refresh] id=144 gold=A pred=A gen=644 rej=4 wall=4.48s tv=0.0001
+[lag_refresh] id=386 gold=C pred=A gen=516 rej=0 wall=3.52s tv=0.0041
+[lag_refresh] id=48 gold=C pred=A gen=1000 rej=2 wall=6.69s tv=0.0003
+[lag_refresh] id=316 gold=A pred=A gen=514 rej=0 wall=3.45s tv=0.0
+[lag_refresh] id=409 gold=C pred=C gen=561 rej=5 wall=4.06s tv=0.0
+[lag_refresh] id=128 gold=A pred=A gen=946 rej=4 wall=6.73s tv=0.0708
+=== 21:21:31 DONE MODEL=models/Qwen3-4B-Q4_K_M.gguf OUT=results_cloud/Qwen3-4B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_refresh
+=== 21:21:31 START MODEL=models/Qwen3-4B-Q4_K_M.gguf OUT=results_cloud/Qwen3-4B/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+[lag_trunc] id=433 gold=A pred=C gen=173 rej=1 wall=1.31s tv=0.0
+[lag_trunc] id=197 gold=B pred=C gen=431 rej=1 wall=2.84s tv=0.0
+[lag_trunc] id=388 gold=C pred=A gen=673 rej=0 wall=4.37s tv=0.0
+[lag_trunc] id=456 gold=A pred=A gen=319 rej=0 wall=2.14s tv=0.0
+[lag_trunc] id=215 gold=B pred=B gen=171 rej=0 wall=1.19s tv=0.0
+[lag_trunc] id=20 gold=C pred=C gen=580 rej=1 wall=3.77s tv=0.0001
+[lag_trunc] id=132 gold=B pred=B gen=233 rej=0 wall=1.56s tv=0.0
+[lag_trunc] id=496 gold=C pred=C gen=436 rej=1 wall=2.85s tv=0.0
+[lag_trunc] id=261 gold=A pred=B gen=1025 rej=2 wall=6.58s tv=0.2542
+[lag_trunc] id=248 gold=B pred=C gen=503 rej=6 wall=3.51s tv=0.0
+[lag_trunc] id=207 gold=A pred=A gen=475 rej=0 wall=3.1s tv=0.0
+[lag_trunc] id=471 gold=B pred=A gen=367 rej=0 wall=2.44s tv=0.0005
+[lag_trunc] id=401 gold=B pred=B gen=674 rej=7 wall=4.6s tv=0.0
+[lag_trunc] id=425 gold=B pred=B gen=89 rej=0 wall=0.72s tv=0.0
+[lag_trunc] id=155 gold=A pred=A gen=348 rej=0 wall=2.35s tv=0.0
+[lag_trunc] id=497 gold=B pred=C gen=420 rej=1 wall=2.8s tv=0.0
+[lag_trunc] id=244 gold=C pred=C gen=811 rej=7 wall=5.46s tv=0.0001
+[lag_trunc] id=183 gold=C pred=C gen=816 rej=1 wall=5.32s tv=0.0
+[lag_trunc] id=298 gold=A pred=A gen=368 rej=1 wall=2.45s tv=0.0
+[lag_trunc] id=457 gold=C pred=C gen=79 rej=0 wall=0.68s tv=0.0094
+[lag_trunc] id=465 gold=C pred=C gen=872 rej=1 wall=5.74s tv=0.0529
+[lag_trunc] id=111 gold=C pred=C gen=699 rej=7 wall=4.8s tv=0.0
+[lag_trunc] id=258 gold=C pred=C gen=575 rej=6 wall=3.99s tv=0.0
+[lag_trunc] id=71 gold=B pred=C gen=439 rej=1 wall=3.03s tv=0.0
+[lag_trunc] id=144 gold=A pred=C gen=840 rej=8 wall=5.75s tv=0.0156
+[lag_trunc] id=386 gold=C pred=A gen=516 rej=0 wall=3.49s tv=0.0041
+[lag_trunc] id=48 gold=C pred=C gen=579 rej=6 wall=3.93s tv=0.0
+[lag_trunc] id=316 gold=A pred=A gen=514 rej=0 wall=3.4s tv=0.0
+[lag_trunc] id=409 gold=C pred=C gen=654 rej=6 wall=4.4s tv=0.0
+[lag_trunc] id=128 gold=A pred=C gen=527 rej=6 wall=3.76s tv=0.0
+=== 21:23:22 DONE MODEL=models/Qwen3-4B-Q4_K_M.gguf OUT=results_cloud/Qwen3-4B/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+=== 21:23:22 START MODEL=models/Qwen3-4B-Q4_K_M.gguf OUT=results_cloud/Qwen3-4B/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+[lag_mask] id=433 gold=A pred=C gen=303 rej=3 wall=2.19s tv=0.0
+[lag_mask] id=197 gold=B pred=C gen=431 rej=1 wall=2.87s tv=0.0048
+[lag_mask] id=388 gold=C pred=A gen=673 rej=0 wall=4.38s tv=0.0
+[lag_mask] id=456 gold=A pred=A gen=319 rej=0 wall=2.16s tv=0.0
+[lag_mask] id=215 gold=B pred=B gen=171 rej=0 wall=1.21s tv=0.0
+[lag_mask] id=20 gold=C pred=C gen=580 rej=1 wall=3.88s tv=0.0001
+[lag_mask] id=132 gold=B pred=B gen=233 rej=0 wall=1.58s tv=0.0
+[lag_mask] id=496 gold=C pred=C gen=436 rej=1 wall=2.93s tv=0.0003
+[lag_mask] id=261 gold=A pred=A gen=909 rej=3 wall=6.04s tv=0.0002
+[lag_mask] id=248 gold=B pred=C gen=573 rej=6 wall=4.03s tv=0.0
+[lag_mask] id=207 gold=A pred=A gen=475 rej=0 wall=3.05s tv=0.0
+[lag_mask] id=471 gold=B pred=A gen=367 rej=0 wall=2.39s tv=0.0005
+[lag_mask] id=401 gold=B pred=B gen=799 rej=4 wall=5.41s tv=0.0159
+[lag_mask] id=425 gold=B pred=B gen=89 rej=0 wall=0.73s tv=0.0
+[lag_mask] id=155 gold=A pred=A gen=348 rej=0 wall=2.4s tv=0.0
+[lag_mask] id=497 gold=B pred=C gen=420 rej=1 wall=2.87s tv=0.0
+[lag_mask] id=244 gold=C pred=C gen=811 rej=7 wall=5.64s tv=0.0001
+[lag_mask] id=183 gold=C pred=C gen=816 rej=2 wall=5.45s tv=0.0002
+[lag_mask] id=298 gold=A pred=A gen=509 rej=2 wall=3.46s tv=0.0
+[lag_mask] id=457 gold=C pred=C gen=79 rej=0 wall=0.68s tv=0.0094
+[lag_mask] id=465 gold=C pred=C gen=876 rej=4 wall=5.95s tv=0.0044
+[lag_mask] id=111 gold=C pred=C gen=185 rej=1 wall=1.41s tv=0.0
+[lag_mask] id=258 gold=C pred=A gen=243 rej=1 wall=1.8s tv=0.3713
+[lag_mask] id=71 gold=B pred=C gen=557 rej=6 wall=3.96s tv=0.0
+[lag_mask] id=144 gold=A pred=A gen=708 rej=7 wall=5.0s tv=0.6543
+[lag_mask] id=386 gold=C pred=A gen=516 rej=0 wall=3.54s tv=0.0041
+[lag_mask] id=48 gold=C pred=C gen=775 rej=2 wall=5.21s tv=0.0004
+[lag_mask] id=316 gold=A pred=A gen=514 rej=0 wall=3.46s tv=0.0
+[lag_mask] id=409 gold=C pred=C gen=154 rej=1 wall=1.13s tv=0.0
+[lag_mask] id=128 gold=A pred=C gen=750 rej=2 wall=5.18s tv=0.0843
+=== 21:25:11 DONE MODEL=models/Qwen3-4B-Q4_K_M.gguf OUT=results_cloud/Qwen3-4B/lat3 LATENCY=3 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+=== 21:25:11 START MODEL=models/Qwen3-4B-Q4_K_M.gguf OUT=results_cloud/Qwen3-4B/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+[lag_trunc] id=433 gold=A pred=C gen=142 rej=1 wall=1.11s tv=0.0
+[lag_trunc] id=197 gold=B pred=C gen=428 rej=1 wall=2.82s tv=0.0
+[lag_trunc] id=388 gold=C pred=A gen=673 rej=0 wall=4.38s tv=0.0
+[lag_trunc] id=456 gold=A pred=A gen=319 rej=0 wall=2.15s tv=0.0
+[lag_trunc] id=215 gold=B pred=B gen=171 rej=0 wall=1.21s tv=0.0
+[lag_trunc] id=20 gold=C pred=C gen=551 rej=1 wall=3.66s tv=0.0001
+[lag_trunc] id=132 gold=B pred=B gen=233 rej=0 wall=1.59s tv=0.0
+[lag_trunc] id=496 gold=C pred=C gen=412 rej=1 wall=2.75s tv=0.0
+[lag_trunc] id=261 gold=A pred=B gen=873 rej=2 wall=5.76s tv=0.0406
+[lag_trunc] id=248 gold=B pred=C gen=463 rej=6 wall=3.28s tv=0.0
+[lag_trunc] id=207 gold=A pred=A gen=475 rej=0 wall=3.1s tv=0.0
+[lag_trunc] id=471 gold=B pred=A gen=367 rej=0 wall=2.41s tv=0.0005
+[lag_trunc] id=401 gold=B pred=B gen=592 rej=7 wall=4.05s tv=0.0
+[lag_trunc] id=425 gold=B pred=B gen=89 rej=0 wall=0.71s tv=0.0
+[lag_trunc] id=155 gold=A pred=A gen=348 rej=0 wall=2.35s tv=0.0
+[lag_trunc] id=497 gold=B pred=C gen=382 rej=1 wall=2.61s tv=0.0
+[lag_trunc] id=244 gold=C pred=C gen=1009 rej=4 wall=6.78s tv=0.0004
+[lag_trunc] id=183 gold=C pred=C gen=769 rej=1 wall=5.13s tv=0.0
+[lag_trunc] id=298 gold=A pred=A gen=368 rej=1 wall=2.5s tv=0.0
+[lag_trunc] id=457 gold=C pred=C gen=79 rej=0 wall=0.69s tv=0.0094
+[lag_trunc] id=465 gold=C pred=C gen=872 rej=1 wall=5.86s tv=0.0529
+[lag_trunc] id=111 gold=C pred=C gen=547 rej=7 wall=3.91s tv=0.0
+[lag_trunc] id=258 gold=C pred=C gen=523 rej=6 wall=3.74s tv=0.0
+[lag_trunc] id=71 gold=B pred=C gen=407 rej=1 wall=2.85s tv=0.0
+[lag_trunc] id=144 gold=A pred=C gen=614 rej=8 wall=4.39s tv=0.0156
+[lag_trunc] id=386 gold=C pred=A gen=516 rej=0 wall=3.54s tv=0.0041
+[lag_trunc] id=48 gold=C pred=C gen=399 rej=6 wall=2.87s tv=0.0
+[lag_trunc] id=316 gold=A pred=A gen=514 rej=0 wall=3.45s tv=0.0
+[lag_trunc] id=409 gold=C pred=C gen=378 rej=6 wall=2.7s tv=0.0
+[lag_trunc] id=128 gold=A pred=C gen=328 rej=6 wall=2.5s tv=0.0
+=== 21:26:55 DONE MODEL=models/Qwen3-4B-Q4_K_M.gguf OUT=results_cloud/Qwen3-4B/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_trunc
+=== 21:26:55 START MODEL=models/Qwen3-4B-Q4_K_M.gguf OUT=results_cloud/Qwen3-4B/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+[lag_mask] id=433 gold=A pred=C gen=230 rej=3 wall=1.73s tv=0.0
+[lag_mask] id=197 gold=B pred=C gen=428 rej=1 wall=2.84s tv=0.0
+[lag_mask] id=388 gold=C pred=A gen=673 rej=0 wall=4.39s tv=0.0
+[lag_mask] id=456 gold=A pred=A gen=319 rej=0 wall=2.15s tv=0.0
+[lag_mask] id=215 gold=B pred=B gen=171 rej=0 wall=1.2s tv=0.0
+[lag_mask] id=20 gold=C pred=C gen=551 rej=1 wall=3.67s tv=0.0001
+[lag_mask] id=132 gold=B pred=B gen=233 rej=0 wall=1.57s tv=0.0
+[lag_mask] id=496 gold=C pred=C gen=412 rej=1 wall=2.75s tv=0.0003
+[lag_mask] id=261 gold=A pred=A gen=791 rej=2 wall=5.23s tv=0.0003
+[lag_mask] id=248 gold=B pred=C gen=463 rej=6 wall=3.31s tv=0.0
+[lag_mask] id=207 gold=A pred=A gen=475 rej=0 wall=3.17s tv=0.0
+[lag_mask] id=471 gold=B pred=A gen=367 rej=0 wall=2.47s tv=0.0005
+[lag_mask] id=401 gold=B pred=B gen=744 rej=4 wall=5.07s tv=0.0529
+[lag_mask] id=425 gold=B pred=B gen=89 rej=0 wall=0.71s tv=0.0
+[lag_mask] id=155 gold=A pred=A gen=348 rej=0 wall=2.39s tv=0.0
+[lag_mask] id=497 gold=B pred=C gen=382 rej=1 wall=2.61s tv=0.0
+[lag_mask] id=244 gold=C pred=C gen=1009 rej=4 wall=6.79s tv=0.0004
+[lag_mask] id=183 gold=C pred=C gen=772 rej=2 wall=5.18s tv=0.0004
+[lag_mask] id=298 gold=A pred=A gen=475 rej=2 wall=3.22s tv=0.0
+[lag_mask] id=457 gold=C pred=C gen=79 rej=0 wall=0.69s tv=0.0094
+[lag_mask] id=465 gold=C pred=C gen=781 rej=3 wall=5.32s tv=0.0192
+[lag_mask] id=111 gold=C pred=C gen=265 rej=3 wall=1.96s tv=0.0
+[lag_mask] id=258 gold=C pred=C gen=523 rej=6 wall=3.77s tv=0.0
+[lag_mask] id=71 gold=B pred=C gen=410 rej=2 wall=2.89s tv=0.0002
+[lag_mask] id=144 gold=A pred=C gen=614 rej=8 wall=4.44s tv=0.0156
+[lag_mask] id=386 gold=C pred=A gen=516 rej=0 wall=3.53s tv=0.0041
+[lag_mask] id=48 gold=C pred=C gen=399 rej=6 wall=2.88s tv=0.0
+[lag_mask] id=316 gold=A pred=A gen=514 rej=0 wall=3.45s tv=0.0
+[lag_mask] id=409 gold=C pred=C gen=378 rej=6 wall=2.72s tv=0.0
+[lag_mask] id=128 gold=A pred=C gen=644 rej=7 wall=4.62s tv=0.0644
+=== 21:28:41 DONE MODEL=models/Qwen3-4B-Q4_K_M.gguf OUT=results_cloud/Qwen3-4B/lat1 LATENCY=1 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 30 --cond lag_mask
+=== ALL DONE 21:28:41
+=== SWEEP DONE 21:28:42

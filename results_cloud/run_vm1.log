@@ -1,0 +1,286 @@
+=== 22:48:46 START MODEL=models/Qwen3-14B-Q4_K_M.gguf OUT=results_cloud/Qwen3-14B .venv/bin/python run.py --n 100 --cond base
+Traceback (most recent call last):
+  File "/content/lkv/run.py", line 626, in <module>
+    main_run(a.cond, a.n)
+  File "/content/lkv/run.py", line 533, in main_run
+    pred = r.run()
+           ^^^^^^^
+  File "/content/lkv/run.py", line 255, in run
+    system, user = base_messages(self.item)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/lkv/run.py", line 120, in base_messages
+    raw = open("papers/proverqa_prompt.txt").read()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'papers/proverqa_prompt.txt'
+=== FAILED MODEL=models/Qwen3-14B-Q4_K_M.gguf OUT=results_cloud/Qwen3-14B .venv/bin/python run.py --n 100 --cond base
+=== 22:48:49 DONE MODEL=models/Qwen3-14B-Q4_K_M.gguf OUT=results_cloud/Qwen3-14B .venv/bin/python run.py --n 100 --cond base
+=== 22:48:49 START MODEL=models/Qwen3-14B-Q4_K_M.gguf OUT=results_cloud/Qwen3-14B .venv/bin/python run.py --n 100 --cond fmt
+[fmt] id=433 gold=A pred=C gen=559 rej=0 wall=21.61s
+[fmt] id=197 gold=B pred=B gen=473 rej=0 wall=18.52s
+[fmt] id=388 gold=C pred=A gen=370 rej=0 wall=14.6s
+[fmt] id=456 gold=A pred=A gen=264 rej=0 wall=10.6s
+[fmt] id=215 gold=B pred=B gen=306 rej=0 wall=12.21s
+[fmt] id=20 gold=C pred=C gen=716 rej=0 wall=28.36s
+[fmt] id=132 gold=B pred=B gen=377 rej=0 wall=15.24s
+[fmt] id=261 gold=A pred=C gen=260 rej=0 wall=11.02s
+[fmt] id=248 gold=B pred=B gen=884 rej=0 wall=39.19s
+[fmt] id=207 gold=A pred=B gen=277 rej=0 wall=25.61s
+[fmt] id=471 gold=B pred=C gen=1140 rej=0 wall=102.27s
+[fmt] id=401 gold=B pred=B gen=66 rej=0 wall=7.43s
+[fmt] id=425 gold=B pred=B gen=32 rej=0 wall=4.18s
+[fmt] id=155 gold=A pred=A gen=456 rej=0 wall=41.87s
+[fmt] id=244 gold=C pred=C gen=535 rej=0 wall=48.45s
+[fmt] id=183 gold=C pred=C gen=350 rej=0 wall=32.11s
+[fmt] id=298 gold=A pred=A gen=420 rej=0 wall=37.9s
+[fmt] id=457 gold=C pred=C gen=707 rej=0 wall=64.3s
+[fmt] id=465 gold=C pred=B gen=224 rej=0 wall=21.26s
+[fmt] id=111 gold=C pred=B gen=368 rej=0 wall=34.39s
+[fmt] id=258 gold=C pred=A gen=393 rej=0 wall=36.15s
+[fmt] id=71 gold=B pred=B gen=329 rej=0 wall=30.78s
+[fmt] id=144 gold=A pred=C gen=615 rej=0 wall=55.77s
+[fmt] id=478 gold=A pred=A gen=368 rej=0 wall=33.25s
+[fmt] id=386 gold=C pred=C gen=358 rej=0 wall=33.2s
+[fmt] id=48 gold=C pred=B gen=177 rej=0 wall=16.66s
+[fmt] id=316 gold=A pred=A gen=307 rej=0 wall=28.19s
+[fmt] id=409 gold=C pred=C gen=388 rej=0 wall=35.27s
+[fmt] id=128 gold=A pred=C gen=401 rej=0 wall=37.38s
+[fmt] id=466 gold=C pred=B gen=307 rej=0 wall=28.66s
+[fmt] id=272 gold=B pred=B gen=226 rej=0 wall=21.06s
+[fmt] id=361 gold=B pred=B gen=437 rej=0 wall=40.77s
+[fmt] id=415 gold=B pred=B gen=161 rej=0 wall=15.07s
+[fmt] id=308 gold=A pred=A gen=255 rej=0 wall=23.85s
+[fmt] id=462 gold=B pred=B gen=517 rej=0 wall=46.91s
+[fmt] id=75 gold=B pred=B gen=242 rej=0 wall=22.29s
+[fmt] id=158 gold=A pred=A gen=163 rej=0 wall=16.28s
+[fmt] id=50 gold=B pred=C gen=668 rej=0 wall=61.48s
+[fmt] id=373 gold=B pred=B gen=261 rej=0 wall=23.84s
+[fmt] id=37 gold=A pred=A gen=176 rej=0 wall=16.3s
+[fmt] id=436 gold=B pred=B gen=151 rej=0 wall=14.97s
+[fmt] id=350 gold=A pred=C gen=131 rej=0 wall=13.51s
+[fmt] id=169 gold=B pred=B gen=409 rej=0 wall=37.95s
+[fmt] id=241 gold=B pred=C gen=704 rej=0 wall=64.47s
+[fmt] id=286 gold=C pred=B gen=245 rej=0 wall=22.86s
+[fmt] id=51 gold=C pred=C gen=368 rej=0 wall=33.33s
+[fmt] id=181 gold=A pred=B gen=402 rej=0 wall=37.09s
+[fmt] id=222 gold=C pred=C gen=230 rej=0 wall=21.23s
+[fmt] id=161 gold=C pred=B gen=596 rej=0 wall=53.37s
+[fmt] id=312 gold=A pred=A gen=401 rej=0 wall=36.6s
+[fmt] id=327 gold=A pred=A gen=508 rej=0 wall=46.77s
+[fmt] id=104 gold=C pred=B gen=228 rej=0 wall=21.51s
+[fmt] id=282 gold=B pred=A gen=563 rej=0 wall=50.85s
+[fmt] id=485 gold=C pred=C gen=853 rej=0 wall=76.41s
+[fmt] id=226 gold=C pred=C gen=868 rej=0 wall=78.35s
+[fmt] id=266 gold=A pred=A gen=157 rej=0 wall=14.84s
+[fmt] id=133 gold=A pred=C gen=289 rej=0 wall=27.36s
+[fmt] id=31 gold=B pred=B gen=493 rej=0 wall=45.47s
+[fmt] id=413 gold=B pred=A gen=328 rej=0 wall=30.03s
+[fmt] id=280 gold=B pred=B gen=308 rej=0 wall=28.12s
+[fmt] id=7 gold=C pred=C gen=254 rej=0 wall=23.4s
+[fmt] id=47 gold=A pred=B gen=161 rej=0 wall=15.52s
+[fmt] id=368 gold=B pred=B gen=584 rej=0 wall=53.78s
+[fmt] id=431 gold=C pred=C gen=879 rej=0 wall=79.37s
+[fmt] id=204 gold=B pred=C gen=754 rej=0 wall=67.96s
+[fmt] id=363 gold=A pred=A gen=386 rej=0 wall=34.91s
+[fmt] id=423 gold=B pred=B gen=220 rej=0 wall=20.04s
+[fmt] id=488 gold=C pred=C gen=295 rej=0 wall=27.42s
+[fmt] id=342 gold=B pred=B gen=278 rej=0 wall=25.27s
+[fmt] id=320 gold=C pred=C gen=285 rej=0 wall=26.74s
+[fmt] id=0 gold=A pred=A gen=113 rej=0 wall=11.39s
+[fmt] id=313 gold=A pred=C gen=208 rej=0 wall=19.87s
+[fmt] id=252 gold=C pred=C gen=593 rej=0 wall=52.79s
+[fmt] id=424 gold=A pred=A gen=414 rej=0 wall=38.49s
+[fmt] id=170 gold=A pred=B gen=497 rej=0 wall=45.04s
+[fmt] id=124 gold=C pred=C gen=183 rej=0 wall=17.83s
+[fmt] id=460 gold=C pred=A gen=208 rej=0 wall=19.07s
+[fmt] id=166 gold=C pred=A gen=197 rej=0 wall=18.72s
+[fmt] id=360 gold=B pred=B gen=155 rej=0 wall=14.34s
+[fmt] id=32 gold=A pred=C gen=226 rej=0 wall=20.72s
+[fmt] id=97 gold=C pred=C gen=392 rej=0 wall=35.66s
+[fmt] id=290 gold=A pred=C gen=445 rej=0 wall=40.72s
+[fmt] id=113 gold=A pred=A gen=274 rej=0 wall=25.03s
+[fmt] id=122 gold=B pred=B gen=377 rej=0 wall=34.57s
+[fmt] id=412 gold=C pred=C gen=435 rej=0 wall=40.23s
+[fmt] id=72 gold=B pred=B gen=411 rej=0 wall=37.37s
+[fmt] id=414 gold=A pred=A gen=156 rej=0 wall=14.63s
+[fmt] id=278 gold=A pred=A gen=197 rej=0 wall=18.47s
+[fmt] id=229 gold=C pred=C gen=873 rej=0 wall=78.08s
+[fmt] id=46 gold=B pred=C gen=712 rej=0 wall=64.05s
+[fmt] id=41 gold=A pred=A gen=271 rej=0 wall=25.14s
+[fmt] id=163 gold=A pred=A gen=324 rej=0 wall=30.01s
+[fmt] id=260 gold=C pred=C gen=957 rej=0 wall=80.48s
+[fmt] id=250 gold=C pred=B gen=445 rej=0 wall=17.7s
+[fmt] id=55 gold=C pred=C gen=836 rej=0 wall=33.53s
+[fmt] id=154 gold=A pred=A gen=265 rej=0 wall=10.77s
+[fmt] id=446 gold=C pred=C gen=352 rej=0 wall=14.12s
+[fmt] id=149 gold=A pred=A gen=268 rej=0 wall=11.28s
+[fmt] id=467 gold=A pred=B gen=339 rej=0 wall=13.76s
+[fmt] id=63 gold=C pred=B gen=325 rej=0 wall=13.24s
+=== 23:42:54 DONE MODEL=models/Qwen3-14B-Q4_K_M.gguf OUT=results_cloud/Qwen3-14B .venv/bin/python run.py --n 100 --cond fmt
+=== 23:42:54 START MODEL=models/Qwen3-14B-Q4_K_M.gguf OUT=results_cloud/Qwen3-14B GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond sync
+[sync] id=433 gold=A pred=C gen=559 rej=0 wall=22.25s
+[sync] id=197 gold=B pred=B gen=473 rej=0 wall=19.08s
+[sync] id=388 gold=C pred=A gen=370 rej=0 wall=14.96s
+[sync] id=456 gold=A pred=A gen=264 rej=0 wall=10.82s
+[sync] id=215 gold=B pred=B gen=306 rej=0 wall=12.41s
+[sync] id=20 gold=C pred=C gen=716 rej=0 wall=28.7s
+[sync] id=132 gold=B pred=B gen=377 rej=0 wall=15.19s
+[sync] id=261 gold=A pred=B gen=396 rej=8 wall=17.34s
+[sync] id=248 gold=B pred=C gen=938 rej=2 wall=38.18s
+[sync] id=207 gold=A pred=C gen=353 rej=6 wall=15.28s
+[sync] id=471 gold=B pred=C gen=1140 rej=0 wall=45.62s
+[sync] id=401 gold=B pred=B gen=66 rej=0 wall=3.48s
+[sync] id=425 gold=B pred=B gen=32 rej=0 wall=1.98s
+[sync] id=155 gold=A pred=A gen=456 rej=0 wall=18.61s
+[sync] id=244 gold=C pred=C gen=752 rej=8 wall=31.22s
+[sync] id=183 gold=C pred=C gen=320 rej=1 wall=13.24s
+[sync] id=298 gold=A pred=A gen=487 rej=1 wall=19.63s
+[sync] id=457 gold=C pred=A gen=611 rej=8 wall=25.9s
+[sync] id=465 gold=C pred=C gen=387 rej=8 wall=16.93s
+[sync] id=111 gold=C pred=C gen=333 rej=1 wall=13.8s
+[sync] id=258 gold=C pred=A gen=393 rej=0 wall=16.12s
+[sync] id=71 gold=B pred=B gen=329 rej=0 wall=13.76s
+[sync] id=144 gold=A pred=C gen=667 rej=8 wall=27.85s
+[sync] id=478 gold=A pred=A gen=368 rej=0 wall=14.84s
+[sync] id=386 gold=C pred=A gen=289 rej=1 wall=12.3s
+[sync] id=48 gold=C pred=C gen=359 rej=3 wall=14.87s
+[sync] id=316 gold=A pred=A gen=307 rej=0 wall=12.52s
+[sync] id=409 gold=C pred=C gen=364 rej=8 wall=15.78s
+[sync] id=128 gold=A pred=A gen=293 rej=3 wall=12.69s
+[sync] id=466 gold=C pred=C gen=351 rej=8 wall=15.77s
+[sync] id=272 gold=B pred=B gen=398 rej=6 wall=16.71s
+[sync] id=361 gold=B pred=B gen=437 rej=0 wall=18.16s
+[sync] id=415 gold=B pred=B gen=161 rej=0 wall=6.65s
+[sync] id=308 gold=A pred=A gen=399 rej=6 wall=17.04s
+[sync] id=462 gold=B pred=B gen=517 rej=0 wall=20.72s
+[sync] id=75 gold=B pred=B gen=242 rej=0 wall=9.77s
+[sync] id=158 gold=A pred=A gen=163 rej=0 wall=7.33s
+[sync] id=50 gold=B pred=C gen=668 rej=0 wall=27.18s
+[sync] id=373 gold=B pred=B gen=261 rej=0 wall=10.61s
+[sync] id=37 gold=A pred=A gen=176 rej=0 wall=7.18s
+[sync] id=436 gold=B pred=B gen=151 rej=0 wall=6.66s
+[sync] id=350 gold=A pred=B gen=231 rej=6 wall=10.72s
+[sync] id=169 gold=B pred=B gen=409 rej=0 wall=16.95s
+[sync] id=241 gold=B pred=C gen=1133 rej=1 wall=46.35s
+[sync] id=286 gold=C pred=C gen=662 rej=5 wall=27.13s
+[sync] id=51 gold=C pred=B gen=367 rej=6 wall=15.48s
+[sync] id=181 gold=A pred=C gen=402 rej=1 wall=16.58s
+[sync] id=222 gold=C pred=A gen=325 rej=2 wall=13.45s
+[sync] id=161 gold=C pred=B gen=596 rej=0 wall=23.47s
+[sync] id=312 gold=A pred=A gen=401 rej=0 wall=16.19s
+[sync] id=327 gold=A pred=A gen=616 rej=2 wall=25.29s
+[sync] id=104 gold=C pred=C gen=472 rej=2 wall=19.49s
+[sync] id=282 gold=B pred=C gen=658 rej=5 wall=27.11s
+[sync] id=485 gold=C pred=C gen=853 rej=0 wall=33.78s
+[sync] id=226 gold=C pred=C gen=868 rej=0 wall=34.65s
+[sync] id=266 gold=A pred=A gen=120 rej=1 wall=5.34s
+[sync] id=133 gold=A pred=C gen=289 rej=0 wall=12.25s
+[sync] id=31 gold=B pred=B gen=694 rej=1 wall=28.11s
+[sync] id=413 gold=B pred=A gen=422 rej=6 wall=17.82s
+[sync] id=280 gold=B pred=B gen=308 rej=0 wall=12.52s
+[sync] id=7 gold=C pred=A gen=329 rej=3 wall=13.77s
+[sync] id=47 gold=A pred=C gen=867 rej=2 wall=34.82s
+[sync] id=368 gold=B pred=B gen=584 rej=0 wall=23.87s
+[sync] id=431 gold=C pred=C gen=879 rej=0 wall=35.09s
+[sync] id=204 gold=B pred=C gen=770 rej=1 wall=30.84s
+[sync] id=363 gold=A pred=A gen=493 rej=5 wall=20.59s
+[sync] id=423 gold=B pred=B gen=220 rej=0 wall=9.0s
+[sync] id=488 gold=C pred=C gen=464 rej=8 wall=20.12s
+[sync] id=342 gold=B pred=B gen=194 rej=2 wall=8.29s
+[sync] id=320 gold=C pred=B gen=676 rej=8 wall=28.12s
+[sync] id=0 gold=A pred=A gen=113 rej=0 wall=5.16s
+[sync] id=313 gold=A pred=A gen=267 rej=3 wall=11.8s
+[sync] id=252 gold=C pred=C gen=593 rej=0 wall=23.43s
+[sync] id=424 gold=A pred=C gen=524 rej=6 wall=22.25s
+[sync] id=170 gold=A pred=C gen=468 rej=1 wall=18.86s
+[sync] id=124 gold=C pred=C gen=458 rej=8 wall=20.07s
+[sync] id=460 gold=C pred=A gen=208 rej=0 wall=8.46s
+[sync] id=166 gold=C pred=A gen=197 rej=0 wall=8.23s
+[sync] id=360 gold=B pred=B gen=155 rej=0 wall=6.5s
+[sync] id=32 gold=A pred=C gen=266 rej=5 wall=11.38s
+[sync] id=97 gold=C pred=C gen=349 rej=1 wall=14.19s
+[sync] id=290 gold=A pred=C gen=301 rej=3 wall=12.83s
+[sync] id=113 gold=A pred=A gen=274 rej=0 wall=11.16s
+[sync] id=122 gold=B pred=B gen=377 rej=0 wall=15.41s
+[sync] id=412 gold=C pred=C gen=519 rej=4 wall=21.7s
+[sync] id=72 gold=B pred=B gen=411 rej=0 wall=16.53s
+[sync] id=414 gold=A pred=A gen=156 rej=0 wall=6.6s
+[sync] id=278 gold=A pred=A gen=197 rej=0 wall=8.26s
+[sync] id=229 gold=C pred=C gen=873 rej=0 wall=34.98s
+[sync] id=46 gold=B pred=C gen=712 rej=0 wall=28.44s
+[sync] id=41 gold=A pred=A gen=271 rej=0 wall=11.17s
+[sync] id=163 gold=A pred=C gen=620 rej=2 wall=25.33s
+[sync] id=260 gold=C pred=C gen=957 rej=0 wall=37.73s
+[sync] id=250 gold=C pred=B gen=445 rej=0 wall=17.73s
+[sync] id=55 gold=C pred=C gen=836 rej=0 wall=33.44s
+[sync] id=154 gold=A pred=A gen=265 rej=0 wall=10.8s
+[sync] id=446 gold=C pred=C gen=333 rej=8 wall=14.58s
+[sync] id=149 gold=A pred=A gen=268 rej=0 wall=11.26s
+[sync] id=467 gold=A pred=C gen=349 rej=8 wall=15.34s
+[sync] id=63 gold=C pred=B gen=325 rej=0 wall=13.1s
+=== 00:13:12 DONE MODEL=models/Qwen3-14B-Q4_K_M.gguf OUT=results_cloud/Qwen3-14B GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond sync
+=== 00:13:12 START MODEL=models/Qwen3-14B-Q4_K_M.gguf OUT=results_cloud/Qwen3-14B/lat8 LATENCY=8 GUARD=1 MASK_ON=refuted .venv/bin/python run.py --n 100 --cond lag_trunc
+[lag_trunc] id=433 gold=A pred=C gen=559 rej=0 wall=22.11s tv=0.0
+[lag_trunc] id=197 gold=B pred=B gen=473 rej=0 wall=19.06s tv=0.0
+[lag_trunc] id=388 gold=C pred=A gen=370 rej=0 wall=14.92s tv=0.0046
+[lag_trunc] id=456 gold=A pred=A gen=264 rej=0 wall=10.83s tv=0.0
+[lag_trunc] id=215 gold=B pred=B gen=306 rej=0 wall=12.41s tv=0.0
+[lag_trunc] id=20 gold=C pred=C gen=716 rej=0 wall=28.43s tv=0.0002
+[lag_trunc] id=132 gold=B pred=B gen=377 rej=0 wall=15.14s tv=0.0
+[lag_trunc] id=261 gold=A pred=A gen=869 rej=6 wall=35.37s tv=0.0
+[lag_trunc] id=248 gold=B pred=C gen=706 rej=2 wall=28.67s tv=0.0
+[lag_trunc] id=207 gold=A pred=A gen=762 rej=3 wall=30.53s tv=0.0
+[lag_trunc] id=471 gold=B pred=C gen=1140 rej=0 wall=45.17s tv=0.0
+[lag_trunc] id=401 gold=B pred=B gen=66 rej=0 wall=3.46s tv=0.0
+[lag_trunc] id=425 gold=B pred=B gen=32 rej=0 wall=1.93s tv=0.0
+[lag_trunc] id=155 gold=A pred=A gen=456 rej=0 wall=18.51s tv=0.0
+[lag_trunc] id=244 gold=C pred=C gen=1255 rej=6 wall=50.85s tv=0.0001
+[lag_trunc] id=183 gold=C pred=C gen=415 rej=1 wall=17.03s tv=0.0002
+[lag_trunc] id=298 gold=A pred=A gen=614 rej=1 wall=24.5s tv=0.0
+[lag_trunc] id=457 gold=C pred=C gen=900 rej=6 wall=36.63s tv=0.0
+[lag_trunc] id=465 gold=C pred=C gen=1125 rej=7 wall=45.9s tv=0.0005
+[lag_trunc] id=111 gold=C pred=C gen=371 rej=1 wall=15.35s tv=0.0
+[lag_trunc] id=258 gold=C pred=A gen=393 rej=0 wall=16.16s tv=0.0
+[lag_trunc] id=71 gold=B pred=B gen=329 rej=0 wall=13.81s tv=0.0
+[lag_trunc] id=144 gold=A pred=C gen=1382 rej=6 wall=55.77s tv=0.0
+[lag_trunc] id=478 gold=A pred=A gen=368 rej=0 wall=14.89s tv=0.0
+[lag_trunc] id=386 gold=C pred=A gen=361 rej=1 wall=15.09s tv=0.0002
+[lag_trunc] id=48 gold=C pred=C gen=1640 rej=5 wall=65.09s tv=0.0
+[lag_trunc] id=316 gold=A pred=A gen=307 rej=0 wall=12.57s tv=0.0
+[lag_trunc] id=409 gold=C pred=C gen=1188 rej=8 wall=48.05s tv=0.0
+[lag_trunc] id=128 gold=A pred=A gen=665 rej=3 wall=27.36s tv=0.0
+[lag_trunc] id=466 gold=C pred=C gen=1010 rej=6 wall=41.23s tv=0.0
+[lag_trunc] id=272 gold=B pred=C gen=734 rej=6 wall=30.0s tv=0.0
+[lag_trunc] id=361 gold=B pred=B gen=437 rej=0 wall=18.18s tv=0.0
+[lag_trunc] id=415 gold=B pred=B gen=161 rej=0 wall=6.64s tv=0.0
+[lag_trunc] id=308 gold=A pred=C gen=1117 rej=6 wall=44.95s tv=0.0001
+[lag_trunc] id=462 gold=B pred=B gen=517 rej=0 wall=20.82s tv=0.0
+[lag_trunc] id=75 gold=B pred=B gen=242 rej=0 wall=9.81s tv=0.0
+[lag_trunc] id=158 gold=A pred=A gen=163 rej=0 wall=7.36s tv=0.0
+[lag_trunc] id=50 gold=B pred=C gen=668 rej=0 wall=27.23s tv=0.0
+[lag_trunc] id=373 gold=B pred=B gen=261 rej=0 wall=10.6s tv=0.0
+[lag_trunc] id=37 gold=A pred=A gen=176 rej=0 wall=7.17s tv=0.0
+[lag_trunc] id=436 gold=B pred=B gen=151 rej=0 wall=6.65s tv=0.0
+[lag_trunc] id=350 gold=A pred=C gen=636 rej=6 wall=26.66s tv=0.0001
+[lag_trunc] id=169 gold=B pred=B gen=409 rej=0 wall=17.01s tv=0.0
+[lag_trunc] id=241 gold=B pred=C gen=1841 rej=6 wall=75.3s tv=0.0
+[lag_trunc] id=286 gold=C pred=C gen=1005 rej=6 wall=40.49s tv=0.0
+[lag_trunc] id=51 gold=C pred=C gen=1230 rej=6 wall=49.05s tv=0.0
+[lag_trunc] id=181 gold=A pred=A gen=517 rej=2 wall=21.46s tv=0.0
+[lag_trunc] id=222 gold=C pred=A gen=621 rej=2 wall=24.9s tv=0.0069
+[lag_trunc] id=161 gold=C pred=B gen=596 rej=0 wall=23.5s tv=0.0
+[lag_trunc] id=312 gold=A pred=A gen=401 rej=0 wall=16.19s tv=0.0
+[lag_trunc] id=327 gold=A pred=A gen=730 rej=2 wall=29.89s tv=0.0
+[lag_trunc] id=104 gold=C pred=C gen=704 rej=2 wall=28.59s tv=0.0001
+[lag_trunc] id=282 gold=B pred=A gen=1123 rej=3 wall=45.35s tv=0.0
+[lag_trunc] id=485 gold=C pred=C gen=853 rej=0 wall=33.83s tv=0.0
+[lag_trunc] id=226 gold=C pred=C gen=868 rej=0 wall=34.72s tv=0.0
+[lag_trunc] id=266 gold=A pred=A gen=195 rej=1 wall=8.28s tv=0.0
+[lag_trunc] id=133 gold=A pred=C gen=289 rej=0 wall=12.29s tv=0.0
+[lag_trunc] id=31 gold=B pred=B gen=832 rej=1 wall=33.64s tv=0.0
+[lag_trunc] id=413 gold=B pred=C gen=800 rej=6 wall=32.86s tv=0.0001
+[lag_trunc] id=280 gold=B pred=B gen=308 rej=0 wall=12.56s tv=0.0
+[lag_trunc] id=7 gold=C pred=C gen=677 rej=6 wall=27.76s tv=0.0005
+[lag_trunc] id=47 gold=A pred=A gen=518 rej=1 wall=20.93s tv=0.0
+[lag_trunc] id=368 gold=B pred=B gen=584 rej=0 wall=24.05s tv=0.0
+[lag_trunc] id=431 gold=C pred=C gen=879 rej=0 wall=35.06s tv=0.0
+[lag_trunc] id=204 gold=B pred=C gen=958 rej=1 wall=38.06s tv=0.0058

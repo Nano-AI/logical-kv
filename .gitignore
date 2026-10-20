@@ -1,0 +1,8 @@
+models/
+.venv/
+.colab-home/
+.claude/
+__pycache__/
+*.tgz
+results/t0_*
+.DS_Store

@@ -1,0 +1,47 @@
+### SOURCE: github.com/opendatalab/ProverGen @ 1d8abd2 -- evaluation.py (mode=CoT system msg) + logic_data/icl_examples/ProverGen.json['hard_CoT'] (user msg).
+### Chat format: [{'role':'system','content':SYSTEM}, {'role':'user','content':USER}]. evaluation.py fills [[CONTEXT]]=context.strip(), [[QUESTION]]=question.strip(), [[OPTIONS]]='\n'.join(o.strip() for o in options).
+### Decoding in repo: temperature=0, max_tokens=1024 (CoT). Everything between the BEGIN/END markers is verbatim.
+### BEGIN SYSTEM
+Given a problem statement as contexts, the task is to answer a logical reasoning question. Your answer should be in JSON format with keys: reasoning, answer.
+### END SYSTEM
+### BEGIN USER
+Context:
+Cleo is curious. If Cleo has a strong work ethic, then she either makes key discoveries or holds a leadership position. If Cleo has a passion for science, then she either conducts groundbreaking research or holds a leadership position. Cleo makes key discoveries. Cleo has a passion for science. If Cleo faces a personal struggle, then she either dedicates herself to her craft or pursues a noble profession (but not both). Cleo pursues a noble profession. For all humans, if someone conducts groundbreaking research, then they improve patient lives and earn recognition. If Cleo is curious, then she has a strong work ethic and values critical thinking. If Cleo is compassionate, then she either pioneers new treatments or dedicates herself to her craft (but not both). Cleo faces a personal struggle.
+
+Question: Based on the above information, is the following statement true, false, or uncertain? Cleo earns recognition.
+
+Options:
+A) True
+B) False
+C) Uncertain
+
+The correct option is: {
+  "reasoning": "Cleo is curious. If Cleo is curious, then she has a strong work ethic and values critical thinking. Cleo has a strong work ethic. Cleo has a strong work ethic. Cleo makes key discoveries. If Cleo has a strong work ethic, then she either makes key discoveries or holds a leadership position. Cleo does not hold a leadership position. Cleo has a passion for science. Cleo does not hold a leadership position. If Cleo has a passion for science, then she either conducts groundbreaking research or holds a leadership position. Cleo conducts groundbreaking research. Cleo faces a personal struggle. Cleo pursues a noble profession. If Cleo faces a personal struggle, then she either dedicates herself to her craft or pursues a noble profession (but not both). Cleo does not dedicate herself to her craft. Cleo conducts groundbreaking research. For all humans, if someone conducts groundbreaking research, then they improve patient lives and earn recognition. Cleo earns recognition. Therefore, it is true that Cleo earns recognition. The correct option is: A.",
+  "answer": "A"
+}
+------
+Context:
+If an orchid has roots and photosynthesizes, then it can bloom beautifully. Every orchid that grows in trees either photosynthesizes or uses aerial roots. Kinsley does not cling to a host. Kinsley does not require high humidity. Kinsley is ground-dwelling. All orchids that get nourishment and support their own weight develop roots. If Kinsley is either terrestrial or epiphytic (but not both), then she is thriving. If Kinsley has vibrant colors, then she either attracts pollinators or grows rapidly, but not both. Every orchid has roots or clings to a host. Kinsley needs indirect light. Every orchid that either blooms beautifully or releases fragrance is able to attract pollinators. If Kinsley either requires high humidity or needs indirect light (but not both), then she has vibrant colors. Colson grows rapidly. Kinsley does not release fragrance. If Kinsley is adaptable, then she is either ground-dwelling or epiphytic, but not both. If Kinsley derives nutrients, then she either is terrestrial or photosynthesizes. Ezra is adaptable. Any orchid that gets enough sunlight or retains moisture can bloom beautifully. Kinsley derives nutrients. Colson does not release fragrance. If Ezra either requires high humidity or needs indirect light (but not both), then she has vibrant colors. Kinsley grows rapidly. Kinsley is adaptable.
+
+Question: Based on the above information, is the following statement true, false, or uncertain? Kinsley is not thriving.
+
+Options:
+A) True
+B) False
+C) Uncertain
+
+The correct option is: {
+  "reasoning": "Kinsley does not cling to a host. Every orchid has roots or clings to a host. Kinsley has roots. Kinsley does not require high humidity. Kinsley needs indirect light. If Kinsley either requires high humidity or needs indirect light (but not both), then she has vibrant colors. Kinsley has vibrant colors. Kinsley has vibrant colors. Kinsley grows rapidly. If Kinsley has vibrant colors, then she either attracts pollinators or grows rapidly, but not both. Kinsley is not able to attract pollinators. Kinsley does not release fragrance. Kinsley is not able to attract pollinators. Every orchid that either blooms beautifully or releases fragrance is able to attract pollinators. Kinsley cannot bloom beautifully. Kinsley has roots. Kinsley cannot bloom beautifully. If an orchid has roots and photosynthesizes, then it can bloom beautifully. Kinsley does not photosynthesize. Kinsley is adaptable. Kinsley is ground-dwelling. If Kinsley is adaptable, then she is either ground-dwelling or epiphytic, but not both. Kinsley is not epiphytic. Kinsley derives nutrients. Kinsley does not photosynthesize. If Kinsley derives nutrients, then she either is terrestrial or photosynthesizes. Kinsley is terrestrial. Kinsley is terrestrial. Kinsley is not epiphytic. If Kinsley is either terrestrial or epiphytic (but not both), then she is thriving. Kinsley is not thriving. Therefore, it is false that Kinsley is not thriving. The correct option is: B.",
+  "answer": "B"
+}
+------
+Context:
+[[CONTEXT]]
+
+Question: [[QUESTION]]
+
+Options:
+[[OPTIONS]]
+
+The correct option is:
+### END USER
